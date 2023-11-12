@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Shopsanity",
+        "type": "toggle",
+        "img": "images/settings/HarryTPM.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": true,
+        "codes": "shopsanity_setting"
+    },
+    {
+        "name": "Rowf",
+        "type": "toggle",
+        "img": "images/settings/Rowf.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": true,
+        "codes": "rowf_setting"
+    },
+    {
+        "name": "Merlow",
+        "type": "toggle",
+        "img": "images/settings/Merlow.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": true,
+        "codes": "merlow_setting"
+    },
+    {
+        "name": "Keysanity",
+        "type": "toggle",
+        "img": "images/settings/OddKey.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": true,
+        "codes": "keysanity_setting"
+    },
+    {
+        "name": "Panels",
+        "type": "toggle",
+        "img": "images/settings/Star_Piece.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "panels_setting"
+    },
+    {
+        "name": "Overworld Coins",
+        "type": "toggle",
+        "img": "images/settings/coin.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "coins_setting"
+    },
+    {
+        "name": "Coin Blocks",
+        "type": "toggle",
+        "img": "images/settings/coinblock.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "coin_block_setting"
+    },
+    {
+        "name": "Foliage Coins",
+        "type": "toggle",
+        "img": "images/settings/bush.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "foliage_setting"
+    },
+    {
+        "name": "Letters",
+        "type": "toggle",
+        "img": "images/settings/PM_Letter_Sprite.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "letters_setting"
+    },
+    {
+        "name": "Dojo",
+        "type": "toggle",
+        "img": "images/settings/TheMasterFirst_PM.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "dojo_setting"
+    },
+    {
+        "name": "Koopa Koot",
+        "type": "toggle",
+        "img": "images/settings/KoopaKoot_PM.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "koot_setting"
+    },
+    {
+        "name": "Radio Trade Event",
+        "type": "toggle",
+        "img": "images/settings/TradingEvent_PM.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "trading_setting"
+    },
+    {
+        "name": "Upgrade Block Shuffle",
+        "type": "toggle",
+        "img": "images/settings/UltraStone.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "upgrades_setting"
+    },
+    {
+        "name": "Multicoin Block Shuffle",
+        "type": "toggle",
+        "img": "images/settings/brick.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "multicoin_setting"
+    }
+]

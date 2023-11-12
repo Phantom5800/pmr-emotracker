@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Toy Train",
+        "type": "toggle",
+        "img": "images/ch4/ToyTrain_PM.png",
+        "codes": "toy_train"
+    },
+    {
+        "name": "Mystery Note",
+        "type": "toggle",
+        "img": "images/ch4/MysteryNote.png",
+        "codes": "mystery_note"
+    },
+    {
+        "name": "Cake",
+        "type": "toggle",
+        "img": "images/ch4/Cake.png",
+        "codes": "cake"
+    },
+    {
+        "name": "Cake Mix",
+        "type": "toggle",
+        "img": "images/ch4/CakeMix.png",
+        "codes": "cakemix"
+    },
+    {
+        "name": "Lemon",
+        "type": "toggle",
+        "img": "images/ch4/Lemon.png",
+        "codes": "lemon"
+    }
+]

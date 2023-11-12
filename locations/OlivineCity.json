@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Olivine City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["@Ecruteak City"],
+		"sections": [
+			{
+				"name": "Fisherman",
+				"item_count": 1
+			},
+			{
+				"name": "HM04 - Strength (Cafe)",
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "Badge (Jasmine)",
+				"access_rules": ["return_potion"],
+				"hosted_item": "jasmine"
+			},
+			{
+				"name": "TM23 - Iron Tail (Jasmine)",
+				"access_rules": ["return_potion"],
+				"visibility_rules": ["full_item", "tms"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "Olivine Mart",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 285,
+				"y": 456
+			}
+		]
+	}
+]

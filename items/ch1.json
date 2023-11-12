@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Koopa Bros Fortress Key",
+        "type": "consumable",
+        "img": "images/ch1/FortressKey_PM.png",
+        "max_quantity": 4,
+        "codes": "ch1_key"
+    },
+    {
+        "name": "Kooper's Shell",
+        "type": "toggle",
+        "img": "images/ch1/Kooper'sShell_PM.png",
+        "codes": "kooper_shell"
+    }
+]

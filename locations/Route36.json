@@ -1,0 +1,43 @@
+[
+	{
+		"name": "Route 36",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{
+				"name": "Arthur",
+				"access_rules": [],
+				"visibility_rules": ["day_happiness"],
+				"item_count": 1
+			},
+			{
+				"name": "TM08 - Rock Smash (Sudowoodo)",
+				"access_rules": ["squirt_bottle"],
+				"visibility_rules": ["full_item", "tms"],
+				"hosted_item": "rocksmashguy"
+			},
+			{
+				"name": "Berry Trees",
+				"access_rules": ["@Goldenrod City"],
+				"visibility_rules": ["berry_trees"],
+				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/tree_unopened.png",
+				"chest_opened_img": "images/chests/tree_opened.png",
+				"item_count": 1
+			},
+			{   
+				"name": "Schoolboy Alan",
+				"access_rules": ["pokegear"],
+				"visibility_rules": ["phone_items"],
+				"hosted_item": "alan"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 619,
+				"y": 456
+			}
+		]
+	}
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Ruins Key",
+        "type": "consumable",
+        "img": "images/ch2/Ruins_Key.png",
+        "max_quantity": 4,
+        "codes": "ch2_key"
+    },
+    {
+        "name": "Pulse Stone",
+        "type": "toggle",
+        "img": "images/ch2/PulseStone.png",
+        "codes": "pulse_stone"
+    },
+    {
+        "name": "Pyramid Stone",
+        "type": "toggle",
+        "img": "images/ch2/PyramidStone.png",
+        "codes": "pyramid_stone"
+    },
+    {
+        "name": "Diamond Stone",
+        "type": "toggle",
+        "img": "images/ch2/DiamondStone.png",
+        "codes": "diamond_stone"
+    },
+    {
+        "name": "Lunar Stone",
+        "type": "toggle",
+        "img": "images/ch2/LunarStone.png",
+        "codes": "lunar_stone"
+    },
+    {
+        "name": "Artifact",
+        "type": "toggle",
+        "img": "images/ch2/Artifact_PM.png",
+        "codes": "artifact"
+    },
+    {
+        "name": "Lyrics",
+        "type": "toggle",
+        "img": "images/ch2/Lyrics_PM.png",
+        "codes": "lyrics"
+    },
+    {
+        "name": "Letters",
+        "type": "consumable",
+        "img": "images/ch2/PM_Letter_Sprite.png",
+        "max_quantity": 3,
+        "codes": "letters"
+    }
+]

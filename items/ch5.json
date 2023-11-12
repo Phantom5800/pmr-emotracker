@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Jade Raven",
+        "type": "toggle",
+        "img": "images/ch5/JadeRaven_PM.png",
+        "codes": "jade_raven"
+    },
+    {
+        "name": "VolcanoVase",
+        "type": "toggle",
+        "img": "images/ch5/VolcanoVase.png",
+        "codes": "volcano_vase"
+    }
+]

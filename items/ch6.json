@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Red Berry",
+        "type": "toggle",
+        "img": "images/ch6/PaperMario_Items_RedBerry.png",
+        "codes": "red_berry"
+    },
+    {
+        "name": "Yellow Berry",
+        "type": "toggle",
+        "img": "images/ch6/PaperMario_Items_YellowBerry.png",
+        "codes": "yellow_berry"
+    },
+    {
+        "name": "Blue Berry",
+        "type": "consumable",
+        "img": "images/ch6/PaperMario_Items_BlueBerry.png",
+        "max_quantity": 2,
+        "codes": "blue_berry"
+    },
+    {
+        "name": "Bubble Berry",
+        "type": "toggle",
+        "img": "images/ch6/PaperMario_Items_BubbleBerry.png",
+        "codes": "bubble_berry"
+    },
+    {
+        "name": "Magical Seed 1",
+        "type": "toggle",
+        "img": "images/ch6/MagicalSeed1.png",
+        "codes": "seed1"
+    },
+    {
+        "name": "Magical Seed 2",
+        "type": "toggle",
+        "img": "images/ch6/MagicalSeed2.png",
+        "codes": "seed2"
+    },
+    {
+        "name": "Magical Seed 3",
+        "type": "toggle",
+        "img": "images/ch6/MagicalSeed3.png",
+        "codes": "seed3"
+    },
+    {
+        "name": "Magical Seed 4",
+        "type": "toggle",
+        "img": "images/ch6/MagicalSeed4.png",
+        "codes": "seed4"
+    },
+    {
+        "name": "Magical Bean",
+        "type": "toggle",
+        "img": "images/ch6/MagicBean_PM.png",
+        "codes": "bean"
+    },
+    {
+        "name": "Fertile Soil",
+        "type": "toggle",
+        "img": "images/ch6/FertileSoil.png",
+        "codes": "soil"
+    },
+    {
+        "name": "Miracale Water",
+        "type": "toggle",
+        "img": "images/ch6/MiracleWater_PM.png",
+        "codes": "water"
+    },
+    {
+        "name": "Crystal Berry",
+        "type": "toggle",
+        "img": "images/ch6/CrystalBerry_PM.png",
+        "codes": "crystal_berry"
+    },
+    {
+        "name": "Water Stone",
+        "type": "toggle",
+        "img": "images/ch6/WaterStone_PM.png",
+        "codes": "water_stone"
+    }
+]

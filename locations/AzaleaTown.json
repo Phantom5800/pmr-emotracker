@@ -1,0 +1,56 @@
+[
+	{
+		"name": "Azalea Town",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"sections": [
+			{
+				"name": "Apricorn Tree",
+				"access_rules": [],
+				"visibility_rules": ["berry_trees"],
+				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/tree_unopened.png",
+				"chest_opened_img": "images/chests/tree_opened.png",
+				"item_count": 1
+			},
+			{   
+				"name": "Kurt",
+				"access_rules": ["slowpoke_well"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Badge (Bugsy)",
+				"access_rules": ["slowpoke_well"],
+				"hosted_item": "bugsy"
+			},
+			{
+				"name": "TM49 - Fury Cutter (Bugsy)",
+				"access_rules": ["slowpoke_well"],
+				"visibility_rules": ["full_item", "tms"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
+			},
+			{   "name": "Charcoal",
+				"access_rules": ["farfetch'd"],
+				"visibility_rules": ["full_item"],
+				"item_count": 1
+			},
+			{
+				"name": "Azalea Mart",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 620,
+				"y": 1118
+			}
+		]
+	}
+]

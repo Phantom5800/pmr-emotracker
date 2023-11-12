@@ -1,0 +1,53 @@
+[
+	{
+		"name": "Ecruteak City",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["squirt_bottle", "pass,ss_ticket,@canUseCut", "pass,ss_ticket,$notItem|cut_tree"],
+		"sections": [
+			{
+				"name": "House",
+				"item_count": 1
+			},
+			{
+				"name": "HM03 - Surf (Kimono Girls)",
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "Hidden Items",
+				"access_rules": [],
+				"visibility_rules": ["hidden_items"],
+				"chest_unopened_img": "images/chests/hidden_unopened.png",
+				"chest_opened_img": "images/chests/hidden_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "Badge (Morty)",
+				"hosted_item": "morty"
+			},
+			{
+				"name": "TM30 - Shadow Ball (Morty)",
+				"visibility_rules": ["full_item", "tms"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "Ecruteak Mart",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 616,
+				"y": 286
+			}
+		]
+	}
+]

@@ -1,0 +1,241 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "background": "#877373",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+                {
+                    "type": "dock",
+                    "dock": "bottom",
+                    "v_alignment": "stretch",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "tracker_items"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Pinned Locations",
+                            "content": {
+                                "type": "recentpins",
+                                "style": "wrap",
+                                "h_alignment": "stretch",
+                                "v_alignment": "stretch",
+                                "orientation": "horizontal",
+                                "compact": true
+                            }
+                        }
+                    ]
+                },
+                {
+					"type": "tabbed",
+					"tabs": [
+						{
+							"title": "Goomba Region",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Toad Town",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Toad Town Tunnels",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Pleasant Path",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Koopa Bros. Fortress",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Mt. Rugged",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Dry Dry Desert",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Dry Dry Ruins",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Forever Forest",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Boo's Mansion",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Gusty Gulch",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Tubba's Castle",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Shy Guy's Toy Box",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Lavalava Island",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Mt. Lavalava",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Flower Fields",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Shiver Region",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Crystal Palace",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Star Way",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Bowser's Castle",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						},
+						{
+							"title": "Peach's Castle",
+							"content": {
+								"type": "map",
+								"maps": [
+									"johto_kanto"
+								]
+							}
+						}
+					]
+				}
+            ]
+        }
+    },
+    "tracker_broadcast": {
+        "type": "container",
+        "content": {
+            "type": "layout",
+            "key": "tracker_items"
+        }
+    }
+}

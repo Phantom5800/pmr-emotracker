@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Warehouse Key",
+        "type": "toggle",
+        "img": "images/ch7/WarehouseKey.png",
+        "codes": "warehouse_key"
+    },
+    {
+        "name": "Scarf",
+        "type": "toggle",
+        "img": "images/ch7/Scarf.png",
+        "codes": "scarf"
+    },
+    {
+        "name": "Bucket",
+        "type": "toggle",
+        "img": "images/ch7/Bucket.png",
+        "codes": "bucket"
+    },
+    {
+        "name": "Star Stone",
+        "type": "toggle",
+        "img": "images/ch7/StarStone_PM.png",
+        "codes": "star_stone"
+    },
+    {
+        "name": "Blue Key",
+        "type": "toggle",
+        "img": "images/ch7/PM_BlueKey.png",
+        "codes": "blue_key"
+    },
+    {
+        "name": "Red Key",
+        "type": "toggle",
+        "img": "images/ch7/PM_Red_Key.png",
+        "codes": "red_key"
+    },
+    {
+        "name": "Palace Key",
+        "type": "toggle",
+        "img": "images/ch7/PM_Palace_Key.png",
+        "codes": "palace_key"
+    }
+]

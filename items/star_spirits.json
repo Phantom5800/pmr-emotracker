@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Eldstar",
+        "type": "toggle",
+        "img": "images/star_spirits/Eldstar_PM.png",
+        "codes": "eldstar,star_spirit"
+    },
+    {
+        "name": "Mamar",
+        "type": "toggle",
+        "img": "images/star_spirits/Mamar_PM.png",
+        "codes": "mamar,star_spirit"
+    },
+    {
+        "name": "Skolar",
+        "type": "toggle",
+        "img": "images/star_spirits/Skolar_PM.png",
+        "codes": "skolar,star_spirit"
+    },
+    {
+        "name": "Muskular",
+        "type": "toggle",
+        "img": "images/star_spirits/Muskular_PM.png",
+        "codes": "muskular,star_spirit"
+    },
+    {
+        "name": "Misstar",
+        "type": "toggle",
+        "img": "images/star_spirits/Misstar_PM.png",
+        "codes": "misstar,star_spirit"
+    },
+    {
+        "name": "Klevar",
+        "type": "toggle",
+        "img": "images/star_spirits/Klevar_PM.png",
+        "codes": "klevar,star_spirit"
+    },
+    {
+        "name": "Kalmar",
+        "type": "toggle",
+        "img": "images/star_spirits/Kalmar_PM.png",
+        "codes": "kalmar,star_spirit"
+    },
+    {
+        "name": "Power Stars",
+        "type": "consumable",
+        "img": "images/star_spirits/Power_Star.png",
+        "max_quantity": 120,
+        "codes": "power_star"
+    }
+]

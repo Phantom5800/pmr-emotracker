@@ -1,0 +1,88 @@
+[
+    {
+        "name": "Open Prologue",
+        "type": "toggle",
+        "img": "images/settings/GoombaKing.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": true,
+        "codes": "open_prologue"
+    },
+    {
+        "name": "Open Blue House",
+        "type": "toggle",
+        "img": "images/settings/OddKey.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "open_blue_house"
+    },
+    {
+        "name": "Open Mt. Rugged",
+        "type": "toggle",
+        "img": "images/settings/Whacka.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "open_mt_rugged"
+    },
+    {
+        "name": "Open Forever Forest",
+        "type": "toggle",
+        "img": "images/settings/ForestPass.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": true,
+        "codes": "open_forest"
+    },
+    {
+        "name": "Open Toy Box",
+        "type": "toggle",
+        "img": "images/settings/ToyTrain_PM.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "open_toy_box"
+    },
+    {
+        "name": "Open Whale",
+        "type": "toggle",
+        "img": "images/settings/fuzzipede.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "open_whale"
+    },
+    {
+        "name": "Starting Magical Seeds",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/settings/AllSeeds.png",
+                "img_mods": "@disabled",
+                "codes": "ch6_seeds_0"
+            },
+            {
+                "img": "images/settings/1Seed.png",
+                "codes": "ch6_seeds_1"
+            },
+            {
+                "img": "images/settings/2Seed.png",
+                "codes": "ch6_seeds_2"
+            },
+            {
+                "img": "images/settings/3Seed.png",
+                "codes": "ch6_seeds_3"
+            },
+            {
+                "img": "images/settings/AllSeeds.png",
+                "codes": "ch6_seeds_4"
+            }
+        ]
+    },
+    {
+        "name": "Open Ch7 Bridge",
+        "type": "toggle",
+        "img": "images/settings/coinblock.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "codes": "open_ch7_bridge"
+    }
+]

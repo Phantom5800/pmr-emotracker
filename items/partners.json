@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Goombario",
+        "type": "toggle",
+        "img": "images/partners/Goombario.png",
+        "codes": "goombario,partner"
+    },
+    {
+        "name": "Kooper",
+        "type": "toggle",
+        "img": "images/partners/Kooper.png",
+        "codes": "kooper,partner"
+    },
+    {
+        "name": "Bombette",
+        "type": "toggle",
+        "img": "images/partners/Bombette.png",
+        "codes": "bombette,partner"
+    },
+    {
+        "name": "Parakarry",
+        "type": "toggle",
+        "img": "images/partners/Parakarry.png",
+        "codes": "parakarry,partner"
+    },
+    {
+        "name": "Bow",
+        "type": "toggle",
+        "img": "images/partners/Bow.png",
+        "codes": "bow,partner"
+    },
+    {
+        "name": "Watt",
+        "type": "toggle",
+        "img": "images/partners/Watt.png",
+        "codes": "watt,partner"
+    },
+    {
+        "name": "Sushie",
+        "type": "toggle",
+        "img": "images/partners/Sushie.png",
+        "codes": "sushie,partner"
+    },
+    {
+        "name": "Lakilester",
+        "type": "toggle",
+        "img": "images/partners/Lakilester.png",
+        "codes": "lakilester,partner"
+    }
+]

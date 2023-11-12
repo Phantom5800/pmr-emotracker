@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Boots",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/upgrades/PM_No_Boots.png",
+                "inherit_codes": false,
+                "img_mods": "@disabled",
+                "codes": ""
+            },
+            {
+                "img": "images/upgrades/PM_Boots.png",
+                "codes": "boots"
+            },
+            {
+                "img": "images/upgrades/PM_Super_Boots.png",
+                "codes": "boots2"
+            },
+            {
+                "img": "images/upgrades/PM_Ultra_Boots.png",
+                "codes": "boots3"
+            }
+        ]
+    },
+    {
+        "name": "Hammer",
+        "type": "progressive",
+        "allow_disabled": false,
+        "stages": [
+            {
+                "img": "images/upgrades/PM_No_Hammer.png",
+                "inherit_codes": false,
+                "img_mods": "@disabled",
+                "codes": ""
+            },
+            {
+                "img": "images/upgrades/PM_Hammer.png",
+                "codes": "hammer"
+            },
+            {
+                "img": "images/upgrades/PM_Super_Hammer.png",
+                "codes": "hammer2"
+            },
+            {
+                "img": "images/upgrades/PM_Ultra_Hammer.png",
+                "codes": "hammer3"
+            }
+        ]
+    },
+    {
+        "name": "Ultra Stone",
+        "type": "toggle",
+        "img": "images/upgrades/UltraStone.png",
+        "codes": "ultrastone"
+    }
+]

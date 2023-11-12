@@ -1,0 +1,146 @@
+[
+    {
+        "name": "Merlon",
+        "type": "toggle",
+        "img": "images/letters/PM_Merlon.png",
+        "codes": "merlon"
+    },
+    {
+        "name": "Kolorado",
+        "type": "toggle",
+        "img": "images/letters/PM_Kolorado.png",
+        "codes": "kolorado"
+    },
+    {
+        "name": "Mort T.",
+        "type": "toggle",
+        "img": "images/letters/PM_Toad.png",
+        "codes": "mort_t"
+    },
+    {
+        "name": "Nomadimouse",
+        "type": "toggle",
+        "img": "images/letters/Nomadimouse.png",
+        "codes": "nomadimouse"
+    },
+    {
+        "name": "Goompa",
+        "type": "toggle",
+        "img": "images/letters/PM_Goompa_sprite.png",
+        "codes": "goompa"
+    },
+    {
+        "name": "Fice T.",
+        "type": "toggle",
+        "img": "images/letters/PM_Fice_T_Sprite.png",
+        "codes": "fice_t"
+    },
+    {
+        "name": "Igor",
+        "type": "toggle",
+        "img": "images/letters/PM_Boo_Sprite.png",
+        "codes": "igor"
+    },
+    {
+        "name": "Russ T.",
+        "type": "toggle",
+        "img": "images/letters/Russ_T.png",
+        "codes": "russ_t"
+    },
+    {
+        "name": "Minh T.",
+        "type": "toggle",
+        "img": "images/letters/MinhT_PM.png",
+        "codes": "minh_t"
+    },
+    {
+        "name": "Mayor Penguin",
+        "type": "toggle",
+        "img": "images/letters/MayorPenguinPM.png",
+        "codes": "mayor_penguin"
+    },
+    {
+        "name": "Goompapa",
+        "type": "toggle",
+        "img": "images/letters/PM_Goompapa_Sprite.png",
+        "codes": "goompapa1"
+    },
+    {
+        "name": "Muss T.",
+        "type": "toggle",
+        "img": "images/letters/PM_Toad.png",
+        "codes": "muss_t"
+    },
+    {
+        "name": "Koover",
+        "type": "toggle",
+        "img": "images/letters/KoopaTroopaPM.png",
+        "codes": "koover1"
+    },
+    {
+        "name": "Fishmael",
+        "type": "toggle",
+        "img": "images/letters/FishMael_PM.png",
+        "codes": "fishmael"
+    },
+    {
+        "name": "Koover",
+        "type": "toggle",
+        "img": "images/letters/KoopaTroopaPM.png",
+        "codes": "koover2"
+    },
+    {
+        "name": "Mr. E",
+        "type": "toggle",
+        "img": "images/letters/MrEPM.png",
+        "codes": "mr_e"
+    },
+    {
+        "name": "Miss T.",
+        "type": "toggle",
+        "img": "images/letters/PMMissT.png",
+        "codes": "miss_t"
+    },
+    {
+        "name": "Little Mouser",
+        "type": "toggle",
+        "img": "images/letters/Little_Mouser_Paper_Mario.png",
+        "codes": "little_mouser"
+    },
+    {
+        "name": "Franky",
+        "type": "toggle",
+        "img": "images/letters/PM_Boo_Sprite.png",
+        "codes": "franky"
+    },
+    {
+        "name": "Dane T.",
+        "type": "toggle",
+        "img": "images/letters/PM_Dane_T.png",
+        "codes": "dane_t1"
+    },
+    {
+        "name": "Red Yoshi Kid",
+        "type": "toggle",
+        "img": "images/letters/red_yoshi.png",
+        "codes": "red_yoshi"
+    },
+    {
+        "name": "Dane T.",
+        "type": "toggle",
+        "img": "images/letters/PM_Dane_T.png",
+        "codes": "dane_t2"
+    },
+    {
+        "name": "Frost T.",
+        "type": "toggle",
+        "img": "images/letters/Frost_T.png",
+        "codes": "frost_t"
+    },
+    {
+        "name": "Goompapa",
+        "type": "toggle",
+        "img": "images/letters/PM_Goompapa_Sprite.png",
+        "codes": "goompapa2"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Calculator",
+        "type": "toggle",
+        "img": "images/toadtown/Calculator_PM.png",
+        "codes": "calculator"
+    },
+    {
+        "name": "Cook Book",
+        "type": "toggle",
+        "img": "images/toadtown/Cook_Book_Paper_Mario.png",
+        "codes": "cookbook"
+    },
+    {
+        "name": "Mailbag",
+        "type": "toggle",
+        "img": "images/toadtown/Mailbag_PM.png",
+        "codes": "mailbag"
+    },
+    {
+        "name": "Odd Key",
+        "type": "toggle",
+        "img": "images/toadtown/OddKey.png",
+        "codes": "oddkey"
+    },
+    {
+        "name": "Storeroom Key",
+        "type": "toggle",
+        "img": "images/toadtown/StoreroomKey.png",
+        "codes": "storeroom_key"
+    },
+    {
+        "name": "Dictionary",
+        "type": "toggle",
+        "img": "images/toadtown/PM_Dictionary.png",
+        "codes": "dictionary"
+    },
+    {
+        "name": "Frying Pan",
+        "type": "toggle",
+        "img": "images/toadtown/PM_Frying_Pan.png",
+        "codes": "fryingpan"
+    },
+    {
+        "name": "Melody",
+        "type": "toggle",
+        "img": "images/toadtown/PM_Melody.png",
+        "codes": "melody"
+    }
+]

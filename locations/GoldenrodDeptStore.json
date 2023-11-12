@@ -1,0 +1,92 @@
+[
+	{
+		"name": "Goldenrod Dept. Store",
+		"chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+		"access_rules": ["squirt_bottle", "@canUseCut", "$notItem|cut_tree"],
+		"sections": [
+			{
+				"name": "Mart Basement Behind Containers",
+				"visibility_rules": ["full_item"],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "TM21 - Frustration / TM27 - Return",
+				"access_rules": [],
+				"visibility_rules": ["day_happiness", "tms"],
+				"chest_unopened_img": "images/chests/tm_hm_unopened.png",
+				"chest_opened_img": "images/chests/tm_hm_opened.png",
+				"item_count": 2
+			},
+			{
+				"name": "Buy Water Stone",
+				"visibility_rules": ["full_item, $notItem|shopsanity"],
+				"hosted_item": "water_stone"
+			},
+			{
+				"name": "Buy Rock Smash",
+				"access_rules": ["rocksmashguy"],
+				"visibility_rules": ["full_item, $notItem|shopsanity"],
+				"hosted_item": "tm08"
+			},
+			{
+				"name": "GDS 2F Upper",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "GDS 2F Lower",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "GDS 3F",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "GDS 4F",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "GDS 5F",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "Rooftop Sale (Camper Todd)",
+				"access_rules": ["pokegear, elite_four"],
+				"visibility_rules": ["shopsanity,phone_items"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			},
+			{
+				"name": "GDS Vending Machine",
+				"visibility_rules": ["shopsanity"],
+				"chest_unopened_img": "images/chests/mart_unopened.png",
+				"chest_opened_img": "images/chests/mart_opened.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "johto_kanto",
+				"x": 534,
+				"y": 788
+			}
+		]
+	}
+]

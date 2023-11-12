@@ -1,0 +1,97 @@
+{
+    "tracker_broadcast": {
+        "type": "array",
+		"dropshadow": false,
+		"background": "#5f417b",
+		"scale": 1.5,
+        "content": [
+			{
+				"type": "itemgrid",
+				"h_alignment": "left",
+				"item_margin": "1,2",
+				"rows": [
+					[
+						"eldstar",
+						"mamar",
+						"skolar",
+						"muskular",
+						"misstar",
+						"klevar",
+						"kalmar",
+						"power_star"
+					],
+					[
+						"goombario",
+						"kooper",
+						"bombette",
+						"parakarry",
+						"bow",
+						"watt",
+						"sushie",
+						"lakilester"
+					],
+					[
+						"boots",
+						"hammer",
+						"ultrastone",
+						"ch1_key",
+						"pulse_stone",
+						"pyramid_stone",
+						"diamond_stone",
+						"lunar_stone"
+					],
+					[
+						"ch2_key",
+						"boo_portrait",
+						"ch3_key",
+						"toy_train",
+						"jade_raven",
+						"seed1",
+						"seed2",
+						"seed3"
+					],
+					[
+						"seed4",
+						"bean",
+						"soil",
+						"water",
+						"warehouse_key",
+						"scarf",
+						"bucket",
+						"star_stone"
+					],
+					[
+						"red_key",
+						"palace_key",
+						"dolly",
+						"kooper_shell",
+						"letters",
+						"artifact",
+						"forest_pass",
+						"record"
+					],
+					[
+						"weight",
+						"storeroom_key",
+						"calculator",
+						"fryingpan",
+						"mailbag",
+						"dictionary",
+						"volcano_vase",
+						"red_berry"
+					],
+					[
+						"yellow_berry",
+						"blue_berry",
+						"crystal_berry",
+						"water_stone",
+						"oddkey",
+						"blue_key",
+						"lyrics",
+						"melody"
+					]
+				]
+			}
+		]
+	}
+}
