@@ -46,5 +46,35 @@
         "type": "toggle",
         "img": "images/toadtown/PM_Melody.png",
         "codes": "melody"
+    },
+    {
+        "name": "Chan",
+        "type": "toggle",
+        "img": "images/toadtown/Chan_PM.png",
+        "codes": "chan"
+    },
+    {
+        "name": "Lee",
+        "type": "toggle",
+        "img": "images/toadtown/Lee_PM.png",
+        "codes": "lee"
+    },
+    {
+        "name": "Master 1",
+        "type": "toggle",
+        "img": "images/toadtown/TheMasterFirst_PM.png",
+        "codes": "master1"
+    },
+    {
+        "name": "Master 2",
+        "type": "toggle",
+        "img": "images/toadtown/The_Master_Second.png",
+        "codes": "master2"
+    },
+    {
+        "name": "Master 3",
+        "type": "toggle",
+        "img": "images/toadtown/The_Master_Second.png",
+        "codes": "master3"
     }
 ]
