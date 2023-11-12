@@ -1,9 +1,9 @@
 ﻿[
     {
-        "name": "johto_kanto",
-		"location_size": 80,
+        "name": "goomba_region",
+		"location_size": 50,
 		"location_border_thickness": 5,
-        "img": "images/maps/johto_kanto.png"
+        "img": "images/maps/GoombaRegion.png"
     },
 	{
         "name": "rock_tunnel",

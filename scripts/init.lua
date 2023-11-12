@@ -15,7 +15,11 @@ Tracker:AddItems("items/koopakoot.json")
 Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/openareas.json")
 
+Tracker:AddMaps("maps/maps.json")
+
 Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+
+ScriptHost:LoadScript("scripts/loadlocations.lua")
 
 Tracker:AddLayouts("layouts/tracker.json")

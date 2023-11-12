@@ -36,13 +36,14 @@
                 },
                 {
 					"type": "tabbed",
+					"background": "#000000",
 					"tabs": [
 						{
 							"title": "Goomba Region",
 							"content": {
 								"type": "map",
 								"maps": [
-									"johto_kanto"
+									"goomba_region"
 								]
 							}
 						},

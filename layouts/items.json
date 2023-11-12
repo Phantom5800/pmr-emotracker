@@ -12,7 +12,7 @@
 				"content": [
 					{
 						"type": "group",
-						"header": "Settings",
+						"header": "Randomized Item Settings",
 						"content": [
 							{
 								"type": "itemgrid",
