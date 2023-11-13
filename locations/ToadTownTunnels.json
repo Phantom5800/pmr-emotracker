@@ -205,7 +205,10 @@
 				"access_rules": [
 					"boots3, sushie", 
 					"boots3, bombette, oddkey",
-					"boots3, bombette, open_blue_house"
+					"boots3, bombette, open_blue_house",
+					"parakarry, kooper, open_ch7_bridge, sushie", 
+					"parakarry, kooper, open_ch7_bridge, bombette, oddkey",
+					"parakarry, kooper, open_ch7_bridge, bombette, open_blue_house"
 				],
 				"visibility_rules": ["upgrades_setting"],
 				"clear_as_group": false,
