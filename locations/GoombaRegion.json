@@ -307,6 +307,13 @@
 		"name": "Outside Playground",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"open_prologue, boots, hammer",
+			"open_prologue, parakarry, hammer",
+			"open_prologue, boots, bombette",
+			"open_prologue, parakarry, bombette",
+			"hammer2"
+		],
 		"sections":[
 			{
 				"name": "Spring Item",
@@ -363,6 +370,13 @@
 		"name": "Playground",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"open_prologue, boots, hammer",
+			"open_prologue, parakarry, hammer",
+			"open_prologue, boots, bombette",
+			"open_prologue, parakarry, bombette",
+			"hammer2"
+		],
 		"sections":[
 			{
 				"name": "Right Tree",

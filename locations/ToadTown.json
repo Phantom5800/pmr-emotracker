@@ -256,7 +256,7 @@
 			},
 			{
 				"name": "Inside Blue House",
-				"access_rules": ["odd_key", "open_blue_house"],
+				"access_rules": ["oddkey", "open_blue_house"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1

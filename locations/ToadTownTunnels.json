@@ -1,0 +1,444 @@
+[
+	{
+		"name": "Block Tunnel",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"boots, hammer", 
+			"boots, bombette",
+			"parakarry, hammer",
+			"parakarry, bombette"
+		],
+		"sections": [
+			{
+				"name": "Hidden Block",
+				"access_rules": ["boots, [watt]", "kooper, [watt]"],
+				"visibility_rules": [],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "Third Block",
+				"access_rules": ["boots", "kooper"],
+				"visibility_rules": ["upgrades_setting, multicoin_setting"],
+				"clear_as_group": false,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 2770,
+				"y": 220
+			}
+		]
+	},
+	{
+		"name": "Blooper Chest",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"boots, hammer", 
+			"boots, bombette",
+			"parakarry, hammer",
+			"parakarry, bombette"
+		],
+		"sections": [
+			{
+				"name": "Chest",
+				"access_rules": [],
+				"visibility_rules": [],
+				"clear_as_group": false,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 3420,
+				"y": 220
+			}
+		]
+	},
+	{
+		"name": "Elevator Room",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"boots, hammer2", 
+			"parakarry, hammer2"
+		],
+		"sections": [
+			{
+				"name": "Middle Block",
+				"access_rules": ["boots", "kooper"],
+				"visibility_rules": [],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "Coin Blocks",
+				"access_rules": ["boots", "kooper"],
+				"visibility_rules": ["coin_block_setting"],
+				"clear_as_group": false,
+				"item_count": 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 1515,
+				"y": 220
+			}
+		]
+	},
+	{
+		"name": "Power Smash Chest",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"boots, hammer2", 
+			"parakarry, hammer2"
+		],
+		"sections": [
+			{
+				"name": "Chest",
+				"access_rules": ["boots", "kooper, parakarry"],
+				"visibility_rules": [],
+				"clear_as_group": false,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 115,
+				"y": 715
+			}
+		]
+	},
+	{
+		"name": "High Platforms",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"boots, hammer2", 
+			"parakarry, hammer2"
+		],
+		"sections": [
+			{
+				"name": "Ledge Star Piece",
+				"access_rules": ["parakarry"],
+				"visibility_rules": [],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "Upgrade Block",
+				"access_rules": ["boots", "parakarry, kooper"],
+				"visibility_rules": ["upgrades_setting"],
+				"clear_as_group": false,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 1220,
+				"y": 790
+			}
+		]
+	},
+	{
+		"name": "Ultra Hammer Blocks",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"boots, hammer2", 
+			"parakarry, hammer2"
+		],
+		"sections": [
+			{
+				"name": "Upgrade Block",
+				"access_rules": ["boots, hammer3", "parakarry, kooper, hammer3"],
+				"visibility_rules": ["upgrades_setting"],
+				"clear_as_group": false,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 1180,
+				"y": 1010
+			}
+		]
+	},
+	{
+		"name": "Plaza Sushie Pipe",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"sections": [
+			{
+				"name": "Upgrade Block",
+				"access_rules": ["boots, sushie", "parakarry, kooper, sushie"],
+				"visibility_rules": ["upgrades_setting"],
+				"clear_as_group": false,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 490,
+				"y": 160
+			}
+		]
+	},
+	{
+		"name": "Shiver City Pipe",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"sections": [
+			{
+				"name": "Upgrade Block",
+				"access_rules": [
+					"boots3, sushie", 
+					"boots3, bombette, oddkey",
+					"boots3, bombette, open_blue_house"
+				],
+				"visibility_rules": ["upgrades_setting"],
+				"clear_as_group": false,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 3525,
+				"y": 195
+			}
+		]
+	},
+	{
+		"name": "Boo's Mansion Shortcut",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"boots2", 
+			"boots, bombette, oddkey, sushie",
+			"boots, bombette, open_blue_house, sushie",
+			"parakarry, bombette, oddkey, sushie",
+			"parakarry, bombette, open_blue_house, sushie"
+		],
+		"sections": [
+			{
+				"name": "Upgrade Block",
+				"access_rules": [
+					"boots, [watt]", 
+					"parakarry, kooper, [watt]"
+				],
+				"visibility_rules": ["upgrades_setting"],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "Hidden Blocks",
+				"access_rules": [
+					"boots, [watt]", 
+					"parakarry, kooper, [watt]"
+				],
+				"visibility_rules": ["coin_block_setting"],
+				"clear_as_group": false,
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 1410,
+				"y": 460
+			}
+		]
+	},
+	{
+		"name": "Rip Cheato",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"boots, oddkey", 
+			"parakarry, oddkey",
+			"boots, open_blue_house",
+			"parakarry, open_blue_house"
+		],
+		"sections": [
+			{
+				"name": "Rip Cheato",
+				"access_rules": [],
+				"visibility_rules": [],
+				"clear_as_group": false,
+				"item_count": 11
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 3850,
+				"y": 790
+			}
+		]
+	},
+	{
+		"name": "Ch7 Bridge",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"sections": [
+			{
+				"name": "Far Left Block",
+				"access_rules": [
+					"boots2, oddkey, bombette",
+					"boots2, open_blue_house, bombette",
+					"boots2, sushie"
+				],
+				"visibility_rules": ["coin_block_setting"],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "Hidden Blocks",
+				"access_rules": [
+					"boots3, oddkey, bombette, [watt]",
+					"boots3, open_blue_house, bombette, [watt]",
+					"boots3, sushie, [watt]"
+				],
+				"visibility_rules": ["coin_block_setting"],
+				"clear_as_group": false,
+				"item_count": 4
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 3240,
+				"y": 530
+			}
+		]
+	},
+	{
+		"name": "Spike Room",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"sections": [
+			{
+				"name": "Tall Block",
+				"access_rules": [
+					"boots3, oddkey, bombette",
+					"boots3, open_blue_house, bombette",
+					"boots3, sushie"
+				],
+				"visibility_rules": [],
+				"clear_as_group": false,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 2930,
+				"y": 470
+			}
+		]
+	},
+	{
+		"name": "Winding Path",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"lakilester, boots, bombette, oddkey",
+			"lakilester, boots, bombette, open_blue_house",
+			"lakilester, boots2, sushie"
+		],
+		"sections": [
+			{
+				"name": "Hidden Blocks",
+				"access_rules": ["[watt]"],
+				"visibility_rules": [],
+				"clear_as_group": false,
+				"item_count": 3
+			},
+			{
+				"name": "Coin Block",
+				"access_rules": [],
+				"visibility_rules": ["coin_block_setting"],
+				"clear_as_group": false,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 2760,
+				"y": 760
+			}
+		]
+	},
+	{
+		"name": "Tall Blocks Room",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"lakilester, boots, bombette, oddkey",
+			"lakilester, boots, bombette, open_blue_house",
+			"lakilester, boots2, sushie"
+		],
+		"sections": [
+			{
+				"name": "Hidden Block",
+				"access_rules": ["boots3, [watt]"],
+				"visibility_rules": [],
+				"clear_as_group": false,
+				"item_count": 1
+			},
+			{
+				"name": "Coin Blocks",
+				"access_rules": ["boots3"],
+				"visibility_rules": ["coin_block_setting"],
+				"clear_as_group": false,
+				"item_count": 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 2340,
+				"y": 700
+			}
+		]
+	},
+	{
+		"name": "Ultra Boots Chest",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"lakilester, boots, bombette, oddkey",
+			"lakilester, boots, bombette, open_blue_house",
+			"lakilester, boots2, sushie"
+		],
+		"sections": [
+			{
+				"name": "Chest",
+				"access_rules": [],
+				"visibility_rules": [],
+				"clear_as_group": false,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town_tunnels",
+				"x": 1660,
+				"y": 710
+			}
+		]
+	}
+]

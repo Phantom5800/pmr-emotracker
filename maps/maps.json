@@ -10,5 +10,11 @@
 		"location_size": 60,
 		"location_border_thickness": 8,
         "img": "images/maps/ToadTown.png"
+    },
+	{
+        "name": "toad_town_tunnels",
+		"location_size": 60,
+		"location_border_thickness": 8,
+        "img": "images/maps/ToadTownTunnels.png"
     }
 ]
