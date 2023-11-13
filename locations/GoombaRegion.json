@@ -8,7 +8,7 @@
 			"open_prologue, parakarry, hammer",
 			"open_prologue, boots, bombette",
 			"open_prologue, parakarry, bombette",
-			"hammer2"
+			"hammer2, boots"
 		],
 		"sections": [
 			{
@@ -94,7 +94,7 @@
 			"open_prologue, parakarry, hammer",
 			"open_prologue, boots, bombette",
 			"open_prologue, parakarry, bombette",
-			"hammer2"
+			"hammer2, boots"
 		],
 		"sections":[
 			{
@@ -120,7 +120,7 @@
 		"access_rules": [
 			"open_prologue, boots",
 			"open_prologue, parakarry",
-			"hammer2"
+			"hammer2, boots"
 		],
 		"sections":[
 			{
@@ -146,7 +146,7 @@
 		"access_rules": [
 			"open_prologue, boots",
 			"open_prologue, parakarry",
-			"hammer2"
+			"hammer2, boots"
 		],
 		"sections":[
 			{
@@ -179,7 +179,7 @@
 		"access_rules": [
 			"open_prologue, boots",
 			"open_prologue, parakarry",
-			"hammer2"
+			"hammer2, boots"
 		],
 		"sections":[
 			{
@@ -312,7 +312,7 @@
 			"open_prologue, parakarry, hammer",
 			"open_prologue, boots, bombette",
 			"open_prologue, parakarry, bombette",
-			"hammer2"
+			"hammer2, boots"
 		],
 		"sections":[
 			{
@@ -375,7 +375,7 @@
 			"open_prologue, parakarry, hammer",
 			"open_prologue, boots, bombette",
 			"open_prologue, parakarry, bombette",
-			"hammer2"
+			"hammer2, boots"
 		],
 		"sections":[
 			{
