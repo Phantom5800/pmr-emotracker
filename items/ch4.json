@@ -3,30 +3,49 @@
         "name": "Toy Train",
         "type": "toggle",
         "img": "images/ch4/ToyTrain_PM.png",
+        "codes": "toy_train_base",
+        "loop": true
+    },
+    {
+        "name": "Toy Train",
+        "type": "toggle_badged",
+        "base_item": "toy_train_base",
+        "img": "images/common/check.png",
         "codes": "toy_train"
     },
     {
         "name": "Mystery Note",
         "type": "toggle",
         "img": "images/ch4/MysteryNote.png",
+        "codes": "mystery_note_base",
+        "loop": true
+    },
+    {
+        "name": "Mystery Note",
+        "type": "toggle_badged",
+        "base_item": "mystery_note_base",
+        "img": "images/common/check.png",
         "codes": "mystery_note"
     },
     {
         "name": "Cake",
         "type": "toggle",
         "img": "images/ch4/Cake.png",
-        "codes": "cake"
+        "codes": "cake",
+        "loop": true
     },
     {
         "name": "Cake Mix",
         "type": "toggle",
         "img": "images/ch4/CakeMix.png",
-        "codes": "cakemix"
+        "codes": "cakemix",
+        "loop": true
     },
     {
         "name": "Lemon",
         "type": "toggle",
         "img": "images/ch4/Lemon.png",
-        "codes": "lemon"
+        "codes": "lemon",
+        "loop": true
     }
 ]

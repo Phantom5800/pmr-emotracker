@@ -10,36 +10,56 @@
         "name": "Pulse Stone",
         "type": "toggle",
         "img": "images/ch2/PulseStone.png",
-        "codes": "pulse_stone"
+        "codes": "pulse_stone",
+        "loop": true
     },
     {
         "name": "Pyramid Stone",
         "type": "toggle",
         "img": "images/ch2/PyramidStone.png",
-        "codes": "pyramid_stone"
+        "codes": "pyramid_stone",
+        "loop": true
     },
     {
         "name": "Diamond Stone",
         "type": "toggle",
         "img": "images/ch2/DiamondStone.png",
-        "codes": "diamond_stone"
+        "codes": "diamond_stone",
+        "loop": true
     },
     {
         "name": "Lunar Stone",
         "type": "toggle",
         "img": "images/ch2/LunarStone.png",
-        "codes": "lunar_stone"
+        "codes": "lunar_stone",
+        "loop": true
     },
     {
         "name": "Artifact",
         "type": "toggle",
         "img": "images/ch2/Artifact_PM.png",
+        "codes": "artifact_base",
+        "loop": true
+    },
+    {
+        "name": "Artifact",
+        "type": "toggle_badged",
+        "base_item": "artifact_base",
+        "img": "images/common/check.png",
         "codes": "artifact"
     },
     {
         "name": "Lyrics",
         "type": "toggle",
         "img": "images/ch2/Lyrics_PM.png",
+        "codes": "lyrics_base",
+        "loop": true
+    },
+    {
+        "name": "Lyrics",
+        "type": "toggle_badged",
+        "base_item": "lyrics_base",
+        "img": "images/common/check.png",
         "codes": "lyrics"
     },
     {

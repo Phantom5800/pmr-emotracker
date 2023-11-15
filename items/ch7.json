@@ -3,42 +3,56 @@
         "name": "Warehouse Key",
         "type": "toggle",
         "img": "images/ch7/WarehouseKey.png",
-        "codes": "warehouse_key"
+        "codes": "warehouse_key",
+        "loop": true
     },
     {
         "name": "Scarf",
         "type": "toggle",
         "img": "images/ch7/Scarf.png",
-        "codes": "scarf"
+        "codes": "scarf",
+        "loop": true
     },
     {
         "name": "Bucket",
         "type": "toggle",
         "img": "images/ch7/Bucket.png",
-        "codes": "bucket"
+        "codes": "bucket",
+        "loop": true
     },
     {
         "name": "Star Stone",
         "type": "toggle",
         "img": "images/ch7/StarStone_PM.png",
-        "codes": "star_stone"
+        "codes": "star_stone",
+        "loop": true
     },
     {
         "name": "Blue Key",
         "type": "toggle",
         "img": "images/ch7/PM_BlueKey.png",
+        "codes": "blue_key_base",
+        "loop": true
+    },
+    {
+        "name": "Blue Key",
+        "type": "toggle_badged",
+        "base_item": "blue_key_base",
+        "img": "images/common/check.png",
         "codes": "blue_key"
     },
     {
         "name": "Red Key",
         "type": "toggle",
         "img": "images/ch7/PM_Red_Key.png",
-        "codes": "red_key"
+        "codes": "red_key",
+        "loop": true
     },
     {
         "name": "Palace Key",
         "type": "toggle",
         "img": "images/ch7/PM_Palace_Key.png",
-        "codes": "palace_key"
+        "codes": "palace_key",
+        "loop": true
     }
 ]

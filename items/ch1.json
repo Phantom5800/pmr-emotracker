@@ -4,12 +4,21 @@
         "type": "consumable",
         "img": "images/ch1/FortressKey_PM.png",
         "max_quantity": 4,
-        "codes": "ch1_key"
+        "codes": "ch1_key",
+        "loop": true
     },
     {
         "name": "Kooper's Shell",
         "type": "toggle",
         "img": "images/ch1/Kooper'sShell_PM.png",
+        "codes": "kooper_shell_base",
+        "loop": true
+    },
+    {
+        "name": "Kooper's Shell",
+        "type": "toggle_badged",
+        "base_item": "kooper_shell_base",
+        "img": "images/common/check.png",
         "codes": "kooper_shell"
     }
 ]

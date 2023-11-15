@@ -3,48 +3,56 @@
         "name": "Goombario",
         "type": "toggle",
         "img": "images/partners/Goombario.png",
-        "codes": "goombario,partner"
+        "codes": "goombario,partner",
+        "loop": true
     },
     {
         "name": "Kooper",
         "type": "toggle",
         "img": "images/partners/Kooper.png",
-        "codes": "kooper,partner"
+        "codes": "kooper,partner",
+        "loop": true
     },
     {
         "name": "Bombette",
         "type": "toggle",
         "img": "images/partners/Bombette.png",
-        "codes": "bombette,partner"
+        "codes": "bombette,partner",
+        "loop": true
     },
     {
         "name": "Parakarry",
         "type": "toggle",
         "img": "images/partners/Parakarry.png",
-        "codes": "parakarry,partner"
+        "codes": "parakarry,partner",
+        "loop": true
     },
     {
         "name": "Bow",
         "type": "toggle",
         "img": "images/partners/Bow.png",
-        "codes": "bow,partner"
+        "codes": "bow,partner",
+        "loop": true
     },
     {
         "name": "Watt",
         "type": "toggle",
         "img": "images/partners/Watt.png",
-        "codes": "watt,partner"
+        "codes": "watt,partner",
+        "loop": true
     },
     {
         "name": "Sushie",
         "type": "toggle",
         "img": "images/partners/Sushie.png",
-        "codes": "sushie,partner"
+        "codes": "sushie,partner",
+        "loop": true
     },
     {
         "name": "Lakilester",
         "type": "toggle",
         "img": "images/partners/Lakilester.png",
-        "codes": "lakilester,partner"
+        "codes": "lakilester,partner",
+        "loop": true
     }
 ]

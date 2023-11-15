@@ -10,24 +10,56 @@
         "name": "Boo's Portrait",
         "type": "toggle",
         "img": "images/ch3/Boo'sPortrait_PM.png",
+        "codes": "boo_portrait_base",
+        "loop": true
+    },
+    {
+        "name": "Boo's Portrait",
+        "type": "toggle_badged",
+        "base_item": "boo_portrait_base",
+        "img": "images/common/check.png",
         "codes": "boo_portrait"
     },
     {
         "name": "Forest Pass",
         "type": "toggle",
         "img": "images/ch3/ForestPass.png",
+        "codes": "forest_pass_base",
+        "loop": true
+    },
+    {
+        "name": "Forest Pass",
+        "type": "toggle_badged",
+        "base_item": "forest_pass_base",
+        "img": "images/common/check.png",
         "codes": "forest_pass"
     },
     {
         "name": "Record",
         "type": "toggle",
         "img": "images/ch3/Record.png",
+        "codes": "record_base",
+        "loop": true
+    },
+    {
+        "name": "Record",
+        "type": "toggle_badged",
+        "base_item": "record_base",
+        "img": "images/common/check.png",
         "codes": "record"
     },
     {
         "name": "Weight",
         "type": "toggle",
         "img": "images/ch3/WeightPM.png",
+        "codes": "weight_base",
+        "loop": true
+    },
+    {
+        "name": "Weight",
+        "type": "toggle_badged",
+        "base_item": "weight_base",
+        "img": "images/common/check.png",
         "codes": "weight"
     }
 ]

@@ -53,6 +53,7 @@
         "name": "Ultra Stone",
         "type": "toggle",
         "img": "images/upgrades/UltraStone.png",
-        "codes": "ultrastone"
+        "codes": "ultrastone",
+        "loop": true
     }
 ]

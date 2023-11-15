@@ -3,12 +3,28 @@
         "name": "Jade Raven",
         "type": "toggle",
         "img": "images/ch5/JadeRaven_PM.png",
+        "codes": "jade_raven_base",
+        "loop": true
+    },
+    {
+        "name": "Jade Raven",
+        "type": "toggle_badged",
+        "base_item": "jade_raven_base",
+        "img": "images/common/check.png",
         "codes": "jade_raven"
     },
     {
-        "name": "VolcanoVase",
+        "name": "Volcano Vase",
         "type": "toggle",
         "img": "images/ch5/VolcanoVase.png",
+        "codes": "volcano_vase_base",
+        "loop": true
+    },
+    {
+        "name": "Volcano Vase",
+        "type": "toggle_badged",
+        "base_item": "volcano_vase_base",
+        "img": "images/common/check.png",
         "codes": "volcano_vase"
     }
 ]

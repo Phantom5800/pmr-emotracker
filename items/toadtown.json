@@ -3,48 +3,112 @@
         "name": "Calculator",
         "type": "toggle",
         "img": "images/toadtown/Calculator_PM.png",
+        "codes": "calculator_base",
+        "loop": true
+    },
+    {
+        "name": "Calculator",
+        "type": "toggle_badged",
+        "base_item": "calculator_base",
+        "img": "images/common/check.png",
         "codes": "calculator"
     },
     {
-        "name": "Cook Book",
+        "name": "Cookbook",
         "type": "toggle",
         "img": "images/toadtown/Cook_Book_Paper_Mario.png",
+        "codes": "cookbook_base",
+        "loop": true
+    },
+    {
+        "name": "Cookbook",
+        "type": "toggle_badged",
+        "base_item": "cookbook_base",
+        "img": "images/common/check.png",
         "codes": "cookbook"
     },
     {
         "name": "Mailbag",
         "type": "toggle",
         "img": "images/toadtown/Mailbag_PM.png",
+        "codes": "mailbag_base",
+        "loop": true
+    },
+    {
+        "name": "Mailbag",
+        "type": "toggle_badged",
+        "base_item": "mailbag_base",
+        "img": "images/common/check.png",
         "codes": "mailbag"
     },
     {
         "name": "Odd Key",
         "type": "toggle",
         "img": "images/toadtown/OddKey.png",
+        "codes": "oddkey_base",
+        "loop": true
+    },
+    {
+        "name": "Odd Key",
+        "type": "toggle_badged",
+        "base_item": "oddkey_base",
+        "img": "images/common/check.png",
         "codes": "oddkey"
     },
     {
         "name": "Storeroom Key",
         "type": "toggle",
         "img": "images/toadtown/StoreroomKey.png",
+        "codes": "storeroom_key_base",
+        "loop": true
+    },
+    {
+        "name": "Storeroom Key",
+        "type": "toggle_badged",
+        "base_item": "storeroom_key_base",
+        "img": "images/common/check.png",
         "codes": "storeroom_key"
     },
     {
         "name": "Dictionary",
         "type": "toggle",
         "img": "images/toadtown/PM_Dictionary.png",
+        "codes": "dictionary_base",
+        "loop": true
+    },
+    {
+        "name": "Dictionary",
+        "type": "toggle_badged",
+        "base_item": "dictionary_base",
+        "img": "images/common/check.png",
         "codes": "dictionary"
     },
     {
         "name": "Frying Pan",
         "type": "toggle",
         "img": "images/toadtown/PM_Frying_Pan.png",
+        "codes": "fryingpan_base",
+        "loop": true
+    },
+    {
+        "name": "Frying Pan",
+        "type": "toggle_badged",
+        "base_item": "fryingpan_base",
+        "img": "images/common/check.png",
         "codes": "fryingpan"
     },
     {
         "name": "Melody",
         "type": "toggle",
         "img": "images/toadtown/PM_Melody.png",
+        "codes": "melody_base",
+        "loop": true
+    },
+    {
+        "name": "Melody",
+        "type": "toggle_badged",
+        "base_item": "melody_base",
+        "img": "images/common/check.png",
         "codes": "melody"
     },
     {

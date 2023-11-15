@@ -3,6 +3,14 @@
         "name": "Dolly",
         "type": "toggle",
         "img": "images/prologue/PeachDoll_PM.png",
+        "codes": "dolly_base",
+        "loop": true
+    },
+    {
+        "name": "Dolly",
+        "type": "toggle_badged",
+        "base_item": "dolly_base",
+        "img": "images/common/check.png",
         "codes": "dolly"
     }
 ]

@@ -22,7 +22,7 @@
 			},
 			{
 				"name": "Goombaria",
-				"access_rules": ["dolly"],
+				"access_rules": ["dolly_base"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -52,6 +52,8 @@
 				"name": "Goompapa Letter 1",
 				"access_rules": ["goompapa1, parakarry"],
 				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"clear_as_group": false,
 				"item_count": 1
 			},
@@ -59,6 +61,8 @@
 				"name": "Goompapa Letter 2",
 				"access_rules": ["goompapa2, parakarry"],
 				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"clear_as_group": false,
 				"item_count": 1
 			},
@@ -66,6 +70,8 @@
 				"name": "Goompa Letter",
 				"access_rules": ["goompa, parakarry"],
 				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"clear_as_group": false,
 				"item_count": 1
 			},
@@ -101,7 +107,8 @@
 				"name": "Panel Star Piece",
 				"access_rules": ["boots2", "hammer3"],
 				"visibility_rules": ["panels_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			}
 		],
@@ -204,8 +211,8 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"open_prologue, boots",
-			"open_prologue, parakarry"
+			"boots",
+			"parakarry"
 		],
 		"sections":[
 			{
@@ -223,7 +230,8 @@
 				"name": "Panel Star Piece",
 				"access_rules": ["boots2", "hammer3"],
 				"visibility_rules": ["panels_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			},
 			{
@@ -274,6 +282,13 @@
 		"name": "Outside Goomba Village",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"open_prologue, boots, hammer",
+			"open_prologue, parakarry, hammer",
+			"open_prologue, boots, bombette",
+			"open_prologue, parakarry, bombette",
+			"hammer2, boots"
+		],
 		"sections":[
 			{
 				"name": "Ledge Star Piece",
@@ -284,12 +299,6 @@
 			},
 			{
 				"name": "Tree",
-				"access_rules": [
-					"boots, bombette", 
-					"boots, hammer", 
-					"parakarry, bombette", 
-					"parakarry, hammer"
-				],
 				"visibility_rules": ["foliage_setting"],
 				"clear_as_group": false,
 				"item_count": 1
@@ -340,7 +349,8 @@
 				"name": "Panel Star Piece",
 				"access_rules": ["boots2", "hammer3"],
 				"visibility_rules": ["panels_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			},
 			{

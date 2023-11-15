@@ -344,5 +344,77 @@
 				]
 			}
 		]
-    }
+    },
+	"settings_popup": {
+		"type": "array",
+		"orientation": "vertical",
+		"content": [
+			{
+				"type": "group",
+				"header": "LCL Chapters",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_margin": "1,2",
+						"rows": [
+							[
+								"ch1_lcl",
+								"ch2_lcl",
+								"ch3_lcl",
+								"ch4_lcl",
+								"ch5_lcl",
+								"ch6_lcl",
+								"ch7_lcl"
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Dungeon Shuffle",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_margin": "1,2",
+						"rows": [
+							[
+								"",
+								"",
+								"",
+								"",
+								"",
+								"",
+								""
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Chapter Difficulty",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_margin": "1,2",
+						"rows": [
+							[
+								"",
+								"",
+								"",
+								"",
+								"",
+								"",
+								""
+							]
+						]
+					}
+				]
+			}
+		]
+	}
 }

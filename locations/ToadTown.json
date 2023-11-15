@@ -24,12 +24,13 @@
 				"name": "Star Piece Panel",
 				"access_rules": ["boots2", "hammer3"],
 				"visibility_rules": ["panels_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Russ T.",
-				"access_rules": ["dictionary"],
+				"access_rules": ["dictionary_base"],
 				"visibility_rules": [""],
 				"clear_as_group": false,
 				"item_count": 1
@@ -38,6 +39,8 @@
 				"name": "Russ T. Letter",
 				"access_rules": ["russ_t, parakarry"],
 				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"clear_as_group": false,
 				"item_count": 1
 			},
@@ -45,6 +48,8 @@
 				"name": "Miss T. Letter",
 				"access_rules": ["miss_t, parakarry"],
 				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"clear_as_group": false,
 				"item_count": 1
 			},
@@ -143,14 +148,14 @@
 			},
 			{
 				"name": "Post Office",
-				"access_rules": ["mailbag"],
+				"access_rules": ["mailbag_base"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
 			},
 			{
 				"name": "Rowf",
-				"access_rules": ["calculator"],
+				"access_rules": ["calculator_base"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -194,6 +199,8 @@
 				"name": "Merlon Letter",
 				"access_rules": ["merlon, parakarry"],
 				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"clear_as_group": false,
 				"item_count": 1
 			},
@@ -201,6 +208,8 @@
 				"name": "Minh T. Letter",
 				"access_rules": ["minh_t, parakarry"],
 				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"clear_as_group": false,
 				"item_count": 1
 			}
@@ -221,7 +230,7 @@
 		"sections": [
 			{
 				"name": "Tayce T.",
-				"access_rules": ["frying_pan"],
+				"access_rules": ["fryingpan_base"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -237,6 +246,8 @@
 				"name": "Fice T. Letter",
 				"access_rules": ["fice_t, parakarry"],
 				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"clear_as_group": false,
 				"item_count": 1
 			},
@@ -244,7 +255,8 @@
 				"name": "Star Piece Panel",
 				"access_rules": ["boots2", "hammer3"],
 				"visibility_rules": ["panels_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			},
 			{
@@ -256,7 +268,7 @@
 			},
 			{
 				"name": "Inside Blue House",
-				"access_rules": ["oddkey", "open_blue_house"],
+				"access_rules": ["oddkey_base", "open_blue_house"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -285,7 +297,7 @@
 			},
 			{
 				"name": "Storeroom",
-				"access_rules": ["storeroom_key"],
+				"access_rules": ["storeroom_key_base"],
 				"visibility_rules": [],
 				"clear_as_group": true,
 				"item_count": 4
@@ -314,7 +326,7 @@
 			},
 			{
 				"name": "Pop Diva",
-				"access_rules": ["melody"],
+				"access_rules": ["melody_base"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -323,7 +335,16 @@
 				"name":"Star Piece Panel",
 				"access_rules": ["boots2", "hammer3"],
 				"visibility_rules": ["panels_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
+				"item_count": 1
+			},
+			{
+				"name": "Fishmael Letter",
+				"access_rules": ["fishmael, parakarry"],
+				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"item_count": 1
 			},
 			{
@@ -359,13 +380,16 @@
 				"name": "Star Piece Panel",
 				"access_rules": ["boots2", "hammer3"],
 				"visibility_rules": ["panels_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Dane T. Letter 1",
 				"access_rules": ["dane_t1, parakarry"],
 				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"clear_as_group": false,
 				"item_count": 1
 			},
@@ -373,6 +397,8 @@
 				"name": "Dane T. Letter 2",
 				"access_rules": ["dane_t2, parakarry"],
 				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
 				"clear_as_group": false,
 				"item_count": 1
 			}
@@ -395,7 +421,8 @@
 				"name": "Star Piece Panel",
 				"access_rules": ["boots2", "hammer3"],
 				"visibility_rules": ["panels_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			}
 		],
@@ -404,6 +431,29 @@
 				"map": "toad_town",
 				"x": 1710,
 				"y": 350
+			}
+		]
+	},
+	{
+		"name": "Castle Ruins",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [],
+		"sections": [
+			{
+				"name": "Muss T. Letter",
+				"access_rules": ["parakarry, muss_t"],
+				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "toad_town",
+				"x": 1120,
+				"y": 340
 			}
 		]
 	},
@@ -431,7 +481,8 @@
 				"name": "Star Piece Panel",
 				"access_rules": ["boots2", "hammer3"],
 				"visibility_rules": ["panels_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			}
 		],
@@ -460,7 +511,8 @@
 				"name": "Star Piece Panel",
 				"access_rules": ["boots2", "hammer3"],
 				"visibility_rules": ["panels_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			}
 		],

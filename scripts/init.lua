@@ -1,4 +1,10 @@
+-- SDK
+ScriptHost:LoadScript("scripts/class.lua")
+ScriptHost:LoadScript("scripts/custom_item.lua")
+
+-- Item Sets
 Tracker:AddItems("items/star_spirits.json")
+Tracker:AddItems("items/star_spirit_lcl_icons.json")
 Tracker:AddItems("items/partners.json")
 Tracker:AddItems("items/upgrades.json")
 Tracker:AddItems("items/prologue.json")
@@ -12,14 +18,20 @@ Tracker:AddItems("items/ch6.json")
 Tracker:AddItems("items/ch7.json")
 Tracker:AddItems("items/letters.json")
 Tracker:AddItems("items/koopakoot.json")
+
+-- Tracker Settings
 Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/openareas.json")
 
+-- Maps
 Tracker:AddMaps("maps/maps.json")
-
-Tracker:AddLayouts("layouts/items.json")
-Tracker:AddLayouts("layouts/broadcast.json")
-
 ScriptHost:LoadScript("scripts/loadlocations.lua")
 
+-- Layouts
+Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/tracker.json")
+
+-- Scripts
+ScriptHost:LoadScript("scripts/lcl.lua")
+

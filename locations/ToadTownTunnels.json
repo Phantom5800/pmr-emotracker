@@ -204,10 +204,10 @@
 				"name": "Upgrade Block",
 				"access_rules": [
 					"boots3, sushie", 
-					"boots3, bombette, oddkey",
+					"boots3, bombette, oddkey_base",
 					"boots3, bombette, open_blue_house",
 					"parakarry, kooper, open_ch7_bridge, sushie", 
-					"parakarry, kooper, open_ch7_bridge, bombette, oddkey",
+					"parakarry, kooper, open_ch7_bridge, bombette, oddkey_base",
 					"parakarry, kooper, open_ch7_bridge, bombette, open_blue_house"
 				],
 				"visibility_rules": ["upgrades_setting"],
@@ -229,9 +229,9 @@
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
 			"boots2", 
-			"boots, bombette, oddkey, sushie",
+			"boots, bombette, oddkey_base, sushie",
 			"boots, bombette, open_blue_house, sushie",
-			"parakarry, bombette, oddkey, sushie",
+			"parakarry, bombette, oddkey_base, sushie",
 			"parakarry, bombette, open_blue_house, sushie"
 		],
 		"sections": [
@@ -269,8 +269,8 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"boots, oddkey", 
-			"parakarry, oddkey",
+			"boots, oddkey_base", 
+			"parakarry, oddkey_base",
 			"boots, open_blue_house",
 			"parakarry, open_blue_house"
 		],
@@ -299,7 +299,7 @@
 			{
 				"name": "Far Left Block",
 				"access_rules": [
-					"boots2, oddkey, bombette",
+					"boots2, oddkey_base, bombette",
 					"boots2, open_blue_house, bombette",
 					"boots2, sushie"
 				],
@@ -310,7 +310,7 @@
 			{
 				"name": "Hidden Blocks",
 				"access_rules": [
-					"boots3, oddkey, bombette, [watt]",
+					"boots3, oddkey_base, bombette, [watt]",
 					"boots3, open_blue_house, bombette, [watt]",
 					"boots3, sushie, [watt]"
 				],
@@ -335,7 +335,7 @@
 			{
 				"name": "Tall Block",
 				"access_rules": [
-					"boots3, oddkey, bombette",
+					"boots3, oddkey_base, bombette",
 					"boots3, open_blue_house, bombette",
 					"boots3, sushie"
 				],
@@ -357,7 +357,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"lakilester, boots, bombette, oddkey",
+			"lakilester, boots, bombette, oddkey_base",
 			"lakilester, boots, bombette, open_blue_house",
 			"lakilester, boots2, sushie"
 		],
@@ -390,7 +390,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"lakilester, boots, bombette, oddkey",
+			"lakilester, boots, bombette, oddkey_base",
 			"lakilester, boots, bombette, open_blue_house",
 			"lakilester, boots2, sushie"
 		],
@@ -423,7 +423,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"lakilester, boots, bombette, oddkey",
+			"lakilester, boots, bombette, oddkey_base",
 			"lakilester, boots, bombette, open_blue_house",
 			"lakilester, boots2, sushie"
 		],
