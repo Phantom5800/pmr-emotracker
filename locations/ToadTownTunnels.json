@@ -200,17 +200,11 @@
 		"name": "Shiver City Pipe",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$ShiverCityAccess"],
 		"sections": [
 			{
 				"name": "Upgrade Block",
-				"access_rules": [
-					"boots3, sushie", 
-					"boots3, bombette, oddkey_base",
-					"boots3, bombette, open_blue_house",
-					"parakarry, kooper, open_ch7_bridge, sushie", 
-					"parakarry, kooper, open_ch7_bridge, bombette, oddkey_base",
-					"parakarry, kooper, open_ch7_bridge, bombette, open_blue_house"
-				],
+				"access_rules": ["boots", "kooper"],
 				"visibility_rules": ["upgrades_setting"],
 				"clear_as_group": false,
 				"item_count": 1

@@ -1,6 +1,7 @@
 -- SDK
 ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/custom_item.lua")
+ScriptHost:LoadScript("scripts/logic/helpers.lua")
 
 -- Item Sets
 Tracker:AddItems("items/star_spirits.json")

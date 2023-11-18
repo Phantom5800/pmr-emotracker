@@ -3,7 +3,7 @@
 		"name": "Main Gate",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["$ToadTownAccess"],
 		"sections": [
 			{
 				"name": "Shop",
@@ -107,7 +107,7 @@
 		"name": "Mario's House",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["boots", "parakarry", "kooper"], // kooper requires toad town start, but can be used to enter the pipe
+		"access_rules": ["$ToadTownAccess, boots", "$ToadTownAccess, parakarry", "$ToadTownAccess, kooper"], // kooper requires toad town start, but can be used to enter the pipe
 		"sections": [
 			{
 				"name": "Luigi",
@@ -129,7 +129,7 @@
 		"name": "Central Plaza",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["$ToadTownAccess"],
 		"sections": [
 			{
 				"name": "Merlon's Tree",
@@ -225,7 +225,7 @@
 		"name": "Below Plaza",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["$ToadTownAccess"],
 		"sections": [
 			{
 				"name": "Tayce T.",
@@ -285,7 +285,7 @@
 		"name": "Residential Area",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["$ToadTownAccess"],
 		"sections": [
 			{
 				"name": "Shop",
@@ -314,7 +314,7 @@
 		"name": "Port",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["$ToadTownAccess"],
 		"sections": [
 			{
 				"name": "Master Poet",
@@ -374,7 +374,7 @@
 		"name": "Train Station",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["$ToadTownAccess"],
 		"sections": [
 			{
 				"name": "Star Piece Panel",
@@ -415,7 +415,7 @@
 		"name": "Star Region",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["$ToadTownAccess"],
 		"sections": [
 			{
 				"name": "Star Piece Panel",
@@ -438,7 +438,7 @@
 		"name": "Castle Ruins",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["$ToadTownAccess"],
 		"sections": [
 			{
 				"name": "Muss T. Letter",
@@ -461,7 +461,7 @@
 		"name": "Merluvlee's House",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["$ToadTownAccess"],
 		"sections": [
 			{
 				"name": "Merlow Rewards",
@@ -498,11 +498,11 @@
 		"name": "Shooting Star Summit",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["$ToadTownAccess, boots", "$ToadTownAccess, parakarry"],
 		"sections": [
 			{
 				"name": "Star Piece",
-				"access_rules": ["boots", "parakarry"],
+				"access_rules": [],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
