@@ -35,6 +35,15 @@
 				"item_count": 1
 			},
 			{
+				"name": "Goompa Tape",
+				"access_rules": [
+					"boots, hammer, koopa_legends, sleepy_sheep", 
+					"parakarry, hammer, koopa_legends, sleepy_sheep"
+				],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
 				"name": "Balcony Item",
 				"access_rules": [],
 				"visibility_rules": [],
@@ -79,7 +88,8 @@
 				"name": "Bush",
 				"access_rules": [],
 				"visibility_rules": ["foliage_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			}
 		],
@@ -134,7 +144,8 @@
 				"name": "Coin Blocks",
 				"access_rules": ["boots", "kooper"],
 				"visibility_rules": ["coin_block_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 2
 			}
 		],
@@ -193,7 +204,6 @@
 				"name": "Tree",
 				"access_rules": ["hammer", "bombette"],
 				"visibility_rules": [],
-				"clear_as_group": false,
 				"item_count": 1
 			}
 		],
@@ -238,7 +248,8 @@
 				"name": "Coin Tree",
 				"access_rules": ["hammer", "bombette"],
 				"visibility_rules": ["foliage_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			}
 		],
@@ -300,7 +311,8 @@
 			{
 				"name": "Tree",
 				"visibility_rules": ["foliage_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			}
 		],
@@ -328,21 +340,20 @@
 				"name": "Spring Item",
 				"access_rules": ["boots", "parakarry"],
 				"visibility_rules": [],
-				"clear_as_group": false,
 				"item_count": 1
 			},
 			{
 				"name": "Spring Coins",
 				"access_rules": ["boots", "parakarry"],
 				"visibility_rules": ["coins_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 4
 			},
 			{
 				"name": "Hidden Block Above Stone Block",
 				"access_rules": ["hammer2, [watt]"],
 				"visibility_rules": [],
-				"clear_as_group": false,
 				"item_count": 1
 			},
 			{
@@ -357,14 +368,14 @@
 				"name": "Tree",
 				"access_rules": ["hammer", "bombette"],
 				"visibility_rules": [],
-				"clear_as_group": false,
 				"item_count": 1
 			},
 			{
 				"name": "Block on Ground",
 				"access_rules": ["hammer", "bombette"],
-				"visibility_rules": [],
-				"clear_as_group": false,
+				"visibility_rules": ["coin_block_setting"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			}
 		],
@@ -413,14 +424,16 @@
 				"name": "Bush Coins",
 				"access_rules": [],
 				"visibility_rules": ["foliage_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 6
 			},
 			{
 				"name": "Tree Coins",
 				"access_rules": [],
 				"visibility_rules": ["foliage_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 2
 			}
 		],

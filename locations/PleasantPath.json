@@ -1,0 +1,473 @@
+[
+	{
+		"name": "Outside Toad Town",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [],
+		"sections": [
+			{
+				"name": "Left ? Block",
+				"access_rules": ["boots", "kooper"],
+				"visibility_rules": ["coin_block_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Middle ? Block",
+				"access_rules": ["boots", "kooper"],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Right ? Block",
+				"access_rules": ["boots", "kooper"],
+				"visibility_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 300,
+				"y": 390
+			}
+		]
+	},
+	{
+		"name": "West Switch Bridge",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [],
+		"sections": [
+			{
+				"name": "? Block",
+				"access_rules": ["boots", "kooper"],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Island Star Piece",
+				"access_rules": ["hammer, kooper", "bombette, kooper"],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Behind Fence",
+				"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Multicoin Block",
+				"access_rules": ["hammer, boots", "bombette, boots", "bombette, kooper, parakarry", "hammer, kooper, parakarry"],
+				"visibility_rules": ["upgrades_setting, multicoin_setting"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 810,
+				"y": 380
+			}
+		]
+	},
+	{
+		"name": "Outside Koopa Village",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"sections": [
+			{
+				"name": "Item Behind Third Pole",
+				"access_rules": [],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Brick Block Puzzle",
+				"access_rules": [],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Star Piece Panel",
+				"access_rules": ["boots2", "hammer3"],
+				"visibility_rules": ["panels_setting"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 1280,
+				"y": 350
+			}
+		]
+	},
+	{
+		"name": "East Switch Bridge",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"sections": [
+			{
+				"name": "5 Coins",
+				"access_rules": [],
+				"visibility_rules": ["coins_setting"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
+				"item_count": 5
+			},
+			{
+				"name": "Star Piece Panel",
+				"access_rules": ["boots2", "hammer3"],
+				"visibility_rules": ["panels_setting"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
+				"item_count": 1
+			},
+			{
+				"name": "Tall Block Item",
+				"access_rules": ["boots3", "kooper"],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Hidden Block",
+				"access_rules": ["kooper, [watt]"],
+				"visibility_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 1815,
+				"y": 235
+			}
+		]
+	},
+	{
+		"name": "Behind Kooper's House",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"sections": [
+			{
+				"name": "Stump Item",
+				"access_rules": ["kooper", "parakarry"],
+				"visibility_rules": [],
+				"capture_item": true,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 2335,
+				"y": 740
+			}
+		]
+	},
+	{
+		"name": "Fuzzy Minigame",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"sections": [
+			{
+				"name": "Minigame",
+				"access_rules": ["hammer"],
+				"visibility_rules": [],
+				"capture_item": true,
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 2920,
+				"y": 710
+			}
+		]
+	},
+	{
+		"name": "West Koopa Village",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"sections": [
+			{
+				"name": "Shop",
+				"access_rules": [],
+				"visibility_rules": [],
+				"item_count": 8
+			},
+			{
+				"name": "Koover Letter 1",
+				"access_rules": "koover_1, parakarry",
+				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
+				"item_count": 1
+			},
+			{
+				"name": "Koover Letter 2",
+				"access_rules": "koover_2, parakarry",
+				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
+				"item_count": 1
+			},
+			{
+				"name": "Mort T. Letter 1",
+				"access_rules": "mort_t, parakarry",
+				"visibility_rules": ["letters_setting"],
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
+				"item_count": 1
+			},
+			{
+				"name": "Star Piece Panel",
+				"access_rules": ["boots2", "hammer3"],
+				"visibility_rules": ["panels_setting"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
+				"item_count": 1
+			},
+			{
+				"name": "Far Left Bush",
+				"access_rules": [],
+				"visibility_rules": ["foliage_setting"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
+				"item_count": 1
+			},
+			{
+				"name": "2nd Bush",
+				"access_rules": ["star_spirit:4, eldstar, bombette, hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, life_shroom, nutty_cake, old_photo, koopasta"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Bottom Bush",
+				"access_rules": [],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Bush Right of Tree",
+				"access_rules": [],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "2nd From Right Bush",
+				"access_rules": [],
+				"visibility_rules": ["foliage_setting"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
+				"item_count": 1
+			},
+			{
+				"name": "Far Right Bush",
+				"access_rules": ["star_spirit:2, hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 1810,
+				"y": 560
+			}
+		]
+	},
+	{
+		"name": "East Koopa Village",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"sections": [
+			{
+				"name": "Far Left Bush",
+				"access_rules": [],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Kooper",
+				"access_rules": ["kooper_shell_base"],
+				"visibility_rules": [],
+				"chest_unopened_img": "images/chests/kooper.png",
+				"chest_opened_img": "images/chests/kooper_checked.png",
+				"item_count": 1
+			},
+			{
+				"name": "Item on Block",
+				"access_rules": ["boots", "parakarry, kooper"],
+				"visibility_rules": [],
+				"item_count": 1
+			},
+			{
+				"name": "Kolorado's Wife",
+				"access_rules": ["hammer"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Far Right Bush",
+				"access_rules": [],
+				"visibility_rules": ["foliage_setting"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 2320,
+				"y": 560
+			}
+		]
+	},
+	{
+		"name": "Koopa Koot",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["hammer, boots", "hammer, parakarry"],
+		"sections": [
+			{
+				"name": "Koopa Legends",
+				"access_rules": ["koopa_legends"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Sleepy Sheep",
+				"access_rules": ["koopa_legends, sleepy_sheep"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Tape",
+				"access_rules": ["star_spirit:1, koopa_legends, sleepy_sheep, tape"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Koopa Tea",
+				"access_rules": ["star_spirit:1, koopa_legends, sleepy_sheep, tape, koopa_tea"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Luigi's Autograph",
+				"access_rules": ["star_spirit:1, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Wallet",
+				"access_rules": ["star_spirit:2, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Tasty Tonic",
+				"access_rules": ["star_spirit:2, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Merluvlee's Autograph",
+				"access_rules": ["star_spirit:2, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Toad Town News",
+				"access_rules": ["star_spirit:3, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Life Shroom",
+				"access_rules": ["star_spirit:3, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Nutty Cake",
+				"access_rules": ["star_spirit:3, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Noisy Neighbors",
+				"access_rules": ["star_spirit:4, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Old Photo",
+				"access_rules": ["star_spirit:4, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Koopasta",
+				"access_rules": ["star_spirit:4, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Glasses",
+				"access_rules": ["star_spirit:5, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Lime",
+				"access_rules": ["star_spirit:5, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses, lime"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Kooky Cookie",
+				"access_rules": ["star_spirit:5, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses, lime, kooky_cookie"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Package",
+				"access_rules": ["star_spirit:6, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses, lime, kooky_cookie, package"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Coconut",
+				"access_rules": ["star_spirit:6, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses, lime, kooky_cookie, package, coconut"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			},
+			{
+				"name": "Red Jar",
+				"access_rules": ["star_spirit:6, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses, lime, kooky_cookie, package, coconut, red_jar"],
+				"visibility_rules": ["koot_setting"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 2460,
+				"y": 580
+			}
+		]
+	}
+]

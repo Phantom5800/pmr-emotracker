@@ -41,7 +41,6 @@
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
-				"clear_as_group": false,
 				"item_count": 1
 			},
 			{
@@ -50,7 +49,6 @@
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
-				"clear_as_group": false,
 				"item_count": 1
 			},
 			{
@@ -92,7 +90,8 @@
 				"name": "Trading Event Toad",
 				"access_rules": ["koopa_leaf"],
 				"visibility_rules": ["trading_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/tradingtoad.png",
+				"chest_opened_img": "images/chests/tradingtoad_checked.png",
 				"item_count": 1
 			}
 		],
@@ -108,11 +107,11 @@
 		"name": "Mario's House",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [],
+		"access_rules": ["boots", "parakarry"],
 		"sections": [
 			{
 				"name": "Luigi",
-				"access_rules": ["koopa_legends, sleepy_sheep, tape, koopa_tea, star_spirit"],
+				"access_rules": ["hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, star_spirit"],
 				"visibility_rules": ["koot_setting"],
 				"clear_as_group": false,
 				"item_count": 1
@@ -358,7 +357,8 @@
 				"name": "Trading Event Toad",
 				"access_rules": ["coconut_toad"],
 				"visibility_rules": ["trading_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/tradingtoad.png",
+				"chest_opened_img": "images/chests/tradingtoad_checked.png",
 				"item_count": 1
 			}
 		],
@@ -472,7 +472,10 @@
 			},
 			{
 				"name": "Merluvlee",
-				"access_rules": ["crystal_ball, star_spirit:2, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic"],
+				"access_rules": [
+					"crystal_ball, star_spirit:2, boots, hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic",
+					"crystal_ball, star_spirit:2, parakarry, hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic"
+				],
 				"visibility_rules": ["koot_setting"],
 				"clear_as_group": false,
 				"item_count": 1

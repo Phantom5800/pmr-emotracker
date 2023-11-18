@@ -80,7 +80,8 @@
 				"name": "Coin Blocks",
 				"access_rules": ["boots", "kooper"],
 				"visibility_rules": ["coin_block_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 2
 			}
 		],
@@ -252,7 +253,8 @@
 					"parakarry, kooper, [watt]"
 				],
 				"visibility_rules": ["coin_block_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 3
 			}
 		],
@@ -304,7 +306,8 @@
 					"boots2, sushie"
 				],
 				"visibility_rules": ["coin_block_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
@@ -315,7 +318,8 @@
 					"boots3, sushie, [watt]"
 				],
 				"visibility_rules": ["coin_block_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 4
 			}
 		],
@@ -373,7 +377,8 @@
 				"name": "Coin Block",
 				"access_rules": [],
 				"visibility_rules": ["coin_block_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			}
 		],
@@ -406,7 +411,8 @@
 				"name": "Coin Blocks",
 				"access_rules": ["boots3"],
 				"visibility_rules": ["coin_block_setting"],
-				"clear_as_group": false,
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 2
 			}
 		],
