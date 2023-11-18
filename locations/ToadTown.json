@@ -111,7 +111,7 @@
 		"sections": [
 			{
 				"name": "Luigi",
-				"access_rules": ["hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, star_spirit"],
+				"access_rules": ["$KoopaVillageAccess, hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, star_spirit"],
 				"visibility_rules": ["koot_setting"],
 				"clear_as_group": false,
 				"item_count": 1
@@ -472,10 +472,7 @@
 			},
 			{
 				"name": "Merluvlee",
-				"access_rules": [
-					"crystal_ball, star_spirit:2, boots, hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic",
-					"crystal_ball, star_spirit:2, parakarry, hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic"
-				],
+				"access_rules": ["crystal_ball, star_spirit:2, $KoopaVillageAccess, hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic"],
 				"visibility_rules": ["koot_setting"],
 				"clear_as_group": false,
 				"item_count": 1

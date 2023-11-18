@@ -197,7 +197,7 @@
 		"name": "West Koopa Village",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"access_rules": ["$KoopaVillageAccess"],
 		"sections": [
 			{
 				"name": "Shop",
@@ -290,7 +290,7 @@
 		"name": "East Koopa Village",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"access_rules": ["$KoopaVillageAccess"],
 		"sections": [
 			{
 				"name": "Far Left Bush",
@@ -339,7 +339,7 @@
 		"name": "Koopa Koot",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["hammer, boots", "hammer, parakarry"],
+		"access_rules": ["hammer, $KoopaVillageAccess"],
 		"sections": [
 			{
 				"name": "Koopa Legends",

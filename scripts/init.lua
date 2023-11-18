@@ -24,6 +24,7 @@ Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/openareas.json")
 
 -- Maps
+ScriptHost:LoadScript("scripts/logic/region_access.lua")
 Tracker:AddMaps("maps/maps.json")
 ScriptHost:LoadScript("scripts/loadlocations.lua")
 
@@ -34,4 +35,3 @@ Tracker:AddLayouts("layouts/tracker.json")
 
 -- Scripts
 ScriptHost:LoadScript("scripts/lcl.lua")
-

@@ -3,13 +3,7 @@
 		"name": "Goomba Village",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"open_prologue, boots, hammer",
-			"open_prologue, parakarry, hammer",
-			"open_prologue, boots, bombette",
-			"open_prologue, parakarry, bombette",
-			"hammer2, boots"
-		],
+		"access_rules": ["$GoombaVillageAccess"],
 		"sections": [
 			{
 				"name": "Goombario",
@@ -36,10 +30,7 @@
 			},
 			{
 				"name": "Goompa Tape",
-				"access_rules": [
-					"boots, hammer, koopa_legends, sleepy_sheep", 
-					"parakarry, hammer, koopa_legends, sleepy_sheep"
-				],
+				"access_rules": ["$KoopaVillageAccess, hammer, koopa_legends, sleepy_sheep"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
 			},
@@ -105,13 +96,7 @@
 		"name": "Landing Site",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"open_prologue, boots, hammer",
-			"open_prologue, parakarry, hammer",
-			"open_prologue, boots, bombette",
-			"open_prologue, parakarry, bombette",
-			"hammer2, boots"
-		],
+		"access_rules": ["$GoombaVillageAccess"],
 		"sections":[
 			{
 				"name": "Panel Star Piece",
@@ -134,11 +119,7 @@
 		"name": "Goomba Road 1",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"open_prologue, boots",
-			"open_prologue, parakarry",
-			"hammer2, boots"
-		],
+		"access_rules": ["$GoombaRoadAccess"],
 		"sections":[
 			{
 				"name": "Coin Blocks",
@@ -161,11 +142,7 @@
 		"name": "Goomba Road 2",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"open_prologue, boots",
-			"open_prologue, parakarry",
-			"hammer2, boots"
-		],
+		"access_rules": ["$GoombaRoadAccess"],
 		"sections":[
 			{
 				"name": "Item Block",
@@ -194,11 +171,7 @@
 		"name": "Goomba King Castle (Left Side)",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"open_prologue, boots",
-			"open_prologue, parakarry",
-			"hammer2, boots"
-		],
+		"access_rules": ["$GoombaRoadAccess"],
 		"sections":[
 			{
 				"name": "Tree",
@@ -293,13 +266,7 @@
 		"name": "Outside Goomba Village",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"open_prologue, boots, hammer",
-			"open_prologue, parakarry, hammer",
-			"open_prologue, boots, bombette",
-			"open_prologue, parakarry, bombette",
-			"hammer2, boots"
-		],
+		"access_rules": ["$GoombaVillageAccess"],
 		"sections":[
 			{
 				"name": "Ledge Star Piece",
@@ -328,13 +295,7 @@
 		"name": "Outside Playground",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"open_prologue, boots, hammer",
-			"open_prologue, parakarry, hammer",
-			"open_prologue, boots, bombette",
-			"open_prologue, parakarry, bombette",
-			"hammer2, boots"
-		],
+		"access_rules": ["$GoombaVillageAccess"],
 		"sections":[
 			{
 				"name": "Spring Item",
@@ -391,13 +352,7 @@
 		"name": "Playground",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"open_prologue, boots, hammer",
-			"open_prologue, parakarry, hammer",
-			"open_prologue, boots, bombette",
-			"open_prologue, parakarry, bombette",
-			"hammer2, boots"
-		],
+		"access_rules": ["$GoombaVillageAccess"],
 		"sections":[
 			{
 				"name": "Right Tree",
