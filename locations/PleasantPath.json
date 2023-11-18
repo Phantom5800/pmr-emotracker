@@ -75,7 +75,7 @@
 		"name": "Outside Koopa Village",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"access_rules": ["$KoopaVillageAccess"],
 		"sections": [
 			{
 				"name": "Item Behind Third Pole",
@@ -110,7 +110,7 @@
 		"name": "East Switch Bridge",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"access_rules": ["$KoopaVillageAccess"],
 		"sections": [
 			{
 				"name": "5 Coins",
@@ -153,7 +153,7 @@
 		"name": "Behind Kooper's House",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"access_rules": ["$KoopaVillageAccess"],
 		"sections": [
 			{
 				"name": "Stump Item",
@@ -175,7 +175,7 @@
 		"name": "Fuzzy Minigame",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+		"access_rules": ["hammer, $KoopaVillageAccess"],
 		"sections": [
 			{
 				"name": "Minigame",
