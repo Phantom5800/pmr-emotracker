@@ -238,6 +238,24 @@
             ]
         }
     },
+	"tracker_capture_item": {
+		"type": "container",
+		"content": {
+			"type": "itemgrid",
+			"h_alignment": "center",
+			"v_alignment": "top",
+			"item_margin": "0,0,0,0",
+			"rows": [
+				
+				["goombario", "kooper", "bombette", "parakarry", "bow", "watt", "sushie", "lakilester"],
+				["dolly_base", "kooper_shell_base", "ch1_key", "artifact_base", "pulse_stone", "pyramid_stone", "diamond_stone", "lunar_stone"],
+				["ch2_key", "forest_pass_base", "record_base", "weight_base", "boo_portrait_base", "ch3_key", "toy_train_base", "storeroom_key_base"],
+				["calculator_base", "fryingpan_base", "mailbag_base", "dictionary_base", "jade_raven_base", "volcano_vase_base", "lyrics_base", "melody_base"],
+				["seed1", "seed2", "seed3", "seed4", "bean", "soil", "water", "crystal_berry_base"],
+				["water_stone_base", "warehouse_key", "scarf", "bucket", "star_stone", "blue_key_base", "red_key", "palace_key"]
+			]
+		}
+	},
     "tracker_broadcast": {
         "type": "container",
         "content": {
