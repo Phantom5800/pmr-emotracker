@@ -207,7 +207,7 @@
 			},
 			{
 				"name": "Koover Letter 1",
-				"access_rules": "koover_1, parakarry",
+				"access_rules": ["koover1, parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -215,7 +215,7 @@
 			},
 			{
 				"name": "Koover Letter 2",
-				"access_rules": "koover_2, parakarry",
+				"access_rules": ["koover2, parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -223,7 +223,7 @@
 			},
 			{
 				"name": "Mort T. Letter 1",
-				"access_rules": "mort_t, parakarry",
+				"access_rules": ["mort_t, parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
