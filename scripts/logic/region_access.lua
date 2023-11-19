@@ -58,11 +58,12 @@ function DryDryDesertAccess()
     local hammer2 = hasItem("hammer2")
     local bombette = hasItem("bombette")
     local parakarry = hasItem("parakarry")
+    local open_rugged = hasItem("open_mt_rugged")
+    local manual_rugged = ToadTownAccess() and bombette
 
-    if (boots and hammer2) or (bombette and boots and parakarry) then
-        return 1
-    end
-    return 0
+    local sewer_access = boots and hammer2
+    local mt_rugged_access = (manual_rugged or open_rugged) and boots and parakarry
+    return sewer_access or mt_rugged_access
 end
 
 function MtRuggedAccess()
@@ -70,10 +71,10 @@ function MtRuggedAccess()
     local open_rugged = hasItem("open_mt_rugged")
     local manual_rugged = ToadTownAccess() and hasItem("bombette")
 
-    if boots then
-        return open_rugged or manual_rugged or DryDryDesertAccess()
-    end
-    return 0
+    local toad_town_side = (open_rugged or manual_rugged) and boots
+    local desert_side = DryDryDesertAccess() and (boots or hasItem("parakarry"))
+
+    return toad_town_side or desert_side
 end
 
 function DryDryRuinsEntranceAccess()
@@ -87,6 +88,10 @@ end
 --[[----------------------------------------------------------
     Chapter 3 Region Access
 ------------------------------------------------------------]]
+function ClosedForest()
+    return not hasItem("open_forest")
+end
+
 function BoosMansionPipeRoomAccess()
     local boots2 = hasItem("boots2")
     local oddkey = hasItem("oddkey_base") or hasItem("open_blue_house")

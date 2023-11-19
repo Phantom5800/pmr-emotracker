@@ -237,7 +237,7 @@
 			{
 				"name": "Fice T.",
 				"access_rules": [],
-				"visibility_rules": ["open_forest"],
+				"visibility_rules": ["$ClosedForest"],
 				"clear_as_group": false,
 				"item_count": 1
 			},
