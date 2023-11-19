@@ -1,63 +1,112 @@
 [
     {
         "name": "Eldstar",
-        "type": "toggle",
+        "type": "static",
         "img": "images/star_spirits/Eldstar_PM.png",
-        "disabled_img_mods": "overlay|images/star_spirits/no64.png",
+        "codes": "ch1_ss"
+    },
+    {
+        "name": "Chapter 1",
+        "type": "toggle",
+        "img": "images/star_spirits/LCLActive.png",
+        "disabled_img": "images/star_spirits/LCLMark.png",
+        "disabled_img_mods": "@enabled",
         "initial_active_state": true,
         "codes": "ch1_lcl",
         "loop": true
     },
     {
         "name": "Mamar",
-        "type": "toggle",
+        "type": "static",
         "img": "images/star_spirits/Mamar_PM.png",
-        "disabled_img_mods": "overlay|images/star_spirits/no64.png",
+        "codes": "ch2_ss"
+    },
+    {
+        "name": "Chapter 2",
+        "type": "toggle",
+        "img": "images/star_spirits/LCLActive.png",
+        "disabled_img": "images/star_spirits/LCLMark.png",
+        "disabled_img_mods": "@enabled",
         "initial_active_state": true,
         "codes": "ch2_lcl",
         "loop": true
     },
     {
         "name": "Skolar",
-        "type": "toggle",
+        "type": "static",
         "img": "images/star_spirits/Skolar_PM.png",
-        "disabled_img_mods": "overlay|images/star_spirits/no64.png",
+        "codes": "ch3_ss"
+    },
+    {
+        "name": "Chapter 3",
+        "type": "toggle",
+        "img": "images/star_spirits/LCLActive.png",
+        "disabled_img": "images/star_spirits/LCLMark.png",
+        "disabled_img_mods": "@enabled",
         "initial_active_state": true,
         "codes": "ch3_lcl",
         "loop": true
     },
     {
         "name": "Muskular",
-        "type": "toggle",
+        "type": "static",
         "img": "images/star_spirits/Muskular_PM.png",
-        "disabled_img_mods": "overlay|images/star_spirits/no64.png",
+        "codes": "ch4_ss"
+    },
+    {
+        "name": "Chapter 4",
+        "type": "toggle",
+        "img": "images/star_spirits/LCLActive.png",
+        "disabled_img": "images/star_spirits/LCLMark.png",
+        "disabled_img_mods": "@enabled",
         "initial_active_state": true,
         "codes": "ch4_lcl",
         "loop": true
     },
     {
         "name": "Misstar",
-        "type": "toggle",
+        "type": "static",
         "img": "images/star_spirits/Misstar_PM.png",
-        "disabled_img_mods": "overlay|images/star_spirits/no64.png",
+        "codes": "ch5_ss"
+    },
+    {
+        "name": "Chapter 5",
+        "type": "toggle",
+        "img": "images/star_spirits/LCLActive.png",
+        "disabled_img": "images/star_spirits/LCLMark.png",
+        "disabled_img_mods": "@enabled",
         "initial_active_state": true,
         "codes": "ch5_lcl",
         "loop": true
     },
     {
         "name": "Klevar",
-        "type": "toggle",
+        "type": "static",
         "img": "images/star_spirits/Klevar_PM.png",
-        "disabled_img_mods": "overlay|images/star_spirits/no64.png",
+        "codes": "ch6_ss"
+    },
+    {
+        "name": "Chapter 6",
+        "type": "toggle",
+        "img": "images/star_spirits/LCLActive.png",
+        "disabled_img": "images/star_spirits/LCLMark.png",
+        "disabled_img_mods": "@enabled",
         "initial_active_state": true,
         "codes": "ch6_lcl",
         "loop": true
     },
     {
         "name": "Kalmar",
-        "type": "toggle",
+        "type": "static",
         "img": "images/star_spirits/Kalmar_PM.png",
-        "disabled_img_mods": "overlay|images/star_spirits/no64.png",
+        "codes": "ch7_ss"
+    },
+    {
+        "name": "Chapter 7",
+        "type": "toggle",
+        "img": "images/star_spirits/LCLActive.png",
+        "disabled_img": "images/star_spirits/LCLMark.png",
+        "disabled_img_mods": "@enabled",
         "initial_active_state": true,
         "codes": "ch7_lcl",
         "loop": true

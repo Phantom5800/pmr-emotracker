@@ -361,6 +361,23 @@
 						"item_margin": "1,2",
 						"rows": [
 							[
+								"ch1_ss",
+								"ch2_ss",
+								"ch3_ss",
+								"ch4_ss",
+								"ch5_ss",
+								"ch6_ss",
+								"ch7_ss"
+							]
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_margin": "1,2",
+						"margin": "2,3",
+						"rows": [
+							[
 								"ch1_lcl",
 								"ch2_lcl",
 								"ch3_lcl",
@@ -381,6 +398,7 @@
 						"type": "itemgrid",
 						"h_alignment": "left",
 						"item_margin": "1,2",
+						"dropshadow": true,
 						"rows": [
 							[
 								"ch1_difficulty_0",
