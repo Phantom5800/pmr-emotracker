@@ -3,43 +3,50 @@
         "name": "Eldstar",
         "type": "toggle",
         "img": "images/star_spirits/Eldstar_PM.png",
-        "codes": "eldstar,star_spirit"
+        "codes": "eldstar,star_spirit",
+        "loop": true
     },
     {
         "name": "Mamar",
         "type": "toggle",
         "img": "images/star_spirits/Mamar_PM.png",
-        "codes": "mamar,star_spirit"
+        "codes": "mamar,star_spirit",
+        "loop": true
     },
     {
         "name": "Skolar",
         "type": "toggle",
         "img": "images/star_spirits/Skolar_PM.png",
-        "codes": "skolar,star_spirit"
+        "codes": "skolar,star_spirit",
+        "loop": true
     },
     {
         "name": "Muskular",
         "type": "toggle",
         "img": "images/star_spirits/Muskular_PM.png",
-        "codes": "muskular,star_spirit"
+        "codes": "muskular,star_spirit",
+        "loop": true
     },
     {
         "name": "Misstar",
         "type": "toggle",
         "img": "images/star_spirits/Misstar_PM.png",
-        "codes": "misstar,star_spirit"
+        "codes": "misstar,star_spirit",
+        "loop": true
     },
     {
         "name": "Klevar",
         "type": "toggle",
         "img": "images/star_spirits/Klevar_PM.png",
-        "codes": "klevar,star_spirit"
+        "codes": "klevar,star_spirit",
+        "loop": true
     },
     {
         "name": "Kalmar",
         "type": "toggle",
         "img": "images/star_spirits/Kalmar_PM.png",
-        "codes": "kalmar,star_spirit"
+        "codes": "kalmar,star_spirit",
+        "loop": true
     },
     {
         "name": "Power Stars",
