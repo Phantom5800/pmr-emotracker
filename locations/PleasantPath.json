@@ -48,6 +48,7 @@
 				"name": "Island Star Piece",
 				"access_rules": ["hammer, kooper", "bombette, kooper"],
 				"visibility_rules": [],
+				"capture_item": true,
 				"item_count": 1
 			},
 			{
@@ -132,6 +133,7 @@
 				"name": "Tall Block Item",
 				"access_rules": ["boots3", "kooper"],
 				"visibility_rules": [],
+				"capture_item": true,
 				"item_count": 1
 			},
 			{
@@ -190,6 +192,48 @@
 				"map": "pleasant_path",
 				"x": 2920,
 				"y": 710
+			}
+		]
+	},
+	{
+		"name": "Outside Fortress",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$KoopaVillageAccess"],
+		"sections": [
+			{
+				"name": "Tree",
+				"access_rules": ["$canBreakYellowBlocks"],
+				"visibility_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 2125,
+				"y": 240
+			}
+		]
+	},
+	{
+		"name": "Koopa Bros. Fortress Ledge",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["bombette, $KoopaVillageAccess"],
+		"sections": [
+			{
+				"name": "Chest",
+				"access_rules": [],
+				"visibility_rules": [],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 2434,
+				"y": 134
 			}
 		]
 	},
@@ -310,6 +354,7 @@
 				"name": "Item on Block",
 				"access_rules": ["boots", "parakarry, kooper"],
 				"visibility_rules": [],
+				"capture_item": true,
 				"item_count": 1
 			},
 			{

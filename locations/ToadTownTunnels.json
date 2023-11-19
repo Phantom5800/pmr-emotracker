@@ -131,7 +131,7 @@
 				"name": "Ledge Star Piece",
 				"access_rules": ["parakarry"],
 				"visibility_rules": [],
-				"clear_as_group": false,
+				"capture_item": true,
 				"item_count": 1
 			},
 			{
