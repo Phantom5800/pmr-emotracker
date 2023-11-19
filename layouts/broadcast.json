@@ -91,6 +91,24 @@
 						"melody"
 					]
 				]
+			},
+			{
+				"type": "itemgrid",
+				"h_alignment": "left",
+				"scale": "0.5",
+				"item_margin": "22,0", // this is super hacky with margins, but it positions difficulty over star spirits
+				"margin": "10,-192,-40,-40",
+				"rows": [
+					[
+						"ch1_difficulty_0",
+						"ch2_difficulty_0",
+						"ch3_difficulty_0",
+						"ch4_difficulty_0",
+						"ch5_difficulty_0",
+						"ch6_difficulty_0",
+						"ch7_difficulty_0"
+					]
+				]
 			}
 		]
 	}

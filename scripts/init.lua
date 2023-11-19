@@ -6,6 +6,7 @@ ScriptHost:LoadScript("scripts/logic/helpers.lua")
 -- Item Sets
 Tracker:AddItems("items/star_spirits.json")
 Tracker:AddItems("items/star_spirit_lcl_icons.json")
+Tracker:AddItems("items/difficulty.json")
 Tracker:AddItems("items/partners.json")
 Tracker:AddItems("items/upgrades.json")
 Tracker:AddItems("items/prologue.json")

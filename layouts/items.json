@@ -375,7 +375,7 @@
 			},
 			{
 				"type": "group",
-				"header": "Dungeon Shuffle",
+				"header": "Chapter Difficulty",
 				"content": [
 					{
 						"type": "itemgrid",
@@ -383,13 +383,13 @@
 						"item_margin": "1,2",
 						"rows": [
 							[
-								"",
-								"",
-								"",
-								"",
-								"",
-								"",
-								""
+								"ch1_difficulty_0",
+								"ch2_difficulty_0",
+								"ch3_difficulty_0",
+								"ch4_difficulty_0",
+								"ch5_difficulty_0",
+								"ch6_difficulty_0",
+								"ch7_difficulty_0"
 							]
 						]
 					}
@@ -397,7 +397,7 @@
 			},
 			{
 				"type": "group",
-				"header": "Chapter Difficulty",
+				"header": "Dungeon Shuffle",
 				"content": [
 					{
 						"type": "itemgrid",
