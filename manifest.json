@@ -6,11 +6,17 @@
     "package_uid": "pmr_tracker_phantom5800",
     "author": "Phantom5800",
     "variants": {
-        "Map_Tracker": {
-            "display_name": "Map Tracker"
+        "Map_Tracker_S": {
+            "display_name": "Map Tracker - Minimal Broadcast (F2)"
         },
-        "Items_Only": {
-            "display_name": "Items Only"
+        "Map_Tracker_Full": {
+            "display_name": "Map Tracker - Full Broadcast (F2)"
+        },
+        "Items_Only_S": {
+            "display_name": "Items Only - Minimal Broadcast (F2)"
+        },
+        "Items_Only_Full": {
+            "display_name": "Items Only - Full Broadcast (F2)"
         }
     }
 }

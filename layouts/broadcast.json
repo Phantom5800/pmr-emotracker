@@ -3,7 +3,7 @@
         "type": "array",
 		"dropshadow": false,
 		"background": "#5f417b",
-		"scale": 1.5,
+		"scale": 2,
         "content": [
 			{
 				"type": "itemgrid",
@@ -97,7 +97,8 @@
 				"h_alignment": "left",
 				"item_margin": "22,22",
 				"scale": "0.5",
-				"margin": "0,-210,-40,-40",
+				"margin": "-3,-210,-40,-40",
+				"dropshadow": true,
 				"rows": [
 					[
 						"ch1_lcl",
@@ -185,8 +186,9 @@
 				"type": "itemgrid",
 				"h_alignment": "left",
 				"scale": "0.5",
-				"item_margin": "22,0", // this is super hacky with margins, but it positions difficulty over star spirits
+				"item_margin": "22,0",
 				"margin": "10,-192,-40,-40",
+				"dropshadow": true,
 				"rows": [
 					[
 						"ch1_difficulty_0",
@@ -196,6 +198,25 @@
 						"ch5_difficulty_0",
 						"ch6_difficulty_0",
 						"ch7_difficulty_0"
+					]
+				]
+			},
+			{
+				"type": "itemgrid",
+				"h_alignment": "left",
+				"scale": "0.5",
+				"item_margin": "22,0",
+				"margin": "-3,-192,-40,-40",
+				"dropshadow": true,
+				"rows": [
+					[
+						"ch1_dungeon_0",
+						"ch2_dungeon_0",
+						"ch3_dungeon_0",
+						"ch4_dungeon_0",
+						"ch5_dungeon_0",
+						"ch6_dungeon_0",
+						"ch7_dungeon_0"
 					]
 				]
 			}

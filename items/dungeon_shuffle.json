@@ -1,0 +1,302 @@
+[
+    {
+        "name": "Dungeon Shuffle UI Slot",
+        "type": "static",
+        "img": "images/star_spirits/ChQ.png",
+        "img_mods": "@disabled",
+        "codes": "ds_slot"
+    },
+    {
+        "name": "Chapter 1 Dungeon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/star_spirits/LCLActive.png",
+                "codes": "ch1_dungeon_0"
+            },
+            {
+                "img": "images/star_spirits/KoopaBros.png",
+                "codes": "ch1_dungeon_1"
+            },
+            {
+                "img": "images/star_spirits/Tutankoopa.png",
+                "codes": "ch1_dungeon_2"
+            },
+            {
+                "img": "images/star_spirits/TubbaBlubba.png",
+                "codes": "ch1_dungeon_3"
+            },
+            {
+                "img": "images/star_spirits/GeneralGuy.png",
+                "codes": "ch1_dungeon_4"
+            },
+            {
+                "img": "images/star_spirits/LavaPiranha.png",
+                "codes": "ch1_dungeon_5"
+            },
+            {
+                "img": "images/star_spirits/Huff.png",
+                "codes": "ch1_dungeon_6"
+            },
+            {
+                "img": "images/star_spirits/CrystalKing.png",
+                "codes": "ch1_dungeon_7"
+            }
+        ]
+    },
+    {
+        "name": "Chapter 2 Dungeon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/star_spirits/LCLActive.png",
+                "img_mods": "@disabled",
+                "codes": "ch2_dungeon_0"
+            },
+            {
+                "img": "images/star_spirits/KoopaBros.png",
+                "codes": "ch2_dungeon_1"
+            },
+            {
+                "img": "images/star_spirits/Tutankoopa.png",
+                "codes": "ch2_dungeon_2"
+            },
+            {
+                "img": "images/star_spirits/TubbaBlubba.png",
+                "codes": "ch2_dungeon_3"
+            },
+            {
+                "img": "images/star_spirits/GeneralGuy.png",
+                "codes": "ch2_dungeon_4"
+            },
+            {
+                "img": "images/star_spirits/LavaPiranha.png",
+                "codes": "ch2_dungeon_5"
+            },
+            {
+                "img": "images/star_spirits/Huff.png",
+                "codes": "ch2_dungeon_6"
+            },
+            {
+                "img": "images/star_spirits/CrystalKing.png",
+                "codes": "ch2_dungeon_7"
+            }
+        ]
+    },
+    {
+        "name": "Chapter 3 Dungeon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/star_spirits/LCLActive.png",
+                "img_mods": "@disabled",
+                "codes": "ch3_dungeon_0"
+            },
+            {
+                "img": "images/star_spirits/KoopaBros.png",
+                "codes": "ch3_dungeon_1"
+            },
+            {
+                "img": "images/star_spirits/Tutankoopa.png",
+                "codes": "ch3_dungeon_2"
+            },
+            {
+                "img": "images/star_spirits/TubbaBlubba.png",
+                "codes": "ch3_dungeon_3"
+            },
+            {
+                "img": "images/star_spirits/GeneralGuy.png",
+                "codes": "ch3_dungeon_4"
+            },
+            {
+                "img": "images/star_spirits/LavaPiranha.png",
+                "codes": "ch3_dungeon_5"
+            },
+            {
+                "img": "images/star_spirits/Huff.png",
+                "codes": "ch3_dungeon_6"
+            },
+            {
+                "img": "images/star_spirits/CrystalKing.png",
+                "codes": "ch3_dungeon_7"
+            }
+        ]
+    },
+    {
+        "name": "Chapter 4 Dungeon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/star_spirits/LCLActive.png",
+                "img_mods": "@disabled",
+                "codes": "ch4_dungeon_0"
+            },
+            {
+                "img": "images/star_spirits/KoopaBros.png",
+                "codes": "ch4_dungeon_1"
+            },
+            {
+                "img": "images/star_spirits/Tutankoopa.png",
+                "codes": "ch4_dungeon_2"
+            },
+            {
+                "img": "images/star_spirits/TubbaBlubba.png",
+                "codes": "ch4_dungeon_3"
+            },
+            {
+                "img": "images/star_spirits/GeneralGuy.png",
+                "codes": "ch4_dungeon_4"
+            },
+            {
+                "img": "images/star_spirits/LavaPiranha.png",
+                "codes": "ch4_dungeon_5"
+            },
+            {
+                "img": "images/star_spirits/Huff.png",
+                "codes": "ch4_dungeon_6"
+            },
+            {
+                "img": "images/star_spirits/CrystalKing.png",
+                "codes": "ch4_dungeon_7"
+            }
+        ]
+    },
+    {
+        "name": "Chapter 5 Dungeon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/star_spirits/LCLActive.png",
+                "img_mods": "@disabled",
+                "codes": "ch5_dungeon_0"
+            },
+            {
+                "img": "images/star_spirits/KoopaBros.png",
+                "codes": "ch5_dungeon_1"
+            },
+            {
+                "img": "images/star_spirits/Tutankoopa.png",
+                "codes": "ch5_dungeon_2"
+            },
+            {
+                "img": "images/star_spirits/TubbaBlubba.png",
+                "codes": "ch5_dungeon_3"
+            },
+            {
+                "img": "images/star_spirits/GeneralGuy.png",
+                "codes": "ch5_dungeon_4"
+            },
+            {
+                "img": "images/star_spirits/LavaPiranha.png",
+                "codes": "ch5_dungeon_5"
+            },
+            {
+                "img": "images/star_spirits/Huff.png",
+                "codes": "ch5_dungeon_6"
+            },
+            {
+                "img": "images/star_spirits/CrystalKing.png",
+                "codes": "ch5_dungeon_7"
+            }
+        ]
+    },
+    {
+        "name": "Chapter 6 Dungeon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/star_spirits/LCLActive.png",
+                "img_mods": "@disabled",
+                "codes": "ch6_dungeon_0"
+            },
+            {
+                "img": "images/star_spirits/KoopaBros.png",
+                "codes": "ch6_dungeon_1"
+            },
+            {
+                "img": "images/star_spirits/Tutankoopa.png",
+                "codes": "ch6_dungeon_2"
+            },
+            {
+                "img": "images/star_spirits/TubbaBlubba.png",
+                "codes": "ch6_dungeon_3"
+            },
+            {
+                "img": "images/star_spirits/GeneralGuy.png",
+                "codes": "ch6_dungeon_4"
+            },
+            {
+                "img": "images/star_spirits/LavaPiranha.png",
+                "codes": "ch6_dungeon_5"
+            },
+            {
+                "img": "images/star_spirits/Huff.png",
+                "codes": "ch6_dungeon_6"
+            },
+            {
+                "img": "images/star_spirits/CrystalKing.png",
+                "codes": "ch6_dungeon_7"
+            }
+        ]
+    },
+    {
+        "name": "Chapter 7 Dungeon",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/star_spirits/LCLActive.png",
+                "img_mods": "@disabled",
+                "codes": "ch7_dungeon_0"
+            },
+            {
+                "img": "images/star_spirits/KoopaBros.png",
+                "codes": "ch7_dungeon_1"
+            },
+            {
+                "img": "images/star_spirits/Tutankoopa.png",
+                "codes": "ch7_dungeon_2"
+            },
+            {
+                "img": "images/star_spirits/TubbaBlubba.png",
+                "codes": "ch7_dungeon_3"
+            },
+            {
+                "img": "images/star_spirits/GeneralGuy.png",
+                "codes": "ch7_dungeon_4"
+            },
+            {
+                "img": "images/star_spirits/LavaPiranha.png",
+                "codes": "ch7_dungeon_5"
+            },
+            {
+                "img": "images/star_spirits/Huff.png",
+                "codes": "ch7_dungeon_6"
+            },
+            {
+                "img": "images/star_spirits/CrystalKing.png",
+                "codes": "ch7_dungeon_7"
+            }
+        ]
+    }
+]

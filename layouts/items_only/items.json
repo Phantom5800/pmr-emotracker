@@ -362,13 +362,31 @@
 						"item_margin": "1,2",
 						"rows": [
 							[
-								"",
-								"",
-								"",
-								"",
-								"",
-								"",
-								""
+								"ds_slot",
+								"ds_slot",
+								"ds_slot",
+								"ds_slot",
+								"ds_slot",
+								"ds_slot",
+								"ds_slot"
+							]
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_margin": "1,2",
+						"margin": "2,3",
+						"dropshadow": true,
+						"rows": [
+							[
+								"ch1_dungeon_0",
+								"ch2_dungeon_0",
+								"ch3_dungeon_0",
+								"ch4_dungeon_0",
+								"ch5_dungeon_0",
+								"ch6_dungeon_0",
+								"ch7_dungeon_0"
 							]
 						]
 					}
