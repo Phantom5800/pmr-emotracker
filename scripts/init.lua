@@ -26,14 +26,21 @@ Tracker:AddItems("items/settings.json")
 Tracker:AddItems("items/openareas.json")
 
 -- Maps
-ScriptHost:LoadScript("scripts/logic/region_access.lua")
-Tracker:AddMaps("maps/maps.json")
-ScriptHost:LoadScript("scripts/loadlocations.lua")
+if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
+    ScriptHost:LoadScript("scripts/logic/region_access.lua")
+    Tracker:AddMaps("maps/maps.json")
+    ScriptHost:LoadScript("scripts/loadlocations.lua")
+end
 
 -- Layouts
-Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/broadcast.json")
-Tracker:AddLayouts("layouts/tracker.json")
+if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
+    Tracker:AddLayouts("layouts/full_map/items.json")
+    Tracker:AddLayouts("layouts/full_map/tracker.json")
+else
+    Tracker:AddLayouts("layouts/items_only/items.json")
+    Tracker:AddLayouts("layouts/items_only/tracker_items_only.json")
+end
 
 -- Scripts
 ScriptHost:LoadScript("scripts/lcl.lua")

@@ -1,8 +1,16 @@
 ﻿{
     "name": "Paper Mario Randomizer Tracker",
     "game_name": "Paper Mario",
-    "platform": "nintendo64",
+    "platform": "n64",
     "package_version": "1.0",
     "package_uid": "pmr_tracker_phantom5800",
-    "author": "Phantom5800"
+    "author": "Phantom5800",
+    "variants": {
+        "Map_Tracker": {
+            "display_name": "Map Tracker"
+        },
+        "Items_Only": {
+            "display_name": "Items Only"
+        }
+    }
 }
