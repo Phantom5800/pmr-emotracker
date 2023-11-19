@@ -55,6 +55,7 @@
 				"name": "Behind Fence",
 				"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
 				"visibility_rules": [],
+				"capture_item": true,
 				"item_count": 1
 			},
 			{
@@ -251,7 +252,7 @@
 			},
 			{
 				"name": "Koover Letter 1",
-				"access_rules": ["koover1, parakarry"],
+				"access_rules": ["koover1, parakarry, hammer"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -259,7 +260,7 @@
 			},
 			{
 				"name": "Koover Letter 2",
-				"access_rules": ["koover2, parakarry"],
+				"access_rules": ["koover2, parakarry, hammer"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
