@@ -53,7 +53,7 @@
 			},
 			{
 				"name": "Chan",
-				"access_rules": ["[boots]", "[goombario]", "[watt]", "[sushie]"],
+				"access_rules": ["[boots]", "[goombario]", "$hiddenBlocks", "[sushie]"],
 				"visibility_rules": ["dojo_setting"],
 				"clear_as_group": false,
 				"hosted_item": "chan"
@@ -260,7 +260,7 @@
 			},
 			{
 				"name": "Bub-ulb",
-				"access_rules": ["boots", "parakarry"],
+				"access_rules": ["$canClimbShortLedges"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -465,7 +465,7 @@
 		"sections": [
 			{
 				"name": "Merlow Rewards",
-				"access_rules": ["boots", "parakarry"],
+				"access_rules": ["$canClimbShortLedges"],
 				"visibility_rules": ["shopsanity_setting, merlow_setting"],
 				"clear_as_group": false,
 				"item_count": 6

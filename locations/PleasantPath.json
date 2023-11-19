@@ -7,19 +7,19 @@
 		"sections": [
 			{
 				"name": "Left ? Block",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": ["coin_block_setting"],
 				"item_count": 1
 			},
 			{
 				"name": "Middle ? Block",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": [],
 				"item_count": 1
 			},
 			{
 				"name": "Right ? Block",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": [],
 				"item_count": 1
 			}
@@ -40,7 +40,7 @@
 		"sections": [
 			{
 				"name": "? Block",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": [],
 				"item_count": 1
 			},
@@ -136,7 +136,7 @@
 			},
 			{
 				"name": "Hidden Block",
-				"access_rules": ["kooper, [watt]"],
+				"access_rules": ["kooper, $hiddenBlocks"],
 				"visibility_rules": [],
 				"item_count": 1
 			}

@@ -4,14 +4,11 @@
 function GoombaVillageAccess()
     local open_prologue = hasItem("open_prologue")
     local boots = hasItem("boots")
-    local hammer = hasItem("hammer")
-    local bombette = hasItem("bombette")
-    local parakarry = hasItem("parakarry")
     local hammer2 = hasItem("hammer2")
 
-    if open_prologue and (boots or parakarry) and (hammer or bombette) then
+    if open_prologue and canClimbShortLedges() and canBreakYellowBlocks() then
         return 1
-    elseif hammer2 and boots then
+    elseif boots and hammer2 then
         return 1
     end
     return 0
@@ -20,12 +17,11 @@ end
 function GoombaRoadAccess()
     local open_prologue = hasItem("open_prologue")
     local boots = hasItem("boots")
-    local parakarry = hasItem("parakarry")
     local hammer2 = hasItem("hammer2")
 
-    if open_prologue and (boots or parakarry) then
+    if open_prologue and (canClimbShortLedges()) then
         return 1
-    elseif hammer2 and boots then
+    elseif boots and hammer2 then
         return 1
     end
     return 0
@@ -43,16 +39,11 @@ end
     Chapter 1 Region Access
 ------------------------------------------------------------]]
 function KoopaVillageAccess()
-    local boots = hasItem("boots")
-    local hammer = hasItem("hammer")
-    local bombette = hasItem("bombette")
-    local parakarry = hasItem("parakarry")
+    return ToadTownAccess() and canBreakYellowBlocks() and canClimbShortLedges()
+end
 
-    if (hammer or bombette) and (boots or parakarry) then
-        return 1
-    end
-
-    return 0
+function KoopaBrosFortressEntranceAccess()
+    return KoopaVillageAccess() and hasItem("kooper")
 end
 
 --[[----------------------------------------------------------
@@ -72,13 +63,62 @@ end
 
 function MtRuggedAccess()
     local boots = hasItem("boots")
-    local open_rugged = boots and hasItem("open_mt_rugged")
-    local manual_rugged = boots and (ToadTownAccess() and hasItem("bombette"))
+    local open_rugged = hasItem("open_mt_rugged")
+    local manual_rugged = ToadTownAccess() and hasItem("bombette")
 
     if boots then
         return open_rugged or manual_rugged or DryDryDesertAccess()
     end
     return 0
+end
+
+function DryDryRuinsEntranceAccess()
+    return DryDryDesertAccess() and hasItem("pulse_stone")
+end
+
+--[[----------------------------------------------------------
+    Chapter 3 Region Access
+------------------------------------------------------------]]
+function BoosMansionPipeRoomAccess()
+    local boots2 = hasItem("boots2")
+    local oddkey = hasItem("oddkey_base") or hasItem("open_blue_house")
+    local bombette = hasItem("bombette")
+    local sushie = hasItem("sushie")
+
+    if boots2 then
+        return 1
+    else
+        return canClimbShortLedges() and sushie and bombette and oddkey
+    end
+    return 0
+end
+
+function BoosMansionAccess()
+    local boots = hasItem("boots")
+    local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
+
+    return (BoosMansionPipeRoomAccess() or forest_pass) and boots
+end
+
+function ForeverForestAccess()
+    local boots = hasItem("boots")
+    local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
+
+    if forest_pass then
+        return 1
+    else
+        return (BoosMansionPipeRoomAccess() and boots), AccessibilityLevel.SequenceBreak
+    end
+end
+
+function GustyGulchAccess()
+    local portrait = hasItem("boo_portrait_base")
+    return BoosMansionAccess() and portrait
+end
+
+function TubbaCastleEntranceAccess()
+    local parakarry = hasItem("parakarry")
+    return GustyGulchAccess() and parakarry
 end
 
 --[[----------------------------------------------------------
@@ -130,7 +170,7 @@ function YoshisIslandAccess()
     if hasItem("open_whale") or ((boots2 or hammer or bombette) and watt) then
         return 1
     -- shortcut pipe through blue house
-    elseif oddkey and bombette and (boots or parakarry) then
+    elseif oddkey and bombette and canClimbShortLedges() then
         return 1
     -- shortcut pipe through main sewer entrance
     elseif boots2 and sushie then
@@ -139,35 +179,58 @@ function YoshisIslandAccess()
     return 0
 end
 
+function VolcanoEntranceAccess()
+    local jade_raven = hasItem("jade_raven_base")
+    local sushie = hasItem("sushie")
+    local jump = hasItem("boots") or hasItem("parakarry")
+
+    return YoshisIslandAccess() and sushie and jade_raven and jump
+end
+
+--[[----------------------------------------------------------
+    Chapter 6 Region Access
+------------------------------------------------------------]]
+function FlowerFieldsGateAccess()
+    return ToadTownAccess() and hasItem("seed1") and hasItem("seed2") and hasItem("seed3") and hasItem("seed4")
+end
+
 --[[----------------------------------------------------------
     Chapter 7 Region Access
 ------------------------------------------------------------]]
 function ShiverCityAccess()
-    local boots = hasItem("boots")
     local boots2 = hasItem("boots2")
     local boots3 = hasItem("boots3")
     local oddkey = hasItem("oddkey_base") or hasItem("open_blue_house")
     local open7 = hasItem("open_ch7_bridge")
     local bombette = hasItem("bombette")
-    local parakarry = hasItem("parakarry")
     local sushie = hasItem("sushie")
-    local watt = hasItem("watt")
 
     if ToadTownAccess() then
         -- bridge room access
         if (oddkey and bombette) or (boots2 and sushie) then
             -- cross already open bridge
             if open7 then
-                return boots or parakarry
+                return canClimbShortLedges()
             -- activate bridge
             elseif boots3 then
-                if watt then
-                    return 1
-                else
-                    return 1, AccessibilityLevel.SequenceBreak
-                end
+                return hiddenBlocks()
             end
         end
     end
     return 0
+end
+
+function ShiverMountainAccess()
+    local a,b = ShiverCityAccess()
+    return a and hasItem("warehouse_key") and hasItem("scarf") and hasItem("bucket"), b
+end
+
+function ShiverMountainPart2Access()
+    local a,b = ShiverMountainAccess()
+    return a and hasItem("kooper"), b
+end
+
+function CrystalPalaceEntranceAccess()
+    local a,b = ShiverMountainPart2Access()
+    return a and hasItem("star_stone"), b
 end

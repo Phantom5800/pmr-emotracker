@@ -12,14 +12,14 @@
 		"sections": [
 			{
 				"name": "Hidden Block",
-				"access_rules": ["boots, [watt]", "kooper, [watt]"],
+				"access_rules": ["$canHitBlocks, $hiddenBlocks"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
 			},
 			{
 				"name": "Third Block",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": ["upgrades_setting, multicoin_setting"],
 				"clear_as_group": false,
 				"item_count": 1
@@ -71,14 +71,14 @@
 		"sections": [
 			{
 				"name": "Middle Block",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
 			},
 			{
 				"name": "Coin Blocks",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -204,7 +204,7 @@
 		"sections": [
 			{
 				"name": "Upgrade Block",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": ["upgrades_setting"],
 				"clear_as_group": false,
 				"item_count": 1
@@ -222,30 +222,18 @@
 		"name": "Boo's Mansion Shortcut",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"boots2", 
-			"boots, bombette, oddkey_base, sushie",
-			"boots, bombette, open_blue_house, sushie",
-			"parakarry, bombette, oddkey_base, sushie",
-			"parakarry, bombette, open_blue_house, sushie"
-		],
+		"access_rules": ["$BoosMansionPipeRoomAccess"],
 		"sections": [
 			{
 				"name": "Upgrade Block",
-				"access_rules": [
-					"boots, [watt]", 
-					"parakarry, kooper, [watt]"
-				],
+				"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
 				"visibility_rules": ["upgrades_setting"],
 				"clear_as_group": false,
 				"item_count": 1
 			},
 			{
 				"name": "Hidden Blocks",
-				"access_rules": [
-					"boots, [watt]", 
-					"parakarry, kooper, [watt]"
-				],
+				"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -307,9 +295,9 @@
 			{
 				"name": "Hidden Blocks",
 				"access_rules": [
-					"boots3, oddkey_base, bombette, [watt]",
-					"boots3, open_blue_house, bombette, [watt]",
-					"boots3, sushie, [watt]"
+					"boots3, oddkey_base, bombette, $hiddenBlocks",
+					"boots3, open_blue_house, bombette, $hiddenBlocks",
+					"boots3, sushie, $hiddenBlocks"
 				],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
@@ -362,7 +350,7 @@
 		"sections": [
 			{
 				"name": "Hidden Blocks",
-				"access_rules": ["[watt]"],
+				"access_rules": ["$hiddenBlocks"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 3
@@ -396,7 +384,7 @@
 		"sections": [
 			{
 				"name": "Hidden Block",
-				"access_rules": ["boots3, [watt]"],
+				"access_rules": ["boots3, $hiddenBlocks"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1

@@ -123,7 +123,7 @@
 		"sections":[
 			{
 				"name": "Coin Blocks",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -146,7 +146,7 @@
 		"sections":[
 			{
 				"name": "Item Block",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -203,7 +203,8 @@
 				"access_rules": [
 					"kooper", 
 					"hammer, boots", 
-					"bombette, boots"
+					"bombette, boots",
+					"boots2"
 				],
 				"visibility_rules": [],
 				"clear_as_group": false,
@@ -241,7 +242,7 @@
 		"sections":[
 			{
 				"name": "Block",
-				"access_rules": ["boots", "kooper"],
+				"access_rules": ["$canHitBlocks"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -270,7 +271,7 @@
 		"sections":[
 			{
 				"name": "Ledge Star Piece",
-				"access_rules": ["boots", "parakarry"],
+				"access_rules": ["$canClimbShortLedges"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -299,13 +300,13 @@
 		"sections":[
 			{
 				"name": "Spring Item",
-				"access_rules": ["boots", "parakarry"],
+				"access_rules": ["$canClimbShortLedges"],
 				"visibility_rules": [],
 				"item_count": 1
 			},
 			{
 				"name": "Spring Coins",
-				"access_rules": ["boots", "parakarry"],
+				"access_rules": ["$canClimbShortLedges"],
 				"visibility_rules": ["coins_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -313,7 +314,7 @@
 			},
 			{
 				"name": "Hidden Block Above Stone Block",
-				"access_rules": ["hammer2, [watt]"],
+				"access_rules": ["hammer2, $hiddenBlocks"],
 				"visibility_rules": [],
 				"item_count": 1
 			},
