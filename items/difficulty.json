@@ -8,6 +8,7 @@
         "stages": [
             {
                 "img": "images/star_spirits/ChQ.png",
+                "img_mods": "@disabled",
                 "codes": "ch1_difficulty_0"
             },
             {
@@ -49,6 +50,7 @@
         "stages": [
             {
                 "img": "images/star_spirits/ChQ.png",
+                "img_mods": "@disabled",
                 "codes": "ch2_difficulty_0"
             },
             {
@@ -90,6 +92,7 @@
         "stages": [
             {
                 "img": "images/star_spirits/ChQ.png",
+                "img_mods": "@disabled",
                 "codes": "ch3_difficulty_0"
             },
             {
@@ -131,6 +134,7 @@
         "stages": [
             {
                 "img": "images/star_spirits/ChQ.png",
+                "img_mods": "@disabled",
                 "codes": "ch4_difficulty_0"
             },
             {
@@ -172,6 +176,7 @@
         "stages": [
             {
                 "img": "images/star_spirits/ChQ.png",
+                "img_mods": "@disabled",
                 "codes": "ch5_difficulty_0"
             },
             {
@@ -213,6 +218,7 @@
         "stages": [
             {
                 "img": "images/star_spirits/ChQ.png",
+                "img_mods": "@disabled",
                 "codes": "ch6_difficulty_0"
             },
             {
@@ -254,6 +260,7 @@
         "stages": [
             {
                 "img": "images/star_spirits/ChQ.png",
+                "img_mods": "@disabled",
                 "codes": "ch7_difficulty_0"
             },
             {
