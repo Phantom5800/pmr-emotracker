@@ -30,7 +30,7 @@
 			},
 			{
 				"name": "Goompa Tape",
-				"access_rules": ["$KoopaVillageAccess, hammer, koopa_legends, sleepy_sheep"],
+				"access_rules": ["koot_talk_3"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
 			},

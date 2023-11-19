@@ -88,7 +88,7 @@
 			},
 			{
 				"name": "Trading Event Toad",
-				"access_rules": ["$KoopaVillageAccess, hammer, star_spirit:1, koopa_leaf"],
+				"access_rules": ["$KoopaVillageAccess, star_spirit:1, koopa_leaf_base"],
 				"visibility_rules": ["trading_setting"],
 				"chest_unopened_img": "images/chests/tradingtoad.png",
 				"chest_opened_img": "images/chests/tradingtoad_checked.png",
@@ -355,7 +355,7 @@
 			},
 			{
 				"name": "Trading Event Toad",
-				"access_rules": ["$KoopaVillageAccess, hammer, star_spirit:5, koopa_leaf, nutty_cake_toad, coconut_toad"],
+				"access_rules": ["$KoopaVillageAccess, star_spirit:5, koopa_leaf_base, nutty_cake_toad_base, coconut_toad_base"],
 				"visibility_rules": ["trading_setting"],
 				"chest_unopened_img": "images/chests/tradingtoad.png",
 				"chest_opened_img": "images/chests/tradingtoad_checked.png",

@@ -3,132 +3,308 @@
         "name": "Koopa Legends",
         "type": "toggle",
         "img": "images/koopakoot/KoopaLegends_PM.png",
+        "codes": "koopa_legends_base",
+        "loop": true
+    },
+    {
+        "name": "Koopa Legends",
+        "type": "toggle_badged",
+        "base_item": "koopa_legends_base",
+        "img": "images/common/check.png",
         "codes": "koopa_legends"
     },
     {
         "name": "Sleepy Sheep",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_SleepySheep.png",
+        "codes": "sleepy_sheep_base",
+        "loop": true
+    },
+    {
+        "name": "Sleepy Sheep",
+        "type": "toggle_badged",
+        "base_item": "sleepy_sheep_base",
+        "img": "images/common/check.png",
         "codes": "sleepy_sheep"
     },
     {
         "name": "Tape",
         "type": "toggle",
         "img": "images/koopakoot/Tape_PM.png",
+        "codes": "tape_base",
+        "loop": true
+    },
+    {
+        "name": "Tape",
+        "type": "toggle_badged",
+        "base_item": "tape_base",
+        "img": "images/common/check.png",
         "codes": "tape"
     },
     {
         "name": "Koopa Tea",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_KoopaTea.png",
+        "codes": "koopa_tea_base",
+        "loop": true
+    },
+    {
+        "name": "Koopa Tea",
+        "type": "toggle_badged",
+        "base_item": "koopa_tea_base",
+        "img": "images/common/check.png",
         "codes": "koopa_tea"
     },
     {
         "name": "Luigi's Autograph",
         "type": "toggle",
         "img": "images/koopakoot/Luigi's_Autograph.png",
+        "codes": "luigi_autograph_base",
+        "loop": true
+    },
+    {
+        "name": "Luigi's Autograph",
+        "type": "toggle_badged",
+        "base_item": "luigi_autograph_base",
+        "img": "images/common/check.png",
         "codes": "luigi_autograph"
     },
     {
         "name": "Wallet",
         "type": "toggle",
         "img": "images/koopakoot/PM_Empty_Wallet.png",
+        "codes": "wallet_base",
+        "loop": true
+    },
+    {
+        "name": "Wallet",
+        "type": "toggle_badged",
+        "base_item": "wallet_base",
+        "img": "images/common/check.png",
         "codes": "wallet"
     },
     {
         "name": "Tasty Tonic",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_TastyTonic.png",
+        "codes": "tasty_tonic_base",
+        "loop": true
+    },
+    {
+        "name": "Tasty Tonic",
+        "type": "toggle_badged",
+        "base_item": "tasty_tonic_base",
+        "img": "images/common/check.png",
         "codes": "tasty_tonic"
     },
     {
         "name": "Crystal Ball",
         "type": "toggle",
         "img": "images/koopakoot/Crystal_Ball_PM.png",
+        "codes": "crystal_ball_base",
+        "loop": true
+    },
+    {
+        "name": "Crystal Ball",
+        "type": "toggle_badged",
+        "base_item": "crystal_ball_base",
+        "img": "images/common/check.png",
         "codes": "crystal_ball"
     },
     {
         "name": "Merluvlee's Autograph",
         "type": "toggle",
         "img": "images/koopakoot/Merluvlee's_Autograph.png",
+        "codes": "merluvlee_autograph_base",
+        "loop": true
+    },
+    {
+        "name": "Merluvlee's Autograph",
+        "type": "toggle_badged",
+        "base_item": "merluvlee_autograph_base",
+        "img": "images/common/check.png",
         "codes": "merluvlee_autograph"
     },
     {
         "name": "Life Shroom",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_LifeShroom.png",
+        "codes": "life_shroom_base",
+        "loop": true
+    },
+    {
+        "name": "Life Shroom",
+        "type": "toggle_badged",
+        "base_item": "life_shroom_base",
+        "img": "images/common/check.png",
         "codes": "life_shroom"
     },
     {
         "name": "Nutty Cake",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_NuttyCake.png",
+        "codes": "nutty_cake_base",
+        "loop": true
+    },
+    {
+        "name": "Nutty Cake",
+        "type": "toggle_badged",
+        "base_item": "nutty_cake_base",
+        "img": "images/common/check.png",
         "codes": "nutty_cake"
     },
     {
         "name": "Nutty Cake",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_NuttyCake.png",
+        "codes": "nutty_cake_toad_base",
+        "loop": true
+    },
+    {
+        "name": "Nutty Cake",
+        "type": "toggle_badged",
+        "base_item": "nutty_cake_toad_base",
+        "img": "images/common/check.png",
         "codes": "nutty_cake_toad"
     },
     {
         "name": "Old Photo",
         "type": "toggle",
         "img": "images/koopakoot/OldPhoto_PM.png",
+        "codes": "old_photo_base",
+        "loop": true
+    },
+    {
+        "name": "Old Photo",
+        "type": "toggle_badged",
+        "base_item": "old_photo_base",
+        "img": "images/common/check.png",
         "codes": "old_photo"
     },
     {
         "name": "Koopasta",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_Koopasta.png",
+        "codes": "koopasta_base",
+        "loop": true
+    },
+    {
+        "name": "Koopasta",
+        "type": "toggle_badged",
+        "base_item": "koopasta_base",
+        "img": "images/common/check.png",
         "codes": "koopasta"
     },
     {
         "name": "Glasses",
         "type": "toggle",
         "img": "images/koopakoot/Glasses_PM.png",
+        "codes": "glasses_base",
+        "loop": true
+    },
+    {
+        "name": "Glasses",
+        "type": "toggle_badged",
+        "base_item": "glasses_base",
+        "img": "images/common/check.png",
         "codes": "glasses"
     },
     {
         "name": "Lime",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_Lime.png",
+        "codes": "lime_base",
+        "loop": true
+    },
+    {
+        "name": "Lime",
+        "type": "toggle_badged",
+        "base_item": "lime_base",
+        "img": "images/common/check.png",
         "codes": "lime"
     },
     {
         "name": "Kooky Cookie",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_KookyCookie.png",
+        "codes": "kooky_cookie_base",
+        "loop": true
+    },
+    {
+        "name": "Kooky Cookie",
+        "type": "toggle_badged",
+        "base_item": "kooky_cookie_base",
+        "img": "images/common/check.png",
         "codes": "kooky_cookie"
     },
     {
         "name": "Package",
         "type": "toggle",
         "img": "images/koopakoot/PM_Package.png",
+        "codes": "package_base",
+        "loop": true
+    },
+    {
+        "name": "Package",
+        "type": "toggle_badged",
+        "base_item": "package_base",
+        "img": "images/common/check.png",
         "codes": "package"
     },
     {
         "name": "Coconut",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_Coconut.png",
+        "codes": "coconut_base",
+        "loop": true
+    },
+    {
+        "name": "Coconut",
+        "type": "toggle_badged",
+        "base_item": "coconut_base",
+        "img": "images/common/check.png",
         "codes": "coconut"
     },
     {
         "name": "Coconut",
         "type": "toggle",
         "img": "images/koopakoot/PaperMario_Items_Coconut.png",
+        "codes": "coconut_toad_base",
+        "loop": true
+    },
+    {
+        "name": "Coconut",
+        "type": "toggle_badged",
+        "base_item": "coconut_toad_base",
+        "img": "images/common/check.png",
         "codes": "coconut_toad"
     },
     {
         "name": "Red Jar",
         "type": "toggle",
         "img": "images/koopakoot/PM_Red_Jar.png",
+        "codes": "red_jar_base",
+        "loop": true
+    },
+    {
+        "name": "Red Jar",
+        "type": "toggle_badged",
+        "base_item": "red_jar_base",
+        "img": "images/common/check.png",
         "codes": "red_jar"
     },
     {
         "name": "Koopa Leaf",
         "type": "toggle",
         "img": "images/koopakoot/KoopaLeaf.png",
+        "codes": "koopa_leaf_base",
+        "loop": true
+    },
+    {
+        "name": "Koopa Leaf",
+        "type": "toggle_badged",
+        "base_item": "koopa_leaf_base",
+        "img": "images/common/check.png",
         "codes": "koopa_leaf"
     },
     {
