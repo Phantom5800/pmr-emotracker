@@ -46,6 +46,10 @@ function KoopaBrosFortressEntranceAccess()
     return KoopaVillageAccess() and hasItem("kooper")
 end
 
+function KoopaBrosFortressAccess()
+    return KoopaBrosFortressEntranceAccess()
+end
+
 --[[----------------------------------------------------------
     Chapter 2 Region Access
 ------------------------------------------------------------]]
@@ -74,6 +78,10 @@ end
 
 function DryDryRuinsEntranceAccess()
     return DryDryDesertAccess() and hasItem("pulse_stone")
+end
+
+function DryDryRuinsAccess()
+    return DryDryRuinsEntranceAccess()
 end
 
 --[[----------------------------------------------------------
@@ -121,6 +129,10 @@ function TubbaCastleEntranceAccess()
     return GustyGulchAccess() and parakarry
 end
 
+function TubbaCastleAccess()
+    return TubbaCastleEntranceAccess()
+end
+
 --[[----------------------------------------------------------
     Chapter 4 Region Access
 ------------------------------------------------------------]]
@@ -128,8 +140,12 @@ function ToyBoxEntranceAccess()
     return ToadTownAccess() and (hasItem("bow") or hasItem("open_toy_box")) and (hasItem("boots") or hasItem("parakarry"))
 end
 
+function ToyBoxAccess()
+    return ToyBoxEntranceAccess()
+end
+
 function ToyBoxPinkAccess()
-    return ToyBoxEntranceAccess() and hasItem("boots") and hasItem("toy_train_base")
+    return ToyBoxAccess() and hasItem("boots") and hasItem("toy_train_base")
 end
 
 function ToyBoxGreenAccess()
@@ -187,11 +203,19 @@ function VolcanoEntranceAccess()
     return YoshisIslandAccess() and sushie and jade_raven and jump
 end
 
+function VolcanoAccess()
+    return VolcanoEntranceAccess()
+end
+
 --[[----------------------------------------------------------
     Chapter 6 Region Access
 ------------------------------------------------------------]]
 function FlowerFieldsGateAccess()
     return ToadTownAccess() and hasItem("seed1") and hasItem("seed2") and hasItem("seed3") and hasItem("seed4")
+end
+
+function FlowerFieldsAccess()
+    return FlowerFieldsGateAccess()
 end
 
 --[[----------------------------------------------------------
@@ -233,4 +257,8 @@ end
 function CrystalPalaceEntranceAccess()
     local a,b = ShiverMountainPart2Access()
     return a and hasItem("star_stone"), b
+end
+
+function CrystalPalaceAccess()
+    return CrystalPalaceEntranceAccess()
 end
