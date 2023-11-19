@@ -34,7 +34,12 @@ if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
 end
 
 -- Layouts
-Tracker:AddLayouts("layouts/broadcast.json")
+if (string.find(Tracker.ActiveVariantUID, "_S")) then
+    Tracker:AddLayouts("layouts/broadcast.json")
+else
+    Tracker:AddLayouts("layouts/broadcast_full.json")
+end
+
 if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
     Tracker:AddLayouts("layouts/full_map/items.json")
     Tracker:AddLayouts("layouts/full_map/tracker.json")

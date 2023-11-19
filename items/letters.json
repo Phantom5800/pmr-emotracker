@@ -60,6 +60,12 @@
         "codes": "mayor_penguin"
     },
     {
+        "name": "Merlow",
+        "type": "toggle",
+        "img": "images/letters/PM_Merlow.png",
+        "codes": "merlow"
+    },
+    {
         "name": "Goompapa",
         "type": "toggle",
         "img": "images/letters/PM_Goompapa_Sprite.png",
