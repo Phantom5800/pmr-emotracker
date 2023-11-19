@@ -22,3 +22,7 @@ function hiddenBlocks()
         return 1, AccessibilityLevel.SequenceBreak
     end
 end
+
+function cookingAvailable()
+    return hasItem("fryingpan_base")
+end

@@ -292,7 +292,7 @@
 			},
 			{
 				"name": "2nd Bush",
-				"access_rules": ["star_spirit:4, eldstar, bombette, hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, life_shroom, nutty_cake, old_photo, koopasta"],
+				"access_rules": ["koot_talk_15"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
 			},
@@ -318,7 +318,7 @@
 			},
 			{
 				"name": "Far Right Bush",
-				"access_rules": ["star_spirit:2, hammer, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph"],
+				"access_rules": ["koot_talk_6"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
 			}
@@ -360,7 +360,7 @@
 			},
 			{
 				"name": "Kolorado's Wife",
-				"access_rules": ["hammer"],
+				"access_rules": ["koot_talk_1"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
 			},
@@ -388,122 +388,242 @@
 		"access_rules": ["hammer, $KoopaVillageAccess"],
 		"sections": [
 			{
+				"name": "Start Favor 1",
+				"access_rules": [],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_1"
+			},
+			{
 				"name": "Koopa Legends",
-				"access_rules": ["koopa_legends"],
+				"access_rules": ["koot_talk_1, koopa_legends"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 2",
+				"access_rules": ["koot_talk_1, koopa_legends"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_2"
 			},
 			{
 				"name": "Sleepy Sheep",
-				"access_rules": ["koopa_legends, sleepy_sheep"],
+				"access_rules": ["koot_talk_2, sleepy_sheep"],
 				"visibility_rules": ["koot_setting"],
-				"item_count": 1
+				"item_count": 2
+			},
+			{
+				"name": "Start Favor 3",
+				"access_rules": ["star_spirit:1, koot_talk_2, sleepy_sheep"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_3"
 			},
 			{
 				"name": "Tape",
-				"access_rules": ["star_spirit:1, koopa_legends, sleepy_sheep, tape"],
+				"access_rules": ["koot_talk_3, tape"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 4",
+				"access_rules": ["koot_talk_3, tape"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_4"
 			},
 			{
 				"name": "Koopa Tea",
-				"access_rules": ["star_spirit:1, koopa_legends, sleepy_sheep, tape, koopa_tea"],
+				"access_rules": ["koot_talk_4, koopa_tea"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 5",
+				"access_rules": ["koot_talk_4, koopa_tea"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_5"
 			},
 			{
 				"name": "Luigi's Autograph",
-				"access_rules": ["star_spirit:1, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph"],
+				"access_rules": ["koot_talk_5, luigi_autograph"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 6",
+				"access_rules": ["star_spirit:2, koot_talk_5, luigi_autograph"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_6"
 			},
 			{
 				"name": "Wallet",
-				"access_rules": ["star_spirit:2, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet"],
+				"access_rules": ["koot_talk_6, wallet"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 7",
+				"access_rules": ["koot_talk_6, wallet"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_7"
 			},
 			{
 				"name": "Tasty Tonic",
-				"access_rules": ["star_spirit:2, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic"],
+				"access_rules": ["koot_talk_7, tasty_tonic"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 8",
+				"access_rules": ["koot_talk_7, tasty_tonic"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_8"
 			},
 			{
 				"name": "Merluvlee's Autograph",
-				"access_rules": ["star_spirit:2, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph"],
+				"access_rules": ["koot_talk_8, merluvlee_autograph"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 9",
+				"access_rules": ["star_spirit:3, koot_talk_8, merluvlee_autograph"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_9"
 			},
 			{
 				"name": "Toad Town News",
-				"access_rules": ["star_spirit:3, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph"],
+				"access_rules": ["koot_talk_9"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 10",
+				"access_rules": ["koot_talk_9"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_10"
 			},
 			{
 				"name": "Life Shroom",
-				"access_rules": ["star_spirit:3, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom"],
+				"access_rules": ["koot_talk_10, life_shroom"],
 				"visibility_rules": ["koot_setting"],
-				"item_count": 1
+				"item_count": 2
+			},
+			{
+				"name": "Start Favor 11",
+				"access_rules": ["koot_talk_10, life_shroom"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_11"
 			},
 			{
 				"name": "Nutty Cake",
-				"access_rules": ["star_spirit:3, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake"],
+				"access_rules": ["koot_talk_11, nutty_cake"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 12",
+				"access_rules": ["star_spirit:4, koot_talk_11, nutty_cake"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_12"
 			},
 			{
 				"name": "Noisy Neighbors",
-				"access_rules": ["star_spirit:4, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake"],
+				"access_rules": ["koot_talk_12, bombette"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 13",
+				"access_rules": ["koot_talk_12, bombette"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_13"
 			},
 			{
 				"name": "Old Photo",
-				"access_rules": ["star_spirit:4, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo"],
+				"access_rules": ["koot_talk_13, old_photo"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 14",
+				"access_rules": ["koot_talk_13, old_photo"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_14"
 			},
 			{
 				"name": "Koopasta",
-				"access_rules": ["star_spirit:4, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta"],
+				"access_rules": ["koot_talk_14, koopasta"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 15",
+				"access_rules": ["star_spirit:5, koot_talk_14, koopasta"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_15"
 			},
 			{
 				"name": "Glasses",
-				"access_rules": ["star_spirit:5, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses"],
+				"access_rules": ["koot_talk_15, glasses"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 16",
+				"access_rules": ["koot_talk_15, glasses"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_16"
 			},
 			{
 				"name": "Lime",
-				"access_rules": ["star_spirit:5, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses, lime"],
+				"access_rules": ["koot_talk_16, lime"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 17",
+				"access_rules": ["koot_talk_16, lime"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_17"
 			},
 			{
 				"name": "Kooky Cookie",
-				"access_rules": ["star_spirit:5, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses, lime, kooky_cookie"],
+				"access_rules": ["koot_talk_17, kooky_cookie"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 18",
+				"access_rules": ["star_spirit:6, koot_talk_17, lime"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_18"
 			},
 			{
 				"name": "Package",
-				"access_rules": ["star_spirit:6, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses, lime, kooky_cookie, package"],
+				"access_rules": ["koot_talk_18, package"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
+			},
+			{
+				"name": "Start Favor 19",
+				"access_rules": ["koot_talk_18, package"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_19"
 			},
 			{
 				"name": "Coconut",
-				"access_rules": ["star_spirit:6, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses, lime, kooky_cookie, package, coconut"],
+				"access_rules": ["koot_talk_19, coconut"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
 			},
 			{
+				"name": "Start Favor 20",
+				"access_rules": ["koot_talk_19, coconut"],
+				"visibility_rules": ["koot_setting"],
+				"hosted_item": "koot_talk_20"
+			},
+			{
 				"name": "Red Jar",
-				"access_rules": ["star_spirit:6, eldstar, bombette, koopa_legends, sleepy_sheep, tape, koopa_tea, luigi_autograph, wallet, tasty_tonic, merluvlee_autograph, life_shroom, nutty_cake, old_photo, koopasta, glasses, lime, kooky_cookie, package, coconut, red_jar"],
+				"access_rules": ["koot_talk_20, red_jar"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
 			}

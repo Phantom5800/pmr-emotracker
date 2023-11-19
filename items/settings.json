@@ -5,6 +5,7 @@
         "img": "images/settings/HarryTPM.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": true,
+        "loop": true,
         "codes": "shopsanity_setting"
     },
     {
@@ -13,6 +14,7 @@
         "img": "images/settings/Rowf.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": true,
+        "loop": true,
         "codes": "rowf_setting"
     },
     {
@@ -21,6 +23,7 @@
         "img": "images/settings/Merlow.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": true,
+        "loop": true,
         "codes": "merlow_setting"
     },
     {
@@ -29,6 +32,7 @@
         "img": "images/settings/OddKey.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": true,
+        "loop": true,
         "codes": "keysanity_setting"
     },
     {
@@ -37,6 +41,7 @@
         "img": "images/settings/Star_Piece.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "panels_setting"
     },
     {
@@ -45,6 +50,7 @@
         "img": "images/settings/coin.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "coins_setting"
     },
     {
@@ -53,6 +59,7 @@
         "img": "images/settings/coinblock.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "coin_block_setting"
     },
     {
@@ -61,6 +68,7 @@
         "img": "images/settings/bush.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "foliage_setting"
     },
     {
@@ -69,6 +77,7 @@
         "img": "images/settings/PM_Letter_Sprite.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "letters_setting"
     },
     {
@@ -77,6 +86,7 @@
         "img": "images/settings/TheMasterFirst_PM.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "dojo_setting"
     },
     {
@@ -85,6 +95,7 @@
         "img": "images/settings/KoopaKoot_PM.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "koot_setting"
     },
     {
@@ -93,6 +104,7 @@
         "img": "images/settings/TradingEvent_PM.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "trading_setting"
     },
     {
@@ -101,6 +113,7 @@
         "img": "images/settings/UltraStone.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "upgrades_setting"
     },
     {
@@ -109,6 +122,7 @@
         "img": "images/settings/brick.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "multicoin_setting"
     }
 ]

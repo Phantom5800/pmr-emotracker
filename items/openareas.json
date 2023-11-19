@@ -5,6 +5,7 @@
         "img": "images/settings/GoombaKing.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": true,
+        "loop": true,
         "codes": "open_prologue"
     },
     {
@@ -13,6 +14,7 @@
         "img": "images/settings/OddKey.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "open_blue_house"
     },
     {
@@ -21,6 +23,7 @@
         "img": "images/settings/Whacka.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "open_mt_rugged"
     },
     {
@@ -29,6 +32,7 @@
         "img": "images/settings/ForestPass.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": true,
+        "loop": true,
         "codes": "open_forest"
     },
     {
@@ -37,6 +41,7 @@
         "img": "images/settings/ToyTrain_PM.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "open_toy_box"
     },
     {
@@ -45,6 +50,7 @@
         "img": "images/settings/fuzzipede.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "open_whale"
     },
     {
@@ -83,6 +89,7 @@
         "img": "images/settings/coinblock.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
+        "loop": true,
         "codes": "open_ch7_bridge"
     }
 ]
