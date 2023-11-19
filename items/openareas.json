@@ -18,6 +18,24 @@
         "codes": "open_blue_house"
     },
     {
+        "name": "Cook Without Frying Pan",
+        "type": "toggle",
+        "img": "images/settings/PM_Frying_Pan.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "loop": true,
+        "codes": "open_cooking"
+    },
+    {
+        "name": "Hidden Blocks Always Visible",
+        "type": "toggle",
+        "img": "images/settings/invisblock.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "loop": true,
+        "codes": "hidden_blocks_visible"
+    },
+    {
         "name": "Open Mt. Rugged",
         "type": "toggle",
         "img": "images/settings/Whacka.png",

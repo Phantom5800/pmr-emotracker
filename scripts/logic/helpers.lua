@@ -15,8 +15,7 @@ function canHitBlocks()
 end
 
 function hiddenBlocks()
-    local watt = hasItem("watt")
-    if watt then
+    if hasItem("watt") or hasItem("hidden_blocks_visible") then
         return 1
     else
         return 1, AccessibilityLevel.SequenceBreak
@@ -24,5 +23,5 @@ function hiddenBlocks()
 end
 
 function cookingAvailable()
-    return hasItem("fryingpan_base")
+    return hasItem("fryingpan_base") or hasItem("open_cooking")
 end
