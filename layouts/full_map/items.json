@@ -57,7 +57,6 @@
 										"open_forest",
 										"open_toy_box",
 										"open_whale",
-										"ch6_seeds_0",
 										"open_ch7_bridge"
 									]
 								]
@@ -451,6 +450,17 @@
 								"ch7_dungeon_0"
 							]
 						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Presets",
+				"content": [
+					{
+						"type": "item",
+						"margin": "0,0,0,0",
+						"item": "blitz_preset"
 					}
 				]
 			}

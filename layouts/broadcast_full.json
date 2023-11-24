@@ -11,6 +11,7 @@
 				"item_margin": "3,3",
 				"rows": [
 					[
+						"",
 						"eldstar",
 						"mamar",
 						"skolar",
@@ -18,9 +19,11 @@
 						"misstar",
 						"klevar",
 						"kalmar",
-						"power_star"
+						"power_star",
+						""
 					],
 					[
+						"",
 						"goombario",
 						"kooper",
 						"bombette",
@@ -28,7 +31,8 @@
 						"bow",
 						"watt",
 						"sushie",
-						"lakilester"
+						"lakilester",
+						""
 					],
 					[
 						"boots",
@@ -38,53 +42,53 @@
 						"pulse_stone",
 						"pyramid_stone",
 						"diamond_stone",
-						"lunar_stone"
+						"lunar_stone",
+						"ch2_key",
+						"boo_portrait"
 					],
 					[
-						"ch2_key",
-						"boo_portrait",
 						"ch3_key",
 						"toy_train",
 						"jade_raven",
 						"seed1",
 						"seed2",
-						"seed3"
-					],
-					[
+						"seed3",
 						"seed4",
 						"bean",
 						"soil",
-						"water",
+						"water"
+					],
+					[
 						"warehouse_key",
 						"scarf",
 						"bucket",
-						"star_stone"
-					],
-					[
+						"star_stone",
 						"red_key",
 						"palace_key",
 						"dolly",
 						"kooper_shell",
 						"letters",
-						"artifact",
-						"forest_pass",
-						"record"
+						"artifact"
 					],
 					[
+						"forest_pass",
+						"record",
 						"weight",
 						"storeroom_key",
 						"calculator",
 						"fryingpan",
+						"cookbook",
 						"mailbag",
 						"dictionary",
-						"volcano_vase",
-						"red_berry"
+						"volcano_vase"
 					],
 					[
+						"red_berry",
 						"yellow_berry",
 						"blue_berry",
 						"crystal_berry",
 						"water_stone",
+						"bubble_berry",
 						"oddkey",
 						"blue_key",
 						"lyrics",
@@ -98,39 +102,37 @@
 						"goompa",
 						"fice_t",
 						"igor",
-						"russ_t"
+						"russ_t",
+						"minh_t",
+						"mayor_penguin"
 					],
 					[
-						"minh_t",
-						"mayor_penguin",
 						"merlow",
 						"goompapa1",
 						"muss_t",
 						"koover1",
 						"fishmael",
-						"koover2"
-					],
-					[
+						"koover2",
 						"mr_e",
 						"miss_t",
 						"little_mouser",
-						"franky",
+						"franky"
+					],
+					[
 						"dane_t1",
 						"red_yoshi",
 						"dane_t2",
-						"frost_t"
-					],
-					[
+						"frost_t",
 						"goompapa2",
 						"koopa_legends",
 						"sleepy_sheep",
 						"tape",
 						"koopa_tea",
-						"luigi_autograph",
-						"wallet",
-						"tasty_tonic"
+						"luigi_autograph"
 					],
 					[
+						"wallet",
+						"tasty_tonic",
 						"crystal_ball",
 						"merluvlee_autograph",
 						"life_shroom",
@@ -145,7 +147,9 @@
 						"package",
 						"coconut",
 						"red_jar",
-						"",
+						"koopa_leaf",
+						"nutty_cake_toad",
+						"coconut_toad",
 						"",
 						"",
 						""

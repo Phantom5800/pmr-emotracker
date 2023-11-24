@@ -2,6 +2,7 @@
 ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/custom_item.lua")
 ScriptHost:LoadScript("scripts/logic/helpers.lua")
+ScriptHost:LoadScript("scripts/logic/presets.lua")
 
 -- Item Sets
 Tracker:AddItems("items/star_spirits.json")
@@ -32,6 +33,8 @@ if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
     Tracker:AddMaps("maps/maps.json")
     ScriptHost:LoadScript("scripts/loadlocations.lua")
 end
+
+local blitzPreset = Preset("Blitz", "blitz_preset", "images/letters/Frost_T.png")
 
 -- Layouts
 if (string.find(Tracker.ActiveVariantUID, "_S")) then
