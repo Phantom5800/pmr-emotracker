@@ -84,11 +84,10 @@
 		"name": "Power Smash Chest",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$canClimbShortLedges, hammer2"],
 		"sections": [
 			{
 				"name": "Chest",
-				"access_rules": ["$canHitBlocks"], // canClimbShortLedges redundant
+				"access_rules": ["$canClimbShortLedges, hammer2, $canHitBlocks"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -135,14 +134,10 @@
 		"name": "Ultra Hammer Blocks",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"boots, hammer2", 
-			"$parakarry, hammer2"
-		],
 		"sections": [
 			{
 				"name": "Upgrade Block",
-				"access_rules": ["boots, hammer3", "$parakarry, $kooper, hammer3"],
+				"access_rules": ["$canClimbShortLedges, $canHitBlocks, hammer3"],
 				"visibility_rules": ["upgrades_setting"],
 				"clear_as_group": false,
 				"item_count": 1
@@ -234,8 +229,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"$canClimbShortLedges, oddkey_base",
-			"$canClimbShortLedges, open_blue_house",
+			"$canClimbShortLedges, $BlueHousePipeAccess",
 			"boots2, $sushie, $bombette"
 		],
 		"sections": [
@@ -263,8 +257,7 @@
 			{
 				"name": "Far Left Block",
 				"access_rules": [
-					"boots2, oddkey_base, $bombette",
-					"boots2, open_blue_house, $bombette",
+					"boots2, $BlueHousePipeAccess, $bombette",
 					"boots2, $sushie"
 				],
 				"visibility_rules": ["coin_block_setting"],
@@ -275,8 +268,7 @@
 			{
 				"name": "Hidden Blocks",
 				"access_rules": [
-					"boots3, oddkey_base, $bombette, $hiddenBlocks",
-					"boots3, open_blue_house, $bombette, $hiddenBlocks",
+					"boots3, $BlueHousePipeAccess, $bombette, $hiddenBlocks",
 					"boots3, $sushie, $hiddenBlocks"
 				],
 				"visibility_rules": ["coin_block_setting"],
@@ -301,8 +293,7 @@
 			{
 				"name": "Tall Block",
 				"access_rules": [
-					"boots3, oddkey_base, $bombette",
-					"boots3, open_blue_house, $bombette",
+					"boots3, $BlueHousePipeAccess, $bombette",
 					"boots3, $sushie"
 				],
 				"visibility_rules": [],
@@ -323,8 +314,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"$lakilester, boots, $bombette, oddkey_base",
-			"$lakilester, boots, $bombette, open_blue_house",
+			"$lakilester, boots, $bombette, $BlueHousePipeAccess",
 			"$lakilester, boots2, $sushie"
 		],
 		"sections": [
@@ -357,8 +347,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"$lakilester, boots, $bombette, oddkey_base",
-			"$lakilester, boots, $bombette, open_blue_house",
+			"$lakilester, boots, $bombette, $BlueHousePipeAccess",
 			"$lakilester, boots2, $sushie"
 		],
 		"sections": [
@@ -391,8 +380,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"$lakilester, boots, $bombette, oddkey_base",
-			"$lakilester, boots, $bombette, open_blue_house",
+			"$lakilester, boots, $bombette, $BlueHousePipeAccess",
 			"$lakilester, boots2, $sushie"
 		],
 		"sections": [

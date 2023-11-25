@@ -27,6 +27,10 @@ function GoombaRoadAccess()
     return 0
 end
 
+function BlueHousePipeAccess()
+    return canClimbShortLedges() and (hasItem("oddkey_base") or hasItem("open_blue_house"))
+end
+
 function ToadTownAccess()
     -- start == ToadTown or start == YoshisIsland
     -- start == DryDryOutpost and (parakarry or boots)
@@ -94,14 +98,13 @@ end
 
 function BoosMansionPipeRoomAccess()
     local boots2 = hasItem("boots2")
-    local oddkey = hasItem("oddkey_base") or hasItem("open_blue_house")
     local bombette = bombette()
     local sushie = sushie()
 
     if boots2 then
         return 1
     else
-        return canClimbShortLedges() and sushie and bombette and oddkey
+        return sushie and bombette and BlueHousePipeAccess()
     end
     return 0
 end
@@ -181,16 +184,14 @@ function YoshisIslandAccess()
     local boots2 = hasItem("boots2")
     local hammer = hasItem("hammer")
     local bombette = bombette()
-    local parakarry = parakarry()
     local watt = watt()
     local sushie = sushie()
-    local oddkey = hasItem("oddkey_base") or hasItem("open_blue_house")
 
     -- Whale
     if hasItem("open_whale") or ((boots2 or hammer or bombette) and watt) then
         return 1
     -- shortcut pipe through blue house
-    elseif oddkey and bombette and canClimbShortLedges() then
+    elseif BlueHousePipeAccess() and bombette then
         return 1
     -- shortcut pipe through main sewer entrance
     elseif boots2 and sushie then
@@ -229,14 +230,13 @@ end
 function ShiverCityAccess()
     local boots2 = hasItem("boots2")
     local boots3 = hasItem("boots3")
-    local oddkey = hasItem("oddkey_base") or hasItem("open_blue_house")
     local open7 = hasItem("open_ch7_bridge")
     local bombette = bombette()
     local sushie = sushie()
 
     if ToadTownAccess() then
         -- bridge room access
-        if (oddkey and bombette) or (boots2 and sushie) then
+        if (BlueHousePipeAccess() and bombette) or (boots2 and sushie) then
             -- cross already open bridge
             if open7 then
                 return canClimbShortLedges()
