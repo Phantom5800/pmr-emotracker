@@ -1,5 +1,7 @@
 Preset = CustomItem:extend()
 
+local ALL_PRESETS = {}
+
 function Preset:init(name, code, imagePath)
     self:createItem(name)
     self.code = code
@@ -9,6 +11,8 @@ function Preset:init(name, code, imagePath)
     self.ItemInstance.PotentialIcon = self.activeImage
 
     self:updateIcon()
+
+    table.insert(ALL_PRESETS, self)
 end
 
 function Preset:setActive(active)
@@ -28,6 +32,10 @@ function Preset:updateIcon()
 end
 
 function Preset:onLeftClick()
+    for i,preset in ipairs(ALL_PRESETS) do
+        preset:setActive(false)
+        preset:updateIcon()
+    end
 
     --                prologue      cooking       rugged        toybox        ch7
     --                       blue house    hidden        forest        whale
@@ -80,6 +88,9 @@ function Preset:onLeftClick()
     Tracker:FindObjectForCode("open_toy_box").Active = openareas[7]
     Tracker:FindObjectForCode("open_whale").Active = openareas[8]
     Tracker:FindObjectForCode("open_ch7_bridge").Active = openareas[9]
+
+    self:setActive(true)
+    self:updateIcon()
 end
 
 function Preset:onRightClick()

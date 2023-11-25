@@ -456,7 +456,7 @@
 			},
 			{
 				"type": "group",
-				"header": "Presets",
+				"header": "Presets (Reset before changing)",
 				"content": [
 					{
 						"type": "item",

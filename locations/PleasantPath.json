@@ -345,7 +345,7 @@
 			},
 			{
 				"name": "Kooper",
-				"access_rules": ["$kooper_shell_base"],
+				"access_rules": ["kooper_shell_base"],
 				"visibility_rules": [],
 				"chest_unopened_img": "images/chests/$kooper.png",
 				"chest_opened_img": "images/chests/$kooper_checked.png",
