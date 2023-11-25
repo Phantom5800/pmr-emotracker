@@ -461,6 +461,11 @@
 						"type": "item",
 						"margin": "0,0,0,0",
 						"item": "blitz_preset"
+					},
+					{
+						"type": "item",
+						"margin": "50,0,0,0",
+						"item": "s1_race_preset"
 					}
 				]
 			}

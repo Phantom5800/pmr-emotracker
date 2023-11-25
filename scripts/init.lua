@@ -34,7 +34,8 @@ if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
     ScriptHost:LoadScript("scripts/loadlocations.lua")
 end
 
-local blitzPreset = Preset("Blitz", "blitz_preset", "images/letters/Frost_T.png")
+local blitzPreset = Preset("Blitz", "blitz_preset", "images/presets/Blitz.png")
+local s1RacePreset = Preset("Standard Race (S1)", "s1_race_preset", "images/presets/S1Race.png")
 
 -- Layouts
 if (string.find(Tracker.ActiveVariantUID, "_S")) then
