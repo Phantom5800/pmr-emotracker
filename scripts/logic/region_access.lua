@@ -43,7 +43,7 @@ function KoopaVillageAccess()
 end
 
 function KoopaBrosFortressEntranceAccess()
-    return KoopaVillageAccess() and hasItem("kooper")
+    return KoopaVillageAccess() and kooper()
 end
 
 function KoopaBrosFortressAccess()
@@ -56,8 +56,8 @@ end
 function DryDryDesertAccess()
     local boots = hasItem("boots")
     local hammer2 = hasItem("hammer2")
-    local bombette = hasItem("bombette")
-    local parakarry = hasItem("parakarry")
+    local bombette = bombette()
+    local parakarry = parakarry()
     local open_rugged = hasItem("open_mt_rugged")
     local manual_rugged = ToadTownAccess() and bombette
 
@@ -69,10 +69,10 @@ end
 function MtRuggedAccess()
     local boots = hasItem("boots")
     local open_rugged = hasItem("open_mt_rugged")
-    local manual_rugged = ToadTownAccess() and hasItem("bombette")
+    local manual_rugged = ToadTownAccess() and bombette()
 
     local toad_town_side = (open_rugged or manual_rugged) and boots
-    local desert_side = DryDryDesertAccess() and (boots or hasItem("parakarry"))
+    local desert_side = DryDryDesertAccess() and canClimbShortLedges()
 
     return toad_town_side or desert_side
 end
@@ -95,8 +95,8 @@ end
 function BoosMansionPipeRoomAccess()
     local boots2 = hasItem("boots2")
     local oddkey = hasItem("oddkey_base") or hasItem("open_blue_house")
-    local bombette = hasItem("bombette")
-    local sushie = hasItem("sushie")
+    local bombette = bombette()
+    local sushie = sushie()
 
     if boots2 then
         return 1
@@ -130,8 +130,7 @@ function GustyGulchAccess()
 end
 
 function TubbaCastleEntranceAccess()
-    local parakarry = hasItem("parakarry")
-    return GustyGulchAccess() and parakarry
+    return GustyGulchAccess() and parakarry()
 end
 
 function TubbaCastleAccess()
@@ -142,7 +141,7 @@ end
     Chapter 4 Region Access
 ------------------------------------------------------------]]
 function ToyBoxEntranceAccess()
-    return ToadTownAccess() and (hasItem("bow") or hasItem("open_toy_box")) and (hasItem("boots") or hasItem("parakarry"))
+    return ToadTownAccess() and (bow() or hasItem("open_toy_box")) and (hasItem("boots") or parakarry())
 end
 
 function ToyBoxAccess()
@@ -181,10 +180,10 @@ function YoshisIslandAccess()
     local boots = hasItem("boots")
     local boots2 = hasItem("boots2")
     local hammer = hasItem("hammer")
-    local bombette = hasItem("bombette")
-    local parakarry = hasItem("parakarry")
-    local watt = hasItem("watt")
-    local sushie = hasItem("sushie")
+    local bombette = bombette()
+    local parakarry = parakarry()
+    local watt = watt()
+    local sushie = sushie()
     local oddkey = hasItem("oddkey_base") or hasItem("open_blue_house")
 
     -- Whale
@@ -202,10 +201,11 @@ end
 
 function VolcanoEntranceAccess()
     local jade_raven = hasItem("jade_raven_base")
-    local sushie = hasItem("sushie")
-    local jump = hasItem("boots") or hasItem("parakarry")
+    local sushie = sushie()
+    local jump = hasItem("boots") or parakarry()
+    local hammer = hasItem("hammer")
 
-    return YoshisIslandAccess() and sushie and jade_raven and jump
+    return YoshisIslandAccess() and sushie and jade_raven and jump and hammer
 end
 
 function VolcanoAccess()
@@ -231,8 +231,8 @@ function ShiverCityAccess()
     local boots3 = hasItem("boots3")
     local oddkey = hasItem("oddkey_base") or hasItem("open_blue_house")
     local open7 = hasItem("open_ch7_bridge")
-    local bombette = hasItem("bombette")
-    local sushie = hasItem("sushie")
+    local bombette = bombette()
+    local sushie = sushie()
 
     if ToadTownAccess() then
         -- bridge room access
@@ -256,7 +256,7 @@ end
 
 function ShiverMountainPart2Access()
     local a,b = ShiverMountainAccess()
-    return a and hasItem("kooper"), b
+    return a and kooper(), b
 end
 
 function CrystalPalaceEntranceAccess()

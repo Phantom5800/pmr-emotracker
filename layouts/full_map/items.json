@@ -49,6 +49,7 @@
 								"item_margin": "1,2",
 								"rows": [
 									[
+										"partners_always",
 										"open_prologue",
 										"open_blue_house",
 										"open_cooking",
@@ -466,6 +467,11 @@
 						"type": "item",
 						"margin": "50,0,0,0",
 						"item": "s1_race_preset"
+					},
+					{
+						"type": "item",
+						"margin": "100,0,0,0",
+						"item": "extreme_preset"
 					}
 				]
 			}

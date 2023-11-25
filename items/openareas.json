@@ -1,5 +1,14 @@
 [
     {
+        "name": "Partners Always Usable",
+        "type": "toggle",
+        "img": "images/settings/goombario.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "loop": true,
+        "codes": "partners_always"
+    },
+    {
         "name": "Open Prologue",
         "type": "toggle",
         "img": "images/settings/GoombaKing.png",

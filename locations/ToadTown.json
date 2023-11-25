@@ -14,7 +14,7 @@
 			},
 			{
 				"name": "Star Piece",
-				"access_rules": ["sushie"],
+				"access_rules": ["$sushie"],
 				"visibility_rules": [""],
 				"clear_as_group": false,
 				"capture_item": true,
@@ -37,7 +37,7 @@
 			},
 			{
 				"name": "Russ T. Letter",
-				"access_rules": ["russ_t, parakarry"],
+				"access_rules": ["russ_t, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -45,7 +45,7 @@
 			},
 			{
 				"name": "Miss T. Letter",
-				"access_rules": ["miss_t, parakarry"],
+				"access_rules": ["miss_t, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -53,7 +53,7 @@
 			},
 			{
 				"name": "Chan",
-				"access_rules": ["[boots]", "[goombario]", "$hiddenBlocks", "[sushie]"],
+				"access_rules": ["[boots]", "[goombario]", "[watt]", "[sushie]"],
 				"visibility_rules": ["dojo_setting"],
 				"clear_as_group": false,
 				"hosted_item": "chan"
@@ -107,7 +107,7 @@
 		"name": "Mario's House",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$ToadTownAccess, boots", "$ToadTownAccess, parakarry", "$ToadTownAccess, kooper"], // kooper requires toad town start, but can be used to enter the pipe
+		"access_rules": ["$ToadTownAccess, boots", "$ToadTownAccess, $parakarry", "$ToadTownAccess, $kooper"], // $kooper requires toad town start, but can be used to enter the pipe
 		"sections": [
 			{
 				"name": "Luigi",
@@ -133,7 +133,7 @@
 		"sections": [
 			{
 				"name": "Merlon's Tree",
-				"access_rules": ["hammer", "bombette"],
+				"access_rules": ["hammer", "$bombette"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -196,7 +196,7 @@
 			},
 			{
 				"name": "Merlon Letter",
-				"access_rules": ["merlon, parakarry"],
+				"access_rules": ["merlon, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -205,7 +205,7 @@
 			},
 			{
 				"name": "Minh T. Letter",
-				"access_rules": ["minh_t, parakarry"],
+				"access_rules": ["minh_t, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -243,7 +243,7 @@
 			},
 			{
 				"name": "Fice T. Letter",
-				"access_rules": ["fice_t, parakarry"],
+				"access_rules": ["fice_t, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -340,7 +340,7 @@
 			},
 			{
 				"name": "Fishmael Letter",
-				"access_rules": ["fishmael, parakarry"],
+				"access_rules": ["fishmael, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -348,7 +348,7 @@
 			},
 			{
 				"name": "Multicoin Block",
-				"access_rules": ["boots", "parakarry, kooper"],
+				"access_rules": ["boots", "$parakarry, $kooper"],
 				"visibility_rules": ["upgrades_setting, multicoin_setting"],
 				"clear_as_group": false,
 				"item_count": 1
@@ -386,7 +386,7 @@
 			},
 			{
 				"name": "Dane T. Letter 1",
-				"access_rules": ["dane_t1, parakarry"],
+				"access_rules": ["dane_t1, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -395,7 +395,7 @@
 			},
 			{
 				"name": "Dane T. Letter 2",
-				"access_rules": ["dane_t2, parakarry"],
+				"access_rules": ["dane_t2, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -442,7 +442,7 @@
 		"sections": [
 			{
 				"name": "Muss T. Letter",
-				"access_rules": ["parakarry, muss_t"],
+				"access_rules": ["$parakarry, muss_t"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -498,7 +498,7 @@
 		"name": "Shooting Star Summit",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$ToadTownAccess, boots", "$ToadTownAccess, parakarry"],
+		"access_rules": ["$ToadTownAccess, boots", "$ToadTownAccess, $parakarry"],
 		"sections": [
 			{
 				"name": "Star Piece",

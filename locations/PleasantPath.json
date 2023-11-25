@@ -46,21 +46,21 @@
 			},
 			{
 				"name": "Island Star Piece",
-				"access_rules": ["hammer, kooper", "bombette, kooper"],
+				"access_rules": ["$canBreakYellowBlocks, $kooper"],
 				"visibility_rules": [],
 				"capture_item": true,
 				"item_count": 1
 			},
 			{
 				"name": "Behind Fence",
-				"access_rules": ["hammer, boots", "bombette, boots", "hammer, parakarry", "bombette, parakarry"],
+				"access_rules": ["$canBreakYellowBlocks, $canClimbShortLedges"],
 				"visibility_rules": [],
 				"capture_item": true,
 				"item_count": 1
 			},
 			{
 				"name": "Multicoin Block",
-				"access_rules": ["hammer, boots", "bombette, boots", "bombette, kooper, parakarry", "hammer, kooper, parakarry"],
+				"access_rules": ["$canBreakYellowBlocks, $canClimbShortLedges, $canHitBlocks"],
 				"visibility_rules": ["upgrades_setting, multicoin_setting"],
 				"item_count": 1
 			}
@@ -132,14 +132,14 @@
 			},
 			{
 				"name": "Tall Block Item",
-				"access_rules": ["boots3", "kooper"],
+				"access_rules": ["boots3", "$kooper"],
 				"visibility_rules": [],
 				"capture_item": true,
 				"item_count": 1
 			},
 			{
 				"name": "Hidden Block",
-				"access_rules": ["kooper, $hiddenBlocks"],
+				"access_rules": ["$kooper, $hiddenBlocks"],
 				"visibility_rules": [],
 				"item_count": 1
 			}
@@ -160,7 +160,7 @@
 		"sections": [
 			{
 				"name": "Stump Item",
-				"access_rules": ["kooper", "parakarry"],
+				"access_rules": ["$kooper", "$parakarry"],
 				"visibility_rules": [],
 				"capture_item": true,
 				"item_count": 1
@@ -221,7 +221,7 @@
 		"name": "Koopa Bros. Fortress Ledge",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["bombette, $KoopaVillageAccess"],
+		"access_rules": ["$bombette, $KoopaVillageAccess"],
 		"sections": [
 			{
 				"name": "Chest",
@@ -252,7 +252,7 @@
 			},
 			{
 				"name": "Koover Letter 1",
-				"access_rules": ["koover1, parakarry, hammer"],
+				"access_rules": ["koover1, $parakarry, hammer"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -260,7 +260,7 @@
 			},
 			{
 				"name": "Koover Letter 2",
-				"access_rules": ["koover2, parakarry, hammer"],
+				"access_rules": ["koover2, $parakarry, hammer"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -268,7 +268,7 @@
 			},
 			{
 				"name": "Mort T. Letter 1",
-				"access_rules": ["mort_t, parakarry"],
+				"access_rules": ["mort_t, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -345,15 +345,15 @@
 			},
 			{
 				"name": "Kooper",
-				"access_rules": ["kooper_shell_base"],
+				"access_rules": ["$kooper_shell_base"],
 				"visibility_rules": [],
-				"chest_unopened_img": "images/chests/kooper.png",
-				"chest_opened_img": "images/chests/kooper_checked.png",
+				"chest_unopened_img": "images/chests/$kooper.png",
+				"chest_opened_img": "images/chests/$kooper_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Item on Block",
-				"access_rules": ["boots", "parakarry, kooper"],
+				"access_rules": ["boots", "$parakarry, $kooper"],
 				"visibility_rules": [],
 				"capture_item": true,
 				"item_count": 1
@@ -527,13 +527,13 @@
 			},
 			{
 				"name": "Noisy Neighbors",
-				"access_rules": ["koot_talk_12, bombette"],
+				"access_rules": ["koot_talk_12, $bombette"],
 				"visibility_rules": ["koot_setting"],
 				"item_count": 1
 			},
 			{
 				"name": "Start Favor 13",
-				"access_rules": ["koot_talk_12, bombette"],
+				"access_rules": ["koot_talk_12, $bombette"],
 				"visibility_rules": ["koot_setting"],
 				"hosted_item": "koot_talk_13"
 			},

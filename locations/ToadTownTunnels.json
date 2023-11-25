@@ -3,12 +3,7 @@
 		"name": "Block Tunnel",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"boots, hammer", 
-			"boots, bombette",
-			"parakarry, hammer",
-			"parakarry, bombette"
-		],
+		"access_rules": ["$canClimbShortLedges, $canBreakYellowBlocks"],
 		"sections": [
 			{
 				"name": "Hidden Block",
@@ -37,12 +32,7 @@
 		"name": "Blooper Chest",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"boots, hammer", 
-			"boots, bombette",
-			"parakarry, hammer",
-			"parakarry, bombette"
-		],
+		"access_rules": ["$canClimbShortLedges, $canBreakYellowBlocks"],
 		"sections": [
 			{
 				"name": "Chest",
@@ -64,10 +54,7 @@
 		"name": "Elevator Room",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"boots, hammer2", 
-			"parakarry, hammer2"
-		],
+		"access_rules": ["$canClimbShortLedges, hammer2"],
 		"sections": [
 			{
 				"name": "Middle Block",
@@ -97,14 +84,11 @@
 		"name": "Power Smash Chest",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"boots, hammer2", 
-			"parakarry, hammer2"
-		],
+		"access_rules": ["$canClimbShortLedges, hammer2"],
 		"sections": [
 			{
 				"name": "Chest",
-				"access_rules": ["boots", "kooper, parakarry"],
+				"access_rules": ["$canHitBlocks"], // canClimbShortLedges redundant
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -122,22 +106,19 @@
 		"name": "High Platforms",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": [
-			"boots, hammer2", 
-			"parakarry, hammer2"
-		],
+		"access_rules": ["$canClimbShortLedges, hammer2"],
 		"sections": [
 			{
 				"name": "Ledge Star Piece",
-				"access_rules": ["parakarry"],
+				"access_rules": ["$parakarry"],
 				"visibility_rules": [],
 				"capture_item": true,
 				"item_count": 1
 			},
 			{
 				"name": "Upgrade Block",
-				"access_rules": ["boots", "parakarry, kooper"],
-				"visibility_rules": ["upgrades_setting"],
+				"access_rules": ["$canHitBlocks"],
+				"visibility_rules": ["upgrades_setting"], // canClimbShortLedges redundant
 				"clear_as_group": false,
 				"item_count": 1
 			}
@@ -156,12 +137,12 @@
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
 			"boots, hammer2", 
-			"parakarry, hammer2"
+			"$parakarry, hammer2"
 		],
 		"sections": [
 			{
 				"name": "Upgrade Block",
-				"access_rules": ["boots, hammer3", "parakarry, kooper, hammer3"],
+				"access_rules": ["boots, hammer3", "$parakarry, $kooper, hammer3"],
 				"visibility_rules": ["upgrades_setting"],
 				"clear_as_group": false,
 				"item_count": 1
@@ -182,7 +163,7 @@
 		"sections": [
 			{
 				"name": "Upgrade Block",
-				"access_rules": ["boots, sushie", "parakarry, kooper, sushie"],
+				"access_rules": ["boots, $sushie", "$parakarry, $kooper, $sushie"],
 				"visibility_rules": ["upgrades_setting"],
 				"clear_as_group": false,
 				"item_count": 1
@@ -253,10 +234,9 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"boots, oddkey_base", 
-			"parakarry, oddkey_base",
-			"boots, open_blue_house",
-			"parakarry, open_blue_house"
+			"$canClimbShortLedges, oddkey_base",
+			"$canClimbShortLedges, open_blue_house",
+			"boots2, $sushie, $bombette"
 		],
 		"sections": [
 			{
@@ -283,9 +263,9 @@
 			{
 				"name": "Far Left Block",
 				"access_rules": [
-					"boots2, oddkey_base, bombette",
-					"boots2, open_blue_house, bombette",
-					"boots2, sushie"
+					"boots2, oddkey_base, $bombette",
+					"boots2, open_blue_house, $bombette",
+					"boots2, $sushie"
 				],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
@@ -295,9 +275,9 @@
 			{
 				"name": "Hidden Blocks",
 				"access_rules": [
-					"boots3, oddkey_base, bombette, $hiddenBlocks",
-					"boots3, open_blue_house, bombette, $hiddenBlocks",
-					"boots3, sushie, $hiddenBlocks"
+					"boots3, oddkey_base, $bombette, $hiddenBlocks",
+					"boots3, open_blue_house, $bombette, $hiddenBlocks",
+					"boots3, $sushie, $hiddenBlocks"
 				],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
@@ -321,9 +301,9 @@
 			{
 				"name": "Tall Block",
 				"access_rules": [
-					"boots3, oddkey_base, bombette",
-					"boots3, open_blue_house, bombette",
-					"boots3, sushie"
+					"boots3, oddkey_base, $bombette",
+					"boots3, open_blue_house, $bombette",
+					"boots3, $sushie"
 				],
 				"visibility_rules": [],
 				"clear_as_group": false,
@@ -343,9 +323,9 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"lakilester, boots, bombette, oddkey_base",
-			"lakilester, boots, bombette, open_blue_house",
-			"lakilester, boots2, sushie"
+			"$lakilester, boots, $bombette, oddkey_base",
+			"$lakilester, boots, $bombette, open_blue_house",
+			"$lakilester, boots2, $sushie"
 		],
 		"sections": [
 			{
@@ -377,9 +357,9 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"lakilester, boots, bombette, oddkey_base",
-			"lakilester, boots, bombette, open_blue_house",
-			"lakilester, boots2, sushie"
+			"$lakilester, boots, $bombette, oddkey_base",
+			"$lakilester, boots, $bombette, open_blue_house",
+			"$lakilester, boots2, $sushie"
 		],
 		"sections": [
 			{
@@ -411,9 +391,9 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"lakilester, boots, bombette, oddkey_base",
-			"lakilester, boots, bombette, open_blue_house",
-			"lakilester, boots2, sushie"
+			"$lakilester, boots, $bombette, oddkey_base",
+			"$lakilester, boots, $bombette, open_blue_house",
+			"$lakilester, boots2, $sushie"
 		],
 		"sections": [
 			{

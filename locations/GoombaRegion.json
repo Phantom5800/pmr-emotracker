@@ -43,7 +43,7 @@
 			},
 			{
 				"name": "Goomnut Tree",
-				"access_rules": ["bombette", "hammer"],
+				"access_rules": ["$bombette", "hammer"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -175,7 +175,7 @@
 		"sections":[
 			{
 				"name": "Tree",
-				"access_rules": ["hammer", "bombette"],
+				"access_rules": ["hammer", "$bombette"],
 				"visibility_rules": [],
 				"item_count": 1
 			}
@@ -195,15 +195,15 @@
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
 			"boots",
-			"parakarry"
+			"$parakarry"
 		],
 		"sections":[
 			{
 				"name": "Break Brick Block",
 				"access_rules": [
-					"kooper", 
+					"$kooper", 
 					"hammer, boots", 
-					"bombette, boots",
+					"$bombette, boots",
 					"boots2"
 				],
 				"visibility_rules": [],
@@ -220,7 +220,7 @@
 			},
 			{
 				"name": "Coin Tree",
-				"access_rules": ["hammer", "bombette"],
+				"access_rules": ["hammer", "$bombette"],
 				"visibility_rules": ["foliage_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -249,7 +249,7 @@
 			},
 			{
 				"name": "Chest",
-				"access_rules": ["boots, bombette", "boots, hammer", "parakarry, bombette", "parakarry, hammer"],
+				"access_rules": ["$canBreakYellowBlocks, $canClimbShortLedges"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -328,13 +328,13 @@
 			},
 			{
 				"name": "Tree",
-				"access_rules": ["hammer", "bombette"],
+				"access_rules": ["hammer", "$bombette"],
 				"visibility_rules": [],
 				"item_count": 1
 			},
 			{
 				"name": "Block on Ground",
-				"access_rules": ["hammer", "bombette"],
+				"access_rules": ["hammer", "$bombette"],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -357,7 +357,7 @@
 		"sections":[
 			{
 				"name": "Right Tree",
-				"access_rules": ["bombette", "hammer"],
+				"access_rules": ["$bombette", "hammer"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1

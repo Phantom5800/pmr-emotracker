@@ -45,13 +45,15 @@ function Preset:onLeftClick()
         Tracker:FindObjectForCode("cookbook_base").Active = true
         Tracker:FindObjectForCode("seed1").Active = true
         Tracker:FindObjectForCode("seed2").Active = true
-    end
-    if self.code == "s1_race_preset" then
+    elseif self.code == "s1_race_preset" then
         openareas = { true,  false, false, false, false, true,  false, false, false }
         settings  = { true,  true,  true,  true,  false, false, false, false, false, false, false, false, false, false }
 
         Tracker:FindObjectForCode("seed1").Active = true
         Tracker:FindObjectForCode("seed2").Active = true
+    elseif self.code == "extreme_preset" then
+        openareas = { false, false, false, false, false, true,  false, false, true }
+        settings  = { true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true }
     end
 
     Tracker:FindObjectForCode("shopsanity_setting").Active = settings[1]
