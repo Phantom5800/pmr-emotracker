@@ -382,6 +382,33 @@
 		]
 	},
 	{
+		"name": "Kolorado",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$KoopaVillageAccess"],
+		"sections": [
+			{
+				"name": "Kolorado (Artifact)",
+				"access_rules": ["artifact_base, mamar"],
+				"visibility_rules": ["mamar"],
+				"hosted_item": "kolorado_artifact_turnin"
+			},
+			{
+				"name": "Kolorado (Letter)",
+				"access_rules": ["kolorado, parakarry"],
+				"visibility_rules": ["mamar, letters_setting"],
+				"hosted_item": "kolorado_letter_turnin"
+			}
+		],
+		"map_locations": [
+			{
+				"map": "pleasant_path",
+				"x": 2160,
+				"y": 560
+			}
+		]
+	},
+	{
 		"name": "Koopa Koot",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
