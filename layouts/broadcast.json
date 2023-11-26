@@ -204,9 +204,9 @@
 			{
 				"type": "itemgrid",
 				"h_alignment": "left",
-				"scale": "0.5",
-				"item_margin": "22,0",
-				"margin": "-3,-192,-40,-40",
+				"scale": "0.6",
+				"item_margin": "16,0",
+				"margin": "-4.5,-182,-40,-40",
 				"dropshadow": true,
 				"rows": [
 					[

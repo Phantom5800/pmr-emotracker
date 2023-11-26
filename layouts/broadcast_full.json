@@ -311,7 +311,7 @@
 				"h_alignment": "left",
 				"scale": "0.5",
 				"item_margin": "22,0",
-				"margin": "10,-343,-40,-40",
+				"margin": "35,-293,-40,-40",
 				"dropshadow": true,
 				"rows": [
 					[
@@ -328,9 +328,9 @@
 			{
 				"type": "itemgrid",
 				"h_alignment": "left",
-				"scale": "0.5",
-				"item_margin": "22,0",
-				"margin": "-3,-343,-40,-40",
+				"scale": "0.6",
+				"item_margin": "16,0",
+				"margin": "22,-277,-40,-40",
 				"dropshadow": true,
 				"rows": [
 					[
