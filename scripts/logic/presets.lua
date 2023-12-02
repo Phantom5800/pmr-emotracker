@@ -49,6 +49,8 @@ function Preset:onLeftClick()
         openareas = { true,  false, true,  true,  false, true,  false, false, false }
         settings  = { true,  true,  false, true,  false, false, false, false, false, false, false, false, false, false }
 
+        Tracker:FindObjectForCode("boots").CurrentStage = 1
+        Tracker:FindObjectForCode("hammer").CurrentStage = 1
         Tracker:FindObjectForCode("ultrastone").Active = true
         Tracker:FindObjectForCode("cookbook_base").Active = true
         Tracker:FindObjectForCode("seed1").Active = true
@@ -57,6 +59,8 @@ function Preset:onLeftClick()
         openareas = { true,  false, false, false, false, true,  false, false, false }
         settings  = { true,  true,  true,  true,  false, false, false, false, false, false, false, false, false, false }
 
+        Tracker:FindObjectForCode("boots").CurrentStage = 1
+        Tracker:FindObjectForCode("hammer").CurrentStage = 1
         Tracker:FindObjectForCode("seed1").Active = true
         Tracker:FindObjectForCode("seed2").Active = true
     elseif self.code == "extreme_preset" then
