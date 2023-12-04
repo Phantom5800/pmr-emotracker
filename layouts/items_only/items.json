@@ -84,6 +84,25 @@
 												""
 											]
 										]
+									},
+									{
+										"type": "itemgrid",
+										"h_alignment": "left",
+										"scale": "0.5",
+										"item_margin": "18,0",
+										"margin": "-4,2,0,0",
+										"dropshadow": true,
+										"rows": [
+											[
+												"ch1_lcl",
+												"ch2_lcl",
+												"ch3_lcl",
+												"ch4_lcl",
+												"ch5_lcl",
+												"ch6_lcl",
+												"ch7_lcl"
+											]
+										]
 									}
 								]
 							},
