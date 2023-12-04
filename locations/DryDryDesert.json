@@ -571,7 +571,7 @@
 					},
 					{
 						"name": "Item on Block",
-						"access_rules": ["$canClimbShortLedges, $kooper"],
+						"access_rules": ["$canClimbShortLedges, $kooper", "boots2, [boots3]"],
 						"visibility_rules": [],
 						"item_count": 1
 					}
