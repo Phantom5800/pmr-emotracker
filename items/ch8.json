@@ -1,0 +1,10 @@
+[
+    {
+        "name": "Bowser's Castle Key",
+        "type": "consumable",
+        "img": "images/ch8/PM_Bowser_Castle_Key.png",
+        "max_quantity": 5,
+        "codes": "ch8_key",
+        "loop": true
+    }
+]

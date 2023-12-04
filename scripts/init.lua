@@ -20,6 +20,7 @@ Tracker:AddItems("items/ch4.json")
 Tracker:AddItems("items/ch5.json")
 Tracker:AddItems("items/ch6.json")
 Tracker:AddItems("items/ch7.json")
+Tracker:AddItems("items/ch8.json")
 Tracker:AddItems("items/letters.json")
 Tracker:AddItems("items/koopakoot.json")
 
