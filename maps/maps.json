@@ -22,5 +22,11 @@
 		"location_size": 60,
 		"location_border_thickness": 8,
         "img": "images/maps/PleasantPath.png"
+    },
+	{
+        "name": "dry_dry_desert",
+		"location_size": 60,
+		"location_border_thickness": 8,
+        "img": "images/maps/DryDryDesert.png"
     }
 ]

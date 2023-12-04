@@ -389,7 +389,7 @@
 		"sections": [
 			{
 				"name": "Kolorado (Artifact)",
-				"access_rules": ["artifact_base, mamar"],
+				"access_rules": ["artifact_base"],
 				"visibility_rules": ["mamar"],
 				"hosted_item": "kolorado_artifact_turnin"
 			},

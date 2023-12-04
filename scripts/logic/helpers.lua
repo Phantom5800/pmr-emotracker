@@ -14,6 +14,10 @@ function canHitBlocks()
     return hasItem("boots") or kooper()
 end
 
+function canHitGroundedBlocks()
+    return hasItem("hammer") or kooper() or bombette() or hasItem("boots2")
+end
+
 function hiddenBlocks()
     if watt() or hasItem("hidden_blocks_visible") then
         return 1
@@ -53,4 +57,9 @@ end
 
 function lakilester()
     return hasItem("lakilester") or hasItem("partners_always")
+end
+
+-- Kolorado Location
+function kolorado_in_desert()
+    return not hasItem("mamar")
 end

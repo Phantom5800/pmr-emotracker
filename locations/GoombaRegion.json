@@ -200,12 +200,7 @@
 		"sections":[
 			{
 				"name": "Break Brick Block",
-				"access_rules": [
-					"$kooper", 
-					"hammer, boots", 
-					"$bombette, boots",
-					"boots2"
-				],
+				"access_rules": ["$canHitGroundedBlocks", "$canHitBlocks"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
