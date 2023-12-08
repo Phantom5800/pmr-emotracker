@@ -18,6 +18,10 @@ function canHitGroundedBlocks()
     return hasItem("hammer") or kooper() or bombette() or hasItem("boots2")
 end
 
+function canHitSwitches()
+    return hasItem("boots") or hasItem("hammer") or kooper() or bombette()
+end
+
 function hiddenBlocks()
     if watt() or hasItem("hidden_blocks_visible") then
         return 1

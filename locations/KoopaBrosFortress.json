@@ -1,0 +1,151 @@
+[
+	{
+		"name": "Fortress Entrance",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$KoopaBrosFortressAccess"],
+		"sections": [],
+		"map_locations": [],
+		"children": [
+			{
+				"name": "Front Tower",
+				"sections": [
+					{
+						"name": "Koopa Fight",
+						"item_count": 1
+					},
+					{
+						"name": "Item at the top",
+						"access_rules": [
+							"ch1_key:4, $kooper", "ch1_key:4, $parakarry"
+						],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "koopa_bros_fortress",
+						"x": 510,
+						"y": 400
+					}
+				]
+			},
+			{
+				"name": "Jail Cells",
+				"access_rules": ["ch1_key:1"],
+				"sections": [
+					{
+						"name": "Left Cell",
+						"access_rules": ["ch1_key:3, $kooper, $bombette", "ch1_key:3, $parakarry, $bombette"],
+						"item_count": 1
+					},
+					{
+						"name": "Middle Cell",
+						"item_count": 1
+					},
+					{
+						"name": "Right Cell",
+						"access_rules": ["$bombette"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "koopa_bros_fortress",
+						"x": 1400,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "Pit",
+				"access_rules": ["ch1_key:1, $canHitSwitches"],
+				"sections": [
+					{
+						"name": "Pedestal Item",
+						"access_rules": ["$canClimbShortLedges"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "koopa_bros_fortress",
+						"x": 1025,
+						"y": 650
+					}
+				]
+			},
+			{
+				"name": "Bomb Jail",
+				"access_rules": ["ch1_key:1, $canHitSwitches, $bombette", "ch1_key:2, $canHitBlocks"],
+				"sections": [
+					{
+						"name": "Bombette",
+						"chest_unopened_img": "images/chests/bombette.png",
+						"chest_opened_img": "images/chests/bombette_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "koopa_bros_fortress",
+						"x": 2560,
+						"y": 680
+					}
+				]
+			},
+			{
+				"name": "Outside Chest",
+				"access_rules": ["ch1_key:2, $bombette"],
+				"sections": [
+					{
+						"name": "Chest",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "koopa_bros_fortress",
+						"x": 3380,
+						"y": 435
+					}
+				]
+			},
+			{
+				"name": "Cannon Bridge",
+				"access_rules": ["ch1_key:4, $kooper", "ch1_key:4, $parakarry"],
+				"sections": [
+					{
+						"name": "Block",
+						"access_rules": ["$bombette, $canHitBlocks"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "koopa_bros_fortress",
+						"x": 750,
+						"y": 198
+					}
+				]
+			},
+			{
+				"name": "Koopa Bros.",
+				"access_rules": ["ch1_key:4, $kooper, $canClimbShortLedges", "ch1_key:4, $parakarry"],
+				"sections": [
+					{
+						"name": "Koopa Bros.",
+						"hosted_item": "eldstar"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "koopa_bros_fortress",
+						"x": 990,
+						"y": 198
+					}
+				]
+			}
+		]
+	}
+]

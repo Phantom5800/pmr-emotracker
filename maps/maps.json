@@ -24,6 +24,12 @@
         "img": "images/maps/PleasantPath.png"
     },
 	{
+        "name": "koopa_bros_fortress",
+		"location_size": 50,
+		"location_border_thickness": 8,
+        "img": "images/maps/KoopaBrosFortress.png"
+    },
+	{
         "name": "dry_dry_desert",
 		"location_size": 60,
 		"location_border_thickness": 8,

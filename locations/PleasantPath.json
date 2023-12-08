@@ -235,6 +235,11 @@
 				"map": "pleasant_path",
 				"x": 2434,
 				"y": 134
+			},
+			{
+				"map": "koopa_bros_fortress",
+				"x": 115,
+				"y": 355
 			}
 		]
 	},
@@ -347,8 +352,8 @@
 				"name": "Kooper",
 				"access_rules": ["kooper_shell_base"],
 				"visibility_rules": [],
-				"chest_unopened_img": "images/chests/$kooper.png",
-				"chest_opened_img": "images/chests/$kooper_checked.png",
+				"chest_unopened_img": "images/chests/kooper.png",
+				"chest_opened_img": "images/chests/kooper_checked.png",
 				"item_count": 1
 			},
 			{
