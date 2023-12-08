@@ -30,6 +30,12 @@
         "img": "images/maps/KoopaBrosFortress.png"
     },
 	{
+        "name": "mt_rugged",
+		"location_size": 60,
+		"location_border_thickness": 8,
+        "img": "images/maps/MtRugged.png"
+    },
+	{
         "name": "dry_dry_desert",
 		"location_size": 60,
 		"location_border_thickness": 8,

@@ -1,0 +1,234 @@
+[
+	{
+		"name": "Train Station",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$MtRuggedAccess"],
+		"sections": [
+			{
+				"name": "Parakarry",
+				"access_rules": ["letters:3"],
+				"chest_unopened_img": "images/chests/parakarry.png",
+				"chest_opened_img": "images/chests/parakarry_checked.png",
+				"item_count": 1
+			},
+			{
+				"name": "Upgrade Block",
+				"access_rules": ["$canHitBlocks, hammer2"],
+				"visibility_rules": ["upgrades_setting"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "mt_rugged",
+				"x": 330,
+				"y": 360
+			}
+		],
+		"children": [
+			{
+				"name": "Whacka Screen",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Block",
+						"access_rules": ["$canHitBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Whacka",
+						"access_rules": ["$canBreakYellowBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Slide Coins",
+						"access_rules": ["$canClimbShortLedges"],
+						"visibility_rules": ["coins_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 3
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mt_rugged",
+						"x": 1035,
+						"y": 370
+					}
+				]
+			},
+			{
+				"name": "Mole's Throwing Rocks",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Right Item",
+						"access_rules": ["$kooper", "$parakarry"],
+						"item_count": 1
+					},
+					{
+						"name": "Left Item",
+						"access_rules": ["$parakarry"],
+						"item_count": 1
+					},
+					{
+						"name": "Panel Star Piece",
+						"access_rules": ["boots2", "hammer3"],
+						"visibility_rules": ["panels_setting"],
+						"chest_unopened_img": "images/chests/star_piece.png",
+						"chest_opened_img": "images/chests/star_piece_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mt_rugged",
+						"x": 1830,
+						"y": 320
+					}
+				]
+			},
+			{
+				"name": "Rugged Seed",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Bub-ulb",
+						"access_rules": ["$parakarry"],
+						"item_count": 1
+					},
+					{
+						"name": "Support Beam Item",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mt_rugged",
+						"x": 2440,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Top Left Rugged",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Lower Block",
+						"access_rules": ["$canHitBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Chest",
+						"item_count": 1
+					},
+					{
+						"name": "Left Block after Spring",
+						"access_rules": ["$canHitGroundedBlocks"],
+						"visibility_rules": ["coin_block_setting"],
+						"item_count": 1
+					},
+					{
+						"name": "Right Block after Spring",
+						"access_rules": ["$canHitGroundedBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Slide Item",
+						"item_count": 1
+					},
+					{
+						"name": "2 Lower Coins",
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"visibility_rules": ["coins_setting"],
+						"item_count": 2
+					},
+					{
+						"name": "Item in the Middle of Coins",
+						"access_rules": ["$parakarry"],
+						"item_count": 1
+					},
+					{
+						"name": "Star Piece Coins",
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"access_rules": ["$parakarry"],
+						"visibility_rules": ["coins_setting"],
+						"item_count": 5
+					},
+					{
+						"name": "Far Right Star Piece Coin",
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"access_rules": ["$parakarry", "$kooper"],
+						"visibility_rules": ["coins_setting"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mt_rugged",
+						"x": 1040,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Buzzar",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"access_rules": [],
+				"sections": [
+					{
+						"name": "Item on Ground",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mt_rugged",
+						"x": 3010,
+						"y": 305
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Train Station Bushes",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$ToadTownAccess, $bombette", "$ToadTownAccess, open_mt_rugged"],
+		"sections": [
+			{
+				"name": "Top Bush",
+				"item_count": 1
+			},
+			{
+				"name": "Other Bushes",
+				"visibility_rules": ["foliage_setting"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
+				"item_count": 3
+			}
+		],
+		"map_locations": [
+			{
+				"map": "mt_rugged",
+				"x": 315,
+				"y": 600
+			}
+		]
+	}
+]
