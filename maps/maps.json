@@ -40,5 +40,11 @@
 		"location_size": 60,
 		"location_border_thickness": 8,
         "img": "images/maps/DryDryDesert.png"
+    },
+	{
+        "name": "forever_forest",
+		"location_size": 100,
+		"location_border_thickness": 14,
+        "img": "images/maps/ForeverForest.png"
     }
 ]

@@ -1,0 +1,61 @@
+[
+	{
+		"name": "Magical Seed",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$ToadTownAccess, forest_pass", "$ToadTownAccess, open_forest"],
+		"sections": [
+			{
+				"name": "Bub-ulb",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "forever_forest",
+				"x": 1210,
+				"y": 1750
+			}
+		],
+		"children": [
+			{
+				"name": "HP Plus",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"sections": [
+					{
+						"name": "Block",
+						"access_rules": ["$canHitBlocks"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "forever_forest",
+						"x": 2015,
+						"y": 1200
+					}
+				]
+			},
+			{
+				"name": "FP Plus",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"sections": [
+					{
+						"name": "Block",
+						"access_rules": ["$canHitBlocks"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "forever_forest",
+						"x": 420,
+						"y": 170
+					}
+				]
+			}
+		]
+	}
+]
