@@ -21,7 +21,7 @@
 			},
 			{
 				"name": "Little Mouser Letter",
-				"access_rules": ["little_mouser, parakarry"],
+				"access_rules": ["little_mouser_base, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -77,7 +77,7 @@
 					},
 					{
 						"name": "Mr. E Letter",
-						"access_rules": ["mr_e, parakarry"],
+						"access_rules": ["mr_e_base, $parakarry"],
 						"visibility_rules": ["letters_setting"],
 						"chest_unopened_img": "images/chests/letter.png",
 						"chest_opened_img": "images/chests/letter_checked.png",
@@ -385,7 +385,7 @@
 					},
 					{
 						"name": "Kolorado (Letter)",
-						"access_rules": ["kolorado, parakarry"],
+						"access_rules": ["kolorado_base, $parakarry"],
 						"visibility_rules": ["$kolorado_in_desert, letters_setting"],
 						"hosted_item": "kolorado_letter_turnin"
 					}
@@ -427,7 +427,7 @@
 				"sections": [
 					{
 						"name": "Letter",
-						"access_rules": ["nomadimouse, parakarry"],
+						"access_rules": ["nomadimouse_base, $parakarry"],
 						"visibility_rules": ["letters_setting"],
 						"chest_unopened_img": "images/chests/letter.png",
 						"chest_opened_img": "images/chests/letter_checked.png",

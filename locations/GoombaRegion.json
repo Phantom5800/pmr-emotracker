@@ -50,7 +50,7 @@
 			},
 			{
 				"name": "Goompapa Letter 1",
-				"access_rules": ["goompapa1, parakarry"],
+				"access_rules": ["goompapa1_base, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -59,7 +59,7 @@
 			},
 			{
 				"name": "Goompapa Letter 2",
-				"access_rules": ["goompapa2, parakarry"],
+				"access_rules": ["goompapa2_base, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -68,7 +68,7 @@
 			},
 			{
 				"name": "Goompa Letter",
-				"access_rules": ["goompa, parakarry"],
+				"access_rules": ["goompa_base, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",

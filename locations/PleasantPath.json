@@ -257,7 +257,7 @@
 			},
 			{
 				"name": "Koover Letter 1",
-				"access_rules": ["koover1, $parakarry, hammer"],
+				"access_rules": ["koover1_base, $parakarry, hammer"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -265,7 +265,7 @@
 			},
 			{
 				"name": "Koover Letter 2",
-				"access_rules": ["koover2, $parakarry, hammer"],
+				"access_rules": ["koover2_base, $parakarry, hammer"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -273,7 +273,7 @@
 			},
 			{
 				"name": "Mort T. Letter 1",
-				"access_rules": ["mort_t, $parakarry"],
+				"access_rules": ["mort_t_base, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -400,7 +400,7 @@
 			},
 			{
 				"name": "Kolorado (Letter)",
-				"access_rules": ["kolorado, parakarry"],
+				"access_rules": ["kolorado_base, $parakarry"],
 				"visibility_rules": ["mamar, letters_setting"],
 				"hosted_item": "kolorado_letter_turnin"
 			}

@@ -206,33 +206,33 @@
 								]
 							}
 						},
-						{
-							"title": "Star Way",
-							"content": {
-								"type": "map",
-								"maps": [
-									"johto_kanto"
-								]
-							}
-						},
-						{
-							"title": "Bowser's Castle",
-							"content": {
-								"type": "map",
-								"maps": [
-									"johto_kanto"
-								]
-							}
-						},
-						{
-							"title": "Peach's Castle",
-							"content": {
-								"type": "map",
-								"maps": [
-									"johto_kanto"
-								]
-							}
-						}
+						// {
+						// 	"title": "Star Way",
+						// 	"content": {
+						// 		"type": "map",
+						// 		"maps": [
+						// 			"johto_kanto"
+						// 		]
+						// 	}
+						// },
+						// {
+						// 	"title": "Bowser's Castle (Full)",
+						// 	"content": {
+						// 		"type": "map",
+						// 		"maps": [
+						// 			"johto_kanto"
+						// 		]
+						// 	}
+						// },
+						// {
+						// 	"title": "Peach's Castle",
+						// 	"content": {
+						// 		"type": "map",
+						// 		"maps": [
+						// 			"johto_kanto"
+						// 		]
+						// 	}
+						// }
 					]
 				}
             ]
