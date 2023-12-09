@@ -159,7 +159,7 @@ function ToyBoxGreenAccess()
     if ToyBoxPinkAccess() then
         if cookingAvailable() and hasItem("cakemix") then
             return 1
-        else
+        elseif hasItem("cake") then
             return 1, AccessibilityLevel.SequenceBreak -- out of logic
         end
     end

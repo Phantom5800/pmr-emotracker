@@ -46,5 +46,11 @@
 		"location_size": 100,
 		"location_border_thickness": 14,
         "img": "images/maps/ForeverForest.png"
+    },
+	{
+        "name": "shy_guys_toy_box",
+		"location_size": 30,
+		"location_border_thickness": 5,
+        "img": "images/maps/ToyBox.png"
     }
 ]

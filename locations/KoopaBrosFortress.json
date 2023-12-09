@@ -37,6 +37,7 @@
 					{
 						"name": "Left Cell",
 						"access_rules": ["ch1_key:3, $kooper, $bombette", "ch1_key:3, $parakarry, $bombette"],
+						"capture_item": true,
 						"item_count": 1
 					},
 					{
@@ -46,6 +47,7 @@
 					{
 						"name": "Right Cell",
 						"access_rules": ["$bombette"],
+						"capture_item": true,
 						"item_count": 1
 					}
 				],

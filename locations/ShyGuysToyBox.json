@@ -1,0 +1,518 @@
+[
+	{
+		"name": "Blue Station",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$ToyBoxAccess"],
+		"sections": [
+			{
+				"name": "Hidden Block",
+				"access_rules": ["$hiddenBlocks, $canHitBlocks"],
+				"item_count": 1
+			},
+			{
+				"name": "Panel Star Piece",
+				"access_rules": ["boots2", "hammer3"],
+				"visibility_rules": ["panels_setting"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "shy_guys_toy_box",
+				"x": 890,
+				"y": 360
+			}
+		],
+		"children": [
+			{
+				"name": "Anti Guy Room",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"sections": [
+					{
+						"name": "Hidden Block",
+						"access_rules": ["$hiddenBlocks, $canHitBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Anti Guy Chest",
+						"access_rules": ["[lemon], [cakemix], [cookbook_base], [$cookingAvailable]"],
+						"item_count": 1
+					},
+					{
+						"name": "Left Block",
+						"access_rules": ["$canHitBlocks"],
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shy_guys_toy_box",
+						"x": 540,
+						"y": 360
+					}
+				]
+			},
+			{
+				"name": "Shy Guy Room",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"sections": [
+					{
+						"name": "Hidden Blocks",
+						"access_rules": ["$hiddenBlocks, $canHitBlocks"],
+						"item_count": 2
+					},
+					{
+						"name": "Shy Guy Items",
+						"item_count": 6
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shy_guys_toy_box",
+						"x": 165,
+						"y": 360
+					}
+				]
+			},
+			{
+				"name": "Block City",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"access_rules": ["boots2", "boots, hammer"],
+				"sections": [
+					{
+						"name": "3 Coin Spring",
+						"visibility_rules": ["coins_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 3
+					},
+					{
+						"name": "5 Coin Spring",
+						"visibility_rules": ["coins_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 5
+					},
+					{
+						"name": "Behind Fallen Block",
+						"item_count": 1
+					},
+					{
+						"name": "On Top Left Building",
+						"access_rules": ["$parakarry"],
+						"capture_item": true,
+						"item_count": 1
+					},
+					{
+						"name": "Gap Block",
+						"access_rules": ["[$parakarry]"],
+						"item_count": 1
+					},
+					{
+						"name": "Coin Blocks",
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 2
+					},
+					{
+						"name": "Item Next to Chest",
+						"capture_item": true,
+						"item_count": 1
+					},
+					{
+						"name": "Chest",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shy_guys_toy_box",
+						"x": 1250,
+						"y": 360
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Pink Station",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$ToyBoxPinkAccess"],
+		"sections": [
+			{
+				"name": "Chest",
+				"item_count": 1
+			},
+			{
+				"name": "Hidden Block",
+				"access_rules": ["$hiddenBlocks, cake, [$cookingAvailable], [cakemix]"],
+				"item_count": 1
+			},
+			{
+				"name": "Panel Star Piece",
+				"access_rules": ["boots2", "hammer3"],
+				"visibility_rules": ["panels_setting"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "shy_guys_toy_box",
+				"x": 890,
+				"y": 250
+			}
+		],
+		"children": [
+			{
+				"name": "Divided Track Room",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"sections": [
+					{
+						"name": "Spy Guy Coin Block",
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Groove Guy Coin Blocks",
+						"access_rules": ["cake, [$cookingAvailable], [cakemix]"],
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 2
+					},
+					{
+						"name": "Multicoin Block",
+						"access_rules": ["cake, [$cookingAvailable], [cakemix]"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shy_guys_toy_box",
+						"x": 540,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "Gourmet Guy",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"access_rules": ["cake, [$cookingAvailable], [cakemix]"],
+				"sections": [
+					{
+						"name": "Gourmet Guy",
+						"item_count": 1
+					},
+					{
+						"name": "Left Hidden Block",
+						"access_rules": ["$hiddenBlocks, $canHitBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Right Hidden Block",
+						"access_rules": ["$hiddenBlocks, $canHitBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Coin Blocks",
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 2
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shy_guys_toy_box",
+						"x": 165,
+						"y": 250
+					}
+				]
+			},
+			{
+				"name": "Play Fort",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"access_rules": ["boots2", "boots, hammer"],
+				"sections": [
+					{
+						"name": "Upper Chest",
+						"item_count": 1
+					},
+					{
+						"name": "Path Chest",
+						"item_count": 1
+					},
+					{
+						"name": "Item Next to Chest",
+						"capture_item": true,
+						"item_count": 1
+					},
+					{
+						"name": "Far Right Chest",
+						"item_count": 1
+					},
+					{
+						"name": "Coin Block",
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shy_guys_toy_box",
+						"x": 1250,
+						"y": 250
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Green Station",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$ToyBoxGreenAccess"],
+		"sections": [
+			{
+				"name": "Hidden Block",
+				"access_rules": ["$hiddenBlocks"],
+				"item_count": 1
+			},
+			{
+				"name": "Panel Star Piece",
+				"access_rules": ["boots2", "hammer3"],
+				"visibility_rules": ["panels_setting"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "shy_guys_toy_box",
+				"x": 890,
+				"y": 145
+			}
+		],
+		"children": [
+			{
+				"name": "Conveyer Room",
+				"sections": [
+					{
+						"name": "Conveyer Coins",
+						"visibility_rules": ["coins_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 6
+					},
+					{
+						"name": "Shy Guy Item",
+						"access_rules": ["$bow"],
+						"capture_item": true,
+						"item_count": 1
+					},
+					{
+						"name": "Chest Item",
+						"access_rules": ["$bow, $parakarry"],
+						"item_count": 1
+					},
+					{
+						"name": "Item Next to Chest",
+						"access_rules": ["$bow, $parakarry"],
+						"capture_item": true,
+						"item_count": 1
+					},
+					{
+						"name": "Multicoin Block",
+						"access_rules": ["$bow"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"item_count": 1
+					},
+					{
+						"name": "Item Surrounded By Coins",
+						"access_rules": ["$bow"],
+						"item_count": 1
+					},
+					{
+						"name": "6 Coins Surrounding Item",
+						"access_rules": ["$bow"],
+						"visibility_rules": ["coins_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 6
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shy_guys_toy_box",
+						"x": 1430,
+						"y": 145
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "Red Station",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$ToyBoxRedAccess"],
+		"sections": [
+			{
+				"name": "Hidden Block",
+				"access_rules": ["$hiddenBlocks"],
+				"item_count": 1
+			},
+			{
+				"name": "Panel Star Piece",
+				"access_rules": ["boots2", "hammer3"],
+				"visibility_rules": ["panels_setting"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "shy_guys_toy_box",
+				"x": 890,
+				"y": 60
+			}
+		],
+		"children": [
+			{
+				"name": "Elevator Room",
+				"sections": [
+					{
+						"name": "Right Hidden Block",
+						"access_rules": ["$hiddenBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Block Between Coin Blocks",
+						"access_rules": ["$hiddenBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Coin Blocks",
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 2
+					},
+					{
+						"name": "Hidden Block by Lantern Ghost Door",
+						"access_rules": ["$hiddenBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Multicoin Block",
+						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"item_count": 1
+					},
+					{
+						"name": "Upgrade Block",
+						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shy_guys_toy_box",
+						"x": 540,
+						"y": 60
+					}
+				]
+			},
+			{
+				"name": "Lantern Ghost",
+				"sections": [
+					{
+						"name": "Watt",
+						"chest_unopened_img": "images/chests/watt.png",
+						"chest_opened_img": "images/chests/watt_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shy_guys_toy_box",
+						"x": 165,
+						"y": 60
+					}
+				]
+			},
+			{
+				"name": "Block Barricade",
+				"access_rules": ["$bombette"],
+				"sections": [
+					{
+						"name": "Item on Tall Block",
+						"access_rules": ["$kooper", "boots3"],
+						"capture_item": true,
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Coin Block",
+						"access_rules": ["$hiddenBlocks"],
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Item Block",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shy_guys_toy_box",
+						"x": 1250,
+						"y": 60
+					}
+				],
+				"children": [
+					{
+						"name": "General Guy",
+						"access_rules": ["$watt"],
+						"sections": [
+							{
+								"name": "Muskular",
+								"hosted_item": "muskular"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "shy_guys_toy_box",
+								"x": 1850,
+								"y": 60
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
