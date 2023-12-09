@@ -49,11 +49,11 @@
 								"item_margin": "1,2",
 								"rows": [
 									[
+										"hidden_blocks_visible",
 										"partners_always",
 										"open_prologue",
 										"open_blue_house",
 										"open_cooking",
-										"hidden_blocks_visible",
 										"open_mt_rugged",
 										"open_forest",
 										"open_toy_box",
