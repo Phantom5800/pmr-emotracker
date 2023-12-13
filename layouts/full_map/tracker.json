@@ -112,7 +112,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"johto_kanto"
+									"dry_dry_ruins"
 								]
 							}
 						},
@@ -130,7 +130,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"johto_kanto"
+									"boos_mansion"
 								]
 							}
 						},
@@ -139,7 +139,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"johto_kanto"
+									"gusty_gulch"
 								]
 							}
 						},
@@ -148,7 +148,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"johto_kanto"
+									"tubba_castle"
 								]
 							}
 						},
@@ -166,7 +166,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"johto_kanto"
+									"lavalava_island"
 								]
 							}
 						},
@@ -175,7 +175,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"johto_kanto"
+									"mt_lavalava"
 								]
 							}
 						},
@@ -184,7 +184,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"johto_kanto"
+									"flower_fields"
 								]
 							}
 						},
@@ -193,7 +193,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"johto_kanto"
+									"shiver_region"
 								]
 							}
 						},
@@ -202,7 +202,7 @@
 							"content": {
 								"type": "map",
 								"maps": [
-									"johto_kanto"
+									"crystal_palace"
 								]
 							}
 						},
@@ -211,7 +211,7 @@
 						// 	"content": {
 						// 		"type": "map",
 						// 		"maps": [
-						// 			"johto_kanto"
+						// 			"star_way"
 						// 		]
 						// 	}
 						// },
@@ -220,7 +220,7 @@
 						// 	"content": {
 						// 		"type": "map",
 						// 		"maps": [
-						// 			"johto_kanto"
+						// 			"bowser_castle_full"
 						// 		]
 						// 	}
 						// },
@@ -229,7 +229,7 @@
 						// 	"content": {
 						// 		"type": "map",
 						// 		"maps": [
-						// 			"johto_kanto"
+						// 			"peach_castle"
 						// 		]
 						// 	}
 						// }
