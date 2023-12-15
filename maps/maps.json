@@ -94,5 +94,17 @@
 		"location_size": 50,
 		"location_border_thickness": 5,
         "img": "images/maps/FlowerFields.png"
+    },
+    {
+        "name": "shiver_region",
+		"location_size": 50,
+		"location_border_thickness": 5,
+        "img": "images/maps/ShiverRegion.png"
+    },
+    {
+        "name": "crystal_palace",
+		"location_size": 50,
+		"location_border_thickness": 5,
+        "img": "images/maps/CrystalPalace.png"
     }
 ]
