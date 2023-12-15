@@ -42,15 +42,51 @@
         "img": "images/maps/DryDryDesert.png"
     },
 	{
+        "name": "dry_dry_ruins",
+		"location_size": 60,
+		"location_border_thickness": 8,
+        "img": "images/maps/DryDryRuins.png"
+    },
+	{
         "name": "forever_forest",
 		"location_size": 100,
 		"location_border_thickness": 14,
         "img": "images/maps/ForeverForest.png"
     },
 	{
+        "name": "boos_mansion",
+		"location_size": 50,
+		"location_border_thickness": 14,
+        "img": "images/maps/BoosMansion.png"
+    },
+	{
+        "name": "gusty_gulch",
+		"location_size": 50,
+		"location_border_thickness": 14,
+        "img": "images/maps/GustyGulch.png"
+    },
+	{
+        "name": "tubba_castle",
+		"location_size": 50,
+		"location_border_thickness": 14,
+        "img": "images/maps/TubbasCastle.png"
+    },
+	{
         "name": "shy_guys_toy_box",
 		"location_size": 30,
 		"location_border_thickness": 5,
         "img": "images/maps/ToyBox.png"
+    },
+    {
+        "name": "mt_lavalava",
+		"location_size": 50,
+		"location_border_thickness": 5,
+        "img": "images/maps/MtLavalava.png"
+    },
+	{
+        "name": "flower_fields",
+		"location_size": 50,
+		"location_border_thickness": 5,
+        "img": "images/maps/FlowerFields.png"
     }
 ]

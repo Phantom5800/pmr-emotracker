@@ -16,6 +16,16 @@
         "loop": true
     },
     {
+        "name": "Artifact LCL Mark",
+        "type": "toggle",
+        "img": "images/star_spirits/LCLActive.png",
+        "disabled_img": "images/star_spirits/LCLMark.png",
+        "disabled_img_mods": "@enabled",
+        "initial_active_state": true,
+        "codes": "artifact_lcl",
+        "loop": true
+    },
+    {
         "name": "Mamar",
         "type": "static",
         "img": "images/star_spirits/Mamar_PM.png",
