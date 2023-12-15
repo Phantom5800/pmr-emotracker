@@ -26,5 +26,40 @@
         "base_item": "volcano_vase_base",
         "img": "images/common/check.png",
         "codes": "volcano_vase"
+    },
+    {
+        "name": "Red Yoshi Kid",
+        "type": "toggle",
+        "img": "images/letters/red_yoshi.png",
+        "codes": "red_yoshi_kid",
+        "loop": true
+    },
+    {
+        "name": "Green Yoshi Kid",
+        "type": "toggle",
+        "img": "images/ch5/green_yoshi_kid.png",
+        "codes": "green_yoshi_kid",
+        "loop": true
+    },
+    {
+        "name": "Blue Yoshi Kid",
+        "type": "toggle",
+        "img": "images/ch5/blue_yoshi_kid.png",
+        "codes": "blue_yoshi_kid",
+        "loop": true
+    },
+    {
+        "name": "Purple Yoshi Kid",
+        "type": "toggle",
+        "img": "images/ch5/purple_yoshi_kid.png",
+        "codes": "purple_yoshi_kid",
+        "loop": true
+    },
+    {
+        "name": "Yellow Yoshi Kid",
+        "type": "toggle",
+        "img": "images/ch5/yellow_yoshi_kid.png",
+        "codes": "yellow_yoshi_kid",
+        "loop": true
     }
 ]

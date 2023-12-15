@@ -78,6 +78,12 @@
         "img": "images/maps/ToyBox.png"
     },
     {
+        "name": "lavalava_island",
+		"location_size": 50,
+		"location_border_thickness": 5,
+        "img": "images/maps/LavalavaIsland.png"
+    },
+    {
         "name": "mt_lavalava",
 		"location_size": 50,
 		"location_border_thickness": 5,

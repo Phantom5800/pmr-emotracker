@@ -361,6 +361,27 @@
 										]
 									}
 								]
+							},
+							{
+								"type": "group",
+								"header": "Static Items",
+								"content": [
+									{
+										"type": "itemgrid",
+										"h_alignment": "left",
+										"item_margin": "1,2",
+										"rows": [
+											[
+												"mystical_key",
+												"red_yoshi_kid",
+												"blue_yoshi_kid",
+												"green_yoshi_kid",
+												"yellow_yoshi_kid",
+												"purple_yoshi_kid"
+											]
+										]
+									}
+								]
 							}
 						]
 					}

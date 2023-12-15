@@ -7,6 +7,20 @@
         "codes": "ch3_key"
     },
     {
+        "name": "Mystical Key",
+        "type": "toggle",
+        "img": "images/ch3/PM_Mystical_Key.png",
+        "codes": "mystical_key_base",
+        "loop": true
+    },
+    {
+        "name": "Mystical Key",
+        "type": "toggle_badged",
+        "base_item": "mystical_key_base",
+        "img": "images/common/check.png",
+        "codes": "mystical_key"
+    },
+    {
         "name": "Boo's Portrait",
         "type": "toggle",
         "img": "images/ch3/Boo'sPortrait_PM.png",
