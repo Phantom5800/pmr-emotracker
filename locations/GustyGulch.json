@@ -1,0 +1,141 @@
+[
+	{
+		"name": "Outside Boo's Mansion",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$GustyGulchAccess"],
+		"sections": [
+			{
+				"name": "Panel Star Piece",
+				"access_rules": ["boots2", "hammer3"],
+				"visibility_rules": ["panels_setting"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "gusty_gulch",
+				"x": 200,
+				"y": 304
+			}
+		],
+		"children": [
+			{
+				"name": "Windmill",
+				"access_rules": ["boots2, mystical_key_base"],
+				"sections": [
+					{
+						"name": "Tubba Blubba",
+						"hosted_item": "skolar"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "gusty_gulch",
+						"x": 545,
+						"y": 283
+					}
+				]
+			},
+			{
+				"name": "West Village",
+				"sections": [
+					{
+						"name": "Coin Block in Last House",
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Package Boo",
+						"access_rules": ["koot_talk_18"],
+						"visibility_rules": ["koot_setting"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "gusty_gulch",
+						"x": 895,
+						"y": 286
+					}
+				]
+			},
+			{
+				"name": "Outside Village",
+				"sections": [
+					{
+						"name": "Far Left Block",
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Item on Rock",
+						"access_rules": ["$kooper"],
+						"item_count": 1
+					},
+					{
+						"name": "Top Block Above Ledge",
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Lower Block Above Ledge",
+						"item_count": 1
+					},
+					{
+						"name": "Item by Log",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "gusty_gulch",
+						"x": 1630,
+						"y": 230
+					}
+				]
+			},
+			{
+				"name": "Outside Tubba's Castle",
+				"access_rules": ["$parakarry"],
+				"sections": [
+					{
+						"name": "Block by Goomba",
+						"item_count": 1
+					},
+					{
+						"name": "Block at Top of Hill",
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Item Behind Rock",
+						"item_count": 1
+					},
+					{
+						"name": "Multicoin Block",
+						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "gusty_gulch",
+						"x": 2075,
+						"y": 150
+					}
+				]
+			}
+		]
+	}
+]

@@ -61,8 +61,8 @@
     },
 	{
         "name": "gusty_gulch",
-		"location_size": 50,
-		"location_border_thickness": 14,
+		"location_size": 40,
+		"location_border_thickness": 6,
         "img": "images/maps/GustyGulch.png"
     },
 	{

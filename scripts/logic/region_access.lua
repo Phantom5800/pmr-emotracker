@@ -128,8 +128,9 @@ function ForeverForestAccess()
 end
 
 function GustyGulchAccess()
+    local boots = hasItem("boots")
     local portrait = hasItem("boo_portrait_base")
-    return BoosMansionAccess() and portrait
+    return BoosMansionAccess() and portrait and boots
 end
 
 function TubbaCastleEntranceAccess()
