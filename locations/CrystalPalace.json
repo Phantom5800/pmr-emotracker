@@ -1,0 +1,262 @@
+[
+	{
+		"name": "Crystal Palace Entrance",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$CrystalPalaceAccess"],
+		"children": [
+			{
+				"name": "Blue Key Chest",
+				"sections": [
+					{
+						"name": "Chest",
+						"access_rules": ["$canClimbShortLedges"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "crystal_palace",
+						"x": 1475,
+						"y": 495
+					}
+				]
+			},
+			{
+				"name": "Opposite Side of Mirror",
+				"access_rules": ["boots2, blue_key_base, $bombette", "red_key"],
+				"children": [
+					{
+						"name": "Star Piece Cave",
+						"sections": [
+							{
+								"name": "Item",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "crystal_palace",
+								"x": 78,
+								"y": 324
+							}
+						]
+					},
+					{
+						"name": "Shooting Star Room",
+						"sections": [
+							{
+								"name": "Item on Pedestal",
+								"access_rules": ["$canClimbShortLedges"],
+								"item_count": 1 
+							}
+						],
+						"map_locations": [
+							{
+								"map": "crystal_palace",
+								"x": 1317,
+								"y": 80
+							}
+						]
+					},
+					{
+						"name": "Wood Panel Room",
+						"sections": [
+							{
+								"name": "Item Block",
+								"access_rules": ["$canHitBlocks"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "crystal_palace",
+								"x": 878,
+								"y": 67
+							}
+						]
+					},
+					{
+						"name": "P-Down D-Up Chest",
+						"access_rules": ["boots2"],
+						"sections": [
+							{
+								"name": "Chest",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "crystal_palace",
+								"x": 1298,
+								"y": 147
+							}
+						],
+						"children": [
+							{
+								"name": "Red Key Chest",
+								"access_rules": ["$bombette"],
+								"sections": [
+									{
+										"name": "Chest",
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "crystal_palace",
+										"x": 1500,
+										"y": 596
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Blue Key Blocks",
+				"access_rules": ["boots2, blue_key_base, $bombette"],
+				"sections": [
+					{
+						"name": "Multicoin Blocks",
+						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"item_count": 2
+					}
+				],
+				"map_locations": [
+					{
+						"map": "crystal_palace",
+						"x": 1727,
+						"y": 227
+					}
+				]
+			},
+			{
+				"name": "Triple Dip Chest",
+				"access_rules": ["red_key, $bombette"],
+				"sections": [
+					{
+						"name": "Chest",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "crystal_palace",
+						"x": 2419,
+						"y": 392
+					}
+				],
+				"children": [
+					{
+						"name": "Past Kooper Puzzle",
+						"access_rules": ["$kooper"],
+						"children": [
+							{
+								"name": "Small Statue Room",
+								"sections": [
+									{
+										"name": "Tall Hidden Block",
+										"access_rules": ["boots2, [boots3], $hiddenBlocks"],
+										"item_count": 1
+									},
+									{
+										"name": "Panel Star Piece",
+										"access_rules": ["boots2", "hammer3"],
+										"visibility_rules": ["panels_setting"],
+										"chest_unopened_img": "images/chests/star_piece.png",
+										"chest_opened_img": "images/chests/star_piece_checked.png",
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "crystal_palace",
+										"x": 2845,
+										"y": 132
+									}
+								]
+							},
+							{
+								"name": "Big Statue Room",
+								"sections": [
+									{
+										"name": "Tall Block",
+										"access_rules": ["boots2, [boots3]"],
+										"item_count": 1
+									},
+									{
+										"name": "Panel Star Piece",
+										"access_rules": ["boots2", "hammer3"],
+										"visibility_rules": ["panels_setting"],
+										"chest_unopened_img": "images/chests/star_piece.png",
+										"chest_opened_img": "images/chests/star_piece_checked.png",
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "crystal_palace",
+										"x": 2845,
+										"y": 466
+									}
+								]
+							},
+							{
+								"name": "P-Up D-Down Chest",
+								"sections": [
+									{
+										"name": "Chest",
+										"access_rules": ["$canClimbShortLedges"],
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "crystal_palace",
+										"x": 3464,
+										"y": 268
+									}
+								]
+							},
+							{
+								"name": "Palace Key Chest",
+								"sections": [
+									{
+										"name": "Chest",
+										"access_rules": ["$canClimbShortLedges"],
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "crystal_palace",
+										"x": 3464,
+										"y": 587
+									}
+								]
+							},
+							{
+								"name": "Crystal King Fight",
+								"sections": [
+									{
+										"name": "Crystal King",
+										"hosted_item": "kalmar"
+									}
+								],
+								"map_locations": [
+									{
+										"map": "crystal_palace",
+										"x": 4448,
+										"y": 253
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
