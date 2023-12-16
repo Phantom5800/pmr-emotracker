@@ -1,0 +1,249 @@
+[
+	{
+		"name": "Dry Dry Ruins Entrance",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$DryDryRuinsAccess"],
+		"children": [
+			{
+				"name": "Pokey Room",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"sections": [
+					{
+						"name": "Second Coffin",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "dry_dry_ruins",
+						"x": 1140,
+						"y": 155
+					}
+				],
+				"children": [
+					{
+						"name": "First Sand Room",
+						"sections": [
+							{
+								"name": "Item",
+								"access_rules": ["$canClimbShortLedges"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "dry_dry_ruins",
+								"x": 1700,
+								"y": 200
+							}
+						]
+					},
+					{
+						"name": "Ruins Hub Room",
+						"access_rules": ["ch2_key:1, boots"],
+						"children": [
+							{
+								"name": "Second Sand Room",
+								"access_rules": ["$parakarry, $bombette"],
+								"sections": [
+									{
+										"name": "Item Under Sand",
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "dry_dry_ruins",
+										"x": 2400,
+										"y": 120
+									}
+								],
+								"children": [
+									{
+										"name": "Second Sand Room",
+										"access_rules": ["$parakarry, $bombette"],
+										"sections": [
+											{
+												"name": "Item On Pedestal",
+												"item_count": 1
+											}
+										],
+										"map_locations": [
+											{
+												"map": "dry_dry_ruins",
+												"x": 2355,
+												"y": 200
+											}
+										]
+									}
+								]
+							},
+							{
+								"name": "Pyramid Stone Room",
+								"sections": [
+									{
+										"name": "Item On Pedestal",
+										"access_rules": ["hammer2"],
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "dry_dry_ruins",
+										"x": 2355,
+										"y": 312
+									}
+								]
+							},
+							{
+								"name": "Pokey Fight Room",
+								"access_rules": ["ch2_key:2"],
+								"sections": [
+									{
+										"name": "Pokey Fight Reward",
+										"item_count": 1
+									},
+									{
+										"name": "Item on Ledge",
+										"access_rules": ["hammer2"],
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "dry_dry_ruins",
+										"x": 1400,
+										"y": 440
+									}
+								],
+								"children": [
+									{
+										"name": "Ruins Hub Room 2",
+										"access_rules": ["ch2_key:3"],
+										"children": [
+											{
+												"name": "Super Hammer Room",
+												"access_rules": ["$parakarry"],
+												"sections": [
+													{
+														"name": "Big Chest",
+														"item_count": 1
+													},
+													{
+														"name": "Chest Behind Fake Wall",
+														"item_count": 1
+													}
+												],
+												"map_locations": [
+													{
+														"map": "dry_dry_ruins",
+														"x": 65,
+														"y": 470
+													}
+												]
+											},
+											{
+												"name": "Ruins Upgrade Block",
+												"access_rules": ["$bombette"],
+												"sections": [
+													{
+														"name": "Upgrade Block",
+														"access_rules": ["$canHitBlocks"],
+														"visibility_rules": ["upgrades_setting"],
+														"item_count": 1
+													}
+												],
+												"map_locations": [
+													{
+														"map": "dry_dry_ruins",
+														"x": 580,
+														"y": 915
+													}
+												],
+												"children": [
+													{
+														"name": "Diamond Stone Room",
+														"sections": [
+															{
+																"name": "Item On Pedestal",
+																"access_rules": ["hammer2"],
+																"item_count": 1
+															}
+														],
+														"map_locations": [
+															{
+																"map": "dry_dry_ruins",
+																"x": 235,
+																"y": 950
+															}
+														]
+													}
+												]
+											},
+											{
+												"name": "Third Sand Room",
+												"sections": [
+													{
+														"name": "Item on Ledge",
+														"access_rules": ["hammer2", "ch2_key:4"],
+														"item_count": 1
+													}
+												],
+												"map_locations": [
+													{
+														"map": "dry_dry_ruins",
+														"x": 2010,
+														"y": 773
+													}
+												],
+												"children": [
+													{
+														"name": "Lunar Stone Room",
+														"access_rules": ["ch2_key:4"],
+														"sections": [
+															{
+																"name": "Item On Pedestal",
+																"access_rules": ["hammer2"],
+																"item_count": 1
+															}
+														],
+														"map_locations": [
+															{
+																"map": "dry_dry_ruins",
+																"x": 2405,
+																"y": 720
+															}
+														]
+													}
+												]
+											},
+											{
+												"name": "Tutankoopa Room",
+												"access_rules": ["pyramid_stone, diamond_stone, lunar_stone, [ch2_key:4]"],
+												"sections": [
+													{
+														"name": "Tutankoopa",
+														"hosted_item": "mamar"
+													}
+												],
+												"map_locations": [
+													{
+														"map": "dry_dry_ruins",
+														"x": 1860,
+														"y": 930
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
