@@ -1,0 +1,446 @@
+[
+	{
+		"name": "Deku Tree",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$FlowerFieldsAccess"],
+		"children": [
+			{
+				"name": "Three Trees",
+				"sections": [
+					{
+						"name": "Hit Trees (Middle, Right, Left)",
+						"access_rules": ["$canBreakYellowBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Second Vine",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "flower_fields",
+						"x": 1830,
+						"y": 648
+					}
+				],
+				"children": [
+					{
+						"name": "Petunia Room",
+						"sections": [
+							{
+								"name": "Petunia",
+								"item_count": 1
+							},
+							{
+								"name": "Tree",
+								"item_count": 2
+							},
+							{
+								"name": "Panel Star Piece",
+								"access_rules": ["boots2", "hammer3"],
+								"visibility_rules": ["panels_setting"],
+								"chest_unopened_img": "images/chests/star_piece.png",
+								"chest_opened_img": "images/chests/star_piece_checked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "flower_fields",
+								"x": 2208,
+								"y": 648
+							}
+						]
+					},
+					{
+						"name": "Well",
+						"sections": [
+							{
+								"name": "Throw Blue Berry",
+								"access_rules": ["blue_berry:1, [blue_berry:2]"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "flower_fields",
+								"x": 2506,
+								"y": 648
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Elevator Room (left side)",
+				"sections": [
+					{
+						"name": "Second Vine",
+						"access_rules": ["$canHitBlocks", "$lakilester", "$parakarry"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "flower_fields",
+						"x": 1714,
+						"y": 450
+					}
+				]
+			},
+			{
+				"name": "Elevator Room (right side)",
+				"access_rules": ["boots2, $lakilester"],
+				"sections": [
+					{
+						"name": "Ground Pound Arch",
+						"item_count": 1
+					},
+					{
+						"name": "Upgrade Block",
+						"visibility_rules": ["upgrades_setting"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "flower_fields",
+						"x": 1987,
+						"y": 412
+					}
+				],
+				"children": [
+					{
+						"name": "Log Room",
+						"sections": [
+							{
+								"name": "Item on Ground",
+								"item_count": 1
+							},
+							{
+								"name": "Hidden Block",
+								"access_rules": ["$hiddenBlocks"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "flower_fields",
+								"x": 2325,
+								"y": 416
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Yellow Flower Room (Before Gate)",
+				"sections": [
+					{
+						"name": "Vine by Yellow Flower",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "flower_fields",
+						"x": 1659,
+						"y": 829
+					}
+				]
+			},
+			{
+				"name": "Yellow Flower Room (Past Gate)",
+				"access_rules": ["$lakilester, yellow_berry_base", "$parakarry, yellow_berry_base"],
+				"sections": [
+					{
+						"name": "Tree",
+						"access_rules": ["$canBreakYellowBlocks"],
+						"item_count": 2
+					},
+					{
+						"name": "Item in Flowers",
+						"item_count": 1
+					},
+					{
+						"name": "Upgrade Block",
+						"access_rules": ["$canClimbShortLedges, $canHitBlocks"],
+						"visibility_rules": ["upgrades_setting"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "flower_fields",
+						"x": 2004,
+						"y": 812
+					}
+				],
+				"children": [
+					{
+						"name": "Bubble Berry Tree Room",
+						"sections": [
+							{
+								"name": "Bubble Berry Tree",
+								"access_rules": ["$sushie, water_stone_base, $canClimbShortLedges, $canBreakYellowBlocks"],
+								"item_count": 2
+							},
+							{
+								"name": "Block on Left",
+								"access_rules": ["$canHitBlocks"],
+								"item_count": 1
+							},
+							{
+								"name": "Hidden Block on Right",
+								"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
+								"item_count": 1
+							},
+							{
+								"name": "Panel Star Piece",
+								"access_rules": ["boots2", "hammer3, $canClimbShortLedges"],
+								"visibility_rules": ["panels_setting"],
+								"chest_unopened_img": "images/chests/star_piece.png",
+								"chest_opened_img": "images/chests/star_piece_checked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "flower_fields",
+								"x": 2274,
+								"y": 812
+							}
+						]
+					},
+					{
+						"name": "Lily Room",
+						"access_rules": ["$canClimbShortLedges"],
+						"sections": [
+							{
+								"name": "Lily",
+								"access_rules": ["water_stone_base"],
+								"item_count": 1
+							},
+							{
+								"name": "Tree",
+								"access_rules": ["$canBreakYellowBlocks"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "flower_fields",
+								"x": 2660,
+								"y": 812
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Red Flower Room",
+				"access_rules": ["red_berry_base"],
+				"sections": [
+					{
+						"name": "Middle Vine",
+						"item_count": 1
+					},
+					{
+						"name": "Tree",
+						"access_rules": ["$canBreakYellowBlocks"],
+						"item_count": 2
+					},
+					{
+						"name": "Panel Star Piece",
+						"access_rules": ["boots2", "hammer3"],
+						"visibility_rules": ["panels_setting"],
+						"chest_unopened_img": "images/chests/star_piece.png",
+						"chest_opened_img": "images/chests/star_piece_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "flower_fields",
+						"x": 890,
+						"y": 803
+					}
+				],
+				"children": [
+					{
+						"name": "Posie Room",
+						"sections": [
+							{
+								"name": "Posie",
+								"item_count": 2
+							}
+						],
+						"map_locations": [
+							{
+								"map": "flower_fields",
+								"x": 405,
+								"y": 803
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Blue Flower Room",
+				"access_rules": ["blue_berry:1, [blue_berry:2]"],
+				"sections": [
+					{
+						"name": "Hidden Block by Spring",
+						"access_rules": ["$canHitBlocks, $hiddenBlocks"],
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Hidden Block Above Brick Block",
+						"access_rules": ["boots, $hiddenBlocks"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "flower_fields",
+						"x": 944,
+						"y": 598
+					}
+				],
+				"children": [
+					{
+						"name": "Hedge Maze",
+						"access_rules": ["$canClimbShortLedges"],
+						"sections": [
+							{
+								"name": "Multicoin Block",
+								"access_rules": ["$canHitBlocks"],
+								"visibility_rules": ["upgrades_setting, multicoin_setting"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "flower_fields",
+								"x": 527,
+								"y": 605
+							}
+						],
+						"children": [
+							{
+								"name": "Rosie Room",
+								"sections": [
+									{
+										"name": "Rosie",
+										"access_rules": ["crystal_berry_base"],
+										"capture_item": true,
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "flower_fields",
+										"x": 160,
+										"y": 615
+									}
+								]
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Cloudy Climb",
+				"access_rules": ["bean, soil, water, boots2, $lakilester"],
+				"sections": [
+					{
+						"name": "Item in Cloud",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "flower_fields",
+						"x": 1290,
+						"y": 174
+					}
+				],
+				"children": [
+					{
+						"name": "Huff Room",
+						"sections": [
+							{
+								"name": "Huff n Puff",
+								"hosted_item": "klevar"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "flower_fields",
+								"x": 2019,
+								"y": 182
+							}
+						]
+					}
+				]
+			},
+			{
+				"name": "Bubble Plant Room",
+				"sections": [
+					{
+						"name": "Vine Item",
+						"item_count": 1
+					},
+					{
+						"name": "Item on Ledge",
+						"access_rules": ["$lakilester", "bubble_berry_base, $canClimbShortLedges"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "flower_fields",
+						"x": 1080,
+						"y": 433
+					}
+				],
+				"children": [
+					{
+						"name": "Laki Fight Room",
+						"access_rules": ["$lakilester", "bubble_berry_base"],
+						"sections": [
+							{
+								"name": "Item on Ground",
+								"item_count": 1
+							},
+							{
+								"name": "Item in Crevace",
+								"access_rules": ["$canClimbShortLedges, [$bombette]"],
+								"item_count": 1
+							},
+							{
+								"name": "Lakilester",
+								"access_rules": ["$canClimbShortLedges, $bombette"],
+								"chest_unopened_img": "images/chests/lakilester.png",
+								"chest_opened_img": "images/chests/lakilester_checked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "flower_fields",
+								"x": 445,
+								"y": 433
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
