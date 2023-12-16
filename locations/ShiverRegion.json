@@ -1,0 +1,257 @@
+[
+	{
+		"name": "Shiver City (Middle)",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$ShiverCityAccess"],
+		"sections": [
+			{
+				"name": "Shop Items",
+				"access_rules": ["[warehouse_key], [boots]"],
+				"item_count": 6
+			},
+			{
+				"name": "Sleep at Inn",
+				"item_count": 1
+			},
+			{
+				"name": "Snowman's Gift",
+				"access_rules": ["warehouse_key, bucket, scarf, boots"],
+				"item_count": 5
+			}
+		],
+		"map_locations": [
+			{
+				"map": "shiver_region",
+				"x": 529,
+				"y": 583
+			}
+		],
+		"children": [
+			{
+				"name": "Shiver City (Left)",
+				"sections": [
+					{
+						"name": "Middle House Chest",
+						"access_rules": ["boots"],
+						"item_count": 1
+					},
+					{
+						"name": "Mayor Penguin (Bucket)",
+						"access_rules": ["warehouse_key, boots"],
+						"item_count": 1
+					},
+					{
+						"name": "Mayor Penguin (Letter)",
+						"visibility_rules": ["letters_setting"],
+						"access_rules": ["mayor_penguin_base, $parakarry"],
+						"chest_unopened_img": "images/chests/letter.png",
+						"chest_opened_img": "images/chests/letter_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Panel Star Piece",
+						"access_rules": ["boots2", "hammer3"],
+						"visibility_rules": ["panels_setting"],
+						"chest_unopened_img": "images/chests/star_piece.png",
+						"chest_opened_img": "images/chests/star_piece_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shiver_region",
+						"x": 193,
+						"y": 583
+					}
+				]
+			},
+			{
+				"name": "Shiver City (Right)",
+				"sections": [
+					{
+						"name": "Lake Item",
+						"access_rules": ["$bombette, $sushie", "boots2, $sushie"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shiver_region",
+						"x": 890,
+						"y": 583
+					}
+				]
+			},
+			{
+				"name": "Shiver Mountain Entrance",
+				"access_rules": ["boots, warehouse_key"],
+				"sections": [
+					{
+						"name": "Left Tree",
+						"access_rules": ["hammer"],
+						"item_count": 1
+					},
+					{
+						"name": "Item Behind Right Tree",
+						"item_count": 1
+					},
+					{
+						"name": "Panel Star Piece",
+						"access_rules": ["boots2", "hammer3"],
+						"visibility_rules": ["panels_setting"],
+						"chest_unopened_img": "images/chests/star_piece.png",
+						"chest_opened_img": "images/chests/star_piece_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "shiver_region",
+						"x": 1690,
+						"y": 550
+					}
+				],
+				"children": [
+					{
+						"name": "Outside Starborne Valley",
+						"sections": [
+							{
+								"name": "Item Behind Ice",
+								"item_count": 1
+							},
+							{
+								"name": "Hidden Block",
+								"access_rules": ["$hiddenBlocks"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "shiver_region",
+								"x": 2184,
+								"y": 536
+							}
+						]
+					},
+					{
+						"name": "Starborne Valley",
+						"sections": [
+							{
+								"name": "Merle",
+								"item_count": 1
+							},
+							{
+								"name": "Frost T. Letter",
+								"visibility_rules": ["letters_setting"],
+								"access_rules": ["frost_t_base, $parakarry"],
+								"chest_unopened_img": "images/chests/letter.png",
+								"chest_opened_img": "images/chests/letter_checked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "shiver_region",
+								"x": 2486,
+								"y": 544
+							}
+						]
+					},
+					{
+						"name": "Shiver Mountain Path",
+						"access_rules": ["boots2"],
+						"sections": [
+							{
+								"name": "Hidden Block Above Brick Block",
+								"access_rules": ["boots3, $hiddenBlocks"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "shiver_region",
+								"x": 1998,
+								"y": 316
+							}
+						],
+						"children": [
+							{
+								"name": "Duplighost Switch",
+								"sections": [
+									{
+										"name": "Pebble",
+										"item_count": 1
+									},
+									{
+										"name": "Upgrade Block",
+										"access_rules": ["$kooper"],
+										"visibility_rules": ["upgrades_setting"],
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "shiver_region",
+										"x": 2280,
+										"y": 308
+									}
+								],
+								"children": [
+									{
+										"name": "Pedestals",
+										"access_rules": ["$kooper"],
+										"sections": [
+											{
+												"name": "Pedestal Items",
+												"clear_as_group": false,
+												"item_count": 3
+											}
+										],
+										"map_locations": [
+											{
+												"map": "shiver_region",
+												"x": 2760,
+												"y": 284
+											}
+										],
+										"children": [
+											{
+												"name": "Star Stone Room",
+												"sections": [
+													{
+														"name": "Item on Ledge",
+														"access_rules": ["star_stone"],
+														"capture_item": true,
+														"item_count": 1
+													},
+													{
+														"name": "Item Block",
+														"access_rules": ["star_stone"],
+														"item_count": 1
+													},
+													{
+														"name": "Frozen Item",
+														"access_rules": ["$bombette"],
+														"item_count": 1
+													}
+												],
+												"map_locations": [
+													{
+														"map": "shiver_region",
+														"x": 3220,
+														"y": 234
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

@@ -17,7 +17,8 @@
         "name": "Kolorado",
         "type": "toggle",
         "img": "images/letters/PM_Kolorado.png",
-        "codes": "kolorado_base"
+        "codes": "kolorado_base",
+        "loop": true
     },
     {
         "name": "Kolorado",
@@ -30,7 +31,8 @@
         "name": "Mort T.",
         "type": "toggle",
         "img": "images/letters/PM_Toad.png",
-        "codes": "mort_t_base"
+        "codes": "mort_t_base",
+        "loop": true
     },
     {
         "name": "Mort T.",
@@ -43,7 +45,8 @@
         "name": "Nomadimouse",
         "type": "toggle",
         "img": "images/letters/Nomadimouse.png",
-        "codes": "nomadimouse_base"
+        "codes": "nomadimouse_base",
+        "loop": true
     },
     {
         "name": "Nomadimouse",
@@ -56,7 +59,8 @@
         "name": "Goompa",
         "type": "toggle",
         "img": "images/letters/PM_Goompa_sprite.png",
-        "codes": "goompa_base"
+        "codes": "goompa_base",
+        "loop": true
     },
     {
         "name": "Goompa",
@@ -69,7 +73,8 @@
         "name": "Fice T.",
         "type": "toggle",
         "img": "images/letters/PM_Fice_T_Sprite.png",
-        "codes": "fice_t_base"
+        "codes": "fice_t_base",
+        "loop": true
     },
     {
         "name": "Fict T.",
@@ -82,7 +87,8 @@
         "name": "Igor",
         "type": "toggle",
         "img": "images/letters/PM_Boo_Sprite.png",
-        "codes": "igor_base"
+        "codes": "igor_base",
+        "loop": true
     },
     {
         "name": "Igor",
@@ -95,7 +101,8 @@
         "name": "Russ T.",
         "type": "toggle",
         "img": "images/letters/Russ_T.png",
-        "codes": "russ_t_base"
+        "codes": "russ_t_base",
+        "loop": true
     },
     {
         "name": "Russ T.",
@@ -108,7 +115,8 @@
         "name": "Minh T.",
         "type": "toggle",
         "img": "images/letters/MinhT_PM.png",
-        "codes": "minh_t_base"
+        "codes": "minh_t_base",
+        "loop": true
     },
     {
         "name": "Minh T.",
@@ -121,7 +129,8 @@
         "name": "Mayor Penguin",
         "type": "toggle",
         "img": "images/letters/MayorPenguinPM.png",
-        "codes": "mayor_penguin_base"
+        "codes": "mayor_penguin_base",
+        "loop": true
     },
     {
         "name": "Mayor Penguin",
@@ -134,7 +143,8 @@
         "name": "Merlow",
         "type": "toggle",
         "img": "images/letters/PM_Merlow.png",
-        "codes": "merlow_base"
+        "codes": "merlow_base",
+        "loop": true
     },
     {
         "name": "Merlow",
@@ -147,7 +157,8 @@
         "name": "Goompapa",
         "type": "toggle",
         "img": "images/letters/PM_Goompapa_Sprite.png",
-        "codes": "goompapa1_base"
+        "codes": "goompapa1_base",
+        "loop": true
     },
     {
         "name": "Goompapa",
@@ -160,7 +171,8 @@
         "name": "Muss T.",
         "type": "toggle",
         "img": "images/letters/PM_Toad.png",
-        "codes": "muss_t_base"
+        "codes": "muss_t_base",
+        "loop": true
     },
     {
         "name": "Muss T.",
@@ -173,7 +185,8 @@
         "name": "Koover",
         "type": "toggle",
         "img": "images/letters/KoopaTroopaPM.png",
-        "codes": "koover1_base"
+        "codes": "koover1_base",
+        "loop": true
     },
     {
         "name": "Koover",
@@ -186,7 +199,8 @@
         "name": "Fishmael",
         "type": "toggle",
         "img": "images/letters/FishMael_PM.png",
-        "codes": "fishmael_base"
+        "codes": "fishmael_base",
+        "loop": true
     },
     {
         "name": "Fishmael",
@@ -199,7 +213,8 @@
         "name": "Koover",
         "type": "toggle",
         "img": "images/letters/KoopaTroopaPM.png",
-        "codes": "koover2_base"
+        "codes": "koover2_base",
+        "loop": true
     },
     {
         "name": "Koover",
@@ -212,7 +227,8 @@
         "name": "Mr. E",
         "type": "toggle",
         "img": "images/letters/MrEPM.png",
-        "codes": "mr_e_base"
+        "codes": "mr_e_base",
+        "loop": true
     },
     {
         "name": "Mr. E",
@@ -225,7 +241,8 @@
         "name": "Miss T.",
         "type": "toggle",
         "img": "images/letters/PMMissT.png",
-        "codes": "miss_t_base"
+        "codes": "miss_t_base",
+        "loop": true
     },
     {
         "name": "Miss T.",
@@ -238,7 +255,8 @@
         "name": "Little Mouser",
         "type": "toggle",
         "img": "images/letters/Little_Mouser_Paper_Mario.png",
-        "codes": "little_mouser_base"
+        "codes": "little_mouser_base",
+        "loop": true
     },
     {
         "name": "Little Mouser",
@@ -251,7 +269,8 @@
         "name": "Franky",
         "type": "toggle",
         "img": "images/letters/PM_Boo_Sprite.png",
-        "codes": "franky_base"
+        "codes": "franky_base",
+        "loop": true
     },
     {
         "name": "Franky",
@@ -264,7 +283,8 @@
         "name": "Dane T.",
         "type": "toggle",
         "img": "images/letters/PM_Dane_T.png",
-        "codes": "dane_t1_base"
+        "codes": "dane_t1_base",
+        "loop": true
     },
     {
         "name": "Dane T.",
@@ -277,7 +297,8 @@
         "name": "Red Yoshi Kid",
         "type": "toggle",
         "img": "images/letters/red_yoshi.png",
-        "codes": "red_yoshi_base"
+        "codes": "red_yoshi_base",
+        "loop": true
     },
     {
         "name": "Red Yoshi Kid",
@@ -290,7 +311,8 @@
         "name": "Dane T.",
         "type": "toggle",
         "img": "images/letters/PM_Dane_T.png",
-        "codes": "dane_t2_base"
+        "codes": "dane_t2_base",
+        "loop": true
     },
     {
         "name": "Dane T.",
@@ -303,7 +325,8 @@
         "name": "Frost T.",
         "type": "toggle",
         "img": "images/letters/Frost_T.png",
-        "codes": "frost_t_base"
+        "codes": "frost_t_base",
+        "loop": true
     },
     {
         "name": "Frost T.",
@@ -316,7 +339,8 @@
         "name": "Goompapa",
         "type": "toggle",
         "img": "images/letters/PM_Goompapa_Sprite.png",
-        "codes": "goompapa2_base"
+        "codes": "goompapa2_base",
+        "loop": true
     },
     {
         "name": "Goompapa",
