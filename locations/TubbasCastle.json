@@ -11,6 +11,7 @@
 					{
 						"name": "Item on Table",
 						"access_rules": ["boots"],
+						"capture_item": true,
 						"item_count": 1
 					}
 				],
@@ -68,6 +69,7 @@
 						"sections": [
 							{
 								"name": "Item on Bed",
+								"capture_item": true,
 								"item_count": 1
 							}
 						],
@@ -101,6 +103,7 @@
 						"sections": [
 							{
 								"name": "Item on Table",
+								"capture_item": true,
 								"item_count": 1
 							}
 						],

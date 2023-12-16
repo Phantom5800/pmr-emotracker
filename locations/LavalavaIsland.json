@@ -1,0 +1,523 @@
+[
+	{
+		"name": "Whale",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$YoshisIslandAccess"],
+		"sections": [
+			{
+				"name": "Behind Bush",
+				"item_count": 1
+			},
+			{
+				"name": "Coconut Tree",
+				"access_rules": ["$canBreakYellowBlocks"],
+				"item_count": 1
+			},
+			{
+				"name": "Coins Above Spinny Flower",
+				"access_rules": ["boots", "$parakarry"],
+				"visibility_rules": ["coins_setting"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
+				"item_count": 2
+			}
+		],
+		"map_locations": [
+			{
+				"map": "lavalava_island",
+				"x": 179,
+				"y": 1872
+			}
+		],
+		"children": [
+			{
+				"name": "Beach",
+				"sections": [
+					{
+						"name": "Coconut Trees",
+						"access_rules": ["$canBreakYellowBlocks"],
+						"clear_as_group": false,
+						"item_count": 7
+					},
+					{
+						"name": "Hidden Blocks",
+						"access_rules": ["$canHitBlocks, $hiddenBlocks"],
+						"item_count": 2
+					},
+					{
+						"name": "Item on Rocks",
+						"capture_item": true,
+						"access_rules": ["$canClimbShortLedges"],
+						"item_count": 1
+					},
+					{
+						"name": "Coins Above Spinny Flower",
+						"access_rules": ["boots", "$parakarry"],
+						"visibility_rules": ["coins_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 2
+					}
+				],
+				"map_locations": [
+					{
+						"map": "lavalava_island",
+						"x": 509,
+						"y": 1911
+					}
+				]
+			},
+			{
+				"name": "Yoshi Village Entrance",
+				"sections": [
+					{
+						"name": "Coconut Trees",
+						"access_rules": ["$canBreakYellowBlocks"],
+						"clear_as_group": false,
+						"item_count": 2
+					},
+					{
+						"name": "Yoshi Chief",
+						"access_rules": ["red_yoshi_kid, green_yoshi_kid, blue_yoshi_kid, purple_yoshi_kid, yellow_yoshi_kid"],
+						"item_count": 1
+					},
+					{
+						"name": "Star Piece Panel",
+						"access_rules": ["boots2", "hammer3"],
+						"visibility_rules": ["panels_setting"],
+						"chest_unopened_img": "images/chests/star_piece.png",
+						"chest_opened_img": "images/chests/star_piece_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "lavalava_island",
+						"x": 856,
+						"y": 1916
+					}
+				]
+			},
+			{
+				"name": "Yoshi Village Hub",
+				"sections": [
+					{
+						"name": "Coconut Tree",
+						"access_rules": ["$canBreakYellowBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Yellow Yoshi",
+						"access_rules": ["red_yoshi_kid, green_yoshi_kid, blue_yoshi_kid, purple_yoshi_kid, yellow_yoshi_kid, misstar, $cookingAvailable"],
+						"item_count": 1
+					},
+					{
+						"name": "Kolorado (Vase)",
+						"access_rules": ["red_yoshi_kid, green_yoshi_kid, blue_yoshi_kid, purple_yoshi_kid, yellow_yoshi_kid, misstar, volcano_vase_base"],
+						"item_count": 1
+					},
+					{
+						"name": "Shop Items",
+						"access_rules": ["$canClimbShortLedges"],
+						"item_count": 6
+					},
+					{
+						"name": "Red Yoshi Kid Letter",
+						"access_rules": ["red_yoshi_kid, red_yoshi_base, $parakarry"],
+						"visibility_rules": ["letters_setting"],
+						"chest_unopened_img": "images/chests/letter.png",
+						"chest_opened_img": "images/chests/letter_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "lavalava_island",
+						"x": 1186,
+						"y": 1912
+					}
+				]
+			},
+			{
+				"name": "Outside Volcano",
+				"sections": [
+					{
+						"name": "Behind Tree",
+						"item_count": 1
+					},
+					{
+						"name": "Raphael",
+						"access_rules": ["jade_raven_base, $sushie, $canClimbShortLedges"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "lavalava_island",
+						"x": 1474,
+						"y": 1919
+					}
+				]
+			},
+			{
+				"name": "Sushie Room",
+				"sections": [
+					{
+						"name": "Sushie Tree",
+						"access_rules": ["$canBreakYellowBlocks"],
+						"chest_unopened_img": "images/chests/sushie.png",
+						"chest_opened_img": "images/chests/sushie_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Chest",
+						"access_rules": ["misstar"],
+						"item_count": 1
+					},
+					{
+						"name": "Island Tree",
+						"access_rules": ["$canBreakYellowBlocks, $sushie"],
+						"item_count": 1
+					},
+					{
+						"name": "Island Tree (Ground Item)",
+						"access_rules": ["$sushie"],
+						"capture_item": true,
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "lavalava_island",
+						"x": 1190,
+						"y": 1673
+					}
+				]
+			},
+			{
+				"name": "Island Spear Guy",
+				"sections": [
+					{
+						"name": "Spear Guy Block",
+						"access_rules": ["$canHitBlocks, $sushie"],
+						"item_count": 1
+					},
+					{
+						"name": "Purple Yoshi",
+						"access_rules": ["hammer, $sushie"],
+						"hosted_item": "purple_yoshi_kid"
+					},
+					{
+						"name": "Far Right Tree Coin",
+						"access_rules": ["$canBreakYellowBlocks"],
+						"visibility_rules": ["foliage_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Bottom Left Bush",
+						"visibility_rules": ["foliage_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Bottom Right Bush",
+						"access_rules": ["hammer, $sushie"],
+						"visibility_rules": ["foliage_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "lavalava_island",
+						"x": 849,
+						"y": 1671
+					}
+				]
+			},
+			{
+				"name": "SW Jade Jungle",
+				"sections": [
+					{
+						"name": "Hidden Block at North",
+						"access_rules": ["$canHitBlocks, $sushie, $hiddenBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Red Yoshi",
+						"hosted_item": "red_yoshi_kid"
+					},
+					{
+						"name": "Underwater Coins",
+						"access_rules": ["$sushie"],
+						"visibility_rules": ["coins_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 3
+					},
+					{
+						"name": "Upgrade Block",
+						"access_rules": ["$canHitBlocks, $sushie"],
+						"visibility_rules": ["upgrades_setting"],
+						"clear_as_group": false,
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "lavalava_island",
+						"x": 509,
+						"y": 1671
+					}
+				]
+			},
+			{
+				"name": "NW Jade Jungle",
+				"access_rules": ["$sushie"],
+				"sections": [
+					{
+						"name": "Far Right Tree",
+						"access_rules": ["$canBreakYellowBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Tree on Ledge",
+						"access_rules": ["$canClimbShortLedges, $canBreakYellowBlocks"],
+						"visibility_rules": ["foliage_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Second Bush from Right",
+						"visibility_rules": ["foliage_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Second Bush from Left",
+						"visibility_rules": ["foliage_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "lavalava_island",
+						"x": 509,
+						"y": 1480
+					}
+				],
+				"children": [
+					{
+						"name": "Blue Yoshi Room",
+						"sections": [
+							{
+								"name": "Blue Yoshi",
+								"access_rules": ["hammer"],
+								"hosted_item": "blue_yoshi_kid"
+							},
+							{
+								"name": "Underwater Item",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "lavalava_island",
+								"x": 188,
+								"y": 1482
+							}
+						]
+					},
+					{
+						"name": "Dark Room",
+						"access_rules": ["boots, $watt"],
+						"sections": [
+							{
+								"name": "Green Yoshi",
+								"hosted_item": "green_yoshi_kid"
+							}
+						],
+						"map_locations": [
+							{
+								"map": "lavalava_island",
+								"x": 460,
+								"y": 1320
+							}
+						]
+					},
+					{
+						"name": "NE Jade Jungle",
+						"access_rules": ["hammer"],
+						"sections": [
+							{
+								"name": "Underwater Coin",
+								"visibility_rules": ["coins_setting"],
+								"chest_unopened_img": "images/chests/coin.png",
+								"chest_opened_img": "images/chests/coin_checked.png",
+								"item_count": 1
+							},
+							{
+								"name": "Tree by Raven Statue",
+								"visibility_rules": ["foliage_setting"],
+								"chest_unopened_img": "images/chests/coin.png",
+								"chest_opened_img": "images/chests/coin_checked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "lavalava_island",
+								"x": 849,
+								"y": 1480
+							}
+						],
+						"children": [
+							{
+								"name": "Yellow Yoshi Room",
+								"sections": [
+									{
+										"name": "Yellow Yoshi",
+										"hosted_item": "yellow_yoshi_kid"
+									}
+								],
+								"map_locations": [
+									{
+										"map": "lavalava_island",
+										"x": 1163,
+										"y": 1480
+									}
+								]
+							},
+							{
+								"name": "Deep Jungle",
+								"access_rules": ["jade_raven_base"],
+								"sections": [
+									{
+										"name": "Hidden Block",
+										"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
+										"item_count": 1
+									},
+									{
+										"name": "Pull Tree Vine",
+										"access_rules": ["boots"],
+										"item_count": 1
+									},
+									{
+										"name": "Hit Tree",
+										"visibility_rules": ["foliage_setting"],
+										"access_rules": ["$canBreakYellowBlocks, $canClimbShortLedges"],
+										"chest_unopened_img": "images/chests/coin.png",
+										"chest_opened_img": "images/chests/coin_checked.png",
+										"item_count": 1
+									}		
+								],
+								"map_locations": [
+									{
+										"map": "lavalava_island",
+										"x": 885,
+										"y": 1269
+									}
+								],
+								"children": [
+									{
+										"name": "Block Puzzle",
+										"sections": [
+											{
+												"name": "Hidden Block",
+												"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
+												"item_count": 1
+											},
+											{
+												"name": "Far Left Tree",
+												"visibility_rules": ["foliage_setting"],
+												"access_rules": ["$canBreakYellowBlocks"],
+												"chest_unopened_img": "images/chests/coin.png",
+												"chest_opened_img": "images/chests/coin_checked.png",
+												"item_count": 1
+											}	
+										],
+										"map_locations": [
+											{
+												"map": "lavalava_island",
+												"x": 1147,
+												"y": 1137
+											}
+										]
+									},
+									{
+										"name": "Vine Room",
+										"access_rules": ["boots"],
+										"sections": [
+											{
+												"name": "Second Vine Tree",
+												"item_count": 1
+											},
+											{
+												"name": "Far Right Tree",
+												"item_count": 1
+											}
+										],
+										"map_locations": [
+											{
+												"map": "lavalava_island",
+												"x": 1362,
+												"y": 1016
+											}
+										],
+										"children": [
+											{
+												"name": "Ambush Room",
+												"sections": [
+													{
+														"name": "Star Piece Panel",
+														"access_rules": ["boots2", "hammer3"],
+														"visibility_rules": ["panels_setting"],
+														"chest_unopened_img": "images/chests/star_piece.png",
+														"chest_opened_img": "images/chests/star_piece_checked.png",
+														"item_count": 1
+													}
+												],
+												"map_locations": [
+													{
+														"map": "lavalava_island",
+														"x": 1563,
+														"y": 898
+													}
+												]
+											},
+											{
+												"name": "Tree",
+												"sections": [
+													{
+														"name": "Item on Tree",
+														"item_count": 1
+													}
+												],
+												"map_locations": [
+													{
+														"map": "lavalava_island",
+														"x": 1831,
+														"y": 381
+													}
+												]
+											}
+										]
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
