@@ -1,0 +1,189 @@
+[
+	{
+		"name": "Mt. Lavalava Entracne",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$VolcanoAccess"],
+		"children": [
+			{
+				"name": "Volcano Hub",
+				"chest_unopened_img": "images/chests/generic.png",
+				"chest_opened_img": "images/chests/generic_checked.png",
+				"access_rules": ["boots", "$parakarry", "$lakilester"],
+				"sections": [
+					{
+						"name": "Item On Block",
+						"access_rules": ["$kooper", "boots3"],
+						"item_count": 1
+					},
+					{
+						"name": "Coin Blocks",
+						"access_rules": ["$canHitBlocks"],
+						"visibility_rules": ["coin_block_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 4
+					},
+					{
+						"name": "Item On Pillar",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mt_lavalava",
+						"x": 730,
+						"y": 175
+					}
+				],
+				"children": [
+					{
+						"name": "Firebar Room",
+						"sections": [
+							{
+								"name": "Upgrade Block",
+								"access_rules": ["$canHitBlocks"],
+								"visibility_rules": ["upgrades_setting"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "mt_lavalava",
+								"x": 1032,
+								"y": 175
+							}
+						]
+					},
+					{
+						"name": "Block Puzzle Room",
+						"sections": [
+							{
+								"name": "Hidden Block",
+								"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "mt_lavalava",
+								"x": 350,
+								"y": 340
+							}
+						],
+						"children": [
+							{
+								"name": "Ultra Hammer Room",
+								"access_rules": ["$parakarry", "$lakilester"],
+								"sections": [
+									{
+										"name": "Large Chest",
+										"access_rules": ["$lakilester, boots", "$parakarry"],
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "mt_lavalava",
+										"x": 120,
+										"y": 356
+									}
+								]
+							},
+							{
+								"name": "Dizzy Stomp",
+								"access_rules": ["hammer3"],
+								"sections": [
+									{
+										"name": "Chest",
+										"access_rules": ["$parakarry", "$lakilester, boots"],
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "mt_lavalava",
+										"x": 505,
+										"y": 420
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Zipline",
+						"sections": [
+							{
+								"name": "Upgrade Block",
+								"access_rules": ["$canHitBlocks, hammer3"],
+								"visibility_rules": ["upgrades_setting"],
+								"item_count": 1
+							},
+							{
+								"name": "Panel Star Piece",
+								"access_rules": ["boots2", "hammer3"],
+								"visibility_rules": ["panels_setting"],
+								"chest_unopened_img": "images/chests/star_piece.png",
+								"chest_opened_img": "images/chests/star_piece_checked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "mt_lavalava",
+								"x": 975,
+								"y": 300
+							}
+						],
+						"children": [
+							{
+								"name": "Save Room",
+								"access_rules": ["hammer3"],
+								"sections": [
+									{
+										"name": "Panel Star Piece",
+										"access_rules": ["boots2", "hammer3"],
+										"visibility_rules": ["panels_setting"],
+										"chest_unopened_img": "images/chests/star_piece.png",
+										"chest_opened_img": "images/chests/star_piece_checked.png",
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "mt_lavalava",
+										"x": 1990,
+										"y": 320
+									}
+								],
+								"children": [
+									{
+										"name": "Lava Piranha Room",
+										"sections": [
+											{
+												"name": "Item Blocks",
+												"access_rules": ["$canHitBlocks"],
+												"item_count": 2
+											},
+											{
+												"name": "Lava Piranha",
+												"hosted_item": "misstar"
+											}
+										],
+										"map_locations": [
+											{
+												"map": "mt_lavalava",
+												"x": 2200,
+												"y": 315
+											}
+										]
+									}		
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
