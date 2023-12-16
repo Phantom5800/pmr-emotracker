@@ -1,0 +1,198 @@
+[
+	{
+		"name": "Tubba's Castle Entrance",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$TubbaCastleAccess, [$bow]"],
+		"children": [
+			{
+				"name": "Tubba's Study",
+				"sections": [
+					{
+						"name": "Item on Table",
+						"access_rules": ["boots"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tubba_castle",
+						"x": 760,
+						"y": 355
+					}
+				]
+			},
+			{
+				"name": "Tubba's Basement",
+				"access_rules": ["boots2"],
+				"sections": [
+					{
+						"name": "Chest",
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "tubba_castle",
+						"x": 483,
+						"y": 623
+					}
+				]
+			},
+			{
+				"name": "Tubba West Lower Stairwell",
+				"sections": [
+					{
+						"name": "Upgrade Block",
+						"access_rules": ["$canHitBlocks"],
+						"visibility_rules": ["upgrades_setting"],
+						"clear_as_group": false,
+						"item_count": 1
+					}		
+				],
+				"map_locations": [
+					{
+						"map": "tubba_castle",
+						"x": 276,
+						"y": 618
+					}
+				]
+			},
+			{
+				"name": "Upstairs",
+				"access_rules": ["ch3_key:1"],
+				"children": [
+					{
+						"name": "Tubba Spring Room",
+						"access_rules": ["$bombette, boots2, $parakarry"],
+						"sections": [
+							{
+								"name": "Item on Bed",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "tubba_castle",
+								"x": 956,
+								"y": 346
+							}
+						]
+					},
+					{
+						"name": "Spike Room",
+						"sections": [
+							{
+								"name": "Chest",
+								"access_rules": ["$lakilester", "[$bow]"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "tubba_castle",
+								"x": 770,
+								"y": 208
+							}
+						]
+					},
+					{
+						"name": "Dining Room",
+						"sections": [
+							{
+								"name": "Item on Table",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "tubba_castle",
+								"x": 498,
+								"y": 379
+							}
+						]
+					},
+					{
+						"name": "Mega Rush Room",
+						"access_rules": ["$parakarry"],
+						"sections": [
+							{
+								"name": "Item Behind Wall",
+								"access_rules": ["boots"],
+								"item_count": 1
+							},
+							{
+								"name": "Coins on Bed",
+								"visibility_rules": ["coins_setting"],
+								"chest_unopened_img": "images/chests/coin.png",
+								"chest_opened_img": "images/chests/coin_checked.png",
+								"item_count": 6
+							}
+						],
+						"map_locations": [
+							{
+								"map": "tubba_castle",
+								"x": 464,
+								"y": 209
+							}
+						]
+					},
+					{
+						"name": "Tubba West Upper Stairwell",
+						"access_rules": ["ch3_key:2"],
+						"sections": [
+							{
+								"name": "Block",
+								"access_rules": ["$canHitBlocks"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "tubba_castle",
+								"x": 276,
+								"y": 251
+							}
+						],
+						"children": [
+							{
+								"name": "Clubba Room",
+								"sections": [
+									{
+										"name": "Item on Pedestal",
+										"access_rules": ["$canClimbShortLedges"],
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "tubba_castle",
+										"x": 547,
+										"y": 59
+									}
+								]
+							},
+							{
+								"name": "Tubba's Bedroom",
+								"access_rules": ["ch3_key:3"],
+								"sections": [
+									{
+										"name": "Chest",
+										"hosted_item": "mystical_key_base"
+									}
+								],
+								"map_locations": [
+									{
+										"map": "tubba_castle",
+										"x": 1924,
+										"y": 189
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
