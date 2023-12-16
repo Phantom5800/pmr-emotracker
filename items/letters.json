@@ -198,7 +198,7 @@
     {
         "name": "Fishmael",
         "type": "toggle",
-        "img": "images/letters/FishMael_PM.png",
+        "img": "images/letters/Fishmael_PM.png",
         "codes": "fishmael_base",
         "loop": true
     },

@@ -86,7 +86,7 @@
     {
         "name": "Fertile Soil",
         "type": "toggle",
-        "img": "images/ch6/FertileSoil.png",
+        "img": "images/ch6/Fertilesoil.png",
         "codes": "soil",
         "loop": true
     },
