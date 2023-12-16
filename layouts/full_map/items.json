@@ -2,7 +2,7 @@
     "tracker_items": {
 		"type": "array",
 		"orientation": "vertical",
-		"scale": 1.5,
+		"scale": 1.25,
 		"style": "wrap",
 		"content": [
 			{

@@ -2,7 +2,8 @@
     "tracker_broadcast": {
         "type": "array",
 		"dropshadow": false,
-		"background": "#5f417b",
+		//"background": "#5f417b",
+		"background": "#363648",
 		"scale": 2,
         "content": [
 			{
