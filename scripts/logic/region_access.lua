@@ -1,3 +1,28 @@
+function DungeonAccessible(dungeon)
+    local entranceAccessibleFn = {
+        KoopaBrosFortressEntranceAccess,
+        DryDryRuinsEntranceAccess,
+        TubbaCastleEntranceAccess,
+        ToyBoxEntranceAccess,
+        VolcanoEntranceAccess,
+        FlowerFieldsGateAccess,
+        CrystalPalaceEntranceAccess
+    }
+
+    if hasItem("dungeon_setting") then
+        for i=1,7,1 do
+            local dungeon_entrance = "ch"..i.."_dungeon_0"
+            if itemStage(dungeon_entrance) == dungeon then
+                return entranceAccessibleFn[i]()
+            end
+        end
+
+        return false
+    end
+
+    return entranceAccessibleFn[dungeon]()
+end
+
 --[[----------------------------------------------------------
     Prologue Region Access
 ------------------------------------------------------------]]
@@ -51,7 +76,7 @@ function KoopaBrosFortressEntranceAccess()
 end
 
 function KoopaBrosFortressAccess()
-    return KoopaBrosFortressEntranceAccess()
+    return DungeonAccessible(1)
 end
 
 --[[----------------------------------------------------------
@@ -86,7 +111,7 @@ function DryDryRuinsEntranceAccess()
 end
 
 function DryDryRuinsAccess()
-    return DryDryRuinsEntranceAccess()
+    return DungeonAccessible(2)
 end
 
 --[[----------------------------------------------------------
@@ -138,7 +163,7 @@ function TubbaCastleEntranceAccess()
 end
 
 function TubbaCastleAccess()
-    return TubbaCastleEntranceAccess()
+    return DungeonAccessible(3)
 end
 
 --[[----------------------------------------------------------
@@ -149,7 +174,7 @@ function ToyBoxEntranceAccess()
 end
 
 function ToyBoxAccess()
-    return ToyBoxEntranceAccess()
+    return DungeonAccessible(4)
 end
 
 function ToyBoxPinkAccess()
@@ -213,7 +238,7 @@ function VolcanoEntranceAccess()
 end
 
 function VolcanoAccess()
-    return VolcanoEntranceAccess()
+    return DungeonAccessible(5)
 end
 
 --[[----------------------------------------------------------
@@ -224,7 +249,7 @@ function FlowerFieldsGateAccess()
 end
 
 function FlowerFieldsAccess()
-    return FlowerFieldsGateAccess()
+    return DungeonAccessible(6)
 end
 
 --[[----------------------------------------------------------
@@ -268,5 +293,5 @@ function CrystalPalaceEntranceAccess()
 end
 
 function CrystalPalaceAccess()
-    return CrystalPalaceEntranceAccess()
+    return DungeonAccessible(7)
 end

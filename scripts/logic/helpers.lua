@@ -2,6 +2,10 @@ function hasItem(item)
     return Tracker:ProviderCountForCode(item) > 0
 end
 
+function itemStage(item)
+    return Tracker:FindObjectForCode(item).CurrentStage
+end
+
 function canBreakYellowBlocks()
     return bombette() or hasItem("hammer")
 end

@@ -124,5 +124,14 @@
         "initial_active_state": false,
         "loop": true,
         "codes": "multicoin_setting"
+    },
+    {
+        "name": "Dungeon Entrance Shuffle",
+        "type": "toggle",
+        "img": "images/settings/DungeonShuffle.png",
+        "disabled_img_mods": "overlay|images/settings/no120.png",
+        "initial_active_state": false,
+        "loop": true,
+        "codes": "dungeon_setting"
     }
 ]

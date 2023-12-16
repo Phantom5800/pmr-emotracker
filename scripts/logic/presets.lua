@@ -41,13 +41,13 @@ function Preset:onLeftClick()
     --                       blue house    hidden        forest        whale
         openareas = { false, false, false, false, false, false, false, false, false }
 
-    --                shop          merlow        panels        coin block    letters       koot          upgrades
+    --                shop          merlow        panels        coin block    letters       koot          upgrades      dungeon
     --                       rowf          keysanity     coins         foliage       dojo          event toad    multicoin
-        settings  = { false, false, false, false, false, false, false, false, false, false, false, false, false, false }
+        settings  = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false }
 
     if self.code == "blitz_preset" then
         openareas = { true,  false, true,  true,  false, true,  false, false, false }
-        settings  = { true,  true,  false, true,  false, false, false, false, false, false, false, false, false, false }
+        settings  = { true,  true,  false, true,  false, false, false, false, false, false, false, false, false, false, false }
 
         Tracker:FindObjectForCode("boots").CurrentStage = 1
         Tracker:FindObjectForCode("hammer").CurrentStage = 1
@@ -57,7 +57,7 @@ function Preset:onLeftClick()
         Tracker:FindObjectForCode("seed2").Active = true
     elseif self.code == "s1_race_preset" then
         openareas = { true,  false, false, false, false, true,  false, false, false }
-        settings  = { true,  true,  true,  true,  false, false, false, false, false, false, false, false, false, false }
+        settings  = { true,  true,  true,  true,  false, false, false, false, false, false, false, false, false, false, false }
 
         Tracker:FindObjectForCode("boots").CurrentStage = 1
         Tracker:FindObjectForCode("hammer").CurrentStage = 1
@@ -65,7 +65,7 @@ function Preset:onLeftClick()
         Tracker:FindObjectForCode("seed2").Active = true
     elseif self.code == "extreme_preset" then
         openareas = { false, false, false, false, false, true,  false, false, true }
-        settings  = { true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true }
+        settings  = { true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true,  true }
     end
 
     Tracker:FindObjectForCode("shopsanity_setting").Active = settings[1]
@@ -82,6 +82,7 @@ function Preset:onLeftClick()
     Tracker:FindObjectForCode("trading_setting").Active = settings[12]
     Tracker:FindObjectForCode("upgrades_setting").Active = settings[13]
     Tracker:FindObjectForCode("multicoin_setting").Active = settings[14]
+    Tracker:FindObjectForCode("dungeon_setting").Active = settings[15]
 
     Tracker:FindObjectForCode("open_prologue").Active = openareas[1]
     Tracker:FindObjectForCode("open_blue_house").Active = openareas[2]
