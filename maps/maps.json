@@ -56,7 +56,7 @@
 	{
         "name": "boos_mansion",
 		"location_size": 50,
-		"location_border_thickness": 14,
+		"location_border_thickness": 6,
         "img": "images/maps/BoosMansion.png"
     },
 	{

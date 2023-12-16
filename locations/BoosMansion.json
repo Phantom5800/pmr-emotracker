@@ -1,0 +1,248 @@
+[
+	{
+		"name": "Outside Boo's Mansion",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": ["$ForeverForestAccess"],
+		"sections": [
+			{
+				"name": "Far Right Bush",
+				"item_count": 1
+			},
+			{
+				"name": "Block Outside Gate",
+				"access_rules": ["$canHitBlocks"],
+				"item_count": 1
+			}
+		],
+		"map_locations": [
+			{
+				"map": "boos_mansion",
+				"x": 680,
+				"y": 671
+			}
+		],
+		"children": [
+			{
+				"name": "Boo's Mansion Foyer",
+				"access_rules": ["boots"],
+				"sections": [
+					{
+						"name": "Panel Star Piece",
+						"access_rules": ["boots2", "hammer3"],
+						"visibility_rules": ["panels_setting"],
+						"chest_unopened_img": "images/chests/star_piece.png",
+						"chest_opened_img": "images/chests/star_piece_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Franky Letter",
+						"access_rules": ["franky_base, $parakarry, boo_portrait_base"],
+						"visibility_rules": ["letters_setting"],
+						"chest_unopened_img": "images/chests/letter.png",
+						"chest_opened_img": "images/chests/letter_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Franky (Old Photo)",
+						"access_rules": ["boo_portrait_base, koot_talk_13"],
+						"visibility_rules": ["koot_setting"],
+						"item_count": 1
+					}
+				],
+				"map_locations": [
+					{
+						"map": "boos_mansion",
+						"x": 495,
+						"y": 395
+					}
+				],
+				"children": [
+					{
+						"name": "Bow's Bedroom",
+						"access_rules": ["boo_portrait_base"],
+						"sections": [
+							{
+								"name": "Bow",
+								"chest_unopened_img": "images/chests/bow.png",
+								"chest_opened_img": "images/chests/bow_checked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "boos_mansion",
+								"x": 500,
+								"y": 130
+							}
+						]
+					},
+					{
+						"name": "Record Player",
+						"sections": [
+							{
+								"name": "Chest",
+								"access_rules": ["record_base"],
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "boos_mansion",
+								"x": 190,
+								"y": 273
+							}
+						]
+					},
+					{
+						"name": "Boo Ring Minigame",
+						"sections": [
+							{
+								"name": "Minigame",
+								"item_count": 1
+							},
+							{
+								"name": "Panel Star Piece",
+								"access_rules": ["boots2", "hammer3"],
+								"visibility_rules": ["panels_setting"],
+								"chest_unopened_img": "images/chests/star_piece.png",
+								"chest_opened_img": "images/chests/star_piece_checked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "boos_mansion",
+								"x": 810,
+								"y": 265
+							}
+						]
+					},
+					{
+						"name": "8bit Mario Room",
+						"sections": [
+							{
+								"name": "Crates",
+								"access_rules": ["boots2"],
+								"item_count": 2
+							}
+						],
+						"map_locations": [
+							{
+								"map": "boos_mansion",
+								"x": 856,
+								"y": 345
+							}
+						],
+						"children": [
+							{
+								"name": "Library",
+								"access_rules": ["boots2, [$bombette]"],
+								"sections": [
+									{
+										"name": "Item on Right Bookshelf",
+										"access_rules": ["$parakarry"],
+										"item_count": 1
+									},
+									{
+										"name": "Item in Bottom Crate",
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "boos_mansion",
+										"x": 815,
+										"y": 410
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "Fake Chest Room",
+						"access_rules": ["weight_base", "boots2, $bombette"],
+						"sections": [
+							{
+								"name": "Panel Star Piece",
+								"access_rules": ["boots2", "hammer3"],
+								"visibility_rules": ["panels_setting"],
+								"chest_unopened_img": "images/chests/star_piece.png",
+								"chest_opened_img": "images/chests/star_piece_checked.png",
+								"item_count": 1
+							}
+						],
+						"map_locations": [
+							{
+								"map": "boos_mansion",
+								"x": 115,
+								"y": 420
+							}
+						],
+						"children": [
+							{
+								"name": "Boo Shop",
+								"sections": [
+									{
+										"name": "Right Crate",
+										"access_rules": ["boots2"],
+										"item_count": 1
+									},
+									{
+										"name": "Shop Items",
+										"access_rules": ["boo_portrait_base"],
+										"item_count": 6
+									},
+									{
+										"name": "Igor Letter",
+										"access_rules": ["igor_base, $parakarry, boo_portrait_base"],
+										"visibility_rules": ["letters_setting"],
+										"chest_unopened_img": "images/chests/letter.png",
+										"chest_opened_img": "images/chests/letter_checked.png",
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "boos_mansion",
+										"x": 58,
+										"y": 510
+									}
+								]
+							},
+							{
+								"name": "Super Boots Room",
+								"sections": [
+									{
+										"name": "Big Chest",
+										"item_count": 1
+									},
+									{
+										"name": "Bottom Crate",
+										"access_rules": ["boots2"],
+										"item_count": 1
+									},
+									{
+										"name": "Panel Star Piece",
+										"access_rules": ["boots2", "hammer3"],
+										"visibility_rules": ["panels_setting"],
+										"chest_unopened_img": "images/chests/star_piece.png",
+										"chest_opened_img": "images/chests/star_piece_checked.png",
+										"item_count": 1
+									}
+								],
+								"map_locations": [
+									{
+										"map": "boos_mansion",
+										"x": 196,
+										"y": 487
+									}
+								]
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
