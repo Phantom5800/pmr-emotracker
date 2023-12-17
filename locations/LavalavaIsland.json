@@ -244,8 +244,24 @@
 				"name": "SW Jade Jungle",
 				"sections": [
 					{
-						"name": "Hidden Block at North",
+						"name": "Hidden Block at North Exit",
 						"access_rules": ["$canHitBlocks, $sushie, $hiddenBlocks"],
+						"item_count": 1
+					},
+					{
+						"name": "Tree At North Exit",
+						"access_rules": ["$canBreakYellowBlocks, $sushie"],
+						"visibility_rules": ["foliage_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Bush Right of Bell Flower",
+						"access_rules": ["$sushie"],
+						"visibility_rules": ["foliage_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{

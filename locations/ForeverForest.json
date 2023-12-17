@@ -3,7 +3,7 @@
 		"name": "Magical Seed",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$ToadTownAccess, forest_pass", "$ToadTownAccess, open_forest"],
+		"access_rules": ["$ForeverForestAccess"],
 		"sections": [
 			{
 				"name": "Bub-ulb",
