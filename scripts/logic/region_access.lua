@@ -178,7 +178,7 @@ function ToyBoxAccess()
 end
 
 function ToyBoxPinkAccess()
-    return ToyBoxAccess() and hasItem("boots") and hasItem("toy_train_base")
+    return ToyBoxAccess() and ToyBoxEntranceAccess() and hasItem("boots") and hasItem("toy_train_base")
 end
 
 function ToyBoxGreenAccess()
