@@ -1,0 +1,1 @@
+This tracker is integrated with [Emotracker](https://emotracker.net/) by Phantom5800. Provides full logic map tracking for [Paper Mario Randomizer](https://pm64randomizer.com/).
