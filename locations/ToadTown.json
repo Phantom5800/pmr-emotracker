@@ -290,7 +290,7 @@
 			{
 				"name": "Shop",
 				"access_rules": [],
-				"visibility_rules": [],
+				"visibility_rules": ["shopsanity_setting"],
 				"clear_as_group": true,
 				"item_count": 6
 			},

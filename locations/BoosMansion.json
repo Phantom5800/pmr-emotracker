@@ -191,6 +191,7 @@
 									{
 										"name": "Shop Items",
 										"access_rules": ["boo_portrait_base"],
+										"visibility_rules": ["shopsanity_setting"],
 										"item_count": 6
 									},
 									{

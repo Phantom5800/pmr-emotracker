@@ -8,6 +8,7 @@
 			{
 				"name": "Shop Items",
 				"access_rules": ["[warehouse_key], [boots]"],
+				"visibility_rules": ["shopsanity_setting"],
 				"item_count": 6
 			},
 			{
