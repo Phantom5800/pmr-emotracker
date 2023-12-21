@@ -266,6 +266,21 @@
 						"item_count": 1
 					},
 					{
+						"name": "Tree by Spear Guy",
+						"access_rules": ["$canBreakYellowBlocks, $sushie"],
+						"visibility_rules": ["foliage_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
+						"name": "Bottom Right Bush by Sushie Panel",
+						"visibility_rules": ["foliage_setting"],
+						"chest_unopened_img": "images/chests/coin.png",
+						"chest_opened_img": "images/chests/coin_checked.png",
+						"item_count": 1
+					},
+					{
 						"name": "Red Yoshi",
 						"hosted_item": "red_yoshi_kid"
 					},

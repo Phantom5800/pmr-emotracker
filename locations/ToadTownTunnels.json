@@ -347,8 +347,8 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"$lakilester, boots, $bombette, $BlueHousePipeAccess",
-			"$lakilester, boots2, $sushie"
+			"$lakilester, boots, $bombette, $BlueHousePipeAccess, hammer2",
+			"$lakilester, boots2, $sushie, hammer2"
 		],
 		"sections": [
 			{
@@ -380,8 +380,8 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"$lakilester, boots, $bombette, $BlueHousePipeAccess",
-			"$lakilester, boots2, $sushie"
+			"$lakilester, boots, $bombette, $BlueHousePipeAccess, hammer3",
+			"$lakilester, boots2, $sushie, hammer3"
 		],
 		"sections": [
 			{

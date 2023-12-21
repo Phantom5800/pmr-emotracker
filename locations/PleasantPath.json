@@ -200,7 +200,7 @@
 		"name": "Outside Fortress",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$KoopaVillageAccess"],
+		"access_rules": ["$KoopaVillageAccess, $kooper"],
 		"sections": [
 			{
 				"name": "Tree",
@@ -221,7 +221,7 @@
 		"name": "Koopa Bros. Fortress Ledge",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$bombette, $KoopaVillageAccess"],
+		"access_rules": ["$kooper, $bombette, $KoopaVillageAccess"],
 		"sections": [
 			{
 				"name": "Chest",
