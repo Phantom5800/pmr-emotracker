@@ -67,6 +67,7 @@
 							"title": "Goomba Region",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"goomba_region"
 								]
@@ -76,6 +77,7 @@
 							"title": "Toad Town",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"toad_town"
 								]
@@ -85,6 +87,7 @@
 							"title": "Toad Town Tunnels",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"toad_town_tunnels"
 								]
@@ -94,6 +97,7 @@
 							"title": "Pleasant Path",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"pleasant_path"
 								]
@@ -103,6 +107,7 @@
 							"title": "Koopa Bros. Fortress",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"koopa_bros_fortress"
 								]
@@ -112,6 +117,7 @@
 							"title": "Mt. Rugged",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"mt_rugged"
 								]
@@ -121,6 +127,7 @@
 							"title": "Dry Dry Desert",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"dry_dry_desert"
 								]
@@ -130,6 +137,7 @@
 							"title": "Dry Dry Ruins",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"dry_dry_ruins"
 								]
@@ -139,6 +147,7 @@
 							"title": "Forever Forest",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"forever_forest"
 								]
@@ -148,6 +157,7 @@
 							"title": "Boo's Mansion",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"boos_mansion"
 								]
@@ -157,6 +167,7 @@
 							"title": "Gusty Gulch",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"gusty_gulch"
 								]
@@ -166,6 +177,7 @@
 							"title": "Tubba's Castle",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"tubba_castle"
 								]
@@ -175,6 +187,7 @@
 							"title": "Shy Guy's Toy Box",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"shy_guys_toy_box"
 								]
@@ -184,6 +197,7 @@
 							"title": "Lavalava Island",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"lavalava_island"
 								]
@@ -193,6 +207,7 @@
 							"title": "Mt. Lavalava",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"mt_lavalava"
 								]
@@ -202,6 +217,7 @@
 							"title": "Flower Fields",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"flower_fields"
 								]
@@ -211,6 +227,7 @@
 							"title": "Shiver Region",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"shiver_region"
 								]
@@ -220,6 +237,7 @@
 							"title": "Crystal Palace",
 							"content": {
 								"type": "map",
+								"v_alignment": "center",
 								"maps": [
 									"crystal_palace"
 								]
