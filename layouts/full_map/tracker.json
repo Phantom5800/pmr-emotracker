@@ -4,11 +4,12 @@
         "background": "#877373",
         "content": {
             "type": "dock",
+			"min_height": 1000,
             "dropshadow": true,
             "content": [
                 {
                     "type": "dock",
-                    "dock": "bottom",
+                    "dock": "left",
                     "v_alignment": "stretch",
                     "content": [
                         {
@@ -25,6 +26,23 @@
 								"popup_background": "#55212121",
 								"layout": "settings_popup"
 							}
+                        }
+                    ]
+                },
+				{
+                    "type": "dock",
+                    "dock": "bottom",
+                    "v_alignment": "stretch",
+					"min_height": 500,
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Settings",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "seed_settings"
+                            }
                         },
                         {
                             "type": "group",
@@ -39,9 +57,10 @@
                             }
                         }
                     ]
-                },
+				},
                 {
 					"type": "tabbed",
+                    "dock": "right",
 					"background": "#000000",
 					"tabs": [
 						{
