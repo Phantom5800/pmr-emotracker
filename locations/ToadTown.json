@@ -386,7 +386,7 @@
 			},
 			{
 				"name": "Dane T. Letter 1",
-				"access_rules": ["dane_t1_base, $parakarry"],
+				"access_rules": ["dane_t1_base, $parakarry, [boots]"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -395,7 +395,7 @@
 			},
 			{
 				"name": "Dane T. Letter 2",
-				"access_rules": ["dane_t2_base, $parakarry"],
+				"access_rules": ["dane_t2_base, $parakarry, [boots]"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
