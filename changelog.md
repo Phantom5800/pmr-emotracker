@@ -11,3 +11,6 @@ Initial Release
 
 ## 1.0.6
 * Logical update to enforce having cake marked for Shy Guy's Toybox
+
+## 1.0.7
+* Minor logic error in Toad Town Harbor with the multicoin block.
