@@ -322,7 +322,7 @@
 					},
 					{
 						"name": "Multicoin Block",
-						"access_rules": ["boots", "$parakarry, $kooper"],
+						"access_rules": ["boots", "[boots], $parakarry, $kooper"],
 						"visibility_rules": ["upgrades_setting, multicoin_setting"],
 						"clear_as_group": false,
 						"item_count": 1
