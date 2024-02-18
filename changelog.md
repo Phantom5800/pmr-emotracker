@@ -14,3 +14,6 @@ Initial Release
 
 ## 1.0.7
 * Minor logic error in Toad Town Harbor with the multicoin block.
+
+## 1.0.8
+* Fix map logic for Miss T. and Russ T. letters.

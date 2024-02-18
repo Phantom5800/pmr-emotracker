@@ -37,7 +37,7 @@
 			},
 			{
 				"name": "Russ T. Letter",
-				"access_rules": ["russ_t, $parakarry"],
+				"access_rules": ["russ_t_base, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -45,7 +45,7 @@
 			},
 			{
 				"name": "Miss T. Letter",
-				"access_rules": ["miss_t, $parakarry"],
+				"access_rules": ["miss_t_base, $parakarry"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
