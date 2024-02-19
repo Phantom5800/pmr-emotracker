@@ -358,7 +358,7 @@
 			},
 			{
 				"name": "Item on Block",
-				"access_rules": ["boots", "$parakarry, $kooper"],
+				"access_rules": ["boots, hammer", "$parakarry, $kooper, hammer"],
 				"visibility_rules": [],
 				"capture_item": true,
 				"item_count": 1

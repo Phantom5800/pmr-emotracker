@@ -17,3 +17,4 @@ Initial Release
 
 ## 1.0.8
 * Fix map logic for Miss T. and Russ T. letters.
+* East Koopa Village item should not be accessible without being able to complete Fuzzy Minigame.
