@@ -113,7 +113,7 @@
     {
         "name": "Open Ch7 Bridge",
         "type": "toggle",
-        "img": "images/settings/coinblock.png",
+        "img": "images/settings/ShiverCity.png",
         "disabled_img_mods": "overlay|images/settings/no120.png",
         "initial_active_state": false,
         "loop": true,
