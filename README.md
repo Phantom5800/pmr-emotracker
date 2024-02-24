@@ -104,6 +104,6 @@ This tracker is integrated with [Emotracker](https://emotracker.net/) by Phantom
 
   * Fuzzipede has already been defeated and the Whale will take you to Lavalava Island.
 
-* <img src="images/settings/coinblock.png" height="40px"> **Ch7 Bridge Visible**
+* <img src="images/settings/ShiverCity.png" height="40px"> **Ch7 Bridge Visible**
 
   * The blocks leading to chapter 7 can be jumped on without first being hit.
