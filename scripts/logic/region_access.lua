@@ -27,33 +27,36 @@ end
     Prologue Region Access
 ------------------------------------------------------------]]
 function GoombaVillageAccess()
-    local open_prologue = hasItem("open_prologue")
-    local boots = hasItem("boots")
-    local hammer2 = hasItem("hammer2")
-
-    if open_prologue and canClimbShortLedges() and canBreakYellowBlocks() then
-        return 1
-    elseif boots and hammer2 then
-        return 1
+    if ToadTownAccess() then
+        local open_prologue = hasItem("open_prologue")
+        local boots = hasItem("boots")
+        local hammer2 = hasItem("hammer2")
+        if open_prologue and canClimbShortLedges() and canBreakYellowBlocks() then
+            return 1
+        elseif boots and hammer2 then
+            return 1
+        end
     end
     return 0
 end
 
 function GoombaRoadAccess()
-    local open_prologue = hasItem("open_prologue")
-    local boots = hasItem("boots")
-    local hammer2 = hasItem("hammer2")
+    if ToadTownAccess() then
+        local open_prologue = hasItem("open_prologue")
+        local boots = hasItem("boots")
+        local hammer2 = hasItem("hammer2")
 
-    if open_prologue and (canClimbShortLedges()) then
-        return 1
-    elseif boots and hammer2 then
-        return 1
+        if open_prologue and (canClimbShortLedges()) then
+            return 1
+        elseif boots and hammer2 then
+            return 1
+        end
     end
     return 0
 end
 
 function BlueHousePipeAccess()
-    return canClimbShortLedges() and (hasItem("oddkey_base") or hasItem("open_blue_house"))
+    return ToadTownAccess() and canClimbShortLedges() and (hasItem("oddkey_base") or hasItem("open_blue_house"))
 end
 
 function ToadTownAccess()
@@ -83,27 +86,32 @@ end
     Chapter 2 Region Access
 ------------------------------------------------------------]]
 function DryDryDesertAccess()
-    local boots = hasItem("boots")
-    local hammer2 = hasItem("hammer2")
-    local bombette = bombette()
-    local parakarry = parakarry()
-    local open_rugged = hasItem("open_mt_rugged")
-    local manual_rugged = ToadTownAccess() and bombette
+    -- TODO: first check if Desert Start
+    -- Toad Town -> Desert
+    if ToadTownAccess() then
+        local boots = hasItem("boots")
 
-    local sewer_access = boots and hammer2
-    local mt_rugged_access = (manual_rugged or open_rugged) and boots and parakarry
-    return sewer_access or mt_rugged_access
+        -- can access the desert through the sewers
+        if boots and hasItem("hammer2") then
+            return 1
+        end
+
+        -- can traverse mt rugged to get to the desert
+        return (hasItem("open_mt_rugged") or bombette()) and boots and parakarry()
+    end
+
+    return 0
 end
 
 function MtRuggedAccess()
-    local boots = hasItem("boots")
-    local open_rugged = hasItem("open_mt_rugged")
-    local manual_rugged = ToadTownAccess() and bombette()
+    -- TODO: first check if Desert Start
+    if ToadTownAccess() then
+        local from_train = (hasItem("open_mt_rugged") or bombette()) and boots
+        local from_sewers = boots and hasItem("hammer2")
+        return from_train or from_sewers
+    end
 
-    local toad_town_side = (open_rugged or manual_rugged) and boots
-    local desert_side = DryDryDesertAccess() and canClimbShortLedges()
-
-    return toad_town_side or desert_side
+    return 0
 end
 
 function DryDryRuinsEntranceAccess()
@@ -122,44 +130,56 @@ function ClosedForest()
 end
 
 function BoosMansionPipeRoomAccess()
-    local boots2 = hasItem("boots2")
-    local bombette = bombette()
-    local sushie = sushie()
-
-    if boots2 then
-        return 1
-    else
-        return sushie and bombette and BlueHousePipeAccess()
+    if ToadTownAccess() then
+        if hasItem("boots2") then
+            return 1
+        else
+            return sushie() and bombette() and BlueHousePipeAccess()
+        end
     end
     return 0
 end
 
 function BoosMansionAccess()
-    local boots = hasItem("boots")
-    local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
-
-    return (BoosMansionPipeRoomAccess() or forest_pass) and boots
+    if ToadTownAccess() then
+        local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
+        local mansion_room = (BoosMansionPipeRoomAccess() or forest_pass)
+        -- logically need boots to enter mansion
+        if hasItem("boots") then
+            return mansion_room
+        elseif parakarry() then
+            return mansion_room, AccessibilityLevel.SequenceBreak
+        end
+    end
+    return 0
 end
 
 function ForeverForestAccess()
-    local boots = hasItem("boots")
-    local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
-
-    if forest_pass then
-        return 1
-    else
-        return (BoosMansionPipeRoomAccess() and boots), AccessibilityLevel.SequenceBreak
+    if ToadTownAccess() then
+        local boots = hasItem("boots")
+        local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
+    
+        if forest_pass then
+            return 1
+        else
+            return (BoosMansionPipeRoomAccess() and boots), AccessibilityLevel.SequenceBreak
+        end
     end
+    return 0
 end
 
 function GustyGulchAccess()
-    local boots = hasItem("boots")
-    local portrait = hasItem("boo_portrait_base")
-    return BoosMansionAccess() and portrait and boots
+    if hasItem("boo_portrait_base") and hasItem("boots") then
+        return BoosMansionAccess()
+    end
+    return 0
 end
 
 function TubbaCastleEntranceAccess()
-    return GustyGulchAccess() and parakarry()
+    if parakarry() then
+        return GustyGulchAccess()
+    end
+    return 0
 end
 
 function TubbaCastleAccess()
