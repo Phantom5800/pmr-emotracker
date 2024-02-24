@@ -7,18 +7,19 @@ Initial Release.
 * Reformat map tracker layouts.
 
 ## 1.0.5
-* Fix bug where bucket and scarf were not accounted for in logic.
+* Logic Fix: Bucket and Scarf were not accounted for in Shiver Mountain access.
 
 ## 1.0.6
-* Logical update to enforce having cake marked for Shy Guy's Toybox.
+* Logic Fix: Enforce having cake marked for Shy Guy's Toybox Pink Station.
 
 ## 1.0.7
-* Minor logic error in Toad Town Harbor with the multicoin block.
+* Logic Fix: Toad Town Harbor multicoin block requires boots.
 
 ## 1.0.8
-* Fix map logic for Miss T. and Russ T. letters.
-* East Koopa Village item should not be accessible without being able to complete Fuzzy Minigame.
-* Fix a logic typo in the Goomba Region.
+* Logic Fix: Miss T. and Russ T. letters incorrectly marked.
+* Logic Fix: East Koopa Village item should not be accessible without being able to complete Fuzzy Minigame.
+* Logic Fix: Goomba Region brick block puzzle requires a way to hit blocks above Mario.
 
 ## 1.0.9
 * Change the icon for "Open Chapter 7" to a Bumpty.
+* Logic Fix: Can't pull vine in deep jungle without boots.

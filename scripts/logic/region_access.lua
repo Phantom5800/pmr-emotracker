@@ -232,29 +232,22 @@ function YoshisIslandAccess()
     local boots2 = hasItem("boots2")
     local hammer = hasItem("hammer")
     local bombette = bombette()
-    local watt = watt()
-    local sushie = sushie()
 
     -- Whale
-    if hasItem("open_whale") or ((boots2 or hammer or bombette) and watt) then
+    if hasItem("open_whale") or ((boots2 or hammer or bombette) and watt()) then
         return 1
     -- shortcut pipe through blue house
     elseif BlueHousePipeAccess() and bombette then
         return 1
     -- shortcut pipe through main sewer entrance
-    elseif boots2 and sushie then
+    elseif boots2 and sushie() then
         return 1
     end
     return 0
 end
 
 function VolcanoEntranceAccess()
-    local jade_raven = hasItem("jade_raven_base")
-    local sushie = sushie()
-    local jump = hasItem("boots") or parakarry()
-    local hammer = hasItem("hammer")
-
-    return YoshisIslandAccess() and sushie and jade_raven and jump and hammer
+    return YoshisIslandAccess() and sushie() and hasItem("jade_raven_base") and hasItem("boots") and hasItem("hammer")
 end
 
 function VolcanoAccess()
@@ -276,20 +269,14 @@ end
     Chapter 7 Region Access
 ------------------------------------------------------------]]
 function ShiverCityAccess()
-    local boots2 = hasItem("boots2")
-    local boots3 = hasItem("boots3")
-    local open7 = hasItem("open_ch7_bridge")
-    local bombette = bombette()
-    local sushie = sushie()
-
     if ToadTownAccess() then
         -- bridge room access
-        if (BlueHousePipeAccess() and bombette) or (boots2 and sushie) then
+        if (BlueHousePipeAccess() and bombette()) or (hasItem("boots2") and sushie()) then
             -- cross already open bridge
-            if open7 then
+            if hasItem("open_ch7_bridge") then
                 return canClimbShortLedges()
             -- activate bridge
-            elseif boots3 then
+            elseif hasItem("boots3") then
                 return hiddenBlocks()
             end
         end
