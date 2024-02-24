@@ -253,13 +253,14 @@
 		"name": "Ch7 Bridge",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
+		"access_rules": [
+			"$BlueHousePipeAccess, $bombette",
+			"boots2, sushie"
+		],
 		"sections": [
 			{
 				"name": "Far Left Block",
-				"access_rules": [
-					"boots2, $BlueHousePipeAccess, $bombette",
-					"boots2, $sushie"
-				],
+				"access_rules": ["boots2"],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -268,8 +269,8 @@
 			{
 				"name": "Hidden Blocks",
 				"access_rules": [
-					"boots3, $BlueHousePipeAccess, $bombette, $hiddenBlocks",
-					"boots3, $sushie, $hiddenBlocks"
+					"boots3, $hiddenBlocks",
+					"boots2, open_ch7_bridge"
 				],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",

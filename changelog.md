@@ -23,3 +23,6 @@ Initial Release.
 ## 1.0.9
 * Change the icon for "Open Chapter 7" to a Bumpty.
 * Logic Fix: Can't pull vine in deep jungle without boots.
+
+## 1.0.10
+* Logic Fix: Account for Chapter 7 bridge visible for hitting blocks from above.
