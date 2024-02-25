@@ -106,6 +106,7 @@ end
 function MtRuggedAccess()
     -- TODO: first check if Desert Start
     if ToadTownAccess() then
+        local boots = hasItem("boots")
         local from_train = (hasItem("open_mt_rugged") or bombette()) and boots
         local from_sewers = boots and hasItem("hammer2")
         return from_train or from_sewers

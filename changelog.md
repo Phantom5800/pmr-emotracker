@@ -26,3 +26,6 @@ Initial Release.
 
 ## 1.0.10
 * Logic Fix: Account for Chapter 7 bridge visible for hitting blocks from above.
+
+# 1.0.11
+* Logic Fix: Mt. Rugged was accidentally never accessible.
