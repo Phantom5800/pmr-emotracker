@@ -8,7 +8,7 @@
                 "img": "images/upgrades/PM_No_Boots.png",
                 "inherit_codes": false,
                 "img_mods": "@disabled",
-                "codes": ""
+                "codes": "boots_base"
             },
             {
                 "img": "images/upgrades/PM_Boots.png",
@@ -33,7 +33,7 @@
                 "img": "images/upgrades/PM_No_Hammer.png",
                 "inherit_codes": false,
                 "img_mods": "@disabled",
-                "codes": ""
+                "codes": "hammer_base"
             },
             {
                 "img": "images/upgrades/PM_Hammer.png",

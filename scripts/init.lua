@@ -56,3 +56,4 @@ end
 
 -- Scripts
 ScriptHost:LoadScript("scripts/lcl.lua")
+ScriptHost:LoadScript("scripts/autotracking.lua")
