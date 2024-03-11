@@ -13,7 +13,9 @@ U8_READ_CACHE_ADDRESS = 0
 U16_READ_CACHE = 0
 U16_READ_CACHE_ADDRESS = 0
 
-OFFSET_ITEM_REGISTRY = 0x80356B00 -- Icebound777 was here!
+OFFSET_ITEM_REGISTRY    = 0x80356B00
+OFFSET_MOD_FLAGS        = 0x80357000 
+OFFSET_BASE_GAME_FLAGS  = 0x800DBC70
 
 gameActive = false
 
@@ -194,6 +196,21 @@ function updateToggleItemFromByteAndFlag(segment, code, address, flag)
         end
     end
 end
+
+function updateToggleFromFlag(segment, code, address, flag)
+    local item = Tracker:FindObjectForCode(code)
+    if item then
+        local offset = flag // 0x20             -- number of 4 byte-wide offsets to shift by
+        local bitflag = flag - 0x20 * offset    -- which bit corresponds to the flag in this region
+        -- byte swap the 32 bit region
+        local value =   (ReadU8(segment, address + offset*4 + 0x3)) |
+                        (ReadU8(segment, address + offset*4 + 0x2) <<  8) |
+                        (ReadU8(segment, address + offset*4 + 0x1) << 16) |
+                        (ReadU8(segment, address + offset*4 + 0x0) << 24)
+        item.Active = (value & (1 << bitflag)) ~= 0
+    end
+end
+
 function updateGameStatus()
     -- check game status
     if AutoTracker:ReadU8(0x800A0841) >= 4 and AutoTracker:ReadU8(0x800A0841) < 12 then
@@ -204,7 +221,7 @@ function updateGameStatus()
 end
 
 function ScanKeyItems(segment) --for debugging
-    for i = 0, 0x184, 1 do
+    for i = 0, 0x204, 1 do
         if ReadU8(segment, OFFSET_ITEM_REGISTRY+i) > 0 then
             print ("Address " .. string.format("%x",i) .. ": " .. ReadU8(segment, OFFSET_ITEM_REGISTRY+i))
         end
@@ -212,7 +229,6 @@ function ScanKeyItems(segment) --for debugging
 end
 
 function updateKeyItems(segment)
-
     InvalidateReadCaches()
 
     if AUTOTRACKER_ENABLE_ITEM_TRACKING then
@@ -313,7 +329,6 @@ function updateKeyItems(segment)
 end
 
 function updatePartners(segment)
-
     InvalidateReadCaches()
 
     if AUTOTRACKER_ENABLE_ITEM_TRACKING then
@@ -332,7 +347,6 @@ function updatePartners(segment)
 end
 
 function updateEquipment(segment)
-
     InvalidateReadCaches()
 
     if AUTOTRACKER_ENABLE_ITEM_TRACKING then
@@ -345,7 +359,6 @@ function updateEquipment(segment)
 end
 
 function updateChapters(segment)
-
     InvalidateReadCaches()
 
     if AUTOTRACKER_ENABLE_ITEM_TRACKING then
@@ -362,8 +375,72 @@ function updateChapters(segment)
     end
 end
 
+function updateBaseGameCheckAcquisition(segment)
+    InvalidateReadCaches()
+
+    if AUTOTRACKER_ENABLE_ITEM_TRACKING then
+        updateGameStatus()
+        if gameActive then
+            updateToggleFromFlag(segment, "dictionary", OFFSET_BASE_GAME_FLAGS, 0x0F4)
+            updateToggleFromFlag(segment, "mailbag", OFFSET_BASE_GAME_FLAGS, 0x10A)
+            updateToggleFromFlag(segment, "melody", OFFSET_BASE_GAME_FLAGS, 0x126)
+            updateToggleFromFlag(segment, "lyrics", OFFSET_BASE_GAME_FLAGS, 0x2F2)
+            updateToggleFromFlag(segment, "artifact", OFFSET_BASE_GAME_FLAGS, 0x312)
+            updateToggleFromFlag(segment, "record", OFFSET_BASE_GAME_FLAGS, 0x3D2)
+            updateToggleFromFlag(segment, "volcano_vase", OFFSET_BASE_GAME_FLAGS, 0x4FB)
+        end
+    end
+end
+
+function updateModCheckAcquisition(segment)
+    InvalidateReadCaches()
+
+    if AUTOTRACKER_ENABLE_ITEM_TRACKING then
+        updateGameStatus()
+        if gameActive then
+            -- letter turn ins
+            updateToggleFromFlag(segment, "merlon", OFFSET_MOD_FLAGS, 0x1017)
+            updateToggleFromFlag(segment, "goompa", OFFSET_MOD_FLAGS, 0x1002)
+            updateToggleFromFlag(segment, "mort_t", OFFSET_MOD_FLAGS, 0x1037)
+            updateToggleFromFlag(segment, "russ_t", OFFSET_MOD_FLAGS, 0x1008)
+            updateToggleFromFlag(segment, "mayor_penguin", OFFSET_MOD_FLAGS, 0x1092)
+            updateToggleFromFlag(segment, "merlow", OFFSET_MOD_FLAGS, 0x102B)
+            updateToggleFromFlag(segment, "fice_t", OFFSET_MOD_FLAGS, 0x101A)
+            updateToggleFromFlag(segment, "nomadimouse", OFFSET_MOD_FLAGS, 0x1055)
+            updateToggleFromFlag(segment, "minh_t", OFFSET_MOD_FLAGS, 0x1018)
+            updateToggleFromFlag(segment, "goompapa1", OFFSET_MOD_FLAGS, 0x1003)
+            updateToggleFromFlag(segment, "igor", OFFSET_MOD_FLAGS, 0x105A)
+            updateToggleFromFlag(segment, "franky", OFFSET_MOD_FLAGS, 0x1059)
+            updateToggleFromFlag(segment, "muss_t", OFFSET_MOD_FLAGS, 0x10A6)
+            updateToggleFromFlag(segment, "koover1", OFFSET_MOD_FLAGS, 0x1038)
+            updateToggleFromFlag(segment, "fishmael", OFFSET_MOD_FLAGS, 0x1023)
+            updateToggleFromFlag(segment, "koover2", OFFSET_MOD_FLAGS, 0x1039)
+            updateToggleFromFlag(segment, "mr_e", OFFSET_MOD_FLAGS, 0x1053)
+            updateToggleFromFlag(segment, "miss_t", OFFSET_MOD_FLAGS, 0x1009)
+            updateToggleFromFlag(segment, "little_mouser", OFFSET_MOD_FLAGS, 0x104B)
+            updateToggleFromFlag(segment, "dane_t1", OFFSET_MOD_FLAGS, 0x101B)
+            updateToggleFromFlag(segment, "red_yoshi", OFFSET_MOD_FLAGS, 0x107B)
+            updateToggleFromFlag(segment, "dane_t2", OFFSET_MOD_FLAGS, 0x101C)
+            updateToggleFromFlag(segment, "frost_t", OFFSET_MOD_FLAGS, 0x109B)
+            updateToggleFromFlag(segment, "goompapa2", OFFSET_MOD_FLAGS, 0x1004)
+            updateToggleFromFlag(segment, "kolorado", OFFSET_MOD_FLAGS, 0x1042)
+
+            -- misc. item turn ins
+            updateToggleFromFlag(segment, "kooper_shell", OFFSET_MOD_FLAGS, 0x1043)
+            updateToggleFromFlag(segment, "dolly", OFFSET_MOD_FLAGS, 0x1001)
+            updateToggleFromFlag(segment, "storeroom_key", OFFSET_MOD_FLAGS, 0x41)
+            updateToggleFromFlag(segment, "calculator", OFFSET_MOD_FLAGS, 0x1016)
+            updateToggleFromFlag(segment, "frying_pan", OFFSET_MOD_FLAGS, 0x1019)
+            updateToggleFromFlag(segment, "crystal_berry", OFFSET_MOD_FLAGS, 0x1088)
+            updateToggleFromFlag(segment, "water_stone", OFFSET_MOD_FLAGS, 0x1087)
+        end
+    end
+end
+
 -- Run the in-game status check more frequently (every 250ms) to catch save/quit scenarios more effectively
-ScriptHost:AddMemoryWatch("Key Items", OFFSET_ITEM_REGISTRY, 0x185, updateKeyItems, 250)
+ScriptHost:AddMemoryWatch("Key Items", OFFSET_ITEM_REGISTRY, 0x205, updateKeyItems, 250)
 ScriptHost:AddMemoryWatch("Partners", 0x8010f2ad, 0x42, updatePartners, 250)
 ScriptHost:AddMemoryWatch("Equipment", 0x8010f290, 0x02, updateEquipment, 250)
 ScriptHost:AddMemoryWatch("Chapters", 0x80357017, 0x01, updateChapters, 250)
+ScriptHost:AddMemoryWatch("Base Game Checks", OFFSET_BASE_GAME_FLAGS, 0x100, updateBaseGameCheckAcquisition, 250)
+ScriptHost:AddMemoryWatch("Mod Checks", OFFSET_MOD_FLAGS, 0x221, updateModCheckAcquisition, 250)
