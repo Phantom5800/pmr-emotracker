@@ -14,8 +14,8 @@ U16_READ_CACHE = 0
 U16_READ_CACHE_ADDRESS = 0
 
 OFFSET_ITEM_REGISTRY    = 0x80356B00
-OFFSET_MOD_FLAGS        = 0x80357000 
-OFFSET_BASE_GAME_FLAGS  = 0x800DBC70
+OFFSET_MOD_FLAGS        = 0x80357000  -- 0x80357220 (max)
+OFFSET_BASE_GAME_FLAGS  = 0x800DBC70  -- 0x800DBD6F (max)
 
 gameActive = false
 
@@ -442,5 +442,7 @@ ScriptHost:AddMemoryWatch("Key Items", OFFSET_ITEM_REGISTRY, 0x205, updateKeyIte
 ScriptHost:AddMemoryWatch("Partners", 0x8010f2ad, 0x42, updatePartners, 250)
 ScriptHost:AddMemoryWatch("Equipment", 0x8010f290, 0x02, updateEquipment, 250)
 ScriptHost:AddMemoryWatch("Chapters", 0x80357017, 0x01, updateChapters, 250)
-ScriptHost:AddMemoryWatch("Base Game Checks", OFFSET_BASE_GAME_FLAGS, 0x100, updateBaseGameCheckAcquisition, 250)
-ScriptHost:AddMemoryWatch("Mod Checks", OFFSET_MOD_FLAGS, 0x221, updateModCheckAcquisition, 250)
+
+-- watching smaller regions of memory to more closely represent the data being looked at
+ScriptHost:AddMemoryWatch("Base Game Checks", OFFSET_BASE_GAME_FLAGS, 0xA0, updateBaseGameCheckAcquisition, 250)
+ScriptHost:AddMemoryWatch("Mod Checks", OFFSET_MOD_FLAGS + 0x200, 0x21, updateModCheckAcquisition, 250)
