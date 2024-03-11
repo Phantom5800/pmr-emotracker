@@ -29,3 +29,7 @@ Initial Release.
 
 # 1.0.11
 * Logic Fix: Mt. Rugged was accidentally never accessible.
+
+# 1.1.0
+* Autotracking support for key items through the Bizhawk connector.
+    * This does not track consumables that are on the tracker.
