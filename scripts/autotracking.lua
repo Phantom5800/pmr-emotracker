@@ -167,7 +167,8 @@ function updateProgressiveGearFromByte(segment, code, address)
     end
 end
 
-function updateToggleItemFromByte(segment, code, address)
+function updateToggleItemFromByte(segment, code, address, canSetFalse)
+    canSetFalse = (canSetFalse ~= false) -- default parameter to true unless false is passed in
     local item = Tracker:FindObjectForCode(code)
     if item then
         local value = ReadU8(segment, address)
@@ -177,12 +178,15 @@ function updateToggleItemFromByte(segment, code, address)
                 item.Active = true
             end
         else
-            item.Active = false
+            if canSetFalse then
+                item.Active = false
+            end
         end
     end
 end
 
-function updateToggleItemFromByteAndFlag(segment, code, address, flag)
+function updateToggleItemFromByteAndFlag(segment, code, address, flag, canSetFalse)
+    canSetFalse = (canSetFalse ~= false) -- default parameter to true unless false is passed in
     local item = Tracker:FindObjectForCode(code)
     if item then
         local value = ReadU8(segment, address)
@@ -192,7 +196,9 @@ function updateToggleItemFromByteAndFlag(segment, code, address, flag)
                 item.Active = true
             end
         else
-            item.Active = false
+            if canSetFalse then
+                item.Active = false
+            end
         end
     end
 end
@@ -262,10 +268,10 @@ function updateKeyItems(segment)
             updateToggleItemFromByte(segment,"mystery_note_base",0x25+OFFSET_ITEM_REGISTRY)
             updateToggleItemFromByte(segment,"cookbook_base",0x29+OFFSET_ITEM_REGISTRY)
             updateToggleItemFromByte(segment,"jade_raven_base",0x2A+OFFSET_ITEM_REGISTRY)
-            updateToggleItemFromByte(segment,"seed1",0x2B+OFFSET_ITEM_REGISTRY)
-            updateToggleItemFromByte(segment,"seed2",0x2C+OFFSET_ITEM_REGISTRY)
-            updateToggleItemFromByte(segment,"seed3",0x2D+OFFSET_ITEM_REGISTRY)
-            updateToggleItemFromByte(segment,"seed4",0x2E+OFFSET_ITEM_REGISTRY)
+            updateToggleItemFromByte(segment,"seed1",0x2B+OFFSET_ITEM_REGISTRY, false)
+            updateToggleItemFromByte(segment,"seed2",0x2C+OFFSET_ITEM_REGISTRY, false)
+            updateToggleItemFromByte(segment,"seed3",0x2D+OFFSET_ITEM_REGISTRY, false)
+            updateToggleItemFromByte(segment,"seed4",0x2E+OFFSET_ITEM_REGISTRY, false)
             updateToggleItemFromByte(segment,"calculator_base",0x30+OFFSET_ITEM_REGISTRY)
             updateToggleItemFromByte(segment,"bucket",0x31+OFFSET_ITEM_REGISTRY)
             updateToggleItemFromByte(segment,"scarf",0x32+OFFSET_ITEM_REGISTRY)
