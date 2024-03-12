@@ -197,7 +197,8 @@ function updateToggleItemFromByteAndFlag(segment, code, address, flag)
     end
 end
 
-function updateToggleFromFlag(segment, code, address, flag)
+function updateToggleFromFlag(segment, code, address, flag, canSetFalse)
+    canSetFalse = (canSetFalse ~= false) -- default parameter to true unless false is passed in
     local item = Tracker:FindObjectForCode(code)
     if item then
         local offset = flag // 0x20             -- number of 4 byte-wide offsets to shift by
@@ -207,7 +208,15 @@ function updateToggleFromFlag(segment, code, address, flag)
                         (ReadU8(segment, address + offset*4 + 0x2) <<  8) |
                         (ReadU8(segment, address + offset*4 + 0x1) << 16) |
                         (ReadU8(segment, address + offset*4 + 0x0) << 24)
-        item.Active = (value & (1 << bitflag)) ~= 0
+        if canSetFalse then
+            item.Active = (value & (1 << bitflag)) ~= 0
+        else
+            -- this is used for some flags where we don't want to allow autotracking to
+            -- disable the item in the tracker
+            if (value & (1 << bitflag)) ~= 0 then
+                item.Active = true
+            end
+        end
     end
 end
 
@@ -388,6 +397,11 @@ function updateBaseGameCheckAcquisition(segment)
             updateToggleFromFlag(segment, "artifact", OFFSET_BASE_GAME_FLAGS, 0x312)
             updateToggleFromFlag(segment, "record", OFFSET_BASE_GAME_FLAGS, 0x3D2)
             updateToggleFromFlag(segment, "volcano_vase", OFFSET_BASE_GAME_FLAGS, 0x4FB)
+
+            updateToggleFromFlag(segment, "seed1", OFFSET_BASE_GAME_FLAGS, 0x114, false)
+            updateToggleFromFlag(segment, "seed2", OFFSET_BASE_GAME_FLAGS, 0x115, false)
+            updateToggleFromFlag(segment, "seed3", OFFSET_BASE_GAME_FLAGS, 0x116, false)
+            updateToggleFromFlag(segment, "seed4", OFFSET_BASE_GAME_FLAGS, 0x117, false)
         end
     end
 end
