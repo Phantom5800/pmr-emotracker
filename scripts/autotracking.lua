@@ -458,7 +458,7 @@ function updateModCheckAcquisition(segment)
 end
 
 -- Run the in-game status check more frequently (every 250ms) to catch save/quit scenarios more effectively
-ScriptHost:AddMemoryWatch("Key Items", OFFSET_ITEM_REGISTRY, 0x205, updateKeyItems, 250)
+ScriptHost:AddMemoryWatch("Key Items", OFFSET_ITEM_REGISTRY, 0x265, updateKeyItems, 250)
 ScriptHost:AddMemoryWatch("Partners", 0x8010f2ad, 0x42, updatePartners, 250)
 ScriptHost:AddMemoryWatch("Equipment", 0x8010f290, 0x02, updateEquipment, 250)
 ScriptHost:AddMemoryWatch("Chapters", 0x80357017, 0x01, updateChapters, 250)
