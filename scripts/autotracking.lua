@@ -33,7 +33,7 @@ end
 function ReadU8(segment, address)
     if U8_READ_CACHE_ADDRESS ~= address then
         U8_READ_CACHE = segment:ReadUInt8(address)
-        U8_READ_CACHE_ADDRESS = address        
+        U8_READ_CACHE_ADDRESS = address
     end
 
     return U8_READ_CACHE
@@ -42,7 +42,7 @@ end
 function ReadU16(segment, address)
     if U16_READ_CACHE_ADDRESS ~= address then
         U16_READ_CACHE = segment:ReadUInt16(address)
-        U16_READ_CACHE_ADDRESS = address        
+        U16_READ_CACHE_ADDRESS = address
     end
 
     return U16_READ_CACHE
@@ -317,7 +317,7 @@ function updateKeyItems(segment)
             updateToggleItemFromByte(segment,"mailbag_base",0x69+OFFSET_ITEM_REGISTRY)
             updateToggleItemFromByte(segment,"oddkey_base",0x6B+OFFSET_ITEM_REGISTRY)
             updateToggleItemFromByte(segment,"star_stone",0x6C+OFFSET_ITEM_REGISTRY)
-            updateToggleItemFromByte(segment,"warehouse_key",0x79+OFFSET_ITEM_REGISTRY) 
+            updateToggleItemFromByte(segment,"warehouse_key",0x79+OFFSET_ITEM_REGISTRY)
             updateProgressiveToggleStageFromBytes(segment, "ch1_key", 0x16D+OFFSET_ITEM_REGISTRY, 4)
             updateProgressiveToggleStageFromBytes(segment, "ch2_key", 0x171+OFFSET_ITEM_REGISTRY, 4)
             updateProgressiveToggleStageFromBytes(segment, "ch3_key", 0x175+OFFSET_ITEM_REGISTRY, 3)
@@ -450,7 +450,7 @@ function updateModCheckAcquisition(segment)
             updateToggleFromFlag(segment, "dolly", OFFSET_MOD_FLAGS, 0x1001)
             updateToggleFromFlag(segment, "storeroom_key", OFFSET_MOD_FLAGS, 0x41)
             updateToggleFromFlag(segment, "calculator", OFFSET_MOD_FLAGS, 0x1016)
-            updateToggleFromFlag(segment, "frying_pan", OFFSET_MOD_FLAGS, 0x1019)
+            updateToggleFromFlag(segment, "fryingpan", OFFSET_MOD_FLAGS, 0x1019)
             updateToggleFromFlag(segment, "crystal_berry", OFFSET_MOD_FLAGS, 0x1088)
             updateToggleFromFlag(segment, "water_stone", OFFSET_MOD_FLAGS, 0x1087)
         end

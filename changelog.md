@@ -33,3 +33,6 @@ Initial Release.
 # 1.1.0
 * Autotracking support for key items through the Bizhawk connector.
     * This does not track consumables that are on the tracker.
+
+# 1.1.1
+* Fix Frying Pan not being checked off by autotracker.
