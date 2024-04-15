@@ -9,7 +9,7 @@
             "content": [
               {
                 "type": "dock",
-                "dock": "left",
+                "dock": "bottom",
                 "v_alignment": "stretch",
                 "content": [
                   {
@@ -30,37 +30,7 @@
                 ]
               },
               {
-                "type": "dock",
-                "dock": "bottom",
-                "v_alignment": "stretch",
-                "min_height": 500,
-                "content": [
-                  {
-                    "type": "group",
-                    "header": "Settings",
-                    "dock": "left",
-                    "content": {
-                      "type": "layout",
-                      "key": "seed_settings"
-                    }
-                  },
-                  {
-                    "type": "group",
-                    "header": "Pinned Locations",
-                    "content": {
-                      "type": "recentpins",
-                      "style": "wrap",
-                      "h_alignment": "stretch",
-                      "v_alignment": "stretch",
-                      "orientation": "horizontal",
-                      "compact": true
-                    }
-                  }
-                ]
-              },
-              {
                 "type": "tabbed",
-                "dock": "right",
                 "background": "#000000",
                 "tabs": [
                   {

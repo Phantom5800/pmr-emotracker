@@ -56,9 +56,13 @@ if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
     end
 else
     Tracker:AddLayouts("layouts/items_only/items.json")
-    Tracker:AddLayouts("layouts/items_only/tracker_items_only.json")
+    Tracker:AddLayouts("layouts/items_only/tracker.json")
 end
 
--- Scripts
-ScriptHost:LoadScript("scripts/lcl.lua")
-ScriptHost:LoadScript("scripts/autotracking.lua")
+-- Autotracking
+if PopVersion and PopVersion >= "1.8.0" then
+    -- load AP autotracker
+else
+    -- Emotracker Bizhawk connector based tracking
+    ScriptHost:LoadScript("scripts/autotracking.lua")
+end
