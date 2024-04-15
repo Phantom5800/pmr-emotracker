@@ -60,8 +60,10 @@ else
 end
 
 -- Autotracking
-if PopVersion and PopVersion >= "1.8.0" then
+if PopVersion then
     -- load AP autotracker
+    if PopVersion >= "1.8.0" then
+    end
 else
     -- Emotracker Bizhawk connector based tracking
     ScriptHost:LoadScript("scripts/autotracking.lua")
