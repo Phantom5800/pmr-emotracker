@@ -37,3 +37,6 @@ Initial Release.
 # 1.1.1
 * Fix Frying Pan not being checked off by autotracker.
 * Fix an out of range issue related to power stars in autotracking.
+
+# 1.2.0
+* Poptracker specific layouts.
