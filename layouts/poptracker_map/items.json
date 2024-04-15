@@ -249,32 +249,32 @@
                 "dungeon_setting"
               ]
             ]
-          },
+          }
+        ]
+      },
+      {
+        "type": "group",
+        "header": "Open Areas",
+        "content": [
           {
-            "type": "group",
-            "header": "Open Areas",
-            "content": [
-              {
-                "type": "itemgrid",
-                "h_alignment": "left",
-                "item_margin": "1,2",
-                "rows": [
-                  [
-                    "hidden_blocks_visible",
-                    "partners_always",
-                    "open_prologue",
-                    "open_blue_house",
-                    "open_cooking",
-                    "open_mt_rugged",
-                    "open_forest",
-                    "open_toy_box"
-                  ],
-                  [
-                    "open_whale",
-                    "open_ch7_bridge"
-                  ]
-                ]
-              }
+            "type": "itemgrid",
+            "h_alignment": "left",
+            "item_margin": "1,2",
+            "rows": [
+              [
+                "hidden_blocks_visible",
+                "partners_always",
+                "open_prologue",
+                "open_blue_house",
+                "open_cooking",
+                "open_mt_rugged",
+                "open_forest",
+                "open_toy_box"
+              ],
+              [
+                "open_whale",
+                "open_ch7_bridge"
+              ]
             ]
           }
         ]
