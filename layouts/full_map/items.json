@@ -10,71 +10,8 @@
 				"header": "Progression + Upgrades",
 				"content": [
 					{
-						"type": "itemgrid",
-						"h_alignment": "left",
-						"item_margin": "1,2",
-						"rows": [
-							[
-								"eldstar",
-								"mamar",
-								"skolar",
-								"muskular",
-								"misstar",
-								"klevar",
-								"kalmar",
-								"power_star"
-							],
-							[
-								"goombario",
-								"kooper",
-								"bombette",
-								"parakarry",
-								"bow",
-								"watt",
-								"sushie",
-								"lakilester"
-							],
-							[
-								"boots",
-								"hammer",
-								"ultrastone",
-								"ch1_key",
-								"pulse_stone",
-								"pyramid_stone",
-								"diamond_stone",
-								"lunar_stone"
-							],
-							[
-								"ch2_key",
-								"boo_portrait",
-								"ch3_key",
-								"toy_train",
-								"jade_raven",
-								"seed1",
-								"seed2",
-								"seed3"
-							],
-							[
-								"seed4",
-								"bean",
-								"soil",
-								"water",
-								"warehouse_key",
-								"scarf",
-								"bucket",
-								"star_stone"
-							],
-							[
-								"red_key",
-								"palace_key",
-								"ch8_key",
-								"",
-								"",
-								"",
-								"",
-								""
-							]
-						]
+						"type": "layout",
+						"key": "progression_items"
 					},
 					{
 						"type": "itemgrid",
@@ -98,212 +35,36 @@
 				]
 			},
 			{
-				"type": "group",
-				"header": "Item Turn-ins",
-				"content": [
-					{
-						"type": "itemgrid",
-						"h_alignment": "left",
-						"item_margin": "1,2",
-						"rows": [
-							[
-								"dolly",
-								"kooper_shell",
-								"letters",
-								"artifact",
-								"forest_pass",
-								"record",
-								"weight",
-								"storeroom_key"
-							],
-							[
-								"calculator",
-								"fryingpan",
-								"mailbag",
-								"dictionary",
-								"volcano_vase",
-								"red_berry",
-								"yellow_berry",
-								"blue_berry"
-							],
-							[
-								"crystal_berry",
-								"water_stone",
-								"bubble_berry",
-								"oddkey",
-								"blue_key",
-								"lyrics",
-								"melody",
-								""
-							]
-						]
-					}
-				]
+				"type": "layout",
+				"key": "turnin_items"
 			},
 			{
-				"type": "group",
-				"header": "Standard Letters",
-				"content": [
-					{
-						"type": "itemgrid",
-						"h_alignment": "left",
-						"item_margin": "1,2",
-						"rows": [
-							[
-								"merlon",
-								"kolorado",
-								"mort_t",
-								"nomadimouse",
-								"goompa",
-								"fice_t",
-								"igor",
-								"russ_t"
-							],
-							[
-								"minh_t",
-								"mayor_penguin",
-								"merlow"
-							]
-						]
-					}
-				]
+				"type": "layout",
+				"key": "standard_letters"
 			},
 			{
-				"type": "group",
-				"header": "Letter Chain",
-				"content": [
-					{
-						"type": "itemgrid",
-						"h_alignment": "left",
-						"item_margin": "1,2",
-						"rows": [
-							[
-								"goompapa1",
-								"muss_t",
-								"koover1",
-								"fishmael",
-								"koover2",
-								"mr_e",
-								"miss_t",
-								"little_mouser"
-							],
-							[
-								"franky",
-								"dane_t1",
-								"red_yoshi",
-								"dane_t2",
-								"frost_t",
-								"goompapa2"
-							]
-						]
-					}					
-				]
+				"type": "layout",
+				"key": "letter_chain"
 			},
 			{
-				"type": "group",
-				"header": "Koopa Koot",
-				"content": [
-					{
-						"type": "itemgrid",
-						"h_alignment": "left",
-						"item_margin": "1,2",
-						"rows": [
-							[
-								"koopa_legends",
-								"sleepy_sheep",
-								"tape",
-								"koopa_tea",
-								"luigi_autograph",
-								"wallet",
-								"tasty_tonic",
-								"crystal_ball"
-							],
-							[
-								"merluvlee_autograph",
-								"life_shroom",
-								"nutty_cake",
-								"old_photo",
-								"koopasta",
-								"glasses",
-								"lime",
-								"kooky_cookie"
-							],
-							[
-								"package",
-								"coconut",
-								"red_jar",
-								"",
-								"",
-								"",
-								"",
-								""
-							]
-						]
-					}
-				]
+				"type": "layout",
+				"key": "koopa_koot_items"
 			},
 			{
-				"type": "group",
-				"header": "Trading Event Toad",
-				"content": [
-					{
-						"type": "itemgrid",
-						"h_alignment": "left",
-						"item_margin": "1,2",
-						"rows": [
-							[
-								"koopa_leaf",
-								"nutty_cake_toad",
-								"coconut_toad"
-							]
-						]
-					}
-				]
+				"type": "layout",
+				"key": "event_toad"
 			},
 			{
-				"type": "group",
-				"header": "Logic-Only Items",
-				"content": [
-					{
-						"type": "itemgrid",
-						"h_alignment": "left",
-						"item_margin": "1,2",
-						"rows": [
-							[
-								"cake",
-								"cakemix",
-								"lemon",
-								"cookbook",
-								"mystery_note"
-							]
-						]
-					}
-				]
+				"type": "layout",
+				"key": "logic_items"
 			},
 			{
-				"type": "group",
-				"header": "Static Items",
-				"content": [
-					{
-						"type": "itemgrid",
-						"h_alignment": "left",
-						"item_margin": "1,2",
-						"rows": [
-							[
-								"mystical_key",
-								"red_yoshi_kid",
-								"blue_yoshi_kid",
-								"green_yoshi_kid",
-								"yellow_yoshi_kid",
-								"purple_yoshi_kid"
-							]
-						]
-					}
-				]
+				"type": "layout",
+				"key": "static_items"
 			}
 		]
-    },
-    "seed_settings": {
+	},
+	"seed_settings": {
 		"type": "array",
 		"orientation": "vertical",
 		"scale": 1.25,
@@ -369,7 +130,7 @@
 				]
 			}
 		]
-    },
+	},
 	"settings_popup": {
 		"type": "array",
 		"orientation": "vertical",

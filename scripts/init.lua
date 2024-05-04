@@ -46,6 +46,7 @@ else
     Tracker:AddLayouts("layouts/broadcast_full.json")
 end
 
+Tracker:AddLayouts("layouts/item_groups.json")
 if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
     if PopVersion then
         Tracker:AddLayouts("layouts/poptracker_map/items.json")
