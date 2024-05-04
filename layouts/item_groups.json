@@ -279,5 +279,64 @@
         ]
       }
     ]
+  },
+  "randomization_options": {
+    "type": "group",
+    "header": "Randomized Item Settings",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "shopsanity_setting",
+            "rowf_setting",
+            "merlow_setting",
+            "keysanity_setting",
+            "panels_setting",
+            "coins_setting",
+            "coin_block_setting",
+            "foliage_setting"
+          ],
+          [
+            "letters_setting",
+            "dojo_setting",
+            "koot_setting",
+            "trading_setting",
+            "upgrades_setting",
+            "multicoin_setting",
+            "dungeon_setting"
+          ]
+        ]
+      }
+    ]
+  },
+  "open_flags": {
+    "type": "group",
+    "header": "Open Areas",
+    "content": [
+      {
+        "type": "itemgrid",
+        "h_alignment": "left",
+        "item_margin": "1,2",
+        "rows": [
+          [
+            "hidden_blocks_visible",
+            "partners_always",
+            "open_prologue",
+            "open_blue_house",
+            "open_cooking",
+            "open_mt_rugged",
+            "open_forest",
+            "open_toy_box"
+          ],
+          [
+            "open_whale",
+            "open_ch7_bridge"
+          ]
+        ]
+      }
+    ]
   }
 }
