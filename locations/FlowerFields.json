@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Deku Tree",
+		"name": "Flower Fields Hub Room",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$FlowerFieldsAccess"],

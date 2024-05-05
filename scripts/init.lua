@@ -63,9 +63,10 @@ end
 -- Autotracking
 if PopVersion then
     -- load AP autotracker
-    if PopVersion >= "1.8.0" then
+    if PopVersion >= "0.18.0" then
+        ScriptHost:LoadScript("scripts/archipelago.lua")
     end
-else
-    -- Emotracker Bizhawk connector based tracking
-    ScriptHost:LoadScript("scripts/autotracking.lua")
 end
+
+-- Bizhawk connector based tracking
+ScriptHost:LoadScript("scripts/autotracking.lua")

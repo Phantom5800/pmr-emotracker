@@ -40,3 +40,6 @@ Initial Release.
 
 # 1.2.0
 * Poptracker specific layouts.
+
+# 1.2.1
+* AP autotracking files for poptracker.
