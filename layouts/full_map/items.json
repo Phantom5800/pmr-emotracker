@@ -66,67 +66,85 @@
 	},
 	"tracker_items_vertical": {
 		"type": "array",
-		"orientation": "vertical",
+		"orientation": "horizontal",
 		"scale": 1.25,
 		"style": "wrap",
 		"content": [
 			{
-				"type": "group",
-				"header": "Progression + Upgrades",
+        "type": "array",
+        "orientation": "vertical",
 				"content": [
 					{
-						"type": "layout",
-						"key": "progression_items"
+						"type": "group",
+						"header": "Progression + Upgrades",
+						"content": [
+							{
+								"type": "layout",
+								"key": "progression_items"
+							},
+							{
+								"type": "itemgrid",
+								"h_alignment": "left",
+								"scale": "0.5",
+								"item_margin": "18,0",
+								"margin": "-4,2,0,0",
+								"dropshadow": true,
+								"rows": [
+									[
+										"ch1_lcl",
+										"ch2_lcl",
+										"ch3_lcl",
+										"ch4_lcl",
+										"ch5_lcl",
+										"ch6_lcl",
+										"ch7_lcl"
+									]
+								]
+							}
+						]
 					},
 					{
-						"type": "itemgrid",
-						"h_alignment": "left",
-						"scale": "0.5",
-						"item_margin": "18,0",
-						"margin": "-4,2,0,0",
-						"dropshadow": true,
-						"rows": [
-							[
-								"ch1_lcl",
-								"ch2_lcl",
-								"ch3_lcl",
-								"ch4_lcl",
-								"ch5_lcl",
-								"ch6_lcl",
-								"ch7_lcl"
-							]
-						]
+						"type": "layout",
+						"key": "static_items"
 					}
 				]
 			},
 			{
-				"type": "layout",
-				"key": "logic_items"
-			},
-			{
-				"type": "layout",
-				"key": "turnin_items"
-			},
-			{
-				"type": "layout",
-				"key": "standard_letters"
-			},
-			{
-				"type": "layout",
-				"key": "event_toad"
-			},
-			{
-				"type": "layout",
-				"key": "letter_chain"
-			},
-			{
-				"type": "layout",
-				"key": "koopa_koot_items"
-			},
-			{
-				"type": "layout",
-				"key": "static_items"
-			}
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "layout",
+            "key": "turnin_items"
+          },
+          {
+            "type": "layout",
+            "key": "logic_items"
+          },
+          {
+            "type": "layout",
+            "key": "event_toad"
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "layout",
+            "key": "standard_letters"
+          },
+          {
+            "type": "layout",
+            "key": "letter_chain"
+          },
+					{
+            "type": "layout",
+            "key": "koopa_koot_items"
+          }
+        ]
+      }
 		]
 	},
 	"seed_settings": {

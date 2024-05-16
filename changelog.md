@@ -47,3 +47,6 @@ Initial Release.
 # 1.2.3
 * Add vertical layout to Emotracker display.
 * Move randomizer settings into gear menu.
+
+# 1.2.4
+* Quick hotfix for scrolling vertical layout item section.
