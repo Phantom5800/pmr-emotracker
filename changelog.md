@@ -43,3 +43,7 @@ Initial Release.
 
 # 1.2.1
 * AP autotracking files for poptracker.
+
+# 1.2.3
+* Add vertical layout to Emotracker display.
+* Move randomizer settings into gear menu.
