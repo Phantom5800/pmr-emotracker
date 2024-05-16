@@ -1,5 +1,262 @@
 {
+  "items_section": {
+    "type": "dock",
+    "v_alignment": "stretch",
+    "content": [
+      {
+        "type": "group",
+        "header": "Items",
+        "content": {
+            "type": "layout",
+            "key": "tracker_items"
+        },
+        "header_content": {
+          "type": "button_popup",
+          "style": "settings",
+          "popup_background": "#55212121",
+          "layout": "settings_popup"
+        }
+      }
+    ]
+  },
+  "items_section_vertical": {
+    "type": "dock",
+    "v_alignment": "stretch",
+    "content": [
+      {
+        "type": "group",
+        "header": "Items",
+        "content": {
+            "type": "layout",
+            "key": "tracker_items_vertical"
+        },
+        "header_content": {
+          "type": "button_popup",
+          "style": "settings",
+          "popup_background": "#55212121",
+          "layout": "settings_popup"
+        }
+      }
+    ]
+  },
+  "map_section": {
+    "type": "tabbed",
+    "background": "#000000",
+    "tabs": [
+      {
+        "title": "Goomba Region",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "goomba_region"
+          ]
+        }
+      },
+      {
+        "title": "Toad Town",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "toad_town"
+          ]
+        }
+      },
+      {
+        "title": "Toad Town Tunnels",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "toad_town_tunnels"
+          ]
+        }
+      },
+      {
+        "title": "Pleasant Path",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "pleasant_path"
+          ]
+        }
+      },
+      {
+        "title": "Koopa Bros. Fortress",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "koopa_bros_fortress"
+          ]
+        }
+      },
+      {
+        "title": "Mt. Rugged",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "mt_rugged"
+          ]
+        }
+      },
+      {
+        "title": "Dry Dry Desert",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "dry_dry_desert"
+          ]
+        }
+      },
+      {
+        "title": "Dry Dry Ruins",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "dry_dry_ruins"
+          ]
+        }
+      },
+      {
+        "title": "Forever Forest",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "forever_forest"
+          ]
+        }
+      },
+      {
+        "title": "Boo's Mansion",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "boos_mansion"
+          ]
+        }
+      },
+      {
+        "title": "Gusty Gulch",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "gusty_gulch"
+          ]
+        }
+      },
+      {
+        "title": "Tubba's Castle",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "tubba_castle"
+          ]
+        }
+      },
+      {
+        "title": "Shy Guy's Toy Box",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "shy_guys_toy_box"
+          ]
+        }
+      },
+      {
+        "title": "Lavalava Island",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "lavalava_island"
+          ]
+        }
+      },
+      {
+        "title": "Mt. Lavalava",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "mt_lavalava"
+          ]
+        }
+      },
+      {
+        "title": "Flower Fields",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "flower_fields"
+          ]
+        }
+      },
+      {
+        "title": "Shiver Region",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "shiver_region"
+          ]
+        }
+      },
+      {
+        "title": "Crystal Palace",
+        "content": {
+          "type": "map",
+          "v_alignment": "center",
+          "maps": [
+            "crystal_palace"
+          ]
+        }
+      },
+      // {
+      // 	"title": "Star Way",
+      // 	"content": {
+      // 		"type": "map",
+      // 		"maps": [
+      // 			"star_way"
+      // 		]
+      // 	}
+      // },
+      // {
+      // 	"title": "Bowser's Castle (Full)",
+      // 	"content": {
+      // 		"type": "map",
+      // 		"maps": [
+      // 			"bowser_castle_full"
+      // 		]
+      // 	}
+      // },
+      // {
+      // 	"title": "Peach's Castle",
+      // 	"content": {
+      // 		"type": "map",
+      // 		"maps": [
+      // 			"peach_castle"
+      // 		]
+      // 	}
+      // }
+    ]
+  },
   "tracker_default": {
+    "type": "layout",
+    "key": "tracker_horizontal"
+  },
+  "tracker_vertical": {
     "type": "container",
     "background": "#877373",
     "content": {
@@ -9,25 +266,66 @@
       "content": [
         {
           "type": "dock",
-          "dock": "left",
-          "v_alignment": "stretch",
+          "dock": "bottom",
           "content": [
             {
-              "type": "group",
-              "header": "Items",
-              "dock": "left",
+              "type": "scroll",
+              "dock": "bottom",
               "content": {
-                  "type": "layout",
-                  "key": "tracker_items"
-              },
-              "header_content": {
-                "type": "button_popup",
-                "style": "settings",
-                "popup_background": "#55212121",
-                "layout": "settings_popup"
+                "type": "layout",
+                "dock": "bottom",
+                "max_height": 480,
+                "key": "items_section_vertical"
               }
+            },
+            {
+              "type": "dock",
+              "dock": "bottom",
+              "v_alignment": "stretch",
+              "max_height": 200,
+              "min_height": 200,
+              "max_width": "100%",
+              "content": [
+                {
+                  "type": "group",
+                  "header": "Pinned Locations",
+                  "content": {
+                    "type": "scroll",
+                    "horizontal_scrollbar_visibility": "disabled",
+                    "content": {
+                      "type": "recentpins",
+                      "style": "wrap",
+                      "h_alignment": "stretch",
+                      "v_alignment": "stretch",
+                      "orientation": "horizontal",
+                      "compact": true
+                    }
+                  }
+                }
+              ]
             }
           ]
+        },
+        {
+          "type": "layout",
+          "dock": "top",
+          "key": "map_section"
+        }
+      ]
+    }
+  },
+  "tracker_horizontal": {
+    "type": "container",
+    "background": "#877373",
+    "content": {
+      "type": "dock",
+      "min_height": 1000,
+      "dropshadow": true,
+      "content": [
+        {
+          "type": "layout",
+          "dock": "left",
+          "key": "items_section"
         },
         {
           "type": "dock",
@@ -35,15 +333,6 @@
           "v_alignment": "stretch",
           "min_height": 500,
           "content": [
-            {
-              "type": "group",
-              "header": "Settings",
-              "dock": "left",
-              "content": {
-                "type": "layout",
-                "key": "seed_settings"
-              }
-            },
             {
               "type": "group",
               "header": "Pinned Locations",
@@ -59,218 +348,9 @@
           ]
         },
         {
-          "type": "tabbed",
+          "type": "layout",
           "dock": "right",
-          "background": "#000000",
-          "tabs": [
-            {
-              "title": "Goomba Region",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "goomba_region"
-                ]
-              }
-            },
-            {
-              "title": "Toad Town",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "toad_town"
-                ]
-              }
-            },
-            {
-              "title": "Toad Town Tunnels",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "toad_town_tunnels"
-                ]
-              }
-            },
-            {
-              "title": "Pleasant Path",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "pleasant_path"
-                ]
-              }
-            },
-            {
-              "title": "Koopa Bros. Fortress",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "koopa_bros_fortress"
-                ]
-              }
-            },
-            {
-              "title": "Mt. Rugged",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "mt_rugged"
-                ]
-              }
-            },
-            {
-              "title": "Dry Dry Desert",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "dry_dry_desert"
-                ]
-              }
-            },
-            {
-              "title": "Dry Dry Ruins",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "dry_dry_ruins"
-                ]
-              }
-            },
-            {
-              "title": "Forever Forest",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "forever_forest"
-                ]
-              }
-            },
-            {
-              "title": "Boo's Mansion",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "boos_mansion"
-                ]
-              }
-            },
-            {
-              "title": "Gusty Gulch",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "gusty_gulch"
-                ]
-              }
-            },
-            {
-              "title": "Tubba's Castle",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "tubba_castle"
-                ]
-              }
-            },
-            {
-              "title": "Shy Guy's Toy Box",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "shy_guys_toy_box"
-                ]
-              }
-            },
-            {
-              "title": "Lavalava Island",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "lavalava_island"
-                ]
-              }
-            },
-            {
-              "title": "Mt. Lavalava",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "mt_lavalava"
-                ]
-              }
-            },
-            {
-              "title": "Flower Fields",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "flower_fields"
-                ]
-              }
-            },
-            {
-              "title": "Shiver Region",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "shiver_region"
-                ]
-              }
-            },
-            {
-              "title": "Crystal Palace",
-              "content": {
-                "type": "map",
-                "v_alignment": "center",
-                "maps": [
-                  "crystal_palace"
-                ]
-              }
-            },
-            // {
-            // 	"title": "Star Way",
-            // 	"content": {
-            // 		"type": "map",
-            // 		"maps": [
-            // 			"star_way"
-            // 		]
-            // 	}
-            // },
-            // {
-            // 	"title": "Bowser's Castle (Full)",
-            // 	"content": {
-            // 		"type": "map",
-            // 		"maps": [
-            // 			"bowser_castle_full"
-            // 		]
-            // 	}
-            // },
-            // {
-            // 	"title": "Peach's Castle",
-            // 	"content": {
-            // 		"type": "map",
-            // 		"maps": [
-            // 			"peach_castle"
-            // 		]
-            // 	}
-            // }
-          ]
+          "key": "map_section"
         }
       ]
     }

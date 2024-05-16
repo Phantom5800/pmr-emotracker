@@ -1,5 +1,5 @@
 {
-    "tracker_items": {
+	"tracker_items": {
 		"type": "array",
 		"orientation": "vertical",
 		"scale": 1.25,
@@ -57,6 +57,71 @@
 			{
 				"type": "layout",
 				"key": "logic_items"
+			},
+			{
+				"type": "layout",
+				"key": "static_items"
+			}
+		]
+	},
+	"tracker_items_vertical": {
+		"type": "array",
+		"orientation": "vertical",
+		"scale": 1.25,
+		"style": "wrap",
+		"content": [
+			{
+				"type": "group",
+				"header": "Progression + Upgrades",
+				"content": [
+					{
+						"type": "layout",
+						"key": "progression_items"
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"scale": "0.5",
+						"item_margin": "18,0",
+						"margin": "-4,2,0,0",
+						"dropshadow": true,
+						"rows": [
+							[
+								"ch1_lcl",
+								"ch2_lcl",
+								"ch3_lcl",
+								"ch4_lcl",
+								"ch5_lcl",
+								"ch6_lcl",
+								"ch7_lcl"
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "layout",
+				"key": "logic_items"
+			},
+			{
+				"type": "layout",
+				"key": "turnin_items"
+			},
+			{
+				"type": "layout",
+				"key": "standard_letters"
+			},
+			{
+				"type": "layout",
+				"key": "event_toad"
+			},
+			{
+				"type": "layout",
+				"key": "letter_chain"
+			},
+			{
+				"type": "layout",
+				"key": "koopa_koot_items"
 			},
 			{
 				"type": "layout",
@@ -206,6 +271,14 @@
 						"item": "extreme_preset"
 					}
 				]
+			},
+			{
+				"type": "layout",
+				"key": "randomization_options"
+			},
+			{
+				"type": "layout",
+				"key": "open_flags"
 			}
 		]
 	}
