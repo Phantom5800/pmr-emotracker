@@ -2,7 +2,7 @@
 	"versions": [
 		{
 			"package_version": "1.2.2",
-			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/v1.2.2/PaperMarioTrackerPhantom-1.2.2.zip",
+			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.2/PaperMarioTrackerPhantom-1.2.2.zip",
 			"sha256": "FCA2C92384F008450872B37DD6CE8ECC0BDAB893A7416DECB206204CF657E04F",
 			"changelog": [
         "AP support for poptracker."
@@ -10,7 +10,7 @@
 		},
 		{
 			"package_version": "1.2.5",
-			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/v1.2.5/PaperMarioTrackerPhantom-1.2.5.zip",
+			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.5/PaperMarioTrackerPhantom-1.2.5.zip",
 			"sha256": "478785389EC2ECB4AB7DFBBB0D342B0573EFCCCD74C90675D97CFD930D109AEA",
 			"changelog": [
 				"Logic fix for Jade Jungle."
