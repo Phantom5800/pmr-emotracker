@@ -50,3 +50,6 @@ Initial Release.
 
 # 1.2.4
 * Quick hotfix for scrolling vertical layout item section.
+
+# 1.2.5
+* Coin bushes in Jade Jungle first room previously had swapped logic.

@@ -220,13 +220,13 @@
 					{
 						"name": "Bottom Left Bush",
 						"visibility_rules": ["foliage_setting"],
+						"access_rules": ["hammer, $sushie"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{
 						"name": "Bottom Right Bush",
-						"access_rules": ["hammer, $sushie"],
 						"visibility_rules": ["foliage_setting"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
@@ -450,7 +450,7 @@
 										"chest_unopened_img": "images/chests/coin.png",
 										"chest_opened_img": "images/chests/coin_checked.png",
 										"item_count": 1
-									}		
+									}
 								],
 								"map_locations": [
 									{
@@ -475,7 +475,7 @@
 												"chest_unopened_img": "images/chests/coin.png",
 												"chest_opened_img": "images/chests/coin_checked.png",
 												"item_count": 1
-											}	
+											}
 										],
 										"map_locations": [
 											{
