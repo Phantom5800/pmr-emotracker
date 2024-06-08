@@ -53,3 +53,6 @@ Initial Release.
 
 # 1.2.5
 * Coin bushes in Jade Jungle first room previously had swapped logic.
+
+# 1.2.6
+* Missing coin tree in Jade Jungle
