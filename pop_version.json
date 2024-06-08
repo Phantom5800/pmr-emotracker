@@ -18,7 +18,7 @@
 		},
 		{
 			"package_version": "1.2.6",
-			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.6/PaperMarioTrackerPhantom-1.2.6.zip",
+			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.6/PaperMarioTrackerPhantom.zip",
 			"sha256": "08B0905DF6F590EE5520371B90B79EAE2C50E6C1F6B48D12CC243AD08B4EAD05",
 			"changelog": [
 				"Missing coin location in Jade Jungle."
