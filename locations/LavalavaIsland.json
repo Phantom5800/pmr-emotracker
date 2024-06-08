@@ -417,6 +417,13 @@
 								"name": "Yellow Yoshi Room",
 								"sections": [
 									{
+										"name": "Left Tree",
+										"visibility_rules": ["foliage_setting"],
+										"chest_unopened_img": "images/chests/coin.png",
+										"chest_opened_img": "images/chests/coin_checked.png",
+										"item_count": 1
+									},
+									{
 										"name": "Yellow Yoshi",
 										"hosted_item": "yellow_yoshi_kid"
 									}
