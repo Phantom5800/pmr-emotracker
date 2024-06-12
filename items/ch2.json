@@ -63,6 +63,35 @@
         "codes": "lyrics"
     },
     {
+        "name": "Lyrics and Melody",
+        "type": "composite_toggle",
+        "codes": "lyrics_melody",
+        "item_left": "melody_base",
+        "item_right": "lyrics_base",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/ch2/Melody_Lyrics_XX.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/ch2/Melody_Lyrics_OX.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/ch2/Melody_Lyrics_XO.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/ch2/Melody_Lyrics.png"
+            }
+        ]
+    },
+    {
         "name": "Letters",
         "type": "consumable",
         "img": "images/ch2/PM_Letter_Sprite.png",

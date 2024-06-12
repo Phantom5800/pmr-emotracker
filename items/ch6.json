@@ -63,6 +63,35 @@
         "loop": true
     },
     {
+        "name": "Magical Seed 1 and 2",
+        "type": "composite_toggle",
+        "codes": "lyrics_melody",
+        "item_left": "seed1",
+        "item_right": "seed2",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/ch6/MagicalSeed_12_XX.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/ch6/MagicalSeed_12_OX.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/ch6/MagicalSeed_12_XO.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/ch6/MagicalSeed_12.png"
+            }
+        ]
+    },
+    {
         "name": "Magical Seed 3",
         "type": "toggle",
         "img": "images/ch6/MagicalSeed3.png",
@@ -75,6 +104,35 @@
         "img": "images/ch6/MagicalSeed4.png",
         "codes": "seed4",
         "loop": true
+    },
+    {
+        "name": "Magical Seed 3 and 4",
+        "type": "composite_toggle",
+        "codes": "lyrics_melody",
+        "item_left": "seed3",
+        "item_right": "seed4",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/ch6/MagicalSeed_34_XX.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/ch6/MagicalSeed_34_OX.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/ch6/MagicalSeed_34_XO.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/ch6/MagicalSeed_34.png"
+            }
+        ]
     },
     {
         "name": "Magical Bean",

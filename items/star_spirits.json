@@ -54,5 +54,11 @@
         "img": "images/star_spirits/Power_Star.png",
         "max_quantity": 120,
         "codes": "power_star"
+    },
+    {
+        "name": "Star Beam",
+        "type": "toggle",
+        "img": "images/star_spirits/StarBeam.png",
+        "codes": "starbeam"
     }
 ]
