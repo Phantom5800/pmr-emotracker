@@ -59,6 +59,7 @@
         "name": "Star Beam",
         "type": "toggle",
         "img": "images/star_spirits/StarBeam.png",
-        "codes": "starbeam"
+        "codes": "starbeam",
+        "loop": true
     }
 ]

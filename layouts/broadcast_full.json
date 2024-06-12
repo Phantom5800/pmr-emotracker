@@ -1,11 +1,11 @@
 {
     "tracker_broadcast": {
-        "type": "array",
+		"type": "array",
 		"dropshadow": false,
 		//"background": "#5f417b",
 		"background": "#363648",
 		"scale": 2,
-        "content": [
+		"content": [
 			{
 				"type": "itemgrid",
 				"h_alignment": "left",
@@ -311,7 +311,7 @@
 				"h_alignment": "left",
 				"scale": "0.5",
 				"item_margin": "22,0",
-				"margin": "35,-293,-40,-40",
+				"margin": "22,-293,-40,-40",
 				"dropshadow": true,
 				"rows": [
 					[
@@ -330,7 +330,7 @@
 				"h_alignment": "left",
 				"scale": "0.6",
 				"item_margin": "16,0",
-				"margin": "22,-277,-40,-40",
+				"margin": "9,-277,-40,-40",
 				"dropshadow": true,
 				"rows": [
 					[
