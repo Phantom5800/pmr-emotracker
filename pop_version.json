@@ -33,9 +33,9 @@
 			]
 		},
 		{
-			"package_version": "1.2.8",
-			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.8/PaperMarioTrackerPhantom.zip",
-			"sha256": "F7986ED49BF67DD6297F0544D7A4CF71DAA9043D3BE5D81B6F287FDF26A48D38",
+			"package_version": "1.2.10",
+			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.10/PaperMarioTrackerPhantom.zip",
+			"sha256": "454B42991A07952BF1BD261ECC8F218A669FAD61EA7DC754F3774D37D009AED0",
 			"changelog": [
 				"Add new combination items for more compact views.",
 				"Add Star Beam item."
