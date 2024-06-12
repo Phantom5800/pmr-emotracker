@@ -56,3 +56,7 @@ Initial Release.
 
 # 1.2.6
 * Missing coin tree in Jade Jungle
+
+# 1.2.8
+* Add some new combination items that could be used by overrides for even more compact trackers.
+* Add Star Beam item to tracker.

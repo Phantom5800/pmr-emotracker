@@ -31,6 +31,15 @@
 			"changelog": [
 				"Dry Dry Ruins AP Location fix, two rooms were previously swapped by the autotracker."
 			]
+		},
+		{
+			"package_version": "1.2.8",
+			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.8/PaperMarioTrackerPhantom.zip",
+			"sha256": "F7986ED49BF67DD6297F0544D7A4CF71DAA9043D3BE5D81B6F287FDF26A48D38",
+			"changelog": [
+				"Add new combination items for more compact views.",
+				"Add Star Beam item."
+			]
 		}
 	]
 }
