@@ -61,5 +61,6 @@ Initial Release.
 * Add some new combination items that could be used by overrides for even more compact trackers.
 * Add Star Beam item to tracker.
 
-# 1.2.9
+# 1.2.10
 * Minor fix for full broadcast view after adding star beam.
+* Fix typo in new item names.

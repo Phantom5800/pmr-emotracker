@@ -65,7 +65,7 @@
     {
         "name": "Magical Seed 1 and 2",
         "type": "composite_toggle",
-        "codes": "lyrics_melody",
+        "codes": "seed_12",
         "item_left": "seed1",
         "item_right": "seed2",
         "images": [
@@ -108,7 +108,7 @@
     {
         "name": "Magical Seed 3 and 4",
         "type": "composite_toggle",
-        "codes": "lyrics_melody",
+        "codes": "seed_34",
         "item_left": "seed3",
         "item_right": "seed4",
         "images": [
