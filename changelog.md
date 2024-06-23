@@ -64,3 +64,6 @@ Initial Release.
 # 1.2.10
 * Minor fix for full broadcast view after adding star beam.
 * Fix typo in new item names.
+
+# 1.2.11
+* Fix weird scaling / cropping issues that impacted lower resolution displays.

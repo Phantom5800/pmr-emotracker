@@ -241,7 +241,6 @@
     "background": "#877373",
     "content": {
       "type": "dock",
-      "min_height": 1000,
       "dropshadow": true,
       "content": [
         {
@@ -315,7 +314,6 @@
     "background": "#877373",
     "content": {
       "type": "dock",
-      "min_height": 1000,
       "dropshadow": true,
       "content": [
         {
