@@ -25,6 +25,7 @@
     "tabs": [
       {
         "title": "Goomba Region",
+        "icon": "images/partners/goombario.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -35,6 +36,7 @@
       },
       {
         "title": "Toad Town",
+        "icon": "images/settings/HarryTPM.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -45,6 +47,7 @@
       },
       {
         "title": "Toad Town Tunnels",
+        "icon": "images/settings/OddKey.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -55,6 +58,7 @@
       },
       {
         "title": "Pleasant Path",
+        "icon": "images/settings/KoopaKoot_PM.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -65,6 +69,7 @@
       },
       {
         "title": "Koopa Bros. Fortress",
+        "icon": "images/star_spirits/KoopaBros.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -75,6 +80,7 @@
       },
       {
         "title": "Mt. Rugged",
+        "icon": "images/settings/Whacka.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -85,6 +91,7 @@
       },
       {
         "title": "Dry Dry Desert",
+        "icon": "images/letters/Little_Mouser_Paper_Mario.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -95,6 +102,7 @@
       },
       {
         "title": "Dry Dry Ruins",
+        "icon": "images/star_spirits/Tutankoopa.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -105,6 +113,7 @@
       },
       {
         "title": "Forever Forest",
+        "icon": "images/ch3/ForestPass.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -115,6 +124,7 @@
       },
       {
         "title": "Boo's Mansion",
+        "icon": "images/letters/PM_Boo_Sprite.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -125,6 +135,7 @@
       },
       {
         "title": "Gusty Gulch",
+        "icon": "images/ch3/PM_Mystical_Key.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -135,6 +146,7 @@
       },
       {
         "title": "Tubba's Castle",
+        "icon": "images/star_spirits/TubbaBlubba.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -145,6 +157,7 @@
       },
       {
         "title": "Shy Guy's Toy Box",
+        "icon": "images/star_spirits/GeneralGuy.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -155,6 +168,7 @@
       },
       {
         "title": "Lavalava Island",
+        "icon": "images/letters/red_yoshi.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -165,6 +179,7 @@
       },
       {
         "title": "Mt. Lavalava",
+        "icon": "images/star_spirits/LavaPiranha.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -175,6 +190,7 @@
       },
       {
         "title": "Flower Fields",
+        "icon": "images/star_spirits/Huff.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -185,6 +201,7 @@
       },
       {
         "title": "Shiver Region",
+        "icon": "images/settings/ShiverCity.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
@@ -195,6 +212,7 @@
       },
       {
         "title": "Crystal Palace",
+        "icon": "images/star_spirits/CrystalKing.png",
         "content": {
           "type": "map",
           "v_alignment": "center",
