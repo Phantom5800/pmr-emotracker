@@ -67,3 +67,6 @@ Initial Release.
 
 # 1.2.11
 * Fix weird scaling / cropping issues that impacted lower resolution displays.
+
+# 1.2.12
+* Fix Crystal King fight logic not requiring Palace Key.

@@ -48,7 +48,7 @@
 							{
 								"name": "Item on Pedestal",
 								"access_rules": ["$canClimbShortLedges"],
-								"item_count": 1 
+								"item_count": 1
 							}
 						],
 						"map_locations": [
@@ -242,6 +242,7 @@
 								"sections": [
 									{
 										"name": "Crystal King",
+										"access_rules": ["palace_key"],
 										"hosted_item": "kalmar"
 									}
 								],
