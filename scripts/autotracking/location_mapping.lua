@@ -165,6 +165,8 @@ LOCATION_MAPPING = {
     [8112000159] = {"@Star Haven Shop Item 4"},
     [8112000160] = {"@Star Haven Shop Item 5"},
     [8112000161] = {"@Star Haven Shop Item 6"},
+    [8112000162] = {"@Star Beam Gift"},
+    -- TODO: increment everything after this by 1
     [8112000162] = {"@Main Gate/Merluvlee's House/Merluvlee"},
     [8112000163] = {"@Main Gate/Merluvlee's House/Merlow Letter", "merlow"},
     [8112000164] = {"@Merluvlee's House Merlow's Badges 1"},
