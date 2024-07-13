@@ -40,6 +40,14 @@
 				"Add new combination items for more compact views.",
 				"Add Star Beam item."
 			]
+		},
+		{
+			"package_version": "1.2.13",
+			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.13/PaperMarioTrackerPhantom.zip",
+			"sha256": "CC71904EC7FA14BD6BD3A99856760CAFD12C58D43554C791FD45639FCD7C47B1",
+			"changelog": [
+				"Fix item and location autotracking for AP post star beam update."
+			]
 		}
 	]
 }

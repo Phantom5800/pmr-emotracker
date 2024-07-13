@@ -70,3 +70,6 @@ Initial Release.
 
 # 1.2.12
 * Fix Crystal King fight logic not requiring Palace Key.
+
+# 1.2.13
+* Fix AP item and location IDs after Star Beam update.
