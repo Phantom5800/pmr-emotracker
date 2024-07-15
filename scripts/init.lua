@@ -64,7 +64,7 @@ end
 if PopVersion then
     -- load AP autotracker
     if PopVersion >= "0.18.0" then
-        ScriptHost:LoadScript("scripts/archipelago.lua")
+        ScriptHost:LoadScript("scripts/ap_autotracking/archipelago.lua")
     end
 end
 
