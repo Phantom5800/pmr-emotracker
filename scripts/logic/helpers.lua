@@ -28,9 +28,9 @@ end
 
 function hiddenBlocks()
     if watt() or hasItem("hidden_blocks_visible") then
-        return 1
+        return true
     else
-        return 1, AccessibilityLevel.SequenceBreak
+        return true, AccessibilityLevel.SequenceBreak
     end
 end
 

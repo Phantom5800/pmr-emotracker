@@ -73,3 +73,6 @@ Initial Release.
 
 # 1.2.13
 * Fix AP item and location IDs after Star Beam update.
+
+# 1.2.14
+* Minor logic scripting fixes for Crystal Palace access.

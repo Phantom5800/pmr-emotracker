@@ -48,6 +48,14 @@
 			"changelog": [
 				"Fix item and location autotracking for AP post star beam update."
 			]
+		},
+		{
+			"package_version": "1.2.14",
+			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.13/PaperMarioTrackerPhantom.zip",
+			"sha256": "8D91D71F7CE432C6D30F931A65EBDE9666A5C850EFC606A0D2E1C56DE2481A90",
+			"changelog": [
+				"Minor scripting logic adjustments."
+			]
 		}
 	]
 }

@@ -32,12 +32,12 @@ function GoombaVillageAccess()
         local boots = hasItem("boots")
         local hammer2 = hasItem("hammer2")
         if open_prologue and canClimbShortLedges() and canBreakYellowBlocks() then
-            return 1
+            return true
         elseif boots and hammer2 then
-            return 1
+            return true
         end
     end
-    return 0
+    return false
 end
 
 function GoombaRoadAccess()
@@ -47,12 +47,12 @@ function GoombaRoadAccess()
         local hammer2 = hasItem("hammer2")
 
         if open_prologue and (canClimbShortLedges()) then
-            return 1
+            return true
         elseif boots and hammer2 then
-            return 1
+            return true
         end
     end
-    return 0
+    return false
 end
 
 function BlueHousePipeAccess()
@@ -64,7 +64,7 @@ function ToadTownAccess()
     -- start == DryDryOutpost and (parakarry or boots)
     -- start == GoombaVillage and (bombette or hammer)
 
-    return 1
+    return true
 end
 
 --[[----------------------------------------------------------
@@ -93,14 +93,14 @@ function DryDryDesertAccess()
 
         -- can access the desert through the sewers
         if boots and hasItem("hammer2") then
-            return 1
+            return true
         end
 
         -- can traverse mt rugged to get to the desert
         return (hasItem("open_mt_rugged") or bombette()) and boots and parakarry()
     end
 
-    return 0
+    return false
 end
 
 function MtRuggedAccess()
@@ -112,7 +112,7 @@ function MtRuggedAccess()
         return from_train or from_sewers
     end
 
-    return 0
+    return false
 end
 
 function DryDryRuinsEntranceAccess()
@@ -133,12 +133,12 @@ end
 function BoosMansionPipeRoomAccess()
     if ToadTownAccess() then
         if hasItem("boots2") then
-            return 1
+            return true
         else
             return sushie() and bombette() and BlueHousePipeAccess()
         end
     end
-    return 0
+    return false
 end
 
 function BoosMansionAccess()
@@ -152,35 +152,35 @@ function BoosMansionAccess()
             return mansion_room, AccessibilityLevel.SequenceBreak
         end
     end
-    return 0
+    return false
 end
 
 function ForeverForestAccess()
     if ToadTownAccess() then
         local boots = hasItem("boots")
         local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
-    
+
         if forest_pass then
-            return 1
+            return true
         else
             return (BoosMansionPipeRoomAccess() and boots), AccessibilityLevel.SequenceBreak
         end
     end
-    return 0
+    return false
 end
 
 function GustyGulchAccess()
     if hasItem("boo_portrait_base") and hasItem("boots") then
         return BoosMansionAccess()
     end
-    return 0
+    return false
 end
 
 function TubbaCastleEntranceAccess()
     if parakarry() then
         return GustyGulchAccess()
     end
-    return 0
+    return false
 end
 
 function TubbaCastleAccess()
@@ -205,24 +205,24 @@ end
 function ToyBoxGreenAccess()
     if ToyBoxPinkAccess() then
         if cookingAvailable() and hasItem("cakemix") and hasItem("cake") then
-            return 1
+            return true
         elseif hasItem("cake") then
-            return 1, AccessibilityLevel.SequenceBreak -- out of logic
+            return true, AccessibilityLevel.SequenceBreak -- out of logic
         end
     end
-    return 0
+    return false
 end
 
 function ToyBoxRedAccess()
     if hasItem("hammer") then
         local green,access = ToyBoxGreenAccess()
         if green == 1 and access == nil and hasItem("mystery_note_base") then
-            return 1
+            return true
         elseif green > 0 then
-            return 1, AccessibilityLevel.SequenceBreak -- out of logic
+            return true, AccessibilityLevel.SequenceBreak -- out of logic
         end
     end
-    return 0
+    return false
 end
 
 --[[----------------------------------------------------------
@@ -236,15 +236,15 @@ function YoshisIslandAccess()
 
     -- Whale
     if hasItem("open_whale") or ((boots2 or hammer or bombette) and watt()) then
-        return 1
+        return true
     -- shortcut pipe through blue house
     elseif BlueHousePipeAccess() and bombette then
-        return 1
+        return true
     -- shortcut pipe through main sewer entrance
     elseif boots2 and sushie() then
-        return 1
+        return true
     end
-    return 0
+    return false
 end
 
 function VolcanoEntranceAccess()
@@ -282,7 +282,7 @@ function ShiverCityAccess()
             end
         end
     end
-    return 0
+    return false
 end
 
 function ShiverMountainAccess()
