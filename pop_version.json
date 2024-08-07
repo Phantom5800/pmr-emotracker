@@ -56,6 +56,14 @@
 			"changelog": [
 				"Minor scripting logic adjustments."
 			]
+		},
+		{
+			"package_version": "1.2.15",
+			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.15/PaperMarioTrackerPhantom.zip",
+			"sha256": "B6257B3AF6AC35E34E8026CD55DD523F7278AD2A84E67B6F0BD1AB732DC629C6",
+			"changelog": [
+				"Minor logic fix for Toy Box Red Station access (missed case in 1.2.14)."
+			]
 		}
 	]
 }

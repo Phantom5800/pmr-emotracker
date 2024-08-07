@@ -76,3 +76,6 @@ Initial Release.
 
 # 1.2.14
 * Minor logic scripting fixes for Crystal Palace access.
+
+# 1.2.15
+* Minor logic fix for Toy Box Red Station access (missed case in 1.2.14).

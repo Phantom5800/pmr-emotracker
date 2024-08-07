@@ -216,9 +216,9 @@ end
 function ToyBoxRedAccess()
     if hasItem("hammer") then
         local green,access = ToyBoxGreenAccess()
-        if green == 1 and access == nil and hasItem("mystery_note_base") then
+        if green and access == nil and hasItem("mystery_note_base") then
             return true
-        elseif green > 0 then
+        elseif green then
             return true, AccessibilityLevel.SequenceBreak -- out of logic
         end
     end
