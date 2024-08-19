@@ -79,3 +79,6 @@ Initial Release.
 
 # 1.2.15
 * Minor logic fix for Toy Box Red Station access (missed case in 1.2.14).
+
+# 1.2.16
+* Fixed another minor logic error in Red Station access.
