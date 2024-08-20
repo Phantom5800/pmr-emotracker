@@ -4,6 +4,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$DryDryDesertAccess"],
+		"visibility_rules": ["episode_2_enabled"],
 		"sections": [
 			{
 				"name": "Shop Items",
@@ -54,6 +55,7 @@
 				"name": "Dry Dry Outpost (East)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Moustafa",
@@ -102,6 +104,7 @@
 				"name": "Desert (Top Left)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Left Block",
@@ -130,11 +133,12 @@
 				"name": "Desert (Dry Dry Ruins)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Trading Event Toad",
 						"access_rules": ["$KoopaVillageAccess, star_spirit:3, koopa_leaf_base, nutty_cake_toad_base"],
-						"visibility_rules": ["trading_setting"],
+						"visibility_rules": ["trading_setting,episode_1_enabled"],
 						"chest_unopened_img": "images/chests/tradingtoad.png",
 						"chest_opened_img": "images/chests/tradingtoad_checked.png",
 								"item_count": 1
@@ -152,6 +156,7 @@
 				"name": "Desert (Pokey Room)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Behind Cactus",
@@ -172,6 +177,7 @@
 				"name": "Desert (Top Right)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Multicoin Block",
@@ -200,6 +206,7 @@
 				"name": "Desert (Thunder Rage)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Hidden Block",
@@ -220,6 +227,7 @@
 				"name": "Desert (Tweester)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Left Block",
@@ -254,6 +262,7 @@
 				"name": "Desert (Hammer Block)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Hammer Block",
@@ -274,6 +283,7 @@
 				"name": "Desert (5 Block Room)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Middle Block",
@@ -302,6 +312,7 @@
 				"name": "Desert (Runaway Pay)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Hidden Block",
@@ -322,6 +333,7 @@
 				"name": "Desert (7 Brick Blocks)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Second From the Right",
@@ -348,6 +360,7 @@
 				"name": "Desert (Right Edge Tree)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Tree",
@@ -370,6 +383,7 @@
 				"name": "Desert (Kolorado Camp)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Camp Tree",
@@ -402,6 +416,7 @@
 				"name": "Desert (Stone Cactus)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Panel",
@@ -424,6 +439,7 @@
 				"name": "Desert (Nomadimouse)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Letter",
@@ -454,6 +470,7 @@
 				"name": "Desert (Three Trees)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Far Left Tree",
@@ -476,6 +493,7 @@
 				"name": "Desert (Outside Outpost)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Far Right Tree",
@@ -520,6 +538,7 @@
 				"name": "Desert (South of Camp)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Multicoin Block",
@@ -540,6 +559,7 @@
 				"name": "Desert (Green Cactus)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Coin Block",
@@ -562,6 +582,7 @@
 				"name": "Desert (Spin Attack)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Item on Ledge (Tweester down and left)",
@@ -588,6 +609,7 @@
 				"name": "Desert (Life Shroom)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Hidden Block",
@@ -624,6 +646,7 @@
 				"name": "Desert (3 Brick blocks)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Middle Block",
@@ -644,6 +667,7 @@
 				"name": "Desert (Before Oasis)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Item Behind Bush",
@@ -678,6 +702,7 @@
 				"name": "Desert (Oasis)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Lemon Tree",
@@ -726,6 +751,7 @@
 				"name": "Desert (Attack FX C)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Hidden Block",
@@ -746,6 +772,7 @@
 				"name": "Desert (? Block)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Block",
@@ -766,6 +793,7 @@
 				"name": "Desert (Bandit Room)",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
+				"visibility_rules": ["episode_2_enabled"],
 				"sections": [
 					{
 						"name": "Multicoin Blocks",

@@ -133,5 +133,187 @@
         "initial_active_state": false,
         "loop": true,
         "codes": "dungeon_setting"
+    },
+    {
+		"name": "Episode 1 Toggle",
+    	"codes": "episode_1_toggle",
+		"type": "progressive",
+		"allow_disabled": false,
+    	"loop": true,
+    	"initial_stage_idx": 0,
+		"stages": [
+      		{
+				"img": "images/common/check.png",
+				"codes": "episode_1_enabled",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/common/no64.png",
+				"codes": "episode_1_disabled",
+				"inherit_codes": false
+			}
+		]
+	},
+    {
+		"name": "Episode 2 Toggle",
+    	"codes": "episode_2_toggle",
+		"type": "progressive",
+		"allow_disabled": false,
+    	"loop": true,
+    	"initial_stage_idx": 0,
+		"stages": [
+      		{
+				"img": "images/common/check.png",
+				"codes": "episode_2_enabled",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/common/no64.png",
+				"codes": "episode_2_disabled",
+				"inherit_codes": false
+			}
+		]
+	},
+    {
+		"name": "Episode 3 Toggle",
+    	"codes": "episode_3_toggle",
+		"type": "progressive",
+		"allow_disabled": false,
+    	"loop": true,
+    	"initial_stage_idx": 0,
+		"stages": [
+      		{
+				"img": "images/common/check.png",
+				"codes": "episode_3_enabled",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/common/no64.png",
+				"codes": "episode_3_disabled",
+				"inherit_codes": false
+			}
+		]
+	},
+    {
+		"name": "Episode 4 Toggle",
+    	"codes": "episode_4_toggle",
+		"type": "progressive",
+		"allow_disabled": false,
+    	"loop": true,
+    	"initial_stage_idx": 0,
+		"stages": [
+      		{
+				"img": "images/common/check.png",
+				"codes": "episode_4_enabled",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/common/no64.png",
+				"codes": "episode_4_disabled",
+				"inherit_codes": false
+			}
+		]
+	},
+    {
+		"name": "Episode 5 Toggle",
+    	"codes": "episode_5_toggle",
+		"type": "progressive",
+		"allow_disabled": false,
+    	"loop": true,
+    	"initial_stage_idx": 0,
+		"stages": [
+      		{
+				"img": "images/common/check.png",
+				"codes": "episode_5_enabled",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/common/no64.png",
+				"codes": "episode_5_disabled",
+				"inherit_codes": false
+			}
+		]
+	},
+    {
+		"name": "Episode 6 Toggle",
+    	"codes": "episode_6_toggle",
+		"type": "progressive",
+		"allow_disabled": false,
+    	"loop": true,
+    	"initial_stage_idx": 0,
+		"stages": [
+      		{
+				"img": "images/common/check.png",
+				"codes": "episode_6_enabled",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/common/no64.png",
+				"codes": "episode_6_disabled",
+				"inherit_codes": false
+			}
+		]
+	},
+    {
+		"name": "Episode 7 Toggle",
+    	"codes": "episode_7_toggle",
+		"type": "progressive",
+		"allow_disabled": false,
+    	"loop": true,
+    	"initial_stage_idx": 0,
+		"stages": [
+      		{
+				"img": "images/common/check.png",
+				"codes": "episode_7_enabled",
+				"inherit_codes": false
+			},
+			{
+				"img": "images/common/no64.png",
+				"codes": "episode_7_disabled",
+				"inherit_codes": false
+			}
+		]
+	},
+    {
+        "name": "Chapter 1 Label",
+        "type": "static",
+        "img": "images/common/ch1.png",
+        "codes": "ch1_label"
+    },
+    {
+        "name": "Chapter 2 Label",
+        "type": "static",
+        "img": "images/common/ch2.png",
+        "codes": "ch2_label"
+    },
+    {
+        "name": "Chapter 3 Label",
+        "type": "static",
+        "img": "images/common/ch3.png",
+        "codes": "ch3_label"
+    },
+    {
+        "name": "Chapter 4 Label",
+        "type": "static",
+        "img": "images/common/ch4.png",
+        "codes": "ch4_label"
+    },
+    {
+        "name": "Chapter 5 Label",
+        "type": "static",
+        "img": "images/common/ch5.png",
+        "codes": "ch5_label"
+    },
+    {
+        "name": "Chapter 6 Label",
+        "type": "static",
+        "img": "images/common/ch6.png",
+        "codes": "ch6_label"
+    },
+    {
+        "name": "Chapter 7 Label",
+        "type": "static",
+        "img": "images/common/ch7.png",
+        "codes": "ch7_label"
     }
 ]

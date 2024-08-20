@@ -4,6 +4,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$YoshisIslandAccess"],
+		"visibility_rules": ["episode_5_enabled"],
 		"sections": [
 			{
 				"name": "Behind Bush",

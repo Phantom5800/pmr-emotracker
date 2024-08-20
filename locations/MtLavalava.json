@@ -4,6 +4,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$VolcanoAccess"],
+		"visibility_rules": ["episode_5_enabled"],
 		"children": [
 			{
 				"name": "Volcano Hub",

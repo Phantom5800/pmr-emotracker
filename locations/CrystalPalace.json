@@ -4,6 +4,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$CrystalPalaceAccess"],
+		"visibility_rules": ["episode_7_enabled"],
 		"children": [
 			{
 				"name": "Blue Key Chest",

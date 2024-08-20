@@ -4,6 +4,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [
 			{
 				"name": "Left ? Block",
@@ -37,6 +38,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [
 			{
 				"name": "? Block",
@@ -78,6 +80,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$KoopaVillageAccess"],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [
 			{
 				"name": "Item Behind Third Pole",
@@ -113,6 +116,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$KoopaVillageAccess"],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [
 			{
 				"name": "5 Coins",
@@ -157,6 +161,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$KoopaVillageAccess"],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [
 			{
 				"name": "Stump Item",
@@ -179,6 +184,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["hammer, $KoopaVillageAccess"],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [
 			{
 				"name": "Minigame",
@@ -201,6 +207,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$KoopaVillageAccess, $kooper"],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [
 			{
 				"name": "Tree",
@@ -222,6 +229,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$kooper, $bombette, $KoopaVillageAccess"],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [
 			{
 				"name": "Chest",
@@ -248,6 +256,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$KoopaVillageAccess"],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [
 			{
 				"name": "Shop",
@@ -341,6 +350,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$KoopaVillageAccess"],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [
 			{
 				"name": "Far Left Bush",
@@ -391,6 +401,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$KoopaVillageAccess"],
+		"visibility_rules": ["episode_1_enabled,episode_2_enabled"],
 		"sections": [
 			{
 				"name": "Kolorado (Artifact)",
@@ -418,6 +429,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["hammer, $KoopaVillageAccess"],
+		"visibility_rules": ["episode_1_enabled,episode_2_enabled,episode_3_enabled,episode_4_enabled,episode_5_enabled,episode_6_enabled,episode_7_enabled,"],
 		"sections": [
 			{
 				"name": "Start Favor 1",

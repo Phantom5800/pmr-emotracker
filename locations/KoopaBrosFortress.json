@@ -4,6 +4,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$KoopaBrosFortressAccess"],
+		"visibility_rules": ["episode_1_enabled"],
 		"sections": [],
 		"map_locations": [],
 		"children": [
@@ -33,6 +34,7 @@
 			{
 				"name": "Jail Cells",
 				"access_rules": ["ch1_key:1"],
+				"visibility_rules": ["episode_1_enabled"],
 				"sections": [
 					{
 						"name": "Left Cell",
@@ -62,6 +64,7 @@
 			{
 				"name": "Pit",
 				"access_rules": ["ch1_key:1, $canHitSwitches"],
+				"visibility_rules": ["episode_1_enabled"],
 				"sections": [
 					{
 						"name": "Pedestal Item",
@@ -80,6 +83,7 @@
 			{
 				"name": "Bomb Jail",
 				"access_rules": ["ch1_key:1, $canHitSwitches, $bombette", "ch1_key:2, $canHitBlocks"],
+				"visibility_rules": ["episode_1_enabled"],
 				"sections": [
 					{
 						"name": "Bombette",
@@ -99,6 +103,7 @@
 			{
 				"name": "Outside Chest",
 				"access_rules": ["ch1_key:2, $bombette"],
+				"visibility_rules": ["episode_1_enabled"],
 				"sections": [
 					{
 						"name": "Chest",
@@ -116,6 +121,7 @@
 			{
 				"name": "Cannon Bridge",
 				"access_rules": ["ch1_key:4, $kooper", "ch1_key:4, $parakarry"],
+				"visibility_rules": ["episode_1_enabled"],
 				"sections": [
 					{
 						"name": "Block",
@@ -134,6 +140,7 @@
 			{
 				"name": "Koopa Bros.",
 				"access_rules": ["ch1_key:4, $kooper, $canClimbShortLedges", "ch1_key:4, $parakarry"],
+				"visibility_rules": ["episode_1_enabled"],
 				"sections": [
 					{
 						"name": "Koopa Bros.",

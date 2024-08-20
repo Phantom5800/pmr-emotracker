@@ -65,34 +65,69 @@
   },
   "settings_popup": {
     "type": "array",
-    "orientation": "vertical",
+    "v_alignment": "stretch",
+    "margin": "0, 0",
     "content": [
       {
-        "type": "group",
-        "header": "Presets",
-        "content": [
-          {
-            "type": "item",
-            "item": "blitz_preset"
-          },
-          {
-            "type": "item",
-            "item": "s1_race_preset"
-          },
-          {
-            "type": "item",
-            "item": "extreme_preset"
+      "type": "tabbed",
+      "dock": "top",
+      "content": [
+        {
+          "title": "Settings",
+          "type": "array",
+          "orientation": "vertical",
+          "margin": "0,0",
+          "content":
+          [
+            {
+              "type": "group",
+              "header": "Presets",
+              "content": [
+                {
+                  "type": "item",
+                  "item": "blitz_preset"
+                },
+                {
+                  "type": "item",
+                  "item": "s1_race_preset"
+                },
+                {
+                  "type": "item",
+                  "item": "extreme_preset"
+                }
+              ]
+            },
+            {
+              "type": "layout",
+              "key": "randomization_options"
+            },
+            {
+              "type": "layout",
+              "key": "open_flags"
+            }
+          ]
+        },
+        {
+        "title": "Chapter Exclusions",
+          "type": "array",
+          "orientation": "horizontal",
+          "margin": "0,0",
+            "content":
+          [
+              {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows":
+                [
+                  ["ch1_label","ch2_label","ch3_label","ch4_label","ch5_label","ch6_label","ch7_label","ch8_label"],
+                  ["episode_1_toggle","episode_2_toggle","episode_3_toggle","episode_4_toggle","episode_5_toggle","episode_6_toggle","episode_7_toggle","episode_8_toggle"]
+                ]
+              }
+            ]
           }
         ]
-      },
-      {
-				"type": "layout",
-				"key": "randomization_options"
-			},
-			{
-				"type": "layout",
-				"key": "open_flags"
-			}
+      }
     ]
   }
 }
