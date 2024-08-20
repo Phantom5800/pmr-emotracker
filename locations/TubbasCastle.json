@@ -4,6 +4,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$TubbaCastleAccess, [$bow]"],
+		"visibility_rules": ["episode_3_enabled"],
 		"children": [
 			{
 				"name": "Tubba's Study",

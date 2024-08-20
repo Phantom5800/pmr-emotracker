@@ -4,6 +4,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$ShiverCityAccess"],
+		"visibility_rules": ["episode_7_enabled"],
 		"sections": [
 			{
 				"name": "Shop Items",

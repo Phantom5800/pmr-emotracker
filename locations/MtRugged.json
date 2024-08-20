@@ -4,6 +4,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$MtRuggedAccess"],
+		"visibility_rules": ["episode_2_enabled"],
 		"sections": [
 			{
 				"name": "Parakarry",
@@ -217,6 +218,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$ToadTownAccess, $bombette", "$ToadTownAccess, open_mt_rugged"],
+		"visibility_rules": ["episode_2_enabled"],
 		"sections": [
 			{
 				"name": "Top Bush",
