@@ -1,0 +1,761 @@
+[
+	{
+		"name": "World Map",
+		"chest_unopened_img": "images/chests/generic.png",
+		"chest_opened_img": "images/chests/generic_checked.png",
+		"children": [
+			{
+				"name": "Goomba Region",
+				"sections": [
+					{"ref": "Landing Site/Panel Star Piece"},
+					{"ref": "Goomba Village/Goompa Tape"},
+					{"ref": "Goomba Village/Goompa"},
+					{"ref": "Goomba Village/Goombaria"},
+					{"ref": "Goomba Village/Goompa Letter"},
+					{"ref": "Goomba Village/Goompapa Letter 1"},
+					{"ref": "Goomba Village/Goompapa Letter 2"},
+					{"ref": "Goomba Village/Balcony Item"},
+					{"ref": "Goomba Village/Goomnut Tree"},
+					{"ref": "Goomba Village/Goombario"},
+					{"ref": "Goomba Village/Bush"},
+					{"ref": "Outside Playground/Hidden Block Above Stone Block"},
+					{"ref": "Outside Playground/Block on Ground"},
+					{"ref": "Outside Playground/Spring Coins"},
+					{"ref": "Outside Playground/Spring Item"},
+					{"ref": "Outside Playground/Tree"},
+					{"ref": "Outside Playground/Panel Star Piece"},
+					{"ref": "Playground/Right Tree"},
+					{"ref": "Playground/Hammer Bush"},
+					{"ref": "Playground/Bush Coins"},
+					{"ref": "Playground/Tree Coins"},
+					{"ref": "Playground/Multicoin Block"},
+					{"ref": "Outside Goomba Village/Ledge Star Piece"},
+					{"ref": "Outside Goomba Village/Tree"},
+					{"ref": "Goomba Road 2/Item Block"},
+					{"ref": "Goomba Road 2/Sign"},
+					{"ref": "Goomba Road 1/Coin Blocks"},
+					{"ref": "Goomba Road 1/Coin Blocks"},
+					{"ref": "Toad Town Gate/Chest"},
+					{"ref": "Toad Town Gate/Block"},
+					{"ref": "Goomba King Castle (Right Side)/Break Brick Block"},
+					{"ref": "Goomba King Castle (Left Side)/Tree"},
+					{"ref": "Goomba King Castle (Right Side)/Coin Tree"},
+					{"ref": "Goomba King Castle (Right Side)/Panel Star Piece"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 39,
+						"y": 150
+					}
+				]
+			},
+			{
+				"name": "Toad Town",
+				"sections": [
+					{"ref": "Mario's House/Luigi"},
+					{"ref": "Main Gate/Star Piece"},
+					{"ref": "Main Gate/Russ T."},
+					{"ref": "Main Gate/Russ T. Letter"},
+					{"ref": "Main Gate/Miss T. Letter"},
+					{"ref": "Main Gate/Trading Event Toad"},
+					{"ref": "Main Gate/Chan"},
+					{"ref": "Main Gate/Lee"},
+					{"ref": "Main Gate/Master 1"},
+					{"ref": "Main Gate/Master 2"},
+					{"ref": "Main Gate/Master 3"},
+					{"ref": "Main Gate/Shop"},
+					{"ref": "Main Gate/Star Piece Panel"},
+					{"ref": "Main Gate/Central Plaza/Merlon's House Ground Pound x3"},
+					{"ref": "Main Gate/Central Plaza/Rowf"},
+					{"ref": "Main Gate/Central Plaza/Post Office"},
+					{"ref": "Main Gate/Central Plaza/Merlon Letter"},
+					{"ref": "Main Gate/Central Plaza/Minh T. Letter"},
+					{"ref": "Main Gate/Central Plaza/Merlon's Tree"},
+					{"ref": "Main Gate/Central Plaza/Rowf Set 1"},
+					{"ref": "Main Gate/Central Plaza/Rowf Set 2"},
+					{"ref": "Main Gate/Central Plaza/Rowf Set 3"},
+					{"ref": "Main Gate/Central Plaza/Rowf Set 4"},
+					{"ref": "Main Gate/Central Plaza/Rowf Set 5"},
+					{"ref": "Main Gate/Below Plaza/Inside Blue House"},
+					{"ref": "Main Gate/Below Plaza/Bub-ulb"},
+					{"ref": "Main Gate/Below Plaza/Tayce T."},
+					{"ref": "Main Gate/Below Plaza/Fice T. Letter"},
+					{"ref": "Main Gate/Below Plaza/Fice T."},
+					{"ref": "Main Gate/Below Plaza/Star Piece Panel"},
+					{"ref": "Main Gate/Train Station/Dane T. Letter 1"},
+					{"ref": "Main Gate/Train Station/Dane T. Letter 2"},
+					{"ref": "Main Gate/Train Station/Star Piece Panel"},
+					{"ref": "Main Gate/Residential Area/Storeroom"},
+					{"ref": "Main Gate/Residential Area/Shop"},
+					{"ref": "Main Gate/Port/Master Poet"},
+					{"ref": "Main Gate/Port/Pop Diva"},
+					{"ref": "Main Gate/Port/Fishmael Letter"},
+					{"ref": "Main Gate/Port/Trading Event Toad"},
+					{"ref": "Main Gate/Port/Multicoin Block"},
+					{"ref": "Main Gate/Port/Star Piece Panel"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 120,
+						"y": 165
+					}
+				]
+			},
+			{
+				"name": "Toad Town Tunnels",
+				"sections": [
+					{"ref": "Blooper Chest/Chest"},
+					{"ref": "Elevator Room/Middle Block"},
+					{"ref": "Elevator Room/Coin Blocks"},
+					{"ref": "Power Smash Chest/Chest"},
+					{"ref": "High Platforms/Ledge Star Piece"},
+					{"ref": "High Platforms/Upgrade Block"},
+					{"ref": "Boo's Mansion Shortcut/Hidden Blocks"},
+					{"ref": "Blue Pushblock Room (B2) In SuperBlock"},
+					{"ref": "Ultra Hammer Blocks/Upgrade Block"},
+					{"ref": "Rip Cheato/Rip Cheato"},
+					{"ref": "Shiver City Pipe/Upgrade Block"},
+					{"ref": "Block Tunnel/Hidden Block"},
+					{"ref": "Block Tunnel/Third Block"},
+					{"ref": "Plaza Sushie Pipe/Upgrade Block"},
+					{"ref": "Spike Room/Tall Block"},
+					{"ref": "Ch7 Bridge/Far Left Block"},
+					{"ref": "Ch7 Bridge/Hidden Blocks"},
+					{"ref": "Winding Path/Hidden Blocks"},
+					{"ref": "Winding Path/Coin Block"},
+					{"ref": "Tall Blocks Room/Hidden Block"},
+					{"ref": "Tall Blocks Room/Coin Blocks"},
+					{"ref": "Ultra Boots Chest/Chest"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 105,
+						"y": 189
+					}
+				]
+			},
+			{
+				"name": "Shooting Star Summit",
+				"sections": [
+					{"ref": "Main Gate/Merluvlee's House/Merlow Rewards"},
+					{"ref": "Main Gate/Merluvlee's House/Star Piece Panel"},
+					{"ref": "Main Gate/Merluvlee's House/Merluvlee"},
+					{"ref": "Main Gate/Merluvlee's House/Merlow Letter"},
+					{"ref": "Main Gate/Star Region/Star Piece Panel"},
+					{"ref": "Main Gate/Shooting Star Summit/Star Piece"},
+					{"ref": "Main Gate/Shooting Star Summit/Star Piece Panel"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 145,
+						"y": 125
+					}
+				]
+			},
+			{
+				"name": "Koopa Village",
+				"sections": [
+					{"ref": "West Koopa Village/Far Left Bush"},
+					{"ref": "West Koopa Village/Bottom Bush"},
+					{"ref": "West Koopa Village/Bush Right of Tree"},
+					{"ref": "West Koopa Village/2nd From Right Bush"},
+					{"ref": "West Koopa Village/2nd Bush"},
+					{"ref": "West Koopa Village/Far Right Bush"},
+					{"ref": "West Koopa Village/Mort T. Letter 1"},
+					{"ref": "West Koopa Village/Koover Letter 1"},
+					{"ref": "West Koopa Village/Koover Letter 2"},
+					{"ref": "West Koopa Village/Shop"},
+					{"ref": "West Koopa Village/Star Piece Panel"},
+					{"ref": "East Koopa Village/Item on Block"},
+					{"ref": "East Koopa Village/Kolorado's Wife"},
+					{"ref": "East Koopa Village/Koopa Koot Silver Credit"},
+					{"ref": "East Koopa Village/Koopa Koot Gold Credit"},
+					{"ref": "Kolorado/Kolorado (Artifact)"},
+					{"ref": "Kolorado/Kolorado (Letter)"},
+					{"ref": "East Koopa Village/Far Left Bush"},
+					{"ref": "East Koopa Village/Kooper"},
+					{"ref": "East Koopa Village/Far Right Bush"},
+					{"ref": "Behind Kooper's House/Stump Item"},
+					{"ref": "Fuzzy Minigame/Minigame"},
+					{"ref": "Koopa Koot/Koopa Legends"},
+					{"ref": "Koopa Koot/Sleepy Sheep"},
+					{"ref": "Koopa Koot/Tape"},
+					{"ref": "Koopa Koot/Koopa Tea"},
+					{"ref": "Koopa Koot/Luigi's Autograph"},
+					{"ref": "Koopa Koot/Wallet"},
+					{"ref": "Koopa Koot/Tasty Tonic"},
+					{"ref": "Koopa Koot/Merluvlee's Autograph"},
+					{"ref": "Koopa Koot/Toad Town News"},
+					{"ref": "Koopa Koot/Life Shroom"},
+					{"ref": "Koopa Koot/Nutty Cake"},
+					{"ref": "Koopa Koot/Noisy Neighbors"},
+					{"ref": "Koopa Koot/Old Photo"},
+					{"ref": "Koopa Koot/Koopasta"},
+					{"ref": "Koopa Koot/Glasses"},
+					{"ref": "Koopa Koot/Lime"},
+					{"ref": "Koopa Koot/Kooky Cookie"},
+					{"ref": "Koopa Koot/Package"},
+					{"ref": "Koopa Koot/Coconut"},
+					{"ref": "Koopa Koot/Red Jar"},
+					{"ref": "Koopa Koot/Star Favor 1"},
+					{"ref": "Koopa Koot/Star Favor 2"},
+					{"ref": "Koopa Koot/Star Favor 3"},
+					{"ref": "Koopa Koot/Star Favor 4"},
+					{"ref": "Koopa Koot/Star Favor 5"},
+					{"ref": "Koopa Koot/Star Favor 6"},
+					{"ref": "Koopa Koot/Star Favor 7"},
+					{"ref": "Koopa Koot/Star Favor 8"},
+					{"ref": "Koopa Koot/Star Favor 9"},
+					{"ref": "Koopa Koot/Star Favor 10"},
+					{"ref": "Koopa Koot/Star Favor 11"},
+					{"ref": "Koopa Koot/Star Favor 12"},
+					{"ref": "Koopa Koot/Star Favor 13"},
+					{"ref": "Koopa Koot/Star Favor 14"},
+					{"ref": "Koopa Koot/Star Favor 15"},
+					{"ref": "Koopa Koot/Star Favor 16"},
+					{"ref": "Koopa Koot/Star Favor 17"},
+					{"ref": "Koopa Koot/Star Favor 18"},
+					{"ref": "Koopa Koot/Star Favor 19"},
+					{"ref": "Koopa Koot/Star Favor 20"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 155,
+						"y": 145
+					}
+				]
+			},
+			{
+				"name": "Pleasant Path",
+				"sections": [
+					{"ref": "Outside Toad Town/Left ? Block"},
+					{"ref": "Outside Toad Town/Middle ? Block"},
+					{"ref": "Outside Toad Town/Right ? Block"},
+					{"ref": "West Switch Bridge/? Block"},
+					{"ref": "West Switch Bridge/Island Star Piece"},
+					{"ref": "West Switch Bridge/Behind Fence"},
+					{"ref": "West Switch Bridge/Multicoin Block"},
+					{"ref": "Outside Koopa Village/Brick Block Puzzle"},
+					{"ref": "Outside Koopa Village/Item Behind Third Pole"},
+					{"ref": "Outside Koopa Village/Star Piece Panel"},
+					{"ref": "East Switch Bridge/5 Coins"},
+					{"ref": "East Switch Bridge/Tall Block Item"},
+					{"ref": "East Switch Bridge/Hidden Block"},
+					{"ref": "East Switch Bridge/Star Piece Panel"},
+					{"ref": "Outside Fortress/Tree"},
+					{"ref": "Fortress Entrance/Outside Chest/Chest"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 179,
+						"y": 154
+					}
+				]
+			},
+			{
+				"name": "Koopa Bros. Fortress",
+				"sections": [
+					{"ref": "Koopa Bros. Fortress Ledge/Chest"},
+					{"ref": "Fortress Entrance/Front Tower/Item at the top"},
+					{"ref": "Fortress Entrance/Front Tower/Koopa Fight"},
+					{"ref": "Fortress Entrance/Jail Cells/Left Cell"},
+					{"ref": "Fortress Entrance/Jail Cells/Right Cell"},
+					{"ref": "Fortress Entrance/Jail Cells/Middle Cell"},
+					{"ref": "Fortress Entrance/Bomb Jail/Bombette"},
+					{"ref": "Fortress Entrance/Pit/Pedestal Item"},
+					{"ref": "Fortress Entrance/Cannon Bridge/Block"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 204,
+						"y": 138
+					}
+				]
+			},
+			{
+				"name": "Mt. Rugged",
+				"sections": [
+					{"ref": "Train Station/Whacka Screen/Slide Coins"},
+					{"ref": "Train Station/Whacka Screen/Block"},
+					{"ref": "Train Station/Whacka Screen/Whacka"},
+					{"ref": "Train Station/Mole's Throwing Rocks/Left Item"},
+					{"ref": "Train Station/Mole's Throwing Rocks/Right Item"},
+					{"ref": "Train Station/Mole's Throwing Rocks/Panel Star Piece"},
+					{"ref": "Train Station/Rugged Seed/Support Beam Item"},
+					{"ref": "Train Station/Rugged Seed/Bub-ulb"},
+					{"ref": "Train Station/Top Left Rugged/Chest"},
+					{"ref": "Train Station/Top Left Rugged/Left Block after Spring"},
+					{"ref": "Train Station/Top Left Rugged/Lower Block"},
+					{"ref": "Train Station/Top Left Rugged/Right Block after Spring"},
+					{"ref": "Train Station/Top Left Rugged/Slide Item"},
+					{"ref": "Train Station/Top Left Rugged/Item in the Middle of Coins"},
+					{"ref": "Train Station/Top Left Rugged/Far Right Star Piece Coin"},
+					{"ref": "Train Station/Top Left Rugged/Star Piece Coins"},
+					{"ref": "Train Station/Top Left Rugged/2 Lower Coins"},
+					{"ref": "Train Station/Buzzar/Item on Ground"},
+					{"ref": "Train Station Bushes/Other Bushes"},
+					{"ref": "Train Station Bushes/Top Bush"},
+					{"ref": "Train Station/Parakarry"},
+					{"ref": "Train Station/Upgrade Block"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 220,
+						"y": 214
+					}
+				]
+			},
+			{
+				"name": "Dry Dry Desert",
+				"sections": [
+					{"ref": "Dry Dry Outpost (West)/Composer"},
+					{"ref": "Dry Dry Outpost (West)/Red Vase Password (Hammer, Pasta, Hammer, Shroom)"},
+					{"ref": "Dry Dry Outpost (West)/Little Mouser Letter"},
+					{"ref": "Dry Dry Outpost (West)/Red Tree"},
+					{"ref": "Dry Dry Outpost (West)/Shop Items"},
+					{"ref": "Dry Dry Outpost (West)/Dry Dry Outpost (East)/Roof Item"},
+					{"ref": "Dry Dry Outpost (West)/Dry Dry Outpost (East)/Merlee"},
+					{"ref": "Dry Dry Outpost (West)/Dry Dry Outpost (East)/Moustafa"},
+					{"ref": "Dry Dry Outpost (West)/Dry Dry Outpost (East)/Mr. E Letter"},
+					{"ref": "Dry Dry Outpost (West)/Dry Dry Outpost (East)/Roof Panel"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Top Left)/Left Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Top Left)/Right Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Dry Dry Ruins)/Trading Event Toad"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Pokey Room)/Behind Cactus"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Top Right)/Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Top Right)/Multicoin Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Thunder Rage)/Hidden Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Tweester)/Left Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Tweester)/Right Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Tweester)/Multicoin Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Hammer Block)/Hammer Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (5 Block Room)/Coin Blocks"},
+					{"ref": "Dry Dry Outpost (West)/Desert (5 Block Room)/Middle Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Runaway Pay)/Hidden Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (7 Brick Blocks)/Second From the Right"},
+					{"ref": "Dry Dry Outpost (West)/Desert (7 Brick Blocks)/Third From the Right"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Right Edge Tree)/Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Kolorado Camp)/Camp Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Stone Cactus)/Panel"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Nomadimouse)/Letter"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Nomadimouse)/Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Three Trees)/Far Left Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Outside Outpost)/Far Right Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Outside Outpost)/Far Left Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Outside Outpost)/Second Tree from the Left"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Outside Outpost)/Fourth Tree from the Right"},
+					{"ref": "Dry Dry Outpost (West)/Desert (South of Camp)/Multicoin Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Green Cactus)/Coin Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Spin Attack)/Item on Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Spin Attack)/Item on Ledge (Tweester down and left)"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Life Shroom)/Coin Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Life Shroom)/Hidden Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Life Shroom)/Bottom Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (3 Brick blocks)/Middle Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Before Oasis)/Item Behind Bush"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Before Oasis)/Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Before Oasis)/Multicoin Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Oasis)/Lemon Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Oasis)/Lime Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Oasis)/Far Left Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Oasis)/Bottom Right Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Oasis)/Upgrade Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Attack FX C)/Hidden Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (? Block)/Block"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Bandit Room)/Far Right Tree"},
+					{"ref": "Dry Dry Outpost (West)/Desert (Bandit Room)/Multicoin Blocks"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 283,
+						"y": 197
+					}
+				]
+			},
+			{
+				"name": "Dry Dry Ruins",
+				"sections": [
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Second Coffin"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/First Sand Room/Item"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pyramid Stone Room/Item On Pedestal"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Second Sand Room/Item Under Sand"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Second Sand Room/Second Sand Room/Item On Pedestal"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Pokey Fight Reward"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Item on Ledge"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Super Hammer Room/Chest Behind Fake Wall"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Super Hammer Room/Big Chest"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Ruins Upgrade Block/Upgrade Block"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Third Sand Room/Item on Ledge"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Third Sand Room/Lunar Stone Room/Item On Pedestal"},
+					{"ref": "Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Ruins Upgrade Block/Diamond Stone Room/Item On Pedestal"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 248,
+						"y": 190
+					}
+				]
+			},
+			{
+				"name": "Forever Forest",
+				"sections": [
+					{"ref": "Forever Forest/Bub-ulb"},
+					{"ref": "Forever Forest/HP Plus/Block"},
+					{"ref": "Forever Forest/FP Plus/Block"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 154,
+						"y": 182
+					}
+				]
+			},
+			{
+				"name": "Boo's Mansion",
+				"sections": [
+					{"ref": "Outside Boo's Mansion/Block Outside Gate"},
+					{"ref": "Outside Boo's Mansion/Far Right Bush"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Franky (Old Photo)"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Franky Letter"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Panel Star Piece"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Panel Star Piece"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Boo Shop/Right Crate"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Boo Shop/Igor Letter"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Boo Shop/Shop Items"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Super Boots Room/Bottom Crate"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Super Boots Room/Big Chest"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Super Boots Room/Panel Star Piece"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/8bit Mario Room/Crates"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/8bit Mario Room/Library/Item on Right Bookshelf"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/8bit Mario Room/Library/Item in Bottom Crate"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Record Player/Chest"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Boo Ring Minigame/Minigame"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Boo Ring Minigame/Panel Star Piece"},
+					{"ref": "Outside Boo's Mansion/Boo's Mansion Foyer/Bow's Bedroom/Bow"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 183,
+						"y": 175
+					}
+				]
+			},
+			{
+				"name": "Gusty Gulch",
+				"sections": [
+					{"ref": "Gusty Gulch Entrance/Panel Star Piece"},
+					{"ref": "Gusty Gulch Entrance/Outside Village/Item on Rock"},
+					{"ref": "Gusty Gulch Entrance/Outside Village/Item by Log"},
+					{"ref": "Gusty Gulch Entrance/Outside Village/Far Left Block"},
+					{"ref": "Gusty Gulch Entrance/Outside Village/Top Block Above Ledge"},
+					{"ref": "Gusty Gulch Entrance/Outside Village/Lower Block Above Ledge"},
+					{"ref": "Gusty Gulch Entrance/West Village/Package Boo"},
+					{"ref": "Gusty Gulch Entrance/West Village/Coin Block in Last House"},
+					{"ref": "Gusty Gulch Entrance/Outside Tubba's Castle/Block by Goomba"},
+					{"ref": "Gusty Gulch Entrance/Outside Tubba's Castle/Block at Top of Hill"},
+					{"ref": "Gusty Gulch Entrance/Outside Tubba's Castle/Item Behind Rock"},
+					{"ref": "Gusty Gulch Entrance/Outside Tubba's Castle/Multicoin Block"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 230,
+						"y": 161
+					}
+				]
+			},
+			{
+				"name": "Tubba's Castle",
+				"sections": [
+					{"ref": "Tubba's Castle Entrance/Upstairs/Dining Room/Item on Table"},
+					{"ref": "Tubba's Castle Entrance/Tubba West Lower Stairwell/Upgrade Block"},
+					{"ref": "Tubba's Castle Entrance/Tubba's Basement/Chest"},
+					{"ref": "Tubba's Castle Entrance/Tubba's Study/Item on Table"},
+					{"ref": "Tubba's Castle Entrance/Upstairs/Tubba West Upper Stairwell/Block"},
+					{"ref": "Tubba's Castle Entrance/Upstairs/Spike Room/Chest"},
+					{"ref": "Tubba's Castle Entrance/Upstairs/Mega Rush Room/Item Behind Wall"},
+					{"ref": "Tubba's Castle Entrance/Upstairs/Mega Rush Room/Coins on Bed"},
+					{"ref": "Tubba's Castle Entrance/Upstairs/Tubba West Upper Stairwell/Block"},
+					{"ref": "Tubba's Castle Entrance/Upstairs/Tubba West Upper Stairwell/Clubba Room/Item on Pedestal"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 267,
+						"y": 141
+					}
+				]
+			},
+			{
+				"name": "Shy Guy's Toybox",
+				"sections": [
+					{"ref": "Blue Station/Shy Guy Room/Shy Guy Items"},
+					{"ref": "Blue Station/Shy Guy Room/Hidden Blocks"},
+					{"ref": "Red Station/Block Barricade/Item Block"},
+					{"ref": "Red Station/Block Barricade/Hidden Coin Block"},
+					{"ref": "Red Station/Block Barricade/Item on Tall Block"},
+					{"ref": "Blue Station/Hidden Block"},
+					{"ref": "Blue Station/Panel Star Piece"},
+					{"ref": "Blue Station/Block City/Item Next to Chest"},
+					{"ref": "Blue Station/Block City/Chest"},
+					{"ref": "Blue Station/Block City/Coin Blocks"},
+					{"ref": "Blue Station/Block City/Coin Blocks"},
+					{"ref": "Blue Station/Block City/Gap Block"},
+					{"ref": "Blue Station/Block City/3 Coin Spring"},
+					{"ref": "Blue Station/Block City/On Top Left Building"},
+					{"ref": "Blue Station/Block City/Behind Fallen Block"},
+					{"ref": "Pink Station/Gourmet Guy/Gourmet Guy"},
+					{"ref": "Pink Station/Gourmet Guy/Coin Blocks"},
+					{"ref": "Pink Station/Gourmet Guy/Coin Blocks"},
+					{"ref": "Pink Station/Gourmet Guy/Right Hidden Block"},
+					{"ref": "Pink Station/Gourmet Guy/Left Hidden Block"},
+					{"ref": "Pink Station/Chest"},
+					{"ref": "Pink Station/Hidden Block"},
+					{"ref": "Pink Station/Panel Star Piece"},
+					{"ref": "Pink Station/Play Fort/Item Next to Chest"},
+					{"ref": "Pink Station/Play Fort/Far Right Chest"},
+					{"ref": "Pink Station/Play Fort/Upper Chest"},
+					{"ref": "Pink Station/Play Fort/Path Chest"},
+					{"ref": "Pink Station/Play Fort/Coin Block"},
+					{"ref": "Pink Station/Divided Track Room/Spy Guy Coin Block"},
+					{"ref": "Pink Station/Divided Track Room/Groove Guy Coin Blocks"},
+					{"ref": "Pink Station/Divided Track Room/Multicoin Block"},
+					{"ref": "Green Station/Hidden Block"},
+					{"ref": "Green Station/Panel Star Piece"},
+					{"ref": "Green Station/Conveyer Room/Item Next to Chest"},
+					{"ref": "Green Station/Conveyer Room/Chest Item"},
+					{"ref": "Green Station/Conveyer Room/Conveyer Coins"},
+					{"ref": "Green Station/Conveyer Room/Item Surrounded By Coins"},
+					{"ref": "Green Station/Conveyer Room/6 Coins Surrounding Item"},
+					{"ref": "Green Station/Conveyer Room/Shy Guy Item"},
+					{"ref": "Green Station/Conveyer Room/Multicoin Block"},
+					{"ref": "Red Station/Hidden Block"},
+					{"ref": "Red Station/Panel Star Piece"},
+					{"ref": "Red Station/Elevator Room/Right Hidden Block"},
+					{"ref": "Red Station/Elevator Room/Hidden Block Between Coin Blocks"},
+					{"ref": "Red Station/Elevator Room/Coin Blocks"},
+					{"ref": "Red Station/Elevator Room/Hidden Block by Lantern Ghost Door"},
+					{"ref": "Red Station/Elevator Room/Coin Blocks"},
+					{"ref": "Red Station/Elevator Room/Upgrade Block"},
+					{"ref": "Red Station/Elevator Room/Multicoin Block"},
+					{"ref": "Red Station/Lantern Ghost/Watt"},
+					{"ref": "Blue Station/Anti Guy Room/Anti Guy Chest"},
+					{"ref": "Blue Station/Anti Guy Room/Left Block"},
+					{"ref": "Blue Station/Anti Guy Room/Hidden Block"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 79,
+						"y": 179
+					}
+				]
+			},
+			{
+				"name": "Lavalava Island",
+				"sections": [
+					{"ref": "Whale/Coins Above Spinny Flower"},
+					{"ref": "Whale/Behind Bush"},
+					{"ref": "Whale/Coconut Tree"},
+					{"ref": "Whale/Beach/Item on Rocks"},
+					{"ref": "Whale/Beach/Hidden Blocks"},
+					{"ref": "Whale/Beach/Coins Above Spinny Flower"},
+					{"ref": "Whale/Beach/Coconut Trees"},
+					{"ref": "Whale/Yoshi Village Entrance/Yoshi Chief"},
+					{"ref": "Whale/Yoshi Village Entrance/Coconut Trees"},
+					{"ref": "Whale/Yoshi Village Entrance/Coconut Trees"},
+					{"ref": "Whale/Yoshi Village Entrance/Star Piece Panel"},
+					{"ref": "Whale/Yoshi Village Hub/Kolorado (Vase)"},
+					{"ref": "Whale/Yoshi Village Hub/Yellow Yoshi"},
+					{"ref": "Whale/Yoshi Village Hub/Red Yoshi Kid Letter"},
+					{"ref": "Whale/Yoshi Village Hub/Coconut Tree"},
+					{"ref": "Whale/Yoshi Village Hub/Shop Items"},
+					{"ref": "Whale/Sushie Room/Chest"},
+					{"ref": "Whale/Sushie Room/Island Tree (Ground Item)"},
+					{"ref": "Whale/Sushie Room/Island Tree"},
+					{"ref": "Whale/Sushie Room/Sushie Tree"},
+					{"ref": "Whale/Island Spear Guy/Spear Guy Block"},
+					{"ref": "Whale/Island Spear Guy/Bottom Right Bush"},
+					{"ref": "Whale/Island Spear Guy/Bottom Left Bush"},
+					{"ref": "Whale/Island Spear Guy/Far Right Tree Coin"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Underwater Coin"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Tree by Raven Statue"},
+					{"ref": "Small Jungle Ledge In Tree"},
+					{"ref": "Whale/SW Jade Jungle/Underwater Coins"},
+					{"ref": "Whale/SW Jade Jungle/Hidden Block at North Exit"},
+					{"ref": "Whale/SW Jade Jungle/Bush Right of Bell Flower"},
+					{"ref": "Whale/SW Jade Jungle/Bottom Right Bush by Sushie Panel"},
+					{"ref": "Whale/SW Jade Jungle/Tree At North Exit"},
+					{"ref": "Whale/SW Jade Jungle/Tree by Spear Guy"},
+					{"ref": "Whale/SW Jade Jungle/Upgrade Block"},
+					{"ref": "Whale/NW Jade Jungle/Second Bush from Right"},
+					{"ref": "Whale/NW Jade Jungle/Second Bush from Left"},
+					{"ref": "Whale/NW Jade Jungle/Tree on Ledge"},
+					{"ref": "Whale/NW Jade Jungle/Far Right Tree"},
+					{"ref": "Whale/NW Jade Jungle/Blue Yoshi Room/Underwater Item"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Deep Jungle/Pull Tree Vine"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Deep Jungle/Hidden Block"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Deep Jungle/Hit Tree"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Deep Jungle/Block Puzzle/Hidden Block"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Deep Jungle/Block Puzzle/Far Left Tree"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Deep Jungle/Vine Room/Second Vine Tree"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Deep Jungle/Vine Room/Far Right Tree"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Deep Jungle/Vine Room/Ambush Room/Middle Tree"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Deep Jungle/Vine Room/Ambush Room/Star Piece Panel"},
+					{"ref": "Whale/NW Jade Jungle/NE Jade Jungle/Deep Jungle/Vine Room/Tree/Item on Tree"},
+					{"ref": "Whale/Outside Volcano/Raphael"},
+					{"ref": "Whale/Outside Volcano/Behind Tree"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 68,
+						"y": 280
+					}
+				]
+			},
+			{
+				"name": "Mt. Lavalava",
+				"sections": [
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Item On Pillar"},
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Item On Block"},
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Coin Blocks"},
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Firebar Room/Upgrade Block"},
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Block Puzzle Room/Hidden Block"},
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Block Puzzle Room/Ultra Hammer Room/Large Chest"},
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Block Puzzle Room/Dizzy Stomp/Chest"},
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Zipline/Upgrade Block"},
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Zipline/Panel Star Piece"},
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Zipline/Save Room/Panel Star Piece"},
+					{"ref": "Mt. Lavalava Entrance/Volcano Hub/Zipline/Save Room/Lava Piranha Room/Item Blocks"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 48,
+						"y": 245
+					}
+				]
+			},
+			{
+				"name": "Flower Fields",
+				"sections": [
+					{"ref": "Flower Fields Hub Room/Three Trees/Petunia Room/Petunia"},
+					{"ref": "Flower Fields Hub Room/Three Trees/Petunia Room/Tree"},
+					{"ref": "Flower Fields Hub Room/Three Trees/Petunia Room/Panel Star Piece"},
+					{"ref": "Flower Fields Hub Room/Red Flower Room/Posie Room/Posie"},
+					{"ref": "Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Item in Flowers"},
+					{"ref": "Flower Fields Hub Room/Yellow Flower Room (Before Gate)/Vine by Yellow Flower"},
+					{"ref": "Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Tree"},
+					{"ref": "Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Upgrade Block"},
+					{"ref": "Flower Fields Hub Room/Three Trees/Hit Trees (Middle, Right, Left)"},
+					{"ref": "Flower Fields Hub Room/Three Trees/Second Vine"},
+					{"ref": "Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Lily Room/Lily"},
+					{"ref": "Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Lily Room/Tree"},
+					{"ref": "Flower Fields Hub Room/Blue Flower Room/Hedge Maze/Multicoin Block"},
+					{"ref": "Flower Fields Hub Room/Blue Flower Room/Hedge Maze/Rosie Room/Rosie"},
+					{"ref": "Flower Fields Hub Room/Bubble Plant Room/Laki Fight Room/Item in Crevace"},
+					{"ref": "Flower Fields Hub Room/Bubble Plant Room/Laki Fight Room/Item on Ground"},
+					{"ref": "Flower Fields Hub Room/Bubble Plant Room/Laki Fight Room/Lakilester"},
+					{"ref": "Flower Fields Hub Room/Bubble Plant Room/Item on Ledge"},
+					{"ref": "Flower Fields Hub Room/Bubble Plant Room/Vine Item"},
+					{"ref": "Flower Fields Hub Room/Elevator Room (right side)/Ground Pound Arch"},
+					{"ref": "Flower Fields Hub Room/Elevator Room (left side)/Second Vine"},
+					{"ref": "Flower Fields Hub Room/Elevator Room (right side)/Upgrade Block"},
+					{"ref": "Flower Fields Hub Room/Elevator Room (right side)/Log Room/Hidden Block"},
+					{"ref": "Flower Fields Hub Room/Elevator Room (right side)/Log Room/Item on Ground"},
+					{"ref": "Flower Fields Hub Room/Cloudy Climb/Item in Cloud"},
+					{"ref": "Flower Fields Hub Room/Three Trees/Well/Throw Blue Berry"},
+					{"ref": "Flower Fields Hub Room/Blue Flower Room/Hidden Block Above Brick Block"},
+					{"ref": "Flower Fields Hub Room/Blue Flower Room/Hidden Block by Spring"},
+					{"ref": "Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Bubble Berry Tree Room/Block on Left"},
+					{"ref": "Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Bubble Berry Tree Room/Hidden Block on Right"},
+					{"ref": "Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Bubble Berry Tree Room/Bubble Berry Tree"},
+					{"ref": "Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Bubble Berry Tree Room/Panel Star Piece"},
+					{"ref": "Flower Fields Hub Room/Red Flower Room/Middle Vine"},
+					{"ref": "Flower Fields Hub Room/Red Flower Room/Tree"},
+					{"ref": "Flower Fields Hub Room/Red Flower Room/Panel Star Piece"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 51,
+						"y": 118
+					}
+				]
+			},
+			{
+				"name": "Shiver Region",
+				"sections": [
+					{"ref": "Shiver City (Middle)/Shiver City (Left)/Mayor Penguin (Bucket)"},
+					{"ref": "Shiver City (Middle)/Shiver City (Left)/Mayor Penguin (Letter)"},
+					{"ref": "Shiver City (Middle)/Shiver City (Left)/Middle House Chest"},
+					{"ref": "Shiver City (Middle)/Shiver City (Left)/Panel Star Piece"},
+					{"ref": "Shiver City (Middle)/Sleep at Inn"},
+					{"ref": "Shiver City (Middle)/Snowman's Gift"},
+					{"ref": "Shiver City (Middle)/Shop Items"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Left Tree"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Item Behind Right Tree"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Panel Star Piece"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Outside Starborne Valley/Item Behind Ice"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Outside Starborne Valley/Hidden Block"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Starborne Valley/Merle"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Starborne Valley/Frost T. Letter"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Hidden Block Above Brick Block"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pebble"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Upgrade Block"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pedestals/Pedestal Items"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pedestals/Ice Staircase/Item Block"},
+					{"ref": "Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pedestals/Ice Staircase/Item on Ledge"},
+					{"ref": "Shiver City (Middle)/Shiver City (Right)/Lake Item"},
+					{"ref": "Merlar's Sanctuary On Pedestal"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 184,
+						"y": 117
+					}
+				]
+			},
+			{
+				"name": "Crystal Palace",
+				"sections": [
+					{"ref": "Crystal Palace Entrance/Opposite Side of Mirror/Wood Panel Room/Item Block"},
+					{"ref": "Blue Key Chest/Chest"},
+					{"ref": "Crystal Palace Entrance/Opposite Side of Mirror/Shooting Star Room/Item on Pedestal"},
+					{"ref": "Crystal Palace Entrance/Opposite Side of Mirror/P-Down D-Up Chest/Red Key Chest/Chest"},
+					{"ref": "Crystal Palace Entrance/Opposite Side of Mirror/P-Down D-Up Chest/Chest"},
+					{"ref": "Crystal Palace Entrance/Blue Key Blocks/Multicoin Blocks"},
+					{"ref": "Crystal Palace Entrance/Opposite Side of Mirror/Star Piece Cave/Item"},
+					{"ref": "Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Big Statue Room/Tall Block"},
+					{"ref": "Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Big Statue Room/Panel Star Piece"},
+					{"ref": "Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Small Statue Room/Tall Hidden Block"},
+					{"ref": "Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Small Statue Room/Panel Star Piece"},
+					{"ref": "Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Palace Key Chest/Chest"},
+					{"ref": "Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/P-Up D-Down Chest/Chest"},
+					{"ref": "Crystal Palace Entrance/Triple Dip Chest/Chest"}
+				],
+				"map_locations": [
+					{
+						"map": "world_map",
+						"x": 236,
+						"y": 95
+					}
+				]
+			}
+		]
+	}
+]

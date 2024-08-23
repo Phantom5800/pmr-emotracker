@@ -34,6 +34,16 @@
           "background": "#000000",
           "tabs": [
             {
+              "title": "World Map",
+              "content": {
+                "type": "map",
+                "v_alignment": "center",
+                "maps": [
+                  "world_map"
+                ]
+              }
+            },
+            {
               "title": "Goomba Region",
               "content": {
                 "type": "map",

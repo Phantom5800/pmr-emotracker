@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Magical Seed",
+		"name": "Forever Forest",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"visibility_rules": ["$ch3Required"],

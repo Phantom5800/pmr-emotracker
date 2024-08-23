@@ -9,7 +9,7 @@
 				"name": "Shop Items",
 				"visibility_rules": ["shopsanity_setting, $ch2Required"],
 				"clear_as_group": true,
-				"item_count": 3
+				"item_count": 6
 			},
 			{
 				"name": "Red Vase Password (Hammer, Pasta, Hammer, Shroom)",

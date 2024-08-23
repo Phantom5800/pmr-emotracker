@@ -1,5 +1,11 @@
 ﻿[
     {
+        "name": "world_map",
+		"location_size": 9,
+		"location_border_thickness": 2,
+        "img": "images/maps/WorldMap.png"
+    },
+    {
         "name": "goomba_region",
 		"location_size": 50,
 		"location_border_thickness": 5,

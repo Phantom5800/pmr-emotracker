@@ -16,3 +16,8 @@ Tracker:AddLocations("locations/MtLavalava.json")
 Tracker:AddLocations("locations/FlowerFields.json")
 Tracker:AddLocations("locations/ShiverRegion.json")
 Tracker:AddLocations("locations/CrystalPalace.json")
+
+-- World Map uses ref locations, only available in PopTracker
+if PopVersion then
+  Tracker:AddLocations("locations/WorldMap.json")
+end
