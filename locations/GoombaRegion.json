@@ -31,7 +31,7 @@
 			{
 				"name": "Goompa Tape",
 				"access_rules": ["koot_talk_3"],
-				"visibility_rules": ["koot_setting"],
+				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
 			},
 			{

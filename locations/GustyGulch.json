@@ -8,7 +8,7 @@
 			{
 				"name": "Panel Star Piece",
 				"access_rules": ["boots2", "hammer3"],
-				"visibility_rules": ["panels_setting"],
+				"visibility_rules": ["panels_setting, $ch3Required"],
 				"chest_unopened_img": "images/chests/star_piece.png",
 				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
@@ -28,6 +28,7 @@
 				"sections": [
 					{
 						"name": "Tubba Blubba",
+						"visibility_rules": ["$ch3Required"],
 						"hosted_item": "skolar"
 					}
 				],
@@ -44,7 +45,7 @@
 				"sections": [
 					{
 						"name": "Coin Block in Last House",
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch3Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -52,7 +53,7 @@
 					{
 						"name": "Package Boo",
 						"access_rules": ["koot_talk_18"],
-						"visibility_rules": ["koot_setting"],
+						"visibility_rules": ["koot_setting, $ch1Required, $ch3Required"],
 						"item_count": 1
 					}
 				],
@@ -69,30 +70,33 @@
 				"sections": [
 					{
 						"name": "Far Left Block",
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch3Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{
 						"name": "Item on Rock",
+						"visibility_rules": ["$ch3Required"],
 						"access_rules": ["$kooper"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Top Block Above Ledge",
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch3Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{
 						"name": "Lower Block Above Ledge",
+						"visibility_rules": ["$ch3Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Item by Log",
+						"visibility_rules": ["$ch3Required"],
 						"item_count": 1
 					}
 				],
@@ -110,22 +114,24 @@
 				"sections": [
 					{
 						"name": "Block by Goomba",
+						"visibility_rules": ["$ch3Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Block at Top of Hill",
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch3Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{
 						"name": "Item Behind Rock",
+						"visibility_rules": ["$ch3Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Multicoin Block",
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch3Required"],
 						"item_count": 1
 					}
 				],

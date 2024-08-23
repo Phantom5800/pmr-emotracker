@@ -14,19 +14,21 @@
 					{
 						"name": "Item On Block",
 						"access_rules": ["$kooper", "boots3"],
+						"visibility_rules": ["$ch5Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Coin Blocks",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 4
 					},
 					{
 						"name": "Item On Pillar",
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					}
 				],
@@ -44,7 +46,7 @@
 							{
 								"name": "Upgrade Block",
 								"access_rules": ["$canHitBlocks"],
-								"visibility_rules": ["upgrades_setting"],
+								"visibility_rules": ["upgrades_setting, $ch5Required"],
 								"item_count": 1
 							}
 						],
@@ -62,6 +64,7 @@
 							{
 								"name": "Hidden Block",
 								"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
+								"visibility_rules": ["$ch5Required"],
 								"item_count": 1
 							}
 						],
@@ -80,6 +83,7 @@
 									{
 										"name": "Large Chest",
 										"access_rules": ["$lakilester, boots", "$parakarry"],
+										"visibility_rules": ["$ch5Required"],
 										"item_count": 1
 									}
 								],
@@ -98,6 +102,7 @@
 									{
 										"name": "Chest",
 										"access_rules": ["$parakarry", "$lakilester, boots"],
+										"visibility_rules": ["$ch5Required"],
 										"item_count": 1
 									}
 								],
@@ -117,13 +122,13 @@
 							{
 								"name": "Upgrade Block",
 								"access_rules": ["$canHitBlocks, hammer3"],
-								"visibility_rules": ["upgrades_setting"],
+								"visibility_rules": ["upgrades_setting, $ch5Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Panel Star Piece",
 								"access_rules": ["boots2", "hammer3"],
-								"visibility_rules": ["panels_setting"],
+								"visibility_rules": ["panels_setting, $ch5Required"],
 								"chest_unopened_img": "images/chests/star_piece.png",
 								"chest_opened_img": "images/chests/star_piece_checked.png",
 								"item_count": 1
@@ -144,7 +149,7 @@
 									{
 										"name": "Panel Star Piece",
 										"access_rules": ["boots2", "hammer3"],
-										"visibility_rules": ["panels_setting"],
+										"visibility_rules": ["panels_setting, $ch5Required"],
 										"chest_unopened_img": "images/chests/star_piece.png",
 										"chest_opened_img": "images/chests/star_piece_checked.png",
 										"item_count": 1
@@ -164,10 +169,12 @@
 											{
 												"name": "Item Blocks",
 												"access_rules": ["$canHitBlocks"],
+												"visibility_rules": ["$ch5Required"],
 												"item_count": 2
 											},
 											{
 												"name": "Lava Piranha",
+												"visibility_rules": ["$ch5Required"],
 												"hosted_item": "misstar"
 											}
 										],
@@ -178,7 +185,7 @@
 												"y": 315
 											}
 										]
-									}		
+									}
 								]
 							}
 						]

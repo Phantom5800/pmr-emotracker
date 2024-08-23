@@ -12,6 +12,7 @@
 				"sections": [
 					{
 						"name": "Second Coffin",
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -29,6 +30,7 @@
 							{
 								"name": "Item",
 								"access_rules": ["$canClimbShortLedges"],
+								"visibility_rules": ["$ch2Required"],
 								"item_count": 1
 							}
 						],
@@ -50,6 +52,7 @@
 								"sections": [
 									{
 										"name": "Item Under Sand",
+										"visibility_rules": ["$ch2Required"],
 										"item_count": 1
 									}
 								],
@@ -67,6 +70,7 @@
 										"sections": [
 											{
 												"name": "Item On Pedestal",
+												"visibility_rules": ["$ch2Required"],
 												"item_count": 1
 											}
 										],
@@ -86,6 +90,7 @@
 									{
 										"name": "Item On Pedestal",
 										"access_rules": ["hammer2"],
+										"visibility_rules": ["$ch2Required"],
 										"item_count": 1
 									}
 								],
@@ -103,11 +108,13 @@
 								"sections": [
 									{
 										"name": "Pokey Fight Reward",
+										"visibility_rules": ["$ch2Required"],
 										"item_count": 1
 									},
 									{
 										"name": "Item on Ledge",
 										"access_rules": ["hammer2"],
+										"visibility_rules": ["$ch2Required"],
 										"item_count": 1
 									}
 								],
@@ -129,10 +136,12 @@
 												"sections": [
 													{
 														"name": "Big Chest",
+														"visibility_rules": ["$ch2Required"],
 														"item_count": 1
 													},
 													{
 														"name": "Chest Behind Fake Wall",
+														"visibility_rules": ["$ch2Required"],
 														"item_count": 1
 													}
 												],
@@ -151,7 +160,7 @@
 													{
 														"name": "Upgrade Block",
 														"access_rules": ["$canHitBlocks"],
-														"visibility_rules": ["upgrades_setting"],
+														"visibility_rules": ["upgrades_setting, $ch2Required"],
 														"item_count": 1
 													}
 												],
@@ -169,6 +178,7 @@
 															{
 																"name": "Item On Pedestal",
 																"access_rules": ["hammer2"],
+																"visibility_rules": ["$ch2Required"],
 																"item_count": 1
 															}
 														],
@@ -188,6 +198,7 @@
 													{
 														"name": "Item on Ledge",
 														"access_rules": ["hammer2", "ch2_key:4"],
+														"visibility_rules": ["$ch2Required"],
 														"item_count": 1
 													}
 												],
@@ -206,6 +217,7 @@
 															{
 																"name": "Item On Pedestal",
 																"access_rules": ["hammer2"],
+																"visibility_rules": ["$ch2Required"],
 																"item_count": 1
 															}
 														],
@@ -225,6 +237,7 @@
 												"sections": [
 													{
 														"name": "Tutankoopa",
+														"visibility_rules": ["$ch2Required"],
 														"hosted_item": "mamar"
 													}
 												],

@@ -3,10 +3,12 @@
 		"name": "Magical Seed",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
+		"visibility_rules": ["$ch3Required"],
 		"access_rules": ["$ForeverForestAccess"],
 		"sections": [
 			{
 				"name": "Bub-ulb",
+				"visibility_rules": ["$ch3Required"],
 				"item_count": 1
 			}
 		],
@@ -25,6 +27,7 @@
 				"sections": [
 					{
 						"name": "Block",
+						"visibility_rules": ["$ch3Required"],
 						"access_rules": ["$canHitBlocks"],
 						"item_count": 1
 					}
@@ -44,6 +47,7 @@
 				"sections": [
 					{
 						"name": "Block",
+						"visibility_rules": ["$ch3Required"],
 						"access_rules": ["$canHitBlocks"],
 						"item_count": 1
 					}

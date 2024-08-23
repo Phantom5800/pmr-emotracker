@@ -7,22 +7,20 @@
 		"sections": [
 			{
 				"name": "Shop Items",
-				"access_rules": [],
-				"visibility_rules": ["shopsanity_setting"],
+				"visibility_rules": ["shopsanity_setting, $ch2Required"],
 				"clear_as_group": true,
 				"item_count": 3
 			},
 			{
 				"name": "Red Vase Password (Hammer, Pasta, Hammer, Shroom)",
-				"access_rules": [],
-				"visibility_rules": ["koot_setting"],
+				"visibility_rules": ["koot_setting, $ch2Required"],
 				"clear_as_group": true,
 				"item_count": 1
 			},
 			{
 				"name": "Little Mouser Letter",
 				"access_rules": ["little_mouser_base, $parakarry"],
-				"visibility_rules": ["letters_setting"],
+				"visibility_rules": ["letters_setting, $ch2Required"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
 				"item_count": 1
@@ -30,13 +28,13 @@
 			{
 				"name": "Composer",
 				"access_rules": ["lyrics_base"],
-				"visibility_rules": [],
+				"visibility_rules": ["$ch2Required"],
 				"item_count": 1
 			},
 			{
 				"name": "Red Tree",
 				"access_rules": ["$canBreakYellowBlocks"],
-				"visibility_rules": ["foliage_setting"],
+				"visibility_rules": ["foliage_setting, $ch2Required"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
@@ -58,19 +56,19 @@
 					{
 						"name": "Moustafa",
 						"access_rules": ["[lemon]"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Roof Item",
 						"access_rules": ["[lemon]"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Roof Panel",
 						"access_rules": ["boots2, [lemon]", "hammer3, [lemon]"],
-						"visibility_rules": ["panels_setting"],
+						"visibility_rules": ["panels_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/star_piece.png",
 						"chest_opened_img": "images/chests/star_piece_checked.png",
 						"item_count": 1
@@ -78,7 +76,7 @@
 					{
 						"name": "Mr. E Letter",
 						"access_rules": ["mr_e_base, $parakarry"],
-						"visibility_rules": ["letters_setting"],
+						"visibility_rules": ["letters_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/letter.png",
 						"chest_opened_img": "images/chests/letter_checked.png",
 						"item_count": 1
@@ -86,7 +84,7 @@
 					{
 						"name": "Merlee",
 						"access_rules": ["koot_talk_8"],
-						"visibility_rules": ["koot_setting"],
+						"visibility_rules": ["koot_setting, $ch1Required, $ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -106,13 +104,13 @@
 					{
 						"name": "Left Block",
 						"access_rules": ["$canHitGroundedBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Right Block",
 						"access_rules": ["$canHitGroundedBlocks"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -134,10 +132,10 @@
 					{
 						"name": "Trading Event Toad",
 						"access_rules": ["$KoopaVillageAccess, star_spirit:3, koopa_leaf_base, nutty_cake_toad_base"],
-						"visibility_rules": ["trading_setting"],
+						"visibility_rules": ["trading_setting, $ch1Required, $ch2Required"],
 						"chest_unopened_img": "images/chests/tradingtoad.png",
 						"chest_opened_img": "images/chests/tradingtoad_checked.png",
-								"item_count": 1
+						"item_count": 1
 					}
 				],
 				"map_locations": [
@@ -155,8 +153,7 @@
 				"sections": [
 					{
 						"name": "Behind Cactus",
-						"access_rules": [],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -176,13 +173,13 @@
 					{
 						"name": "Multicoin Block",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -204,7 +201,7 @@
 					{
 						"name": "Hidden Block",
 						"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -224,7 +221,7 @@
 					{
 						"name": "Left Block",
 						"access_rules": ["$canHitGroundedBlocks"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -232,13 +229,13 @@
 					{
 						"name": "Right Block",
 						"access_rules": ["$canHitGroundedBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Multicoin Block",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -258,7 +255,7 @@
 					{
 						"name": "Hammer Block",
 						"access_rules": ["$canHitBlocks, $canHitGroundedBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 3
 					}
 				],
@@ -278,13 +275,13 @@
 					{
 						"name": "Middle Block",
 						"access_rules": ["$canHitBlocks, $canHitGroundedBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Coin Blocks",
 						"access_rules": ["$canHitBlocks, $canHitGroundedBlocks"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 4
@@ -306,7 +303,7 @@
 					{
 						"name": "Hidden Block",
 						"access_rules": ["$canHitBlocks, $hiddenBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -326,13 +323,13 @@
 					{
 						"name": "Second From the Right",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Third From the Right",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -352,7 +349,7 @@
 					{
 						"name": "Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -374,19 +371,19 @@
 					{
 						"name": "Camp Tree",
 						"access_rules": ["$canBreakYellowBlocks, mamar"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Kolorado (Artifact)",
 						"access_rules": ["artifact_base"],
-						"visibility_rules": ["$kolorado_in_desert"],
+						"visibility_rules": ["$kolorado_in_desert, $ch1Required, $ch2Required"],
 						"hosted_item": "kolorado_artifact_turnin"
 					},
 					{
 						"name": "Kolorado (Letter)",
 						"access_rules": ["kolorado_base, $parakarry"],
-						"visibility_rules": ["$kolorado_in_desert, letters_setting"],
+						"visibility_rules": ["$kolorado_in_desert, letters_setting, $ch2Required"],
 						"hosted_item": "kolorado_letter_turnin"
 					}
 				],
@@ -406,7 +403,7 @@
 					{
 						"name": "Panel",
 						"access_rules": ["boots2", "hammer3"],
-						"visibility_rules": ["panels_setting"],
+						"visibility_rules": ["panels_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/star_piece.png",
 						"chest_opened_img": "images/chests/star_piece_checked.png",
 						"item_count": 1
@@ -428,7 +425,7 @@
 					{
 						"name": "Letter",
 						"access_rules": ["nomadimouse_base, $parakarry"],
-						"visibility_rules": ["letters_setting"],
+						"visibility_rules": ["letters_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/letter.png",
 						"chest_opened_img": "images/chests/letter_checked.png",
 						"item_count": 1
@@ -436,7 +433,7 @@
 					{
 						"name": "Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -458,7 +455,7 @@
 					{
 						"name": "Far Left Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -480,13 +477,13 @@
 					{
 						"name": "Far Right Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Far Left Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -494,7 +491,7 @@
 					{
 						"name": "Second Tree from the Left",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -502,7 +499,7 @@
 					{
 						"name": "Fourth Tree from the Right",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -524,7 +521,7 @@
 					{
 						"name": "Multicoin Block",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -544,7 +541,7 @@
 					{
 						"name": "Coin Block",
 						"access_rules": ["$canHitGroundedBlocks"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -565,14 +562,13 @@
 				"sections": [
 					{
 						"name": "Item on Ledge (Tweester down and left)",
-						"access_rules": [],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Item on Block",
 						"access_rules": ["$canClimbShortLedges, $kooper", "boots2, [boots3]"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -592,13 +588,13 @@
 					{
 						"name": "Hidden Block",
 						"access_rules": ["boots, $hiddenBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Coin Block",
 						"access_rules": ["$canHitGroundedBlocks"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -606,7 +602,7 @@
 					{
 						"name": "Bottom Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -628,7 +624,7 @@
 					{
 						"name": "Middle Block",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -647,14 +643,13 @@
 				"sections": [
 					{
 						"name": "Item Behind Bush",
-						"access_rules": [],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -662,7 +657,7 @@
 					{
 						"name": "Multicoin Block",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -682,19 +677,19 @@
 					{
 						"name": "Lemon Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Lime Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Far Left Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -702,7 +697,7 @@
 					{
 						"name": "Bottom Right Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -710,7 +705,7 @@
 					{
 						"name": "Upgrade Block",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["upgrades_setting"],
+						"visibility_rules": ["upgrades_setting, $ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -730,7 +725,7 @@
 					{
 						"name": "Hidden Block",
 						"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
-						"visibility_rules": [],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -750,7 +745,7 @@
 					{
 						"name": "Block",
 						"access_rules": ["$canHitGroundedBlocks"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -770,14 +765,14 @@
 					{
 						"name": "Multicoin Blocks",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch2Required"],
 						"clear_as_group": true,
 						"item_count": 6
 					},
 					{
 						"name": "Far Right Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1

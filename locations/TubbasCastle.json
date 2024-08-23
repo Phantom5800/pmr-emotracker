@@ -10,6 +10,7 @@
 				"sections": [
 					{
 						"name": "Item on Table",
+						"visibility_rules": ["$ch3Required"],
 						"access_rules": ["boots"],
 						"capture_item": true,
 						"item_count": 1
@@ -29,6 +30,7 @@
 				"sections": [
 					{
 						"name": "Chest",
+						"visibility_rules": ["$ch3Required"],
 						"item_count": 1
 					}
 				],
@@ -46,10 +48,10 @@
 					{
 						"name": "Upgrade Block",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["upgrades_setting"],
+						"visibility_rules": ["upgrades_setting, $ch3Required"],
 						"clear_as_group": false,
 						"item_count": 1
-					}		
+					}
 				],
 				"map_locations": [
 					{
@@ -69,6 +71,7 @@
 						"sections": [
 							{
 								"name": "Item on Bed",
+								"visibility_rules": ["$ch3Required"],
 								"capture_item": true,
 								"item_count": 1
 							}
@@ -86,6 +89,7 @@
 						"sections": [
 							{
 								"name": "Chest",
+								"visibility_rules": ["$ch3Required"],
 								"access_rules": ["$lakilester", "[$bow]"],
 								"item_count": 1
 							}
@@ -104,6 +108,7 @@
 							{
 								"name": "Item on Table",
 								"capture_item": true,
+								"visibility_rules": ["$ch3Required"],
 								"item_count": 1
 							}
 						],
@@ -122,11 +127,12 @@
 							{
 								"name": "Item Behind Wall",
 								"access_rules": ["boots"],
+								"visibility_rules": ["$ch3Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Coins on Bed",
-								"visibility_rules": ["coins_setting"],
+								"visibility_rules": ["coins_setting, $ch3Required"],
 								"chest_unopened_img": "images/chests/coin.png",
 								"chest_opened_img": "images/chests/coin_checked.png",
 								"item_count": 6
@@ -146,6 +152,7 @@
 						"sections": [
 							{
 								"name": "Block",
+								"visibility_rules": ["$ch3Required"],
 								"access_rules": ["$canHitBlocks"],
 								"item_count": 1
 							}
@@ -163,6 +170,7 @@
 								"sections": [
 									{
 										"name": "Item on Pedestal",
+										"visibility_rules": ["$ch3Required"],
 										"access_rules": ["$canClimbShortLedges"],
 										"item_count": 1
 									}
@@ -181,6 +189,7 @@
 								"sections": [
 									{
 										"name": "Chest",
+										"visibility_rules": ["$ch3Required"],
 										"hosted_item": "mystical_key_base"
 									}
 								],

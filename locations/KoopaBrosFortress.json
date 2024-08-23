@@ -4,21 +4,19 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": ["$KoopaBrosFortressAccess"],
-		"sections": [],
-		"map_locations": [],
 		"children": [
 			{
 				"name": "Front Tower",
 				"sections": [
 					{
 						"name": "Koopa Fight",
+						"visibility_rules": ["$ch1Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Item at the top",
-						"access_rules": [
-							"ch1_key:4, $kooper", "ch1_key:4, $parakarry"
-						],
+						"access_rules": ["ch1_key:4, $kooper", "ch1_key:4, $parakarry"],
+						"visibility_rules": ["$ch1Required"],
 						"item_count": 1
 					}
 				],
@@ -37,16 +35,19 @@
 					{
 						"name": "Left Cell",
 						"access_rules": ["ch1_key:3, $kooper, $bombette", "ch1_key:3, $parakarry, $bombette"],
+						"visibility_rules": ["$ch1Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Middle Cell",
+						"visibility_rules": ["$ch1Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Right Cell",
 						"access_rules": ["$bombette"],
+						"visibility_rules": ["$ch1Required"],
 						"capture_item": true,
 						"item_count": 1
 					}
@@ -66,6 +67,7 @@
 					{
 						"name": "Pedestal Item",
 						"access_rules": ["$canClimbShortLedges"],
+						"visibility_rules": ["$ch1Required"],
 						"item_count": 1
 					}
 				],
@@ -83,6 +85,7 @@
 				"sections": [
 					{
 						"name": "Bombette",
+						"visibility_rules": ["$ch1Required"],
 						"chest_unopened_img": "images/chests/bombette.png",
 						"chest_opened_img": "images/chests/bombette_checked.png",
 						"item_count": 1
@@ -102,6 +105,7 @@
 				"sections": [
 					{
 						"name": "Chest",
+						"visibility_rules": ["$ch1Required"],
 						"item_count": 1
 					}
 				],
@@ -120,6 +124,7 @@
 					{
 						"name": "Block",
 						"access_rules": ["$bombette, $canHitBlocks"],
+						"visibility_rules": ["$ch1Required"],
 						"item_count": 1
 					}
 				],
@@ -137,6 +142,7 @@
 				"sections": [
 					{
 						"name": "Koopa Bros.",
+						"visibility_rules": ["$ch1Required"],
 						"hosted_item": "eldstar"
 					}
 				],

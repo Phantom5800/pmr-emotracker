@@ -89,7 +89,7 @@
 			{
 				"name": "Trading Event Toad",
 				"access_rules": ["$KoopaVillageAccess, star_spirit:1, koopa_leaf_base"],
-				"visibility_rules": ["trading_setting"],
+				"visibility_rules": ["trading_setting, $ch1Required"],
 				"chest_unopened_img": "images/chests/tradingtoad.png",
 				"chest_opened_img": "images/chests/tradingtoad_checked.png",
 				"item_count": 1
@@ -330,7 +330,7 @@
 					{
 						"name": "Trading Event Toad",
 						"access_rules": ["$KoopaVillageAccess, star_spirit:5, koopa_leaf_base, nutty_cake_toad_base, coconut_toad_base"],
-						"visibility_rules": ["trading_setting"],
+						"visibility_rules": ["trading_setting, $ch1Required"],
 						"chest_unopened_img": "images/chests/tradingtoad.png",
 						"chest_opened_img": "images/chests/tradingtoad_checked.png",
 						"item_count": 1
@@ -451,7 +451,7 @@
 					{
 						"name": "Merluvlee",
 						"access_rules": ["crystal_ball, koot_talk_8"],
-						"visibility_rules": ["koot_setting"],
+						"visibility_rules": ["koot_setting, $ch1Required"],
 						"clear_as_group": false,
 						"item_count": 1
 					},
@@ -513,7 +513,7 @@
 			{
 				"name": "Luigi",
 				"access_rules": ["koot_talk_5"],
-				"visibility_rules": ["koot_setting"],
+				"visibility_rules": ["koot_setting, $ch1Required"],
 				"clear_as_group": false,
 				"item_count": 1
 			}

@@ -1,3 +1,31 @@
+--[[----------------------------------------------------------
+    LCL
+------------------------------------------------------------]]
+function ch1Required()
+    return hasItem("ch1_lcl")
+end
+function ch2Required()
+    return hasItem("ch2_lcl")
+end
+function ch3Required()
+    return hasItem("ch3_lcl")
+end
+function ch4Required()
+    return hasItem("ch4_lcl")
+end
+function ch5Required()
+    return hasItem("ch5_lcl")
+end
+function ch6Required()
+    return hasItem("ch6_lcl")
+end
+function ch7Required()
+    return hasItem("ch7_lcl")
+end
+
+--[[----------------------------------------------------------
+    Dungeon Entrances
+------------------------------------------------------------]]
 function DungeonAccessible(dungeon)
     local entranceAccessibleFn = {
         KoopaBrosFortressEntranceAccess,

@@ -7,17 +7,19 @@
 		"sections": [
 			{
 				"name": "Behind Bush",
+				"visibility_rules": ["$ch5Required"],
 				"item_count": 1
 			},
 			{
 				"name": "Coconut Tree",
 				"access_rules": ["$canBreakYellowBlocks"],
+				"visibility_rules": ["$ch5Required"],
 				"item_count": 1
 			},
 			{
 				"name": "Coins Above Spinny Flower",
 				"access_rules": ["boots", "$parakarry"],
-				"visibility_rules": ["coins_setting"],
+				"visibility_rules": ["coins_setting, $ch5Required"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 2
@@ -37,24 +39,27 @@
 					{
 						"name": "Coconut Trees",
 						"access_rules": ["$canBreakYellowBlocks"],
+						"visibility_rules": ["$ch5Required"],
 						"clear_as_group": false,
 						"item_count": 7
 					},
 					{
 						"name": "Hidden Blocks",
 						"access_rules": ["$canHitBlocks, $hiddenBlocks"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 2
 					},
 					{
 						"name": "Item on Rocks",
 						"capture_item": true,
 						"access_rules": ["$canClimbShortLedges"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Coins Above Spinny Flower",
 						"access_rules": ["boots", "$parakarry"],
-						"visibility_rules": ["coins_setting"],
+						"visibility_rules": ["coins_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 2
@@ -74,18 +79,20 @@
 					{
 						"name": "Coconut Trees",
 						"access_rules": ["$canBreakYellowBlocks"],
+						"visibility_rules": ["$ch5Required"],
 						"clear_as_group": false,
 						"item_count": 2
 					},
 					{
 						"name": "Yoshi Chief",
 						"access_rules": ["red_yoshi_kid, green_yoshi_kid, blue_yoshi_kid, purple_yoshi_kid, yellow_yoshi_kid"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Star Piece Panel",
 						"access_rules": ["boots2", "hammer3"],
-						"visibility_rules": ["panels_setting"],
+						"visibility_rules": ["panels_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/star_piece.png",
 						"chest_opened_img": "images/chests/star_piece_checked.png",
 						"item_count": 1
@@ -105,28 +112,31 @@
 					{
 						"name": "Coconut Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Yellow Yoshi",
 						"access_rules": ["red_yoshi_kid, green_yoshi_kid, blue_yoshi_kid, purple_yoshi_kid, yellow_yoshi_kid, misstar, $cookingAvailable"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Kolorado (Vase)",
 						"access_rules": ["red_yoshi_kid, green_yoshi_kid, blue_yoshi_kid, purple_yoshi_kid, yellow_yoshi_kid, misstar, volcano_vase_base"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Shop Items",
 						"access_rules": ["$canClimbShortLedges"],
-						"visibility_rules": ["shopsanity_setting"],
+						"visibility_rules": ["shopsanity_setting, $ch5Required"],
 						"item_count": 6
 					},
 					{
 						"name": "Red Yoshi Kid Letter",
 						"access_rules": ["red_yoshi_kid, red_yoshi_base, $parakarry"],
-						"visibility_rules": ["letters_setting"],
+						"visibility_rules": ["letters_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/letter.png",
 						"chest_opened_img": "images/chests/letter_checked.png",
 						"item_count": 1
@@ -145,11 +155,13 @@
 				"sections": [
 					{
 						"name": "Behind Tree",
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Raphael",
 						"access_rules": ["jade_raven_base, $sushie, $canClimbShortLedges"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					}
 				],
@@ -167,6 +179,7 @@
 					{
 						"name": "Sushie Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
+						"visibility_rules": ["$ch5Required"],
 						"chest_unopened_img": "images/chests/sushie.png",
 						"chest_opened_img": "images/chests/sushie_checked.png",
 						"item_count": 1
@@ -174,16 +187,19 @@
 					{
 						"name": "Chest",
 						"access_rules": ["misstar"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Island Tree",
 						"access_rules": ["$canBreakYellowBlocks, $sushie"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Island Tree (Ground Item)",
 						"access_rules": ["$sushie"],
+						"visibility_rules": ["$ch5Required"],
 						"capture_item": true,
 						"item_count": 1
 					}
@@ -202,24 +218,26 @@
 					{
 						"name": "Spear Guy Block",
 						"access_rules": ["$canHitBlocks, $sushie"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Purple Yoshi",
 						"access_rules": ["hammer, $sushie"],
+						"visibility_rules": ["$ch5Required"],
 						"hosted_item": "purple_yoshi_kid"
 					},
 					{
 						"name": "Far Right Tree Coin",
 						"access_rules": ["$canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{
 						"name": "Bottom Left Bush",
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch5Required"],
 						"access_rules": ["hammer, $sushie"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
@@ -227,7 +245,7 @@
 					},
 					{
 						"name": "Bottom Right Bush",
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -247,12 +265,13 @@
 					{
 						"name": "Hidden Block at North Exit",
 						"access_rules": ["$canHitBlocks, $sushie, $hiddenBlocks"],
+						"visibility_rules": ["$ch5Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Tree At North Exit",
 						"access_rules": ["$canBreakYellowBlocks, $sushie"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -260,7 +279,7 @@
 					{
 						"name": "Bush Right of Bell Flower",
 						"access_rules": ["$sushie"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -268,26 +287,27 @@
 					{
 						"name": "Tree by Spear Guy",
 						"access_rules": ["$canBreakYellowBlocks, $sushie"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{
 						"name": "Bottom Right Bush by Sushie Panel",
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{
 						"name": "Red Yoshi",
+						"visibility_rules": ["$ch5Required"],
 						"hosted_item": "red_yoshi_kid"
 					},
 					{
 						"name": "Underwater Coins",
 						"access_rules": ["$sushie"],
-						"visibility_rules": ["coins_setting"],
+						"visibility_rules": ["coins_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 3
@@ -295,7 +315,7 @@
 					{
 						"name": "Upgrade Block",
 						"access_rules": ["$canHitBlocks, $sushie"],
-						"visibility_rules": ["upgrades_setting"],
+						"visibility_rules": ["upgrades_setting, $ch5Required"],
 						"clear_as_group": false,
 						"item_count": 1
 					}
@@ -314,27 +334,28 @@
 				"sections": [
 					{
 						"name": "Far Right Tree",
+						"visibility_rules": ["$ch5Required"],
 						"access_rules": ["$canBreakYellowBlocks"],
 						"item_count": 1
 					},
 					{
 						"name": "Tree on Ledge",
 						"access_rules": ["$canClimbShortLedges, $canBreakYellowBlocks"],
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{
 						"name": "Second Bush from Right",
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{
 						"name": "Second Bush from Left",
-						"visibility_rules": ["foliage_setting"],
+						"visibility_rules": ["foliage_setting, $ch5Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -354,10 +375,12 @@
 							{
 								"name": "Blue Yoshi",
 								"access_rules": ["hammer"],
+								"visibility_rules": ["$ch5Required"],
 								"hosted_item": "blue_yoshi_kid"
 							},
 							{
 								"name": "Underwater Item",
+								"visibility_rules": ["$ch5Required"],
 								"item_count": 1
 							}
 						],
@@ -375,6 +398,7 @@
 						"sections": [
 							{
 								"name": "Green Yoshi",
+								"visibility_rules": ["$ch5Required"],
 								"hosted_item": "green_yoshi_kid"
 							}
 						],
@@ -392,14 +416,14 @@
 						"sections": [
 							{
 								"name": "Underwater Coin",
-								"visibility_rules": ["coins_setting"],
+								"visibility_rules": ["coins_setting, $ch5Required"],
 								"chest_unopened_img": "images/chests/coin.png",
 								"chest_opened_img": "images/chests/coin_checked.png",
 								"item_count": 1
 							},
 							{
 								"name": "Tree by Raven Statue",
-								"visibility_rules": ["foliage_setting"],
+								"visibility_rules": ["foliage_setting, $ch5Required"],
 								"chest_unopened_img": "images/chests/coin.png",
 								"chest_opened_img": "images/chests/coin_checked.png",
 								"item_count": 1
@@ -418,13 +442,14 @@
 								"sections": [
 									{
 										"name": "Left Tree",
-										"visibility_rules": ["foliage_setting"],
+										"visibility_rules": ["foliage_setting, $ch5Required"],
 										"chest_unopened_img": "images/chests/coin.png",
 										"chest_opened_img": "images/chests/coin_checked.png",
 										"item_count": 1
 									},
 									{
 										"name": "Yellow Yoshi",
+										"visibility_rules": ["$ch5Required"],
 										"hosted_item": "yellow_yoshi_kid"
 									}
 								],
@@ -443,16 +468,18 @@
 									{
 										"name": "Hidden Block",
 										"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
+										"visibility_rules": ["$ch5Required"],
 										"item_count": 1
 									},
 									{
 										"name": "Pull Tree Vine",
 										"access_rules": ["boots"],
+										"visibility_rules": ["$ch5Required"],
 										"item_count": 1
 									},
 									{
 										"name": "Hit Tree",
-										"visibility_rules": ["foliage_setting"],
+										"visibility_rules": ["foliage_setting, $ch5Required"],
 										"access_rules": ["$canBreakYellowBlocks, $canClimbShortLedges"],
 										"chest_unopened_img": "images/chests/coin.png",
 										"chest_opened_img": "images/chests/coin_checked.png",
@@ -472,12 +499,13 @@
 										"sections": [
 											{
 												"name": "Hidden Block",
+												"visibility_rules": ["$ch5Required"],
 												"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
 												"item_count": 1
 											},
 											{
 												"name": "Far Left Tree",
-												"visibility_rules": ["foliage_setting"],
+												"visibility_rules": ["foliage_setting, $ch5Required"],
 												"access_rules": ["$canBreakYellowBlocks"],
 												"chest_unopened_img": "images/chests/coin.png",
 												"chest_opened_img": "images/chests/coin_checked.png",
@@ -498,10 +526,12 @@
 										"sections": [
 											{
 												"name": "Second Vine Tree",
+												"visibility_rules": ["$ch5Required"],
 												"item_count": 1
 											},
 											{
 												"name": "Far Right Tree",
+												"visibility_rules": ["$ch5Required"],
 												"item_count": 1
 											}
 										],
@@ -519,7 +549,7 @@
 													{
 														"name": "Star Piece Panel",
 														"access_rules": ["boots2", "hammer3"],
-														"visibility_rules": ["panels_setting"],
+														"visibility_rules": ["panels_setting, $ch5Required"],
 														"chest_unopened_img": "images/chests/star_piece.png",
 														"chest_opened_img": "images/chests/star_piece_checked.png",
 														"item_count": 1
@@ -527,7 +557,7 @@
 													{
 														"name": "Middle Tree",
 														"access_rules": ["$canBreakYellowBlocks"],
-														"visibility_rules": ["foliage_setting"],
+														"visibility_rules": ["foliage_setting, $ch5Required"],
 														"chest_unopened_img": "images/chests/coin.png",
 														"chest_opened_img": "images/chests/coin_checked.png",
 														"item_count": 1
@@ -546,6 +576,7 @@
 												"sections": [
 													{
 														"name": "Item on Tree",
+														"visibility_rules": ["$ch5Required"],
 														"item_count": 1
 													}
 												],

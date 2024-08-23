@@ -2,7 +2,7 @@
 	"tracker_items": {
 		"type": "array",
 		"orientation": "vertical",
-		"scale": 1.25,
+		"scale": 1,
 		"style": "wrap",
 		"content": [
 			{
@@ -67,7 +67,7 @@
 	"tracker_items_vertical": {
 		"type": "array",
 		"orientation": "horizontal",
-		"scale": 1.25,
+		"scale": 1,
 		"style": "wrap",
 		"content": [
 			{
@@ -150,7 +150,7 @@
 	"seed_settings": {
 		"type": "array",
 		"orientation": "vertical",
-		"scale": 1.25,
+		"scale": 1,
 		"style": "wrap",
 		"content": [
 			{

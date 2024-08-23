@@ -8,12 +8,13 @@
 			{
 				"name": "Hidden Block",
 				"access_rules": ["$hiddenBlocks, $canHitBlocks"],
+				"visibility_rules": ["$ch4Required"],
 				"item_count": 1
 			},
 			{
 				"name": "Panel Star Piece",
 				"access_rules": ["boots2", "hammer3"],
-				"visibility_rules": ["panels_setting"],
+				"visibility_rules": ["panels_setting, $ch4Required"],
 				"chest_unopened_img": "images/chests/star_piece.png",
 				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
@@ -35,17 +36,19 @@
 					{
 						"name": "Hidden Block",
 						"access_rules": ["$hiddenBlocks, $canHitBlocks"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Anti Guy Chest",
 						"access_rules": ["[lemon], [cakemix], [cookbook_base], [$cookingAvailable]"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Left Block",
 						"access_rules": ["$canHitBlocks"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -67,10 +70,12 @@
 					{
 						"name": "Hidden Blocks",
 						"access_rules": ["$hiddenBlocks, $canHitBlocks"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 2
 					},
 					{
 						"name": "Shy Guy Items",
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 6
 					}
 				],
@@ -90,24 +95,26 @@
 				"sections": [
 					{
 						"name": "3 Coin Spring",
-						"visibility_rules": ["coins_setting"],
+						"visibility_rules": ["coins_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 3
 					},
 					{
 						"name": "5 Coin Spring",
-						"visibility_rules": ["coins_setting"],
+						"visibility_rules": ["coins_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 5
 					},
 					{
 						"name": "Behind Fallen Block",
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "On Top Left Building",
+						"visibility_rules": ["$ch4Required"],
 						"access_rules": ["$parakarry"],
 						"capture_item": true,
 						"item_count": 1
@@ -115,22 +122,25 @@
 					{
 						"name": "Gap Block",
 						"access_rules": ["[$parakarry]"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Coin Blocks",
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 2
 					},
 					{
 						"name": "Item Next to Chest",
+						"visibility_rules": ["$ch4Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Chest",
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					}
 				],
@@ -152,17 +162,19 @@
 		"sections": [
 			{
 				"name": "Chest",
+				"visibility_rules": ["$ch4Required"],
 				"item_count": 1
 			},
 			{
 				"name": "Hidden Block",
 				"access_rules": ["$hiddenBlocks, cake, [$cookingAvailable], [cakemix]"],
+				"visibility_rules": ["$ch4Required"],
 				"item_count": 1
 			},
 			{
 				"name": "Panel Star Piece",
 				"access_rules": ["boots2", "hammer3"],
-				"visibility_rules": ["panels_setting"],
+				"visibility_rules": ["panels_setting, $ch4Required"],
 				"chest_unopened_img": "images/chests/star_piece.png",
 				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
@@ -183,7 +195,7 @@
 				"sections": [
 					{
 						"name": "Spy Guy Coin Block",
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -191,7 +203,7 @@
 					{
 						"name": "Groove Guy Coin Blocks",
 						"access_rules": ["cake, [$cookingAvailable], [cakemix]"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 2
@@ -199,7 +211,7 @@
 					{
 						"name": "Multicoin Block",
 						"access_rules": ["cake, [$cookingAvailable], [cakemix]"],
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch4Required"],
 						"item_count": 1
 					}
 				],
@@ -219,21 +231,24 @@
 				"sections": [
 					{
 						"name": "Gourmet Guy",
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Left Hidden Block",
 						"access_rules": ["$hiddenBlocks, $canHitBlocks"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Right Hidden Block",
 						"access_rules": ["$hiddenBlocks, $canHitBlocks"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Coin Blocks",
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 2
@@ -255,24 +270,28 @@
 				"sections": [
 					{
 						"name": "Upper Chest",
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Path Chest",
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Item Next to Chest",
+						"visibility_rules": ["$ch4Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Far Right Chest",
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Coin Block",
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -297,12 +316,13 @@
 			{
 				"name": "Hidden Block",
 				"access_rules": ["$hiddenBlocks"],
+				"visibility_rules": ["$ch4Required"],
 				"item_count": 1
 			},
 			{
 				"name": "Panel Star Piece",
 				"access_rules": ["boots2", "hammer3"],
-				"visibility_rules": ["panels_setting"],
+				"visibility_rules": ["panels_setting, $ch4Required"],
 				"chest_unopened_img": "images/chests/star_piece.png",
 				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
@@ -321,7 +341,7 @@
 				"sections": [
 					{
 						"name": "Conveyer Coins",
-						"visibility_rules": ["coins_setting"],
+						"visibility_rules": ["coins_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 6
@@ -329,35 +349,39 @@
 					{
 						"name": "Shy Guy Item",
 						"access_rules": ["$bow"],
+						"visibility_rules": ["$ch4Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Chest Item",
 						"access_rules": ["$bow, $parakarry"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Item Next to Chest",
 						"access_rules": ["$bow, $parakarry"],
+						"visibility_rules": ["$ch4Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Multicoin Block",
 						"access_rules": ["$bow"],
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Item Surrounded By Coins",
 						"access_rules": ["$bow"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "6 Coins Surrounding Item",
 						"access_rules": ["$bow"],
-						"visibility_rules": ["coins_setting"],
+						"visibility_rules": ["coins_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 6
@@ -382,12 +406,13 @@
 			{
 				"name": "Hidden Block",
 				"access_rules": ["$hiddenBlocks"],
+				"visibility_rules": ["$ch4Required"],
 				"item_count": 1
 			},
 			{
 				"name": "Panel Star Piece",
 				"access_rules": ["boots2", "hammer3"],
-				"visibility_rules": ["panels_setting"],
+				"visibility_rules": ["panels_setting, $ch4Required"],
 				"chest_unopened_img": "images/chests/star_piece.png",
 				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
@@ -407,16 +432,18 @@
 					{
 						"name": "Right Hidden Block",
 						"access_rules": ["$hiddenBlocks"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Hidden Block Between Coin Blocks",
 						"access_rules": ["$hiddenBlocks"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Coin Blocks",
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 2
@@ -424,16 +451,17 @@
 					{
 						"name": "Hidden Block by Lantern Ghost Door",
 						"access_rules": ["$hiddenBlocks"],
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Multicoin Block",
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch4Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Upgrade Block",
-						"visibility_rules": ["upgrades_setting, multicoin_setting"],
+						"visibility_rules": ["upgrades_setting, multicoin_setting, $ch4Required"],
 						"item_count": 1
 					}
 				],
@@ -450,6 +478,7 @@
 				"sections": [
 					{
 						"name": "Watt",
+						"visibility_rules": ["$ch4Required"],
 						"chest_unopened_img": "images/chests/watt.png",
 						"chest_opened_img": "images/chests/watt_checked.png",
 						"item_count": 1
@@ -470,19 +499,21 @@
 					{
 						"name": "Item on Tall Block",
 						"access_rules": ["$kooper", "boots3"],
+						"visibility_rules": ["$ch4Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Hidden Coin Block",
 						"access_rules": ["$hiddenBlocks"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch4Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
 					},
 					{
 						"name": "Item Block",
+						"visibility_rules": ["$ch4Required"],
 						"item_count": 1
 					}
 				],
@@ -500,6 +531,7 @@
 						"sections": [
 							{
 								"name": "Muskular",
+								"visibility_rules": ["$ch4Required"],
 								"hosted_item": "muskular"
 							}
 						],

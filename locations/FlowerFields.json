@@ -11,10 +11,12 @@
 					{
 						"name": "Hit Trees (Middle, Right, Left)",
 						"access_rules": ["$canBreakYellowBlocks"],
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Second Vine",
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					}
 				],
@@ -31,16 +33,18 @@
 						"sections": [
 							{
 								"name": "Petunia",
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Tree",
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 2
 							},
 							{
 								"name": "Panel Star Piece",
 								"access_rules": ["boots2", "hammer3"],
-								"visibility_rules": ["panels_setting"],
+								"visibility_rules": ["panels_setting, $ch6Required"],
 								"chest_unopened_img": "images/chests/star_piece.png",
 								"chest_opened_img": "images/chests/star_piece_checked.png",
 								"item_count": 1
@@ -60,6 +64,7 @@
 							{
 								"name": "Throw Blue Berry",
 								"access_rules": ["blue_berry:1, [blue_berry:2]"],
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 1
 							}
 						],
@@ -79,6 +84,7 @@
 					{
 						"name": "Second Vine",
 						"access_rules": ["$canHitBlocks", "$lakilester", "$parakarry"],
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					}
 				],
@@ -96,11 +102,12 @@
 				"sections": [
 					{
 						"name": "Ground Pound Arch",
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Upgrade Block",
-						"visibility_rules": ["upgrades_setting"],
+						"visibility_rules": ["upgrades_setting, $ch6Required"],
 						"item_count": 1
 					}
 				],
@@ -117,11 +124,13 @@
 						"sections": [
 							{
 								"name": "Item on Ground",
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Hidden Block",
 								"access_rules": ["$hiddenBlocks"],
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 1
 							}
 						],
@@ -140,6 +149,7 @@
 				"sections": [
 					{
 						"name": "Vine by Yellow Flower",
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					}
 				],
@@ -158,16 +168,18 @@
 					{
 						"name": "Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 2
 					},
 					{
 						"name": "Item in Flowers",
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Upgrade Block",
 						"access_rules": ["$canClimbShortLedges, $canHitBlocks"],
-						"visibility_rules": ["upgrades_setting"],
+						"visibility_rules": ["upgrades_setting, $ch6Required"],
 						"item_count": 1
 					}
 				],
@@ -185,22 +197,25 @@
 							{
 								"name": "Bubble Berry Tree",
 								"access_rules": ["$sushie, water_stone_base, $canClimbShortLedges, $canBreakYellowBlocks"],
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 2
 							},
 							{
 								"name": "Block on Left",
 								"access_rules": ["$canHitBlocks"],
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Hidden Block on Right",
 								"access_rules": ["$canHitBlocks, $canClimbShortLedges, $hiddenBlocks"],
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Panel Star Piece",
 								"access_rules": ["boots2", "hammer3, $canClimbShortLedges"],
-								"visibility_rules": ["panels_setting"],
+								"visibility_rules": ["panels_setting, $ch6Required"],
 								"chest_unopened_img": "images/chests/star_piece.png",
 								"chest_opened_img": "images/chests/star_piece_checked.png",
 								"item_count": 1
@@ -221,11 +236,13 @@
 							{
 								"name": "Lily",
 								"access_rules": ["water_stone_base"],
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Tree",
 								"access_rules": ["$canBreakYellowBlocks"],
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 1
 							}
 						],
@@ -245,17 +262,19 @@
 				"sections": [
 					{
 						"name": "Middle Vine",
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Tree",
 						"access_rules": ["$canBreakYellowBlocks"],
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 2
 					},
 					{
 						"name": "Panel Star Piece",
 						"access_rules": ["boots2", "hammer3"],
-						"visibility_rules": ["panels_setting"],
+						"visibility_rules": ["panels_setting, $ch6Required"],
 						"chest_unopened_img": "images/chests/star_piece.png",
 						"chest_opened_img": "images/chests/star_piece_checked.png",
 						"item_count": 1
@@ -274,6 +293,7 @@
 						"sections": [
 							{
 								"name": "Posie",
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 2
 							}
 						],
@@ -294,7 +314,7 @@
 					{
 						"name": "Hidden Block by Spring",
 						"access_rules": ["$canHitBlocks, $hiddenBlocks"],
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch6Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 1
@@ -302,6 +322,7 @@
 					{
 						"name": "Hidden Block Above Brick Block",
 						"access_rules": ["boots, $hiddenBlocks"],
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					}
 				],
@@ -320,7 +341,7 @@
 							{
 								"name": "Multicoin Block",
 								"access_rules": ["$canHitBlocks"],
-								"visibility_rules": ["upgrades_setting, multicoin_setting"],
+								"visibility_rules": ["upgrades_setting, multicoin_setting, $ch6Required"],
 								"item_count": 1
 							}
 						],
@@ -338,6 +359,7 @@
 									{
 										"name": "Rosie",
 										"access_rules": ["crystal_berry_base"],
+										"visibility_rules": ["$ch6Required"],
 										"capture_item": true,
 										"item_count": 1
 									}
@@ -360,6 +382,7 @@
 				"sections": [
 					{
 						"name": "Item in Cloud",
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					}
 				],
@@ -376,6 +399,7 @@
 						"sections": [
 							{
 								"name": "Huff n Puff",
+								"visibility_rules": ["$ch6Required"],
 								"hosted_item": "klevar"
 							}
 						],
@@ -394,11 +418,13 @@
 				"sections": [
 					{
 						"name": "Vine Item",
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Item on Ledge",
 						"access_rules": ["$lakilester", "bubble_berry_base, $canClimbShortLedges"],
+						"visibility_rules": ["$ch6Required"],
 						"item_count": 1
 					}
 				],
@@ -416,16 +442,19 @@
 						"sections": [
 							{
 								"name": "Item on Ground",
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Item in Crevace",
 								"access_rules": ["$canClimbShortLedges, [$bombette]"],
+								"visibility_rules": ["$ch6Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Lakilester",
 								"access_rules": ["$canClimbShortLedges, $bombette"],
+								"visibility_rules": ["$ch6Required"],
 								"chest_unopened_img": "images/chests/lakilester.png",
 								"chest_opened_img": "images/chests/lakilester_checked.png",
 								"item_count": 1

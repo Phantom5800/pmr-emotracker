@@ -8,6 +8,7 @@
 			{
 				"name": "Parakarry",
 				"access_rules": ["letters:3"],
+				"visibility_rules": ["$ch2Required"],
 				"chest_unopened_img": "images/chests/parakarry.png",
 				"chest_opened_img": "images/chests/parakarry_checked.png",
 				"item_count": 1
@@ -15,7 +16,7 @@
 			{
 				"name": "Upgrade Block",
 				"access_rules": ["$canHitBlocks, hammer2"],
-				"visibility_rules": ["upgrades_setting"],
+				"visibility_rules": ["upgrades_setting, $ch2Required"],
 				"item_count": 1
 			}
 		],
@@ -31,22 +32,23 @@
 				"name": "Whacka Screen",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
-				"access_rules": [],
 				"sections": [
 					{
 						"name": "Block",
 						"access_rules": ["$canHitBlocks"],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Whacka",
 						"access_rules": ["$canBreakYellowBlocks"],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Slide Coins",
 						"access_rules": ["$canClimbShortLedges"],
-						"visibility_rules": ["coins_setting"],
+						"visibility_rules": ["coins_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"item_count": 3
@@ -69,19 +71,21 @@
 					{
 						"name": "Right Item",
 						"access_rules": ["$kooper", "$parakarry"],
+						"visibility_rules": ["$ch2Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Left Item",
 						"access_rules": ["$parakarry"],
+						"visibility_rules": ["$ch2Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Panel Star Piece",
 						"access_rules": ["boots2", "hammer3"],
-						"visibility_rules": ["panels_setting"],
+						"visibility_rules": ["panels_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/star_piece.png",
 						"chest_opened_img": "images/chests/star_piece_checked.png",
 						"item_count": 1
@@ -104,10 +108,12 @@
 					{
 						"name": "Bub-ulb",
 						"access_rules": ["$parakarry"],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Support Beam Item",
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -128,10 +134,12 @@
 					{
 						"name": "Lower Block",
 						"access_rules": ["$canHitBlocks"],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Chest",
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
@@ -139,28 +147,31 @@
 						"access_rules": ["$canHitGroundedBlocks"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
-						"visibility_rules": ["coin_block_setting"],
+						"visibility_rules": ["coin_block_setting, $ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Right Block after Spring",
 						"access_rules": ["$canHitGroundedBlocks"],
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Slide Item",
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
 					{
 						"name": "2 Lower Coins",
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
-						"visibility_rules": ["coins_setting"],
+						"visibility_rules": ["coins_setting, $ch2Required"],
 						"item_count": 2
 					},
 					{
 						"name": "Item in the Middle of Coins",
 						"access_rules": ["$parakarry"],
+						"visibility_rules": ["$ch2Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
@@ -169,7 +180,7 @@
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"access_rules": ["$parakarry"],
-						"visibility_rules": ["coins_setting"],
+						"visibility_rules": ["coins_setting, $ch2Required"],
 						"capture_item": true,
 						"item_count": 5
 					},
@@ -178,7 +189,7 @@
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
 						"access_rules": ["$parakarry", "$kooper"],
-						"visibility_rules": ["coins_setting"],
+						"visibility_rules": ["coins_setting, $ch2Required"],
 						"capture_item": true,
 						"item_count": 1
 					}
@@ -199,6 +210,7 @@
 				"sections": [
 					{
 						"name": "Item on Ground",
+						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					}
 				],
@@ -220,11 +232,12 @@
 		"sections": [
 			{
 				"name": "Top Bush",
+				"visibility_rules": ["$ch2Required"],
 				"item_count": 1
 			},
 			{
 				"name": "Other Bushes",
-				"visibility_rules": ["foliage_setting"],
+				"visibility_rules": ["foliage_setting, $ch2Required"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 3

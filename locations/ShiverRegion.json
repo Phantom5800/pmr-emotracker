@@ -8,15 +8,17 @@
 			{
 				"name": "Shop Items",
 				"access_rules": ["[warehouse_key], [boots]"],
-				"visibility_rules": ["shopsanity_setting"],
+				"visibility_rules": ["shopsanity_setting, $ch7Required"],
 				"item_count": 6
 			},
 			{
 				"name": "Sleep at Inn",
+				"visibility_rules": ["$ch7Required"],
 				"item_count": 1
 			},
 			{
 				"name": "Snowman's Gift",
+				"visibility_rules": ["$ch7Required"],
 				"access_rules": ["warehouse_key, bucket, scarf, boots"],
 				"item_count": 5
 			}
@@ -34,17 +36,19 @@
 				"sections": [
 					{
 						"name": "Middle House Chest",
+						"visibility_rules": ["$ch7Required"],
 						"access_rules": ["boots"],
 						"item_count": 1
 					},
 					{
 						"name": "Mayor Penguin (Bucket)",
+						"visibility_rules": ["$ch7Required"],
 						"access_rules": ["warehouse_key, boots"],
 						"item_count": 1
 					},
 					{
 						"name": "Mayor Penguin (Letter)",
-						"visibility_rules": ["letters_setting"],
+						"visibility_rules": ["letters_setting, $ch7Required"],
 						"access_rules": ["mayor_penguin_base, $parakarry"],
 						"chest_unopened_img": "images/chests/letter.png",
 						"chest_opened_img": "images/chests/letter_checked.png",
@@ -53,7 +57,7 @@
 					{
 						"name": "Panel Star Piece",
 						"access_rules": ["boots2", "hammer3"],
-						"visibility_rules": ["panels_setting"],
+						"visibility_rules": ["panels_setting, $ch7Required"],
 						"chest_unopened_img": "images/chests/star_piece.png",
 						"chest_opened_img": "images/chests/star_piece_checked.png",
 						"item_count": 1
@@ -72,6 +76,7 @@
 				"sections": [
 					{
 						"name": "Lake Item",
+						"visibility_rules": ["$ch7Required"],
 						"access_rules": ["$bombette, $sushie", "boots2, $sushie"],
 						"item_count": 1
 					}
@@ -90,17 +95,19 @@
 				"sections": [
 					{
 						"name": "Left Tree",
+						"visibility_rules": ["$ch7Required"],
 						"access_rules": ["hammer"],
 						"item_count": 1
 					},
 					{
 						"name": "Item Behind Right Tree",
+						"visibility_rules": ["$ch7Required"],
 						"item_count": 1
 					},
 					{
 						"name": "Panel Star Piece",
 						"access_rules": ["boots2", "hammer3"],
-						"visibility_rules": ["panels_setting"],
+						"visibility_rules": ["panels_setting, $ch7Required"],
 						"chest_unopened_img": "images/chests/star_piece.png",
 						"chest_opened_img": "images/chests/star_piece_checked.png",
 						"item_count": 1
@@ -119,10 +126,12 @@
 						"sections": [
 							{
 								"name": "Item Behind Ice",
+								"visibility_rules": ["$ch7Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Hidden Block",
+								"visibility_rules": ["$ch7Required"],
 								"access_rules": ["$hiddenBlocks"],
 								"item_count": 1
 							}
@@ -140,11 +149,12 @@
 						"sections": [
 							{
 								"name": "Merle",
+								"visibility_rules": ["$ch7Required"],
 								"item_count": 1
 							},
 							{
 								"name": "Frost T. Letter",
-								"visibility_rules": ["letters_setting"],
+								"visibility_rules": ["letters_setting, $ch7Required"],
 								"access_rules": ["frost_t_base, $parakarry"],
 								"chest_unopened_img": "images/chests/letter.png",
 								"chest_opened_img": "images/chests/letter_checked.png",
@@ -165,6 +175,7 @@
 						"sections": [
 							{
 								"name": "Hidden Block Above Brick Block",
+								"visibility_rules": ["$ch7Required"],
 								"access_rules": ["boots3, $hiddenBlocks"],
 								"item_count": 1
 							}
@@ -182,12 +193,13 @@
 								"sections": [
 									{
 										"name": "Pebble",
+										"visibility_rules": ["$ch7Required"],
 										"item_count": 1
 									},
 									{
 										"name": "Upgrade Block",
 										"access_rules": ["$kooper"],
-										"visibility_rules": ["upgrades_setting"],
+										"visibility_rules": ["upgrades_setting, $ch7Required"],
 										"item_count": 1
 									}
 								],
@@ -205,6 +217,7 @@
 										"sections": [
 											{
 												"name": "Pedestal Items",
+												"visibility_rules": ["$ch7Required"],
 												"clear_as_group": false,
 												"item_count": 3
 											}
@@ -222,17 +235,20 @@
 												"sections": [
 													{
 														"name": "Item on Ledge",
+														"visibility_rules": ["$ch7Required"],
 														"access_rules": ["star_stone"],
 														"capture_item": true,
 														"item_count": 1
 													},
 													{
 														"name": "Item Block",
+														"visibility_rules": ["$ch7Required"],
 														"access_rules": ["star_stone"],
 														"item_count": 1
 													},
 													{
 														"name": "Frozen Item",
+														"visibility_rules": ["$ch7Required"],
 														"access_rules": ["$bombette"],
 														"item_count": 1
 													}
