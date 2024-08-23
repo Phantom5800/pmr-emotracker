@@ -67,6 +67,67 @@
     "type": "array",
     "orientation": "vertical",
     "content": [
+			{
+				"type": "group",
+				"header": "LCL Chapters",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_margin": "1,2",
+						"rows": [
+							[
+								"ch1_ss",
+								"ch2_ss",
+								"ch3_ss",
+								"ch4_ss",
+								"ch5_ss",
+								"ch6_ss",
+								"ch7_ss"
+							]
+						]
+					},
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_margin": "1,2",
+						"rows": [
+							[
+								"ch1_lcl",
+								"ch2_lcl",
+								"ch3_lcl",
+								"ch4_lcl",
+								"ch5_lcl",
+								"ch6_lcl",
+								"ch7_lcl"
+							]
+						]
+					}
+				]
+			},
+			{
+				"type": "group",
+				"header": "Dungeon Shuffle",
+				"content": [
+					{
+						"type": "itemgrid",
+						"h_alignment": "left",
+						"item_margin": "1,2",
+						"dropshadow": true,
+						"rows": [
+							[
+								"ch1_dungeon_0",
+								"ch2_dungeon_0",
+								"ch3_dungeon_0",
+								"ch4_dungeon_0",
+								"ch5_dungeon_0",
+								"ch6_dungeon_0",
+								"ch7_dungeon_0"
+							]
+						]
+					}
+				]
+			},
       {
         "type": "group",
         "header": "Presets",
