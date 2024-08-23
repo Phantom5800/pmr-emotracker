@@ -86,3 +86,4 @@ Initial Release.
 # 1.2.17
 * Shrink the default item sizes to better accomodate low resolution displays.
 * Hide checks from the map if areas are marked as not needed for Limit Chapter Logic.
+* Poptracker: Add a world map for all checks on one single screen.

@@ -72,6 +72,16 @@
 			"changelog": [
 				"Minor logic fix for Toy Box Red Station access."
 			]
+		},
+		{
+			"package_version": "1.2.17",
+			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.15/PaperMarioTrackerPhantom.zip",
+			"sha256": "B9138F43F0093B6F5825E7D903229F18D25E8FD44C9E3570D041354AE49D75FD",
+			"changelog": [
+				"Shrink the default item sizes to better accomodate low resolution displays.",
+				"Hide checks from the map if areas are marked as not needed for Limit Chapter Logic.",
+				"Poptracker: Add a world map for all checks on one single screen."
+			]
 		}
 	]
 }
