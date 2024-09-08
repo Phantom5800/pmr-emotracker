@@ -373,25 +373,13 @@
 						"access_rules": ["$canBreakYellowBlocks, mamar"],
 						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
-					},
-					{
-						"name": "Kolorado (Artifact)",
-						"access_rules": ["artifact_base"],
-						"visibility_rules": ["$kolorado_in_desert, $ch1Required, $ch2Required"],
-						"hosted_item": "kolorado_artifact_turnin"
-					},
-					{
-						"name": "Kolorado (Letter)",
-						"access_rules": ["kolorado_base, $parakarry"],
-						"visibility_rules": ["$kolorado_in_desert, letters_setting, $ch2Required"],
-						"hosted_item": "kolorado_letter_turnin"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "dry_dry_desert",
-						"x": 525,
-						"y": 820
+						"x": 610,
+						"y": 777
 					}
 				]
 			},

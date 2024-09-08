@@ -102,6 +102,13 @@ function KoopaVillageAccess()
     return ToadTownAccess() and canBreakYellowBlocks() and canClimbShortLedges()
 end
 
+function KoloradoAccess()
+    if DryDryDesertAccess() or (has("mamar") and KoopaVillageAccess()) then
+        return true
+    end
+    return false
+end
+
 function KoopaBrosFortressEntranceAccess()
     return KoopaVillageAccess() and kooper()
 end
