@@ -36,6 +36,7 @@ if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
 end
 
 local blitzPreset = Preset("Blitz", "blitz_preset", "images/presets/Blitz.png")
+local s3blitzPreset = Preset("S3 Blitz", "s3_blitz_preset", "images/presets/S3Blitz.png")
 local s1RacePreset = Preset("Standard Race (S1)", "s1_race_preset", "images/presets/S1Race.png")
 local extremePreset = Preset("Extreme", "extreme_preset", "images/presets/Extreme.png")
 

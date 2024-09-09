@@ -87,3 +87,7 @@ Initial Release.
 * Shrink the default item sizes to better accomodate low resolution displays.
 * Hide checks from the map if areas are marked as not needed for Limit Chapter Logic.
 * Poptracker: Add a world map for all checks on one single screen.
+
+# 1.2.18
+* AP location ID updates.
+* Add S3 Blitz Preset.

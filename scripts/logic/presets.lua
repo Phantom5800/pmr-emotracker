@@ -55,6 +55,16 @@ function Preset:onLeftClick()
         Tracker:FindObjectForCode("cookbook_base").Active = true
         Tracker:FindObjectForCode("seed1").Active = true
         Tracker:FindObjectForCode("seed2").Active = true
+    elseif self.code == "s3_blitz_preset" then
+        openareas = { true,  false, true,  true,  false, true,  false, false, false }
+        settings  = { true,  true,  false, true,  true,  true,  true,  false, false, false, false, false, true,  false, false }
+
+        Tracker:FindObjectForCode("boots").CurrentStage = 1
+        Tracker:FindObjectForCode("hammer").CurrentStage = 1
+        Tracker:FindObjectForCode("ultrastone").Active = true
+        Tracker:FindObjectForCode("cookbook_base").Active = true
+        Tracker:FindObjectForCode("seed1").Active = true
+        Tracker:FindObjectForCode("seed2").Active = true
     elseif self.code == "s1_race_preset" then
         openareas = { true,  false, false, false, false, true,  false, false, false }
         settings  = { true,  true,  true,  true,  false, false, false, false, false, false, false, false, false, false, false }

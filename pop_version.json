@@ -82,6 +82,15 @@
 				"Hide checks from the map if areas are marked as not needed for Limit Chapter Logic.",
 				"Poptracker: Add a world map for all checks on one single screen."
 			]
+		},
+		{
+			"package_version": "1.2.18",
+			"download_url": "https://github.com/phantom5800/pmr-emotracker/releases/download/1.2.18/PaperMarioTrackerPhantom.zip",
+			"sha256": "29BB721683B5F550D68F3CE294122FF43BA3EFC51C37447E64AF6B967917E15E",
+			"changelog": [
+				"AP location ID updates.",
+				"Add S3 Blitz Preset."
+			]
 		}
 	]
 }
