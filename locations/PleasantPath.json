@@ -550,7 +550,7 @@
 			},
 			{
 				"name": "Noisy Neighbors",
-				"access_rules": ["koot_talk_12, $bombette"],
+				"access_rules": ["koot_talk_12, $bombette, eldstar"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
 			},

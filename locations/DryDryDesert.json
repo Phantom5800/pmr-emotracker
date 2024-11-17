@@ -131,7 +131,7 @@
 				"sections": [
 					{
 						"name": "Trading Event Toad",
-						"access_rules": ["$KoopaVillageAccess, star_spirit:3, koopa_leaf_base, nutty_cake_toad_base"],
+						"access_rules": ["$KoopaVillageAccess, star_spirit:3, hammer, koopa_leaf_base, nutty_cake_toad_base"],
 						"visibility_rules": ["trading_setting, $ch1Required, $ch2Required"],
 						"chest_unopened_img": "images/chests/tradingtoad.png",
 						"chest_opened_img": "images/chests/tradingtoad_checked.png",
