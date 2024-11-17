@@ -120,5 +120,11 @@
         "initial_active_state": true,
         "codes": "ch7_lcl",
         "loop": true
+    },
+    {
+        "name": "Chapter 8",
+        "type": "static",
+        "img": "images/star_spirits/PM_Starrod.png",
+        "codes": "ch8_starrod"
     }
 ]

@@ -38,6 +38,10 @@
             {
                 "img": "images/star_spirits/Ch7.png",
                 "codes": "ch1_difficulty_7"
+            },
+            {
+                "img": "images/star_spirits/Ch8.png",
+                "codes": "ch1_difficulty_8"
             }
         ]
     },
@@ -80,6 +84,10 @@
             {
                 "img": "images/star_spirits/Ch7.png",
                 "codes": "ch2_difficulty_7"
+            },
+            {
+                "img": "images/star_spirits/Ch8.png",
+                "codes": "ch2_difficulty_8"
             }
         ]
     },
@@ -122,6 +130,10 @@
             {
                 "img": "images/star_spirits/Ch7.png",
                 "codes": "ch3_difficulty_7"
+            },
+            {
+                "img": "images/star_spirits/Ch8.png",
+                "codes": "ch3_difficulty_8"
             }
         ]
     },
@@ -164,6 +176,10 @@
             {
                 "img": "images/star_spirits/Ch7.png",
                 "codes": "ch4_difficulty_7"
+            },
+            {
+                "img": "images/star_spirits/Ch8.png",
+                "codes": "ch4_difficulty_8"
             }
         ]
     },
@@ -206,6 +222,10 @@
             {
                 "img": "images/star_spirits/Ch7.png",
                 "codes": "ch5_difficulty_7"
+            },
+            {
+                "img": "images/star_spirits/Ch8.png",
+                "codes": "ch5_difficulty_8"
             }
         ]
     },
@@ -248,6 +268,10 @@
             {
                 "img": "images/star_spirits/Ch7.png",
                 "codes": "ch6_difficulty_7"
+            },
+            {
+                "img": "images/star_spirits/Ch8.png",
+                "codes": "ch6_difficulty_8"
             }
         ]
     },
@@ -290,6 +314,56 @@
             {
                 "img": "images/star_spirits/Ch7.png",
                 "codes": "ch7_difficulty_7"
+            },
+            {
+                "img": "images/star_spirits/Ch8.png",
+                "codes": "ch7_difficulty_8"
+            }
+        ]
+    },
+    {
+        "name": "Chapter 8 Difficulty",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 8,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/star_spirits/ChQ.png",
+                "img_mods": "@disabled",
+                "codes": "ch8_difficulty_0"
+            },
+            {
+                "img": "images/star_spirits/Ch1.png",
+                "codes": "ch8_difficulty_1"
+            },
+            {
+                "img": "images/star_spirits/Ch2.png",
+                "codes": "ch8_difficulty_2"
+            },
+            {
+                "img": "images/star_spirits/Ch3.png",
+                "codes": "ch8_difficulty_3"
+            },
+            {
+                "img": "images/star_spirits/Ch4.png",
+                "codes": "ch8_difficulty_4"
+            },
+            {
+                "img": "images/star_spirits/Ch5.png",
+                "codes": "ch8_difficulty_5"
+            },
+            {
+                "img": "images/star_spirits/Ch6.png",
+                "codes": "ch8_difficulty_6"
+            },
+            {
+                "img": "images/star_spirits/Ch7.png",
+                "codes": "ch8_difficulty_7"
+            },
+            {
+                "img": "images/star_spirits/Ch8.png",
+                "codes": "ch8_difficulty_8"
             }
         ]
     }
