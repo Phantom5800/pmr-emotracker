@@ -95,3 +95,5 @@ Initial Release.
 # 1.2.19
 * Ch8 added as Dungeon Shuffle locations
 * Ch8 difficulty added
+* Eldstar required for Koopa Koot favor 12
+* Hammer required to clear Fuzzies before Radio Toad events
