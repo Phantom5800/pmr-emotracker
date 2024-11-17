@@ -83,7 +83,8 @@
 								"ch4_ss",
 								"ch5_ss",
 								"ch6_ss",
-								"ch7_ss"
+								"ch7_ss",
+								"ch8_starrod"
 							]
 						]
 					},
@@ -99,7 +100,8 @@
 								"ch4_lcl",
 								"ch5_lcl",
 								"ch6_lcl",
-								"ch7_lcl"
+								"ch7_lcl",
+                ""
 							]
 						]
 					}
@@ -122,7 +124,8 @@
 								"ch4_dungeon_0",
 								"ch5_dungeon_0",
 								"ch6_dungeon_0",
-								"ch7_dungeon_0"
+								"ch7_dungeon_0",
+								"ch8_dungeon_0"
 							]
 						]
 					}
