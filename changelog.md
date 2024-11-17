@@ -91,3 +91,7 @@ Initial Release.
 # 1.2.18
 * AP location ID updates.
 * Add S3 Blitz Preset.
+
+# 1.2.19
+* Ch8 added as Dungeon Shuffle locations
+* Ch8 difficulty added
