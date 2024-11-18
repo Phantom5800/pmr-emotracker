@@ -92,7 +92,7 @@ Initial Release.
 * AP location ID updates.
 * Add S3 Blitz Preset.
 
-# 1.2.19
+# 1.2.20
 * Ch8 added as Dungeon Shuffle locations
 * Ch8 difficulty added
 * Eldstar required for Koopa Koot favor 12
