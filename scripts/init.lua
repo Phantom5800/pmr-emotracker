@@ -2,6 +2,7 @@
 ScriptHost:LoadScript("scripts/class.lua")
 ScriptHost:LoadScript("scripts/custom_item.lua")
 ScriptHost:LoadScript("scripts/logic/helpers.lua")
+ScriptHost:LoadScript("scripts/logic/glitch_logic_helpers.lua")
 ScriptHost:LoadScript("scripts/logic/presets.lua")
 
 -- Item Sets
@@ -31,6 +32,7 @@ Tracker:AddItems("items/openareas.json")
 -- Maps
 if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
     ScriptHost:LoadScript("scripts/logic/region_access.lua")
+    ScriptHost:LoadScript("scripts/logic/regions/GoombaRegion.lua")
     Tracker:AddMaps("maps/maps.json")
     ScriptHost:LoadScript("scripts/loadlocations.lua")
 end

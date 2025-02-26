@@ -35,10 +35,11 @@ function DungeonAccessible(dungeon)
         VolcanoEntranceAccess,
         FlowerFieldsGateAccess,
         CrystalPalaceEntranceAccess
+        BowsersCastleEntranceAccess
     }
 
     if hasItem("dungeon_setting") then
-        for i=1,7,1 do
+        for i=1,8,1 do
             local dungeon_entrance = "ch"..i.."_dungeon_0"
             if itemStage(dungeon_entrance) == dungeon then
                 return entranceAccessibleFn[i]()
@@ -51,21 +52,40 @@ function DungeonAccessible(dungeon)
     return entranceAccessibleFn[dungeon]()
 end
 
+function SewersShortcutPipesAccess()
+    local boots = hasItem("boots")
+    local boots3 = hasItem("boots3")
+    local hammer2 = hasItem("hammer2")
+
+    if ToadTownAccess() then
+        if boots and hammer2 then
+            return true
+        elseif boots3 then
+            return true,AccessibilityLevel.SequenceBreak
+        elseif parakarry() and hammer2 and KoopaVillageAccess() then
+            return true,AccessibilityLevel.SequenceBreak
+        end
+    end
+    return false
+end
+
 --[[----------------------------------------------------------
     Prologue Region Access
 ------------------------------------------------------------]]
 function GoombaVillageAccess()
     if ToadTownAccess() then
+        -- glitchless path
         local open_prologue = hasItem("open_prologue")
-        local boots = hasItem("boots")
-        local hammer2 = hasItem("hammer2")
         if open_prologue and canClimbShortLedges() and canBreakYellowBlocks() then
             return true
-        elseif boots and hammer2 then
-            return true
+        end
+
+        -- clip through yellow block from the right
+        if open_prologue and canClimbShortLedges() then
+            return true,AccessibilityLevel.SequenceBreak
         end
     end
-    return false
+    return SewersShortcutPipesAccess()
 end
 
 function GoombaRoadAccess()
@@ -76,9 +96,18 @@ function GoombaRoadAccess()
 
         if open_prologue and (canClimbShortLedges()) then
             return true
-        elseif boots and hammer2 then
-            return true
         end
+    end
+    local shortcut_access,level = SewersShortcutPipesAccess()
+    return shortcut_access and canBreakYellowBlocks(),level
+end
+
+-- assume goomba village access
+function GoombaPlaygroundAccess()
+    if canBreakYellowBlocks() then
+        return true
+    elseif canDoLakiTeleports() then
+        return true,AccessibilityLevel.SequenceBreak
     end
     return false
 end
@@ -99,7 +128,7 @@ end
     Chapter 1 Region Access
 ------------------------------------------------------------]]
 function KoopaVillageAccess()
-    return ToadTownAccess() and canBreakYellowBlocks() and canClimbShortLedges()
+    return ToadTownAccess() and canHitTrees() and canClimbShortLedges()
 end
 
 function KoloradoAccess()
@@ -339,4 +368,12 @@ end
 
 function CrystalPalaceAccess()
     return DungeonAccessible(7)
+end
+
+--[[----------------------------------------------------------
+    Chapter 8 Region Access
+------------------------------------------------------------]]
+function BowsersCastleEntranceAccess()
+    -- need a way to verify star road access
+    return true
 end

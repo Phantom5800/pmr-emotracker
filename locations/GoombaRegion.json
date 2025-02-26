@@ -16,7 +16,7 @@
 			},
 			{
 				"name": "Goombaria",
-				"access_rules": ["dolly_base"],
+				"access_rules": ["$Goomba_Region_Goombaria_Dolly"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -30,7 +30,7 @@
 			},
 			{
 				"name": "Goompa Tape",
-				"access_rules": ["koot_talk_3"],
+				"access_rules": ["$Goomba_Region_Goompa_Tape"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
 			},
@@ -43,14 +43,14 @@
 			},
 			{
 				"name": "Goomnut Tree",
-				"access_rules": ["$bombette", "hammer"],
+				"access_rules": ["$canHitTrees"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
 			},
 			{
 				"name": "Goompapa Letter 1",
-				"access_rules": ["goompapa1_base, $parakarry"],
+				"access_rules": ["$Goomba_Region_Goompapa_Letter_1"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -59,7 +59,7 @@
 			},
 			{
 				"name": "Goompapa Letter 2",
-				"access_rules": ["goompapa2_base, $parakarry"],
+				"access_rules": ["$Goomba_Region_Goompapa_Letter_2"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -68,7 +68,7 @@
 			},
 			{
 				"name": "Goompa Letter",
-				"access_rules": ["goompa_base, $parakarry"],
+				"access_rules": ["$Goomba_Region_Goompa_Letter"],
 				"visibility_rules": ["letters_setting"],
 				"chest_unopened_img": "images/chests/letter.png",
 				"chest_opened_img": "images/chests/letter_checked.png",
@@ -100,7 +100,7 @@
 		"sections":[
 			{
 				"name": "Panel Star Piece",
-				"access_rules": ["boots2", "hammer3"],
+				"access_rules": ["$canFlipPanels"],
 				"visibility_rules": ["panels_setting"],
 				"chest_unopened_img": "images/chests/star_piece.png",
 				"chest_opened_img": "images/chests/star_piece_checked.png",
@@ -175,7 +175,7 @@
 		"sections":[
 			{
 				"name": "Tree",
-				"access_rules": ["hammer", "$bombette"],
+				"access_rules": ["$canHitTrees"],
 				"visibility_rules": [],
 				"item_count": 1
 			}
@@ -204,7 +204,7 @@
 			},
 			{
 				"name": "Panel Star Piece",
-				"access_rules": ["boots2", "hammer3"],
+				"access_rules": ["$canFlipPanels"],
 				"visibility_rules": ["panels_setting"],
 				"chest_unopened_img": "images/chests/star_piece.png",
 				"chest_opened_img": "images/chests/star_piece_checked.png",
@@ -212,7 +212,7 @@
 			},
 			{
 				"name": "Coin Tree",
-				"access_rules": ["hammer", "$bombette"],
+				"access_rules": ["$canHitTrees"],
 				"visibility_rules": ["foliage_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -241,7 +241,7 @@
 			},
 			{
 				"name": "Chest",
-				"access_rules": ["$canBreakYellowBlocks, $canClimbShortLedges"],
+				"access_rules": ["$canHitTrees, $canClimbShortLedges"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -263,13 +263,14 @@
 		"sections":[
 			{
 				"name": "Ledge Star Piece",
-				"access_rules": ["$canClimbShortLedges"],
+				"access_rules": ["$Goomba_Region_Ledge_Starpiece"],
 				"visibility_rules": [],
 				"capture_item": true,
 				"item_count": 1
 			},
 			{
 				"name": "Tree",
+				"access_rules": ["$Goomba_Region_Tree_Near_Starpiece"],
 				"visibility_rules": ["foliage_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -306,13 +307,13 @@
 			},
 			{
 				"name": "Hidden Block Above Stone Block",
-				"access_rules": ["hammer2, $hiddenBlocks"],
+				"access_rules": ["$Goomba_Region_Repel_Gel"],
 				"visibility_rules": [],
 				"item_count": 1
 			},
 			{
 				"name": "Panel Star Piece",
-				"access_rules": ["boots2", "hammer3"],
+				"access_rules": ["$canFlipPanels"],
 				"visibility_rules": ["panels_setting"],
 				"chest_unopened_img": "images/chests/star_piece.png",
 				"chest_opened_img": "images/chests/star_piece_checked.png",
@@ -320,13 +321,13 @@
 			},
 			{
 				"name": "Tree",
-				"access_rules": ["hammer", "$bombette"],
+				"access_rules": ["$canHitTrees, $GoombaPlaygroundAccess"],
 				"visibility_rules": [],
 				"item_count": 1
 			},
 			{
 				"name": "Block on Ground",
-				"access_rules": ["hammer", "$bombette"],
+				"access_rules": ["$canHitGroundedBlocks, $GoombaPlaygroundAccess"],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -345,11 +346,11 @@
 		"name": "Playground",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$GoombaVillageAccess"],
+		"access_rules": ["$GoombaVillageAccess, $GoombaPlaygroundAccess"],
 		"sections":[
 			{
 				"name": "Right Tree",
-				"access_rules": ["$bombette", "hammer"],
+				"access_rules": ["$canHitTrees"],
 				"visibility_rules": [],
 				"clear_as_group": false,
 				"item_count": 1
@@ -363,7 +364,7 @@
 			},
 			{
 				"name": "Multicoin Block",
-				"access_rules": [],
+				"access_rules": ["$canHitGroundedBlocks"],
 				"visibility_rules": ["upgrades_setting, multicoin_setting"],
 				"clear_as_group": false,
 				"item_count": 1
@@ -378,7 +379,7 @@
 			},
 			{
 				"name": "Tree Coins",
-				"access_rules": [],
+				"access_rules": ["$canHitTrees"],
 				"visibility_rules": ["foliage_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",

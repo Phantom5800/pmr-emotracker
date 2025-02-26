@@ -22,8 +22,16 @@ function canHitGroundedBlocks()
     return hasItem("hammer") or kooper() or bombette() or hasItem("boots2")
 end
 
+function canHitTrees()
+    return bombette() or hasItem("hammer")
+end
+
 function canHitSwitches()
     return hasItem("boots") or hasItem("hammer") or kooper() or bombette()
+end
+
+function canFlipPanels()
+    return has("boots2") or has("hammer3")
 end
 
 function hiddenBlocks()
