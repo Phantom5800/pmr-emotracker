@@ -15,7 +15,7 @@
 			},
 			{
 				"name": "Upgrade Block",
-				"access_rules": ["$canHitBlocks, hammer2"],
+				"access_rules": ["$Mt_Rugged_Upgrade_Block"],
 				"visibility_rules": ["upgrades_setting, $ch2Required"],
 				"item_count": 1
 			}
@@ -47,7 +47,7 @@
 					},
 					{
 						"name": "Slide Coins",
-						"access_rules": ["$canClimbShortLedges"],
+						"access_rules": ["$Mt_Rugged_Slide_Coins"],
 						"visibility_rules": ["coins_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
@@ -70,21 +70,21 @@
 				"sections": [
 					{
 						"name": "Right Item",
-						"access_rules": ["$kooper", "$parakarry"],
+						"access_rules": ["$Mt_Rugged_Letter_By_Quake_Hammer"],
 						"visibility_rules": ["$ch2Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Left Item",
-						"access_rules": ["$parakarry"],
+						"access_rules": ["$Mt_Rugged_Quake_Hammer"],
 						"visibility_rules": ["$ch2Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Panel Star Piece",
-						"access_rules": ["boots2", "hammer3"],
+						"access_rules": ["$canFlipPanels"],
 						"visibility_rules": ["panels_setting, $ch2Required"],
 						"chest_unopened_img": "images/chests/star_piece.png",
 						"chest_opened_img": "images/chests/star_piece_checked.png",
@@ -107,7 +107,7 @@
 				"sections": [
 					{
 						"name": "Bub-ulb",
-						"access_rules": ["$parakarry"],
+						"access_rules": ["$Mt_Rugged_Seed"],
 						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
@@ -170,7 +170,7 @@
 					},
 					{
 						"name": "Item in the Middle of Coins",
-						"access_rules": ["$parakarry"],
+						"access_rules": ["$Mt_Rugged_StarPiece_Coins"],
 						"visibility_rules": ["$ch2Required"],
 						"capture_item": true,
 						"item_count": 1
@@ -179,7 +179,7 @@
 						"name": "Star Piece Coins",
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
-						"access_rules": ["$parakarry"],
+						"access_rules": ["$Mt_Rugged_StarPiece_Coins"],
 						"visibility_rules": ["coins_setting, $ch2Required"],
 						"capture_item": true,
 						"item_count": 5
@@ -188,7 +188,7 @@
 						"name": "Far Right Star Piece Coin",
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
-						"access_rules": ["$parakarry", "$kooper"],
+						"access_rules": ["$Mt_Rugged_StarPiece_Coins", "$kooper"],
 						"visibility_rules": ["coins_setting, $ch2Required"],
 						"capture_item": true,
 						"item_count": 1
@@ -228,7 +228,7 @@
 		"name": "Train Station Bushes",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$ToadTownAccess, $bombette", "$ToadTownAccess, open_mt_rugged"],
+		"access_rules": ["$ToadTownAccess, $bombette", "$ToadTownAccess, open_mt_rugged", "$MtRuggedAccess"],
 		"sections": [
 			{
 				"name": "Top Bush",

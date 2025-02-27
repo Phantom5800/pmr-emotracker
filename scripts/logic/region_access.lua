@@ -170,10 +170,37 @@ end
 function MtRuggedAccess()
     -- TODO: first check if Desert Start
     if ToadTownAccess() then
+        local logical = false
+        local can_access = false
+
         local boots = hasItem("boots")
-        local from_train = (hasItem("open_mt_rugged") or bombette()) and boots
-        local from_sewers = boots and hasItem("hammer2")
-        return from_train or from_sewers
+        local from_train = hasItem("open_mt_rugged") or bombette()
+        if from_train then
+            if boots then
+                logical = true
+                can_access = true
+            elseif canDoClippy() and canDoLakiTeleports() then
+                can_access = true
+            end
+        end
+
+        local from_sewers,level = SewersShortcutPipesAccess()
+        if from_sewers then
+            can_access = true
+            if ~logical then
+                if level == nil then
+                    logical = true
+                end
+            end
+        end
+        
+        if can_access then
+            if logical then
+                return true
+            else
+                return true,AccessibilityLevel.SequenceBreak
+            end
+        end
     end
 
     return false

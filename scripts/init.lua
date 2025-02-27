@@ -33,6 +33,7 @@ Tracker:AddItems("items/openareas.json")
 if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
     ScriptHost:LoadScript("scripts/logic/region_access.lua")
     ScriptHost:LoadScript("scripts/logic/regions/GoombaRegion.lua")
+    ScriptHost:LoadScript("scripts/logic/regions/MtRugged.lua")
     Tracker:AddMaps("maps/maps.json")
     ScriptHost:LoadScript("scripts/loadlocations.lua")
 end
