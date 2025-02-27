@@ -31,7 +31,7 @@ function canHitSwitches()
 end
 
 function canFlipPanels()
-    return has("boots2") or has("hammer3")
+    return hasItem("boots2") or hasItem("hammer3")
 end
 
 function hiddenBlocks()

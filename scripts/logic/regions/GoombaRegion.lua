@@ -1,21 +1,21 @@
 function Goomba_Region_Goombaria_Dolly()
-    return has("dolly_base")
+    return hasItem("dolly_base")
 end
 
 function Goomba_Region_Goompa_Tape()
-    return has("koot_talk_3")
+    return hasItem("koot_talk_3")
 end
 
 function Goomba_Region_Goompapa_Letter_1()
-    return parakarry() and has("goompapa1_base")
+    return parakarry() and hasItem("goompapa1_base")
 end
 
 function Goomba_Region_Goompapa_Letter_2()
-    return parakarry() and has("goompapa2_base")
+    return parakarry() and hasItem("goompapa2_base")
 end
 
 function Goomba_Region_Goompa_Letter()
-    return parakarry() and has("goompa_base")
+    return parakarry() and hasItem("goompa_base")
 end
 
 function Goomba_Region_Ledge_Starpiece()

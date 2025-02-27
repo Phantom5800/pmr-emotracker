@@ -34,7 +34,7 @@ function DungeonAccessible(dungeon)
         ToyBoxEntranceAccess,
         VolcanoEntranceAccess,
         FlowerFieldsGateAccess,
-        CrystalPalaceEntranceAccess
+        CrystalPalaceEntranceAccess,
         BowsersCastleEntranceAccess
     }
 
@@ -140,7 +140,7 @@ function KoopaVillageAccess()
 end
 
 function KoloradoAccess()
-    if DryDryDesertAccess() or (has("mamar") and KoopaVillageAccess()) then
+    if DryDryDesertAccess() or (hasItem("mamar") and KoopaVillageAccess()) then
         return true
     end
     return false
