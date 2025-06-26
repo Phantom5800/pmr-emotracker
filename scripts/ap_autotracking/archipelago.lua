@@ -180,7 +180,7 @@ function onClear(slot_data)
     end
 
     if slot_data['partners_always_usuable'] then
-        local obj = Tracker:FindObjectForCode('parners_always')
+        local obj = Tracker:FindObjectForCode('partners_always')
         if obj then
             obj.Active = slot_data['partners_always_usuable']
         end

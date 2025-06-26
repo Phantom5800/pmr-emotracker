@@ -93,7 +93,10 @@ Initial Release.
 * Add S3 Blitz Preset.
 
 # 1.2.20
-* Ch8 added as Dungeon Shuffle locations
-* Ch8 difficulty added
-* Eldstar required for Koopa Koot favor 12
-* Hammer required to clear Fuzzies before Radio Toad events
+* Ch8 added as Dungeon Shuffle locations.
+* Ch8 difficulty added.
+* Eldstar required for Koopa Koot favor 12.
+* Hammer required to clear Fuzzies before Radio Toad events.
+
+# 1.3
+* Add Star Beam as an item that can be autotracked through the Lua connector.
