@@ -257,9 +257,17 @@ function onClear(slot_data)
     end
 
     if slot_data['magic_seeds'] then
-        local obj = Tracker:FindObjectForCode('ch6_seeds_0')
-        if obj then
-            obj.CurrentStage = slot_data['magic_seeds']
+        for i=1,slot_data['magic_seeds'] do
+            local objName = nil
+            if i == 1 then
+                objName = "Magical Seed"
+            else
+                objName = "MagicalSeed"..i
+            end
+            local obj = Tracker:FindObjectForCode(objName)
+            if obj then
+                obj.Active = true
+            end
         end
     end
 end
