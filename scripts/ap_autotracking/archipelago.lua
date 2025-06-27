@@ -316,6 +316,13 @@ function onItem(index, item_id, item_name, player_number)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onItem: could not find object for code %s", v[1]))
     end
+    -- if a letter is recieved, increment letters
+    if string.find(item_name, "Letter to") then
+        local obj = Tracker:FindObjectForCode("letters")
+        if obj and obj.AcquiredCount < 3 then
+            obj.AcquiredCount = obj.AcquiredCount + obj.Increment
+        end
+    end
     -- track local items via snes interface
     if is_local then
         if LOCAL_ITEMS[v[1]] then
