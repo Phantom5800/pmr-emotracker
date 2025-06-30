@@ -257,6 +257,16 @@ function onClear(slot_data)
     end
 
     if slot_data['magic_seeds'] then
+        -- clear magical seeds before enabling the starting seeds
+        for i=1,4 do
+            local objName = "seed"..i
+            local obj = Tracker:FindObjectForCode(objName)
+            if obj then
+                obj.Active = false
+            end
+        end
+
+        -- enable only starting seed
         for i=1,slot_data['magic_seeds'] do
             local objName = "seed"..i
             local obj = Tracker:FindObjectForCode(objName)
