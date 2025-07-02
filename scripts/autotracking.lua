@@ -16,6 +16,8 @@ U16_READ_CACHE_ADDRESS = 0
 OFFSET_ITEM_REGISTRY    = 0x80356B00
 OFFSET_MOD_FLAGS        = 0x80357000  -- 0x80357220 (max)
 OFFSET_BASE_GAME_FLAGS  = 0x800DBC70  -- 0x800DBD6F (max)
+PLAYER_INVENTORY        = 0x8010F444  -- 20 items
+SHOP_STORAGE            = 0x8010F304  -- 30 items
 
 gameActive = false
 
@@ -416,6 +418,15 @@ function updateBaseGameCheckAcquisition(segment)
             updateToggleFromFlag(segment, "artifact", OFFSET_BASE_GAME_FLAGS, 0x312)
             updateToggleFromFlag(segment, "record", OFFSET_BASE_GAME_FLAGS, 0x3D2)
             updateToggleFromFlag(segment, "volcano_vase", OFFSET_BASE_GAME_FLAGS, 0x4FB)
+
+            -- yoshi's = 0x4CE - 0x4D2 (purple, yellow, red, blue, green)
+            updateToggleFromFlag(segment, "purple_yoshi_kid", OFFSET_BASE_GAME_FLAGS, 0x4CE)
+            updateToggleFromFlag(segment, "yellow_yoshi_kid", OFFSET_BASE_GAME_FLAGS, 0x4CF)
+            updateToggleFromFlag(segment, "red_yoshi_kid", OFFSET_BASE_GAME_FLAGS, 0x4D0)
+            updateToggleFromFlag(segment, "blue_yoshi_kid", OFFSET_BASE_GAME_FLAGS, 0x4D1)
+            updateToggleFromFlag(segment, "green_yoshi_kid", OFFSET_BASE_GAME_FLAGS, 0x4D2)
+
+            -- Koot favors completed count = 0x15B
 
             -- planted seed flags, no longer needed
             -- updateToggleFromFlag(segment, "seed1", OFFSET_BASE_GAME_FLAGS, 0x114, false)
