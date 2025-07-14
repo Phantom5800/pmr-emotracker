@@ -348,7 +348,7 @@ end
 function updateStarBeam(segment)
     local item = Tracker:FindObjectForCode("starbeam")
     if item then
-        local value = ReadS8(segment)
+        local value = ReadS8(segment, 0x8010f522)
         if value > 0 then
             print(item.Name .. " obtained")
             item.ItemState.toggle = true
@@ -487,9 +487,9 @@ ScriptHost:AddMemoryWatch("Key Items", OFFSET_ITEM_REGISTRY, 0x265, updateKeyIte
 ScriptHost:AddMemoryWatch("Partners", 0x8010f2ad, 0x42, updatePartners, 250)
 ScriptHost:AddMemoryWatch("Equipment", 0x8010f290, 0x02, updateEquipment, 250)
 ScriptHost:AddMemoryWatch("Chapters", 0x80357017, 0x01, updateChapters, 250)
-ScriptHost:AddMemoryWatch("Star Beam", 0x8010F522, 0x01, updateStarBeam, 250)
+ScriptHost:AddMemoryWatch("Star Beam", 0x8010f522, 0x01, updateStarBeam, 250)
 
 
 -- watching smaller regions of memory to more closely represent the data being looked at
 ScriptHost:AddMemoryWatch("Base Game Checks", OFFSET_BASE_GAME_FLAGS, 0xA0, updateBaseGameCheckAcquisition, 250)
-ScriptHost:AddMemoryWatch("Mod Checks", OFFSET_MOD_FLAGS + 0x200, 0x21, updateModCheckAcquisition, 250)
+ScriptHost:AddMemoryWatch("Mod Checks", OFFSET_MOD_FLAGS, 0x220, updateModCheckAcquisition, 250)
