@@ -351,9 +351,9 @@ function updateStarBeam(segment)
         local value = ReadS8(segment, 0x8010f522)
         if value > 0 then
             print(item.Name .. " obtained")
-            item.ItemState.toggle = true
+            item.Active = true
         else
-            item.ItemState.toggle = false
+            item.Active = false
         end
     end
 end
