@@ -405,6 +405,13 @@ function updateChapters(segment)
     end
 end
 
+function updateKootFavorCompletion(code, current, progress)
+   local item = Tracker:FindObjectForCode(code) 
+   if item then
+      item.Active = progress >= current
+   end
+end
+
 function updateBaseGameCheckAcquisition(segment)
     InvalidateReadCaches()
 
@@ -427,6 +434,27 @@ function updateBaseGameCheckAcquisition(segment)
             updateToggleFromFlag(segment, "green_yoshi_kid", OFFSET_BASE_GAME_FLAGS, 0x4D2)
 
             -- Koot favors completed count = 0x15B
+            local kootFavors = ReadU8(segment, OFFSET_BASE_GAME_FLAGS + 0x15B)
+            updateKootFavorCompletion("koopa_legends", 1, kootFavors)
+            updateKootFavorCompletion("sleepy_sheep", 2, kootFavors)
+            updateKootFavorCompletion("tape", 3, kootFavors)
+            updateKootFavorCompletion("koopa_tea", 4, kootFavors)
+            updateKootFavorCompletion("luigi_autograph", 5, kootFavors)
+            updateKootFavorCompletion("wallet", 6, kootFavors)
+            updateKootFavorCompletion("tasty_tonic", 7, kootFavors)
+            updateKootFavorCompletion("merluvlee_autograph", 8, kootFavors)
+            -- 9 is news
+            updateKootFavorCompletion("life_shroom", 10, kootFavors)
+            updateKootFavorCompletion("nutty_cake", 11, kootFavors)
+            -- 12 is noisy neighbors
+            updateKootFavorCompletion("old_photo", 13, kootFavors)
+            updateKootFavorCompletion("koopasta", 14, kootFavors)
+            updateKootFavorCompletion("glasses", 15, kootFavors)
+            updateKootFavorCompletion("lime", 16, kootFavors)
+            updateKootFavorCompletion("kooky_cookie", 17, kootFavors)
+            updateKootFavorCompletion("package", 18, kootFavors)
+            updateKootFavorCompletion("coconut", 19, kootFavors)
+            updateKootFavorCompletion("red_jar", 20, kootFavors)
 
             -- planted seed flags, no longer needed
             -- updateToggleFromFlag(segment, "seed1", OFFSET_BASE_GAME_FLAGS, 0x114, false)
