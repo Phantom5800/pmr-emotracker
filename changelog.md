@@ -103,3 +103,4 @@ Initial Release.
 * Add Star Beam as an item that can be autotracked through the Lua connector.
 * Autotracking Yoshi kids through Lua connector.
 * Forever Forest correctly marked out of logic through sewers access.
+* Autotracking Storeroom Key usage fixed for Lua connector.
