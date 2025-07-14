@@ -99,4 +99,7 @@ Initial Release.
 * Hammer required to clear Fuzzies before Radio Toad events.
 
 # 1.3
+* Update item id mapping for AP poptracker.
 * Add Star Beam as an item that can be autotracked through the Lua connector.
+* Autotracking Yoshi kids through Lua connector.
+* Forever Forest correctly marked out of logic through sewers access.

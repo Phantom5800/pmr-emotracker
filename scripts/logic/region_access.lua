@@ -258,13 +258,14 @@ end
 
 function ForeverForestAccess()
     if ToadTownAccess() then
-        local boots = hasItem("boots")
         local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
 
         if forest_pass then
             return true
         else
-            return BoosMansionPipeRoomAccess(), AccessibilityLevel.SequenceBreak
+            -- this can return a sequence break flag on it's own, but forest access is always out of logic from sewers
+            local pipe_access = BoosMansionPipeRoomAccess() 
+            return pipe_access, AccessibilityLevel.SequenceBreak
         end
     end
     return false

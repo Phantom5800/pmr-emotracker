@@ -348,7 +348,7 @@ end
 function updateStarBeam(segment)
     local item = Tracker:FindObjectForCode("starbeam")
     if item then
-        local value = ReadU8(segment)
+        local value = ReadS8(segment)
         if value > 0 then
             print(item.Name .. " obtained")
             item.ItemState.toggle = true
