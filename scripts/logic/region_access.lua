@@ -190,14 +190,14 @@ function MtRuggedAccess()
             elseif canDoClippy() and canDoLakiTeleports() then
                 can_access = true
             end
-        end
-
-        local from_sewers,level = SewersShortcutPipesAccess()
-        if from_sewers then
-            can_access = true
-            if ~logical then
-                if level == nil then
-                    logical = true
+        else
+            local from_sewers,level = SewersShortcutPipesAccess()
+            if from_sewers then
+                can_access = true
+                if not logical then
+                    if level == nil then
+                        logical = true
+                    end
                 end
             end
         end
