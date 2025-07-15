@@ -495,6 +495,13 @@ function updateModCheckAcquisition(segment)
             updateToggleFromFlag(segment, "crystal_berry", OFFSET_MOD_FLAGS, 0x1088)
             updateToggleFromFlag(segment, "water_stone", OFFSET_MOD_FLAGS, 0x1087)
 
+            -- dojo progress, map uses hosted items for these checks
+            updateToggleFromFlag(segment, "chan", OFFSET_MOD_FLAGS, 0x100B)
+            updateToggleFromFlag(segment, "lee", OFFSET_MOD_FLAGS, 0x100C)
+            updateToggleFromFlag(segment, "master1", OFFSET_MOD_FLAGS, 0x100D)
+            updateToggleFromFlag(segment, "master2", OFFSET_MOD_FLAGS, 0x100E)
+            updateToggleFromFlag(segment, "master3", OFFSET_MOD_FLAGS, 0x100F)
+
             -- map locations in mod flags
             for k,v in pairs(LOCATION_TO_MOD_FLAGS_MAPPING) do
                 local loc = Tracker:FindObjectForCode(k)

@@ -16,11 +16,6 @@ LOCATION_TO_MOD_FLAGS_MAPPING = {
     ["@Playground/Hammer Bush"] = {0x1007},
 
     -- Toad Town Main Gate
-    ["@Main Gate/Chan"]                 = {0x100B},
-    ["@Main Gate/Lee"]                  = {0x100C},
-    ["@Main Gate/Master 1"]             = {0x100D},
-    ["@Main Gate/Master 2"]             = {0x100E},
-    ["@Main Gate/Master 3"]             = {0x100F},
     ["@Main Gate/Russ T. Letter"]       = {0x1008},
     ["@Main Gate/Miss T. Letter"]       = {0x1009},
     ["@Main Gate/Trading Event Toad"]   = {0x100A},
