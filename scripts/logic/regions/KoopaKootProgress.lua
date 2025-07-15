@@ -172,7 +172,7 @@ function CanStartKoopaKoot17()
 end
 
 function CanCompleteKoopaKoot17()
-    hasItem("package_base") and CanStartKoopaKoot17(), TwoItemCooking()
+    return hasItem("package_base") and CanStartKoopaKoot17(), TwoItemCooking()
 end
 
 -- Koopa Koot Favor 19
