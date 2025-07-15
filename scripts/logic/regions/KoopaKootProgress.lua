@@ -7,7 +7,7 @@ function OneItemCooking()
 end
 
 function TwoItemCooking()
-    if cookingAvailable() and hasItem("cookbook") then
+    if cookingAvailable() and hasItem("cookbook_base") then
         return nil
     end
     return AccessibilityLevel.SequenceBreak
