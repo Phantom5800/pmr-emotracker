@@ -252,6 +252,52 @@ LOCATION_TO_GAME_FLAGS_MAPPING = {
     ["@Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Third Sand Room/Item on Ledge"]                           = {0x377},
     ["@Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Third Sand Room/Lunar Stone Room/Item On Pedestal"]       = {0x371},
     ["@Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Ruins Upgrade Block/Diamond Stone Room/Item On Pedestal"] = {0x373},
+
+    -- Forever Forest
+    ["@Forever Forest/Bub-ulb"]         = {0x3A2},
+    ["@Forever Forest/HP Plus/Block"]   = {0x39D},
+    ["@Forever Forest/FP Plus/Block"]   = {0x39E},
+
+    -- Boo's Mansion
+    ["@Outside Boo's Mansion/Block Outside Gate"]                                                       = {0x3A7},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/Franky (Old Photo)"]                                   = {0x3BF},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/Panel Star Piece"]                                     = {0x3C1},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Panel Star Piece"]                     = {0x3C4},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Boo Shop/Right Crate"]                 = {0x3C5},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Super Boots Room/Big Chest"]           = {0x35},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Super Boots Room/Bottom Crate"]        = {0x3CA},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Super Boots Room/Panel Star Piece"]    = {0x3CC},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/8bit Mario Room/Library/Item on Right Bookshelf"]      = {0x3CF},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/8bit Mario Room/Library/Item in Bottom Crate"]         = {0x3D0},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/Record Player/Chest"]                                  = {0x3D2},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/Boo Ring Minigame/Minigame"]                           = {0x3D3},
+    ["@Outside Boo's Mansion/Boo's Mansion Foyer/Boo Ring Minigame/Panel Star Piece"]                   = {0x3D4},
+
+    -- Gusty Gulch
+    ["@Gusty Gulch Entrance/Panel Star Piece"]                              = {0x3A5},
+    ["@Gusty Gulch Entrance/West Village/Package Boo"]                      = {0x3F7},
+    ["@Gusty Gulch Entrance/West Village/Coin Block in Last House"]         = {0x3EF},
+    ["@Gusty Gulch Entrance/Outside Village/Item on Rock"]                  = {0x3ED},
+    ["@Gusty Gulch Entrance/Outside Village/Item by Log"]                   = {0x3EE},
+    ["@Gusty Gulch Entrance/Outside Village/Far Left Block"]                = {0x3EA},
+    ["@Gusty Gulch Entrance/Outside Village/Top Block Above Ledge"]         = {0x3EB},
+    ["@Gusty Gulch Entrance/Outside Village/Lower Block Above Ledge"]       = {0x3EC},
+    ["@Gusty Gulch Entrance/Outside Tubba's Castle/Block by Goomba"]        = {0x3F0},
+    ["@Gusty Gulch Entrance/Outside Tubba's Castle/Block at Top of Hill"]   = {0x3F1},
+    ["@Gusty Gulch Entrance/Outside Tubba's Castle/Multicoin Block"]        = {0x3F2},
+    ["@Gusty Gulch Entrance/Outside Tubba's Castle/Item Behind Rock"]       = {0x3FB},
+
+    -- Tubba's Castle
+    ["@Tubba's Castle Entrance/Upstairs/Tubba Spring Room/Item on Bed"]                             = {0x41F},
+    ["@Tubba's Castle Entrance/Tubba's Study/Item on Table"]                                        = {0x41A},
+    ["@Tubba's Castle Entrance/Upstairs/Dining Room/Item on Table"]                                 = {0x412},
+    ["@Tubba's Castle Entrance/Tubba's Basement/Chest"]                                             = {0x418},
+    ["@Tubba's Castle Entrance/Tubba West Lower Stairwell/Upgrade Block"]                           = {0x416},
+    ["@Tubba's Castle Entrance/Upstairs/Spike Room/Chest"]                                          = {0x421},
+    ["@Tubba's Castle Entrance/Upstairs/Mega Rush Room/Item Behind Wall"]                           = {0x422},
+    ["@Tubba's Castle Entrance/Upstairs/Mega Rush Room/Coins on Bed"]                               = {0x423, 0x424, 0x425, 0x426, 0x427, 0x428},
+    ["@Tubba's Castle Entrance/Upstairs/Tubba West Upper Stairwell/Block"]                          = {0x429},
+    ["@Tubba's Castle Entrance/Upstairs/Tubba West Upper Stairwell/Clubba Room/Item on Pedestal"]   = {0x42D},
 }
 
 LOCATION_TO_MOD_FLAGS_MAPPING = {
