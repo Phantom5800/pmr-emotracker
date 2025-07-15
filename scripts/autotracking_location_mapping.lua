@@ -93,4 +93,36 @@ LOCATION_TO_MOD_FLAGS_MAPPING = {
     ["@Outside Boo's Mansion/Boo's Mansion Foyer/Fake Chest Room/Super Boots Room/Big Chest"]   = {0x35},
     ["@Outside Boo's Mansion/Boo's Mansion Foyer/8bit Mario Room/Crates"]                       = {0x1061, 0x1062},
     ["@Outside Boo's Mansion/Boo's Mansion Foyer/Bow's Bedroom/Bow"]                            = {0x1063},
+
+    -- Shy Guy's Toybox
+    ["@Blue Station/Shy Guy Room/Shy Guy Items"]    = {0x1064, 0x1064, 0x1065, 0x1066, 0x1067, 0x1068}, -- calculator shy guy has 2 items, one is a game flag
+    ["@Red Station/Lantern Ghost/Watt"]             = {0x1069},
+
+    -- Jade Jungle
+    ["@Whale/Coconut Tree"]                             = {0x106A},
+    ["@Whale/Beach/Coconut Trees"]                      = {0x106B, 0x106C, 0x106D, 0x106E, 0x106F, 0x1070, 0x1070}, -- star piece in last tree is a game flag
+    ["@Whale/Yoshi Village Entrance/Yoshi Chief"]       = {0x1071},
+    ["@Whale/Yoshi Village Entrance/Coconut Trees"]     = {0x1072, 0x1073},
+    ["@Whale/Yoshi Village Hub/Yellow Yoshi"]           = {0x107A},
+    ["@Whale/Yoshi Village Hub/Red Yoshi Kid Letter"]   = {0x107B},
+    ["@Whale/Yoshi Village Hub/Shop Items"]             = {0x1074, 0x1075, 0x1076, 0x1077, 0x1078, 0x1079},
+    ["@Whale/Yoshi Village Hub/Coconut Tree"]           = {0x107C},
+    ["@Whale/Outside Volcano/Raphael"]                  = {0x107E},
+    ["@Whale/Sushie Room/Sushie Tree"]                  = {0x107D},
+
+    -- Flower Fields
+    ["@Flower Fields Hub Room/Elevator Room (left side)/Second Vine"]                                   = {0x108B},
+    ["@Flower Fields Hub Room/Three Trees/Second Vine"]                                                 = {0x1086},
+    ["@Flower Fields Hub Room/Three Trees/Petunia Room/Petunia"]                                        = {0x107F},
+    ["@Flower Fields Hub Room/Three Trees/Petunia Room/Tree"]                                           = {0x1080, 0x1081},
+    ["@Flower Fields Hub Room/Yellow Flower Room (Before Gate)/Vine by Yellow Flower"]                  = {0x1083},
+    ["@Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Tree"]                                     = {0x1084, 0x1085},
+    ["@Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Bubble Berry Tree Room/Bubble Berry Tree"] = {0x108C, 0x108D},
+    ["@Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Lily Room/Lily"]                           = {0x1087},
+    ["@Flower Fields Hub Room/Red Flower Room/Middle Vine"]                                             = {0x108E},
+    ["@Flower Fields Hub Room/Red Flower Room/Tree"]                                                    = {0x108F, 0x1090},
+    ["@Flower Fields Hub Room/Red Flower Room/Posie Room/Posie"]                                        = {0x1082, 0x1082}, -- two gifts, second is a game flag normally
+    ["@Flower Fields Hub Room/Blue Flower Room/Hedge Maze/Rosie Room/Rosie"]                            = {0x1088},
+    ["@Flower Fields Hub Room/Bubble Plant Room/Vine Item"]                                             = {0x108A},
+    ["@Flower Fields Hub Room/Bubble Plant Room/Laki Fight Room/Lakilester"]                            = {0x1089},
 }
