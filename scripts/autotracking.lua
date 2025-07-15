@@ -449,6 +449,18 @@ function updateBaseGameCheckAcquisition(segment)
             updateKootFavorCompletion("package", 18, kootFavors)
             updateKootFavorCompletion("coconut", 19, kootFavors)
             updateKootFavorCompletion("red_jar", 20, kootFavors)
+
+            -- map locations in game flags
+            for k,v in pairs(LOCATION_TO_GAME_FLAGS_MAPPING) do
+                local loc = Tracker:FindObjectForCode(k)
+                if loc then
+                    local count = loc.ChestCount
+                    for _,flag in pairs(v) do
+                        count = count - isFlagMarked(segment, OFFSET_BASE_GAME_FLAGS, flag)
+                    end
+                    loc.AvailableChestCount = count
+                end
+            end
         end
     end
 end
@@ -506,10 +518,11 @@ function updateModCheckAcquisition(segment)
             for k,v in pairs(LOCATION_TO_MOD_FLAGS_MAPPING) do
                 local loc = Tracker:FindObjectForCode(k)
                 if loc then
-                    loc.AvailableChestCount = loc.ChestCount
+                    local count = loc.ChestCount
                     for _,flag in pairs(v) do
-                        loc.AvailableChestCount = loc.AvailableChestCount - isFlagMarked(segment, OFFSET_MOD_FLAGS, flag)
+                        count = count - isFlagMarked(segment, OFFSET_MOD_FLAGS, flag)
                     end
+                    loc.AvailableChestCount = count
                 end
             end
         end
