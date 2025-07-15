@@ -40,6 +40,130 @@ LOCATION_TO_GAME_FLAGS_MAPPING = {
 
     -- Mario's House
     ["@Mario's House/Luigi"] = {0x063},
+
+    -- Toad Town Main Gate
+    ["@Main Gate/Russ T."]          = {0x0F4},
+    ["@Main Gate/Star Piece Panel"] = {0x127},
+    ["@Main Gate/Star Piece"]       = {0x12D},
+
+    -- Toad Town Plaza (Badge Shop)
+    ["@Main Gate/Central Plaza/Post Office"]                    = {0x10A},
+    ["@Main Gate/Central Plaza/Merlon's House Ground Pound x3"] = {0x0FF},
+    ["@Main Gate/Central Plaza/Rowf Set 1"]                     = {0x680, 0x681, 0x682, 0x683},
+    ["@Main Gate/Central Plaza/Rowf Set 2"]                     = {0x684, 0x685, 0x686},
+    ["@Main Gate/Central Plaza/Rowf Set 3"]                     = {0x687, 0x688, 0x689},
+    ["@Main Gate/Central Plaza/Rowf Set 4"]                     = {0x68A, 0x68B, 0x68C},
+    ["@Main Gate/Central Plaza/Rowf Set 5"]                     = {0x68D, 0x68E, 0x68F},
+    ["@Main Gate/Central Plaza/Merlon's Tree"]                  = {0x12E},
+
+    -- Toad Town South (Tayce T)
+    ["@Main Gate/Below Plaza/Bub-ulb"]              = {0x11B},
+    ["@Main Gate/Below Plaza/Star Piece Panel"]     = {0x129},
+    ["@Main Gate/Below Plaza/Inside Blue House"]    = {0x084},
+
+    -- Toad Town Station
+    ["@Main Gate/Train Station/Star Piece Panel"] = {0x12A},
+
+    -- Toad Town Residential Area
+    ["@Main Gate/Residential Area/Storeroom"] = {0x12F, 0x130, 0x131, 0x121},
+
+    -- Toad Town Harbor
+    ["@Main Gate/Port/Master Poet"]         = {0x125},
+    ["@Main Gate/Port/Pop Diva"]            = {0x126},
+    ["@Main Gate/Port/Star Piece Panel"]    = {0x12C},
+    ["@Main Gate/Port/Multicoin Block"]     = {0x132},
+
+    -- Toad Town Tunnels
+    ["@Block Tunnel/Hidden Block"]              = {0x198},
+    ["@Block Tunnel/Third Block"]               = {0x199},
+    ["@Blooper Chest/Chest"]                    = {0x18F},
+    ["@Elevator Room/Middle Block"]             = {0x190},
+    ["@Elevator Room/Coin Blocks"]              = {0x191, 0x192},
+    ["@Power Smash Chest/Chest"]                = {0x193},
+    ["@High Platforms/Ledge Star Piece"]        = {0x194},
+    ["@High Platforms/Upgrade Block"]           = {0x1B1},
+    ["@Ultra Hammer Blocks/Upgrade Block"]      = {0x1B3},
+    ["@Boo's Mansion Shortcut/Hidden Blocks"]   = {0x195, 0x196, 0x197},
+    ["@Boo's Mansion Shortcut/Upgrade Block"]   = {0x1B2},
+    ["@Spike Room/Tall Block"]                  = {0x19A},
+    ["@Winding Path/Hidden Blocks"]             = {0x1A0, 0x1A1, 0x1A2},
+    ["@Winding Path/Coin Block"]                = {0x1A3},
+    ["@Tall Blocks Room/Hidden Block"]          = {0x1A4},
+    ["@Tall Blocks Room/Coin Blocks"]           = {0x1A5, 0x1A6},
+    ["@Ultra Boots Chest/Chest"]                = {0x1A7},
+    ["@Ch7 Bridge/Far Left Block"]              = {0x19B},
+    ["@Ch7 Bridge/Hidden Blocks"]               = {0x19C, 0x19D, 0x19E, 0x19F},
+    ["@Shiver City Pipe/Upgrade Block"]         = {0x1B4},
+    ["@Plaza Sushie Pipe/Upgrade Block"]        = {0x1B5},
+
+    -- Shooting Star Summit
+    ["@Main Gate/Merluvlee's House/Merluvlee"]              = {0x219},
+    ["@Main Gate/Merluvlee's House/Star Piece Panel"]       = {0x21C},
+    ["@Main Gate/Star Region/Star Piece Panel"]             = {0x21A},
+    ["@Main Gate/Shooting Star Summit/Star Piece"]          = {0x220},
+    ["@Main Gate/Shooting Star Summit/Star Piece Panel"]    = {0x21B},
+
+    -- Pleasant Path
+    ["@Outside Toad Town/Left ? Block"]                 = {0x252},
+    ["@Outside Toad Town/Middle ? Block"]               = {0x253},
+    ["@Outside Toad Town/Right ? Block"]                = {0x254},
+    ["@West Switch Bridge/? Block"]                     = {0x255},
+    ["@West Switch Bridge/Island Star Piece"]           = {0x244},
+    ["@West Switch Bridge/Behind Fence"]                = {0x267},
+    ["@West Switch Bridge/Multicoin Block"]             = {0x258},
+    ["@Outside Koopa Village/Brick Block Puzzle"]       = {0x256},
+    ["@Outside Koopa Village/Item Behind Third Pole"]   = {0x268},
+    ["@Outside Koopa Village/Star Piece Panel"]         = {0x260},
+    ["@East Switch Bridge/5 Coins"]                     = {0x246, 0x247, 0x248, 0x249, 0x24A},
+    ["@East Switch Bridge/Tall Block Item"]             = {0x245},
+    ["@East Switch Bridge/Hidden Block"]                = {0x257},
+    ["@East Switch Bridge/Star Piece Panel"]            = {0x261},
+    ["@Outside Fortress/Tree"]                          = {0x251},
+
+    -- Koopa Village
+    ["@West Koopa Village/Far Left Bush"]       = {0x24C},
+    ["@West Koopa Village/Bottom Bush"]         = {0x24D},
+    ["@West Koopa Village/2nd From Right Bush"] = {0x24F},
+    ["@West Koopa Village/2nd Bush"]            = {0x263},
+    ["@West Koopa Village/Far Right Bush"]      = {0x264},
+    ["@West Koopa Village/Star Piece Panel"]    = {0x25E},
+    ["@Kolorado/Kolorado (Artifact)"]           = {0x312},
+    ["@East Koopa Village/Kolorado's Wife"]     = {0x265},
+    ["@East Koopa Village/Item on Block"]       = {0x243},
+    ["@Behind Kooper's House/Stump Item"]       = {0x242},
+
+    -- Koopa Koot
+    ["@Koopa Koot/Koopa Legends"]           = {0x6AD},
+    --["@Koopa Koot/Sleepy Sheep"]       = {0x6B0}, -- handled by mod flags
+    ["@Koopa Koot/Tape"]                    = {0x6B3},
+    ["@Koopa Koot/Koopa Tea"]               = {0x6B6},
+    ["@Koopa Koot/Luigi's Autograph"]       = {0x6B9},
+    ["@Koopa Koot/Wallet"]                  = {0x6BC},
+    ["@Koopa Koot/Tasty Tonic"]             = {0x6BF},
+    ["@Koopa Koot/Merluvlee's Autograph"]   = {0x6C2},
+    ["@Koopa Koot/Toad Town News"]          = {0x6C5},
+    --["@Koopa Koot/Life Shroom"]       = {0x6C8}, -- handled by mod flags
+    ["@Koopa Koot/Nutty Cake"]              = {0x6CB},
+    ["@Koopa Koot/Noisy Neighbors"]         = {0x6CE},
+    ["@Koopa Koot/Old Photo"]               = {0x6D1},
+    ["@Koopa Koot/Koopasta"]                = {0x6D4},
+    ["@Koopa Koot/Glasses"]                 = {0x6D7},
+    ["@Koopa Koot/Lime"]                    = {0x6DA},
+    ["@Koopa Koot/Kooky Cookie"]            = {0x6DD},
+    ["@Koopa Koot/Package"]                 = {0x6E0},
+    ["@Koopa Koot/Coconut"]                 = {0x6E3},
+    ["@Koopa Koot/Red Jar"]                 = {0x6E6},
+
+    -- Koopa Bros Fortress
+    ["@Koopa Bros. Fortress Ledge/Chest"]               = {0x282},
+    ["@Fortress Entrance/Outside Chest/Chest"]          = {0x281},
+    ["@Fortress Entrance/Front Tower/Item at the top"]  = {0x27E},
+    ["@Fortress Entrance/Front Tower/Koopa Fight"]      = {0x285},
+    ["@Fortress Entrance/Jail Cells/Left Cell"]         = {0x286},
+    ["@Fortress Entrance/Jail Cells/Middle Cell"]       = {0x27F},
+    ["@Fortress Entrance/Jail Cells/Right Cell"]        = {0x287},
+    ["@Fortress Entrance/Pit/Pedestal Item"]            = {0x288},
+    ["@Fortress Entrance/Cannon Bridge/Block"]          = {0x280},
 }
 
 LOCATION_TO_MOD_FLAGS_MAPPING = {
