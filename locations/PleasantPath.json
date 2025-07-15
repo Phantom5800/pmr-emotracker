@@ -415,6 +415,8 @@
 				"name": "Koopa Legends",
 				"access_rules": ["$CanCompleteKoopaKoot0"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
@@ -427,42 +429,56 @@
 				"name": "Tape",
 				"access_rules": ["$CanCompleteKoopaKoot2"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Koopa Tea",
 				"access_rules": ["$CanCompleteKoopaKoot3"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Luigi's Autograph",
 				"access_rules": ["$CanCompleteKoopaKoot4"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Wallet",
 				"access_rules": ["$CanCompleteKoopaKoot5"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Tasty Tonic",
 				"access_rules": ["$CanCompleteKoopaKoot6"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Merluvlee's Autograph",
 				"access_rules": ["$CanCompleteKoopaKoot7"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Toad Town News",
 				"access_rules": ["$CanCompleteKoopaKoot8"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
@@ -475,6 +491,8 @@
 				"name": "Nutty Cake",
 				"access_rules": ["$CanCompleteKoopaKoot10"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
@@ -487,48 +505,64 @@
 				"name": "Old Photo",
 				"access_rules": ["$CanCompleteKoopaKoot12"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Koopasta",
 				"access_rules": ["$CanCompleteKoopaKoot13"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Glasses",
 				"access_rules": ["$CanCompleteKoopaKoot14"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Lime",
 				"access_rules": ["$CanCompleteKoopaKoot15"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Kooky Cookie",
 				"access_rules": ["$CanCompleteKoopaKoot16"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Package",
 				"access_rules": ["$CanCompleteKoopaKoot17"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Coconut",
 				"access_rules": ["$CanCompleteKoopaKoot18"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/coin.png",
+				"chest_opened_img": "images/chests/coin_checked.png",
 				"item_count": 1
 			},
 			{
 				"name": "Red Jar",
 				"access_rules": ["$CanCompleteKoopaKoot19"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
+				"chest_unopened_img": "images/chests/star_piece.png",
+				"chest_opened_img": "images/chests/star_piece_checked.png",
 				"item_count": 1
 			}
 		],
