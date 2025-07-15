@@ -1,5 +1,45 @@
 LOCATION_TO_GAME_FLAGS_MAPPING = {
+    -- Goomba Village
+    ["@Landing Site/Panel Star Piece"]  = {0x056},
+    ["@Goomba Village/Bush"]            = {0x02F},
+    ["@Goomba Village/Goompa Tape"]     = {0x064},
+    ["@Goomba Village/Balcony Item"]    = {0x02E},
 
+    -- Outside Goomba Village
+    ["@Outside Goomba Village/Ledge Star Piece"]    = {0x04A},
+    ["@Outside Goomba Village/Tree"]                = {0x049},
+
+    -- Outside Playground
+    ["@Outside Playground/Panel Star Piece"]                = {0x058},
+    ["@Outside Playground/Hidden Block Above Stone Block"]  = {0x034},
+    ["@Outside Playground/Spring Coins"]                    = {0x038, 0x039, 0x03A, 0x03B},
+    ["@Outside Playground/Spring Item"]                     = {0x031},
+    ["@Outside Playground/Tree"]                            = {0x035},
+    ["@Outside Playground/Block on Ground"]                 = {0x032},
+
+    -- Playground
+    ["@Playground/Right Tree"]      = {0x01E},
+    ["@Playground/Bush Coins"]      = {0x03E, 0x03F, 0x040, 0x041, 0x042, 0x043},
+    ["@Playground/Tree Coins"]      = {0x03C, 0x03D},
+    ["@Playground/Multicoin Block"] = {0x046},
+
+    -- Goomba Road
+    ["@Goomba Road 1/Coin Blocks"]  = {0x04D, 0x04E},
+    ["@Goomba Road 2/Item Block"]   = {0x050},
+    ["@Goomba Road 2/Sign"]         = {0x04F},
+
+    -- Goomba King Castle
+    ["@Goomba King Castle (Right Side)/Break Brick Block"]  = {0x051},
+    ["@Goomba King Castle (Right Side)/Coin Tree"]          = {0x053},
+    ["@Goomba King Castle (Right Side)/Panel Star Piece"]   = {0x05A},
+    ["@Goomba King Castle (Left Side)/Tree"]                = {0x052},
+
+    -- Toad Town Gate
+    ["@Toad Town Gate/Chest"] = {0x054},
+    ["@Toad Town Gate/Block"] = {0x055},
+
+    -- Mario's House
+    ["@Mario's House/Luigi"] = {0x063},
 }
 
 LOCATION_TO_MOD_FLAGS_MAPPING = {
