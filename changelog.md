@@ -98,7 +98,7 @@ Initial Release.
 * Eldstar required for Koopa Koot favor 12.
 * Hammer required to clear Fuzzies before Radio Toad events.
 
-# 1.3
+# 1.3.0
 * Update item id mapping for AP poptracker.
 * Add Star Beam as an item that can be autotracked through the Lua connector.
 * Autotracking Yoshi kids through Lua connector.
@@ -106,3 +106,4 @@ Initial Release.
 * Autotracking Storeroom Key usage fixed for Lua connector.
 * Fix Mt Rugged access logic
 * Autotracking for turning in Koot items with Lua connector.
+* Fixed two locations in Jade Jungle and Toad Town Tunnels not automatically marking with AP.
