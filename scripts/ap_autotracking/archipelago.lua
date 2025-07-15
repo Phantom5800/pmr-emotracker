@@ -22,7 +22,7 @@ function onClear(slot_data)
     SLOT_DATA = slot_data
     CUR_INDEX = -1
     -- reset locations
-    for _, v in pairs(LOCATION_MAPPING) do
+    for _, v in pairs(AP_LOCATION_MAPPING) do
         if v[1] then
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: clearing location %s", v[1]))
@@ -359,7 +359,7 @@ function onLocation(location_id, location_name)
     if not AUTOTRACKER_ENABLE_LOCATION_TRACKING then
         return
     end
-    local v = LOCATION_MAPPING[location_id]
+    local v = AP_LOCATION_MAPPING[location_id]
     if not v and AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find location mapping for id %s", location_id))
     end

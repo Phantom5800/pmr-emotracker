@@ -104,7 +104,7 @@ Initial Release.
 * Autotracking Yoshi kids through Lua connector.
 * Forever Forest correctly marked out of logic through sewers access.
 * Autotracking Storeroom Key usage fixed for Lua connector.
-* Fix Mt Rugged access logic
+* Fix Mt Rugged access logic.
 * Autotracking for turning in Koot items with Lua connector.
 * Fixed two locations in Jade Jungle and Toad Town Tunnels not automatically marking with AP.
 * Koopa Koot locations will show vanilla coin / star piece rewards in the map tracker.

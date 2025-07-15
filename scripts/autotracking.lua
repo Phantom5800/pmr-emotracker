@@ -2,6 +2,7 @@
 AUTOTRACKER_ENABLE_DEBUG_LOGGING = true
 AUTOTRACKER_ENABLE_ITEM_TRACKING = true
 -------------------------------------------------------
+ScriptHost:LoadScript("scripts/autotracking_location_mapping.lua")
 function autotracker_started()
     print("Autotracking Active")
     -- Invoked when the auto-tracker is activated/connected
@@ -169,8 +170,7 @@ function updateProgressiveGearFromByte(segment, code, address)
     end
 end
 
-function updateToggleItemFromByte(segment, code, address, canSetFalse)
-    canSetFalse = (canSetFalse ~= false) -- default parameter to true unless false is passed in
+function updateToggleItemFromByte(segment, code, address)
     local item = Tracker:FindObjectForCode(code)
     if item then
         local value = ReadU8(segment, address)
@@ -180,15 +180,12 @@ function updateToggleItemFromByte(segment, code, address, canSetFalse)
                 item.Active = true
             end
         else
-            if canSetFalse then
-                item.Active = false
-            end
+            item.Active = false
         end
     end
 end
 
-function updateToggleItemFromByteAndFlag(segment, code, address, flag, canSetFalse)
-    canSetFalse = (canSetFalse ~= false) -- default parameter to true unless false is passed in
+function updateToggleItemFromByteAndFlag(segment, code, address, flag)
     local item = Tracker:FindObjectForCode(code)
     if item then
         local value = ReadU8(segment, address)
@@ -198,33 +195,30 @@ function updateToggleItemFromByteAndFlag(segment, code, address, flag, canSetFal
                 item.Active = true
             end
         else
-            if canSetFalse then
-                item.Active = false
-            end
+            item.Active = false
         end
     end
 end
 
-function updateToggleFromFlag(segment, code, address, flag, canSetFalse)
-    canSetFalse = (canSetFalse ~= false) -- default parameter to true unless false is passed in
+function isFlagMarked(segment, address, flag)
+    local offset = flag // 0x20             -- number of 4 byte-wide offsets to shift by
+    local bitflag = flag - 0x20 * offset    -- which bit corresponds to the flag in this region
+    -- byte swap the 32 bit region
+    local value =   (ReadU8(segment, address + offset*4 + 0x3)) |
+                    (ReadU8(segment, address + offset*4 + 0x2) <<  8) |
+                    (ReadU8(segment, address + offset*4 + 0x1) << 16) |
+                    (ReadU8(segment, address + offset*4 + 0x0) << 24)
+    local isAcquired = (value & (1 << bitflag)) ~= 0
+    if isAcquired then
+        return 1
+    end
+    return 0
+end
+
+function updateToggleFromFlag(segment, code, address, flag)
     local item = Tracker:FindObjectForCode(code)
     if item then
-        local offset = flag // 0x20             -- number of 4 byte-wide offsets to shift by
-        local bitflag = flag - 0x20 * offset    -- which bit corresponds to the flag in this region
-        -- byte swap the 32 bit region
-        local value =   (ReadU8(segment, address + offset*4 + 0x3)) |
-                        (ReadU8(segment, address + offset*4 + 0x2) <<  8) |
-                        (ReadU8(segment, address + offset*4 + 0x1) << 16) |
-                        (ReadU8(segment, address + offset*4 + 0x0) << 24)
-        if canSetFalse then
-            item.Active = (value & (1 << bitflag)) ~= 0
-        else
-            -- this is used for some flags where we don't want to allow autotracking to
-            -- disable the item in the tracker
-            if (value & (1 << bitflag)) ~= 0 then
-                item.Active = true
-            end
-        end
+        item.Active = isFlagMarked(segment, address, flag) == 1
     end
 end
 
@@ -500,6 +494,17 @@ function updateModCheckAcquisition(segment)
             updateToggleFromFlag(segment, "fryingpan", OFFSET_MOD_FLAGS, 0x1019)
             updateToggleFromFlag(segment, "crystal_berry", OFFSET_MOD_FLAGS, 0x1088)
             updateToggleFromFlag(segment, "water_stone", OFFSET_MOD_FLAGS, 0x1087)
+
+            -- map locations in mod flags
+            for k,v in pairs(LOCATION_TO_MOD_FLAGS_MAPPING) do
+                local loc = Tracker:FindObjectForCode(k)
+                if loc then
+                    loc.AvailableChestCount = loc.ChestCount
+                    for _,flag in pairs(v) do
+                        loc.AvailableChestCount = loc.AvailableChestCount - isFlagMarked(segment, OFFSET_MOD_FLAGS, flag)
+                    end
+                end
+            end
         end
     end
 end
