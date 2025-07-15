@@ -125,4 +125,14 @@ LOCATION_TO_MOD_FLAGS_MAPPING = {
     ["@Flower Fields Hub Room/Blue Flower Room/Hedge Maze/Rosie Room/Rosie"]                            = {0x1088},
     ["@Flower Fields Hub Room/Bubble Plant Room/Vine Item"]                                             = {0x108A},
     ["@Flower Fields Hub Room/Bubble Plant Room/Laki Fight Room/Lakilester"]                            = {0x1089},
+
+    -- Shiver Region
+    ["@Shiver City (Middle)/Sleep at Inn"]                                                                              = {0x1093},
+    ["@Shiver City (Middle)/Shop Items"]                                                                                = {0x1094, 0x1095, 0x1096, 0x1097, 0x1098, 0x1099},
+    ["@Shiver City (Middle)/Shiver City (Left)/Mayor Penguin (Bucket)"]                                                 = {0x1091},
+    ["@Shiver City (Middle)/Shiver City (Left)/Mayor Penguin (Letter)"]                                                 = {0x1092},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Starborne Valley/Merle"]                                           = {0x109A},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Starborne Valley/Frost T. Letter"]                                 = {0x109B},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pebble"]                    = {0x109C},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pedestals/Pedestal Items"]  = {0x109D, 0x109E, 0x109F},
 }
