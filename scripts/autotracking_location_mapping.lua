@@ -25,6 +25,7 @@ LOCATION_TO_MOD_FLAGS_MAPPING = {
     ["@Main Gate/Central Plaza/Rowf"]           = {0x1016},
     ["@Main Gate/Central Plaza/Merlon Letter"]  = {0x1017},
     ["@Main Gate/Central Plaza/Minh T. Letter"] = {0x1018},
+    ["@Main Gate/Castle Ruins/Muss T. Letter"]  = {0x10A6},
 
     -- Toad Town South (Tayce T)
     ["@Main Gate/Below Plaza/Tayce T."]         = {0x1019},
