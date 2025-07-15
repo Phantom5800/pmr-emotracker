@@ -2,6 +2,10 @@ function hasItem(item)
     return Tracker:ProviderCountForCode(item) > 0
 end
 
+function itemCount(item)
+    return Tracker:ProviderCountForCode(item)
+end
+
 function itemStage(item)
     return Tracker:FindObjectForCode(item).CurrentStage
 end

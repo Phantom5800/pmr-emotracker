@@ -52,7 +52,7 @@
 					},
 					{
 						"name": "Package Boo",
-						"access_rules": ["koot_talk_18"],
+						"access_rules": ["$CanStartKoopaKoot17"],
 						"visibility_rules": ["koot_setting, $ch1Required, $ch3Required"],
 						"item_count": 1
 					}

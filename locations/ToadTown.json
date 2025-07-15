@@ -450,7 +450,7 @@
 					},
 					{
 						"name": "Merluvlee",
-						"access_rules": ["crystal_ball, koot_talk_8"],
+						"access_rules": ["crystal_ball, $CanStartKoopaKoot7"],
 						"visibility_rules": ["koot_setting, $ch1Required"],
 						"clear_as_group": false,
 						"item_count": 1
@@ -512,7 +512,7 @@
 		"sections": [
 			{
 				"name": "Luigi",
-				"access_rules": ["koot_talk_5"],
+				"access_rules": ["$CanStartKoopaKoot4"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"clear_as_group": false,
 				"item_count": 1

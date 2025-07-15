@@ -35,6 +35,7 @@ if (string.find(Tracker.ActiveVariantUID, "Map_Tracker")) then
     ScriptHost:LoadScript("scripts/logic/regions/GoombaRegion.lua")
     ScriptHost:LoadScript("scripts/logic/regions/MtRugged.lua")
     ScriptHost:LoadScript("scripts/logic/regions/ToadTownTunnels.lua")
+    ScriptHost:LoadScript("scripts/logic/regions/KoopaKootProgress.lua")
     Tracker:AddMaps("maps/maps.json")
     ScriptHost:LoadScript("scripts/loadlocations.lua")
 end

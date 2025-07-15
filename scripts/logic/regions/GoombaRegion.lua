@@ -3,7 +3,7 @@ function Goomba_Region_Goombaria_Dolly()
 end
 
 function Goomba_Region_Goompa_Tape()
-    return hasItem("koot_talk_3")
+    return CanStartKoopaKoot2()
 end
 
 function Goomba_Region_Goompapa_Letter_1()

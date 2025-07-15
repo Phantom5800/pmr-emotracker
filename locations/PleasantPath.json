@@ -289,7 +289,7 @@
 			},
 			{
 				"name": "2nd Bush",
-				"access_rules": ["koot_talk_15"],
+				"access_rules": ["$CanStartKoopaKoot14"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
 			},
@@ -312,7 +312,7 @@
 			},
 			{
 				"name": "Far Right Bush",
-				"access_rules": ["koot_talk_6"],
+				"access_rules": ["$CanStartKoopaKoot5"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
 			}
@@ -353,7 +353,7 @@
 			},
 			{
 				"name": "Kolorado's Wife",
-				"access_rules": ["koot_talk_1"],
+				"access_rules": ["$CanStartKoopaKoot0"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
 			},
@@ -412,241 +412,122 @@
 		"access_rules": ["hammer, $KoopaVillageAccess"],
 		"sections": [
 			{
-				"name": "Start Favor 1",
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_1"
-			},
-			{
 				"name": "Koopa Legends",
-				"access_rules": ["koot_talk_1, koopa_legends_base"],
+				"access_rules": ["$CanCompleteKoopaKoot0"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 2",
-				"access_rules": ["koot_talk_1, koopa_legends_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_2"
 			},
 			{
 				"name": "Sleepy Sheep",
-				"access_rules": ["koot_talk_2, sleepy_sheep_base"],
+				"access_rules": ["$CanCompleteKoopaKoot1"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 2
-			},
-			{
-				"name": "Start Favor 3",
-				"access_rules": ["star_spirit:1, koot_talk_2, sleepy_sheep_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_3"
 			},
 			{
 				"name": "Tape",
-				"access_rules": ["koot_talk_3, tape_base"],
+				"access_rules": ["$CanCompleteKoopaKoot2"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 4",
-				"access_rules": ["koot_talk_3, tape_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_4"
 			},
 			{
 				"name": "Koopa Tea",
-				"access_rules": ["koot_talk_4, koopa_tea_base"],
+				"access_rules": ["$CanCompleteKoopaKoot3"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 5",
-				"access_rules": ["koot_talk_4, koopa_tea_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_5"
 			},
 			{
 				"name": "Luigi's Autograph",
-				"access_rules": ["koot_talk_5, luigi_autograph_base"],
+				"access_rules": ["$CanCompleteKoopaKoot4"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 6",
-				"access_rules": ["star_spirit:2, koot_talk_5, luigi_autograph_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_6"
 			},
 			{
 				"name": "Wallet",
-				"access_rules": ["koot_talk_6, wallet_base"],
+				"access_rules": ["$CanCompleteKoopaKoot5"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 7",
-				"access_rules": ["koot_talk_6, wallet_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_7"
 			},
 			{
 				"name": "Tasty Tonic",
-				"access_rules": ["koot_talk_7, tasty_tonic_base"],
+				"access_rules": ["$CanCompleteKoopaKoot6"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 8",
-				"access_rules": ["koot_talk_7, tasty_tonic_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_8"
 			},
 			{
 				"name": "Merluvlee's Autograph",
-				"access_rules": ["koot_talk_8, merluvlee_autograph_base"],
+				"access_rules": ["$CanCompleteKoopaKoot7"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 9",
-				"access_rules": ["star_spirit:3, koot_talk_8, merluvlee_autograph_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_9"
 			},
 			{
 				"name": "Toad Town News",
-				"access_rules": ["koot_talk_9"],
+				"access_rules": ["$CanCompleteKoopaKoot8"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
 			},
 			{
-				"name": "Start Favor 10",
-				"access_rules": ["koot_talk_9"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_10"
-			},
-			{
 				"name": "Life Shroom",
-				"access_rules": ["koot_talk_10, life_shroom_base"],
+				"access_rules": ["$CanCompleteKoopaKoot9"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 2
 			},
 			{
-				"name": "Start Favor 11",
-				"access_rules": ["koot_talk_10, life_shroom_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_11"
-			},
-			{
 				"name": "Nutty Cake",
-				"access_rules": ["koot_talk_11, nutty_cake_base"],
+				"access_rules": ["$CanCompleteKoopaKoot10"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 12",
-				"access_rules": ["star_spirit:4, koot_talk_11, nutty_cake_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_12"
 			},
 			{
 				"name": "Noisy Neighbors",
-				"access_rules": ["koot_talk_12, $bombette, eldstar"],
+				"access_rules": ["$CanCompleteKoopaKoot11"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 13",
-				"access_rules": ["koot_talk_12, $bombette"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_13"
 			},
 			{
 				"name": "Old Photo",
-				"access_rules": ["koot_talk_13, old_photo_base"],
+				"access_rules": ["$CanCompleteKoopaKoot12"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 14",
-				"access_rules": ["koot_talk_13, old_photo_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_14"
 			},
 			{
 				"name": "Koopasta",
-				"access_rules": ["koot_talk_14, koopasta_base"],
+				"access_rules": ["$CanCompleteKoopaKoot13"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 15",
-				"access_rules": ["star_spirit:5, koot_talk_14, koopasta_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_15"
 			},
 			{
 				"name": "Glasses",
-				"access_rules": ["koot_talk_15, glasses_base"],
+				"access_rules": ["$CanCompleteKoopaKoot14"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 16",
-				"access_rules": ["koot_talk_15, glasses_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_16"
 			},
 			{
 				"name": "Lime",
-				"access_rules": ["koot_talk_16, lime_base"],
+				"access_rules": ["$CanCompleteKoopaKoot15"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 17",
-				"access_rules": ["koot_talk_16, lime_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_17"
 			},
 			{
 				"name": "Kooky Cookie",
-				"access_rules": ["koot_talk_17, kooky_cookie_base"],
+				"access_rules": ["$CanCompleteKoopaKoot16"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 18",
-				"access_rules": ["star_spirit:6, koot_talk_17, kooky_cookie_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_18"
 			},
 			{
 				"name": "Package",
-				"access_rules": ["koot_talk_18, package_base"],
+				"access_rules": ["$CanCompleteKoopaKoot17"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
-			},
-			{
-				"name": "Start Favor 19",
-				"access_rules": ["koot_talk_18, package_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_19"
 			},
 			{
 				"name": "Coconut",
-				"access_rules": ["koot_talk_19, coconut_base"],
+				"access_rules": ["$CanCompleteKoopaKoot18"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
 			},
 			{
-				"name": "Start Favor 20",
-				"access_rules": ["koot_talk_19, coconut_base"],
-				"visibility_rules": ["koot_setting, $ch1Required"],
-				"hosted_item": "koot_talk_20"
-			},
-			{
 				"name": "Red Jar",
-				"access_rules": ["koot_talk_20, red_jar_base"],
+				"access_rules": ["$CanCompleteKoopaKoot19"],
 				"visibility_rules": ["koot_setting, $ch1Required"],
 				"item_count": 1
 			}

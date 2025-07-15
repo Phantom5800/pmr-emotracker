@@ -47,8 +47,8 @@
 					},
 					{
 						"name": "Franky (Old Photo)",
-						"access_rules": ["boo_portrait_base, koot_talk_13, $ch1Required, $ch3Required"],
-						"visibility_rules": ["koot_setting, $ch1Required"],
+						"access_rules": ["boo_portrait_base, $CanStartKoopaKoot12"],
+						"visibility_rules": ["koot_setting, $ch1Required, $ch3Required"],
 						"item_count": 1
 					}
 				],
