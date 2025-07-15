@@ -105,3 +105,4 @@ Initial Release.
 * Forever Forest correctly marked out of logic through sewers access.
 * Autotracking Storeroom Key usage fixed for Lua connector.
 * Fix Mt Rugged access logic
+* Autotracking for turning in Koot items with Lua connector.

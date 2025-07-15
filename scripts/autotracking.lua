@@ -455,12 +455,6 @@ function updateBaseGameCheckAcquisition(segment)
             updateKootFavorCompletion("package", 18, kootFavors)
             updateKootFavorCompletion("coconut", 19, kootFavors)
             updateKootFavorCompletion("red_jar", 20, kootFavors)
-
-            -- planted seed flags, no longer needed
-            -- updateToggleFromFlag(segment, "seed1", OFFSET_BASE_GAME_FLAGS, 0x114, false)
-            -- updateToggleFromFlag(segment, "seed2", OFFSET_BASE_GAME_FLAGS, 0x115, false)
-            -- updateToggleFromFlag(segment, "seed3", OFFSET_BASE_GAME_FLAGS, 0x116, false)
-            -- updateToggleFromFlag(segment, "seed4", OFFSET_BASE_GAME_FLAGS, 0x117, false)
         end
     end
 end
