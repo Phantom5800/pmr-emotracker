@@ -107,3 +107,4 @@ Initial Release.
 * Fix Mt Rugged access logic
 * Autotracking for turning in Koot items with Lua connector.
 * Fixed two locations in Jade Jungle and Toad Town Tunnels not automatically marking with AP.
+* Koopa Koot locations will show vanilla coin / star piece rewards in the map tracker.
