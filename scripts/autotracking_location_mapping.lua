@@ -403,6 +403,29 @@ LOCATION_TO_GAME_FLAGS_MAPPING = {
     ["@Mt. Lavalava Entrance/Volcano Hub/Zipline/Panel Star Piece"]                         = {0x53A},
     ["@Mt. Lavalava Entrance/Volcano Hub/Zipline/Save Room/Panel Star Piece"]               = {0x53B},
     ["@Mt. Lavalava Entrance/Volcano Hub/Zipline/Save Room/Lava Piranha Room/Item Blocks"]  = {0x538, 0x539},
+
+    -- Flower Fields
+    ["@Flower Fields Hub Room/Elevator Room (right side)/Ground Pound Arch"]                                = {0x56C},
+    ["@Flower Fields Hub Room/Elevator Room (right side)/Upgrade Block"]                                    = {0x57B},
+    ["@Flower Fields Hub Room/Elevator Room (right side)/Log Room/Hidden Block"]                            = {0x56E},
+    ["@Flower Fields Hub Room/Elevator Room (right side)/Log Room/Item on Ground"]                          = {0x56D},
+    ["@Flower Fields Hub Room/Three Trees/Hit Trees (Middle, Right, Left)"]                                 = {0x566},
+    ["@Flower Fields Hub Room/Three Trees/Petunia Room/Panel Star Piece"]                                   = {0x57C},
+    ["@Flower Fields Hub Room/Three Trees/Well/Throw Blue Berry"]                                           = {0x570},
+    ["@Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Item in Flowers"]                              = {0x565},
+    ["@Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Upgrade Block"]                                = {0x57A},
+    ["@Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Bubble Berry Tree Room/Panel Star Piece"]      = {0x57E},
+    ["@Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Bubble Berry Tree Room/Hidden Block on Right"] = {0x572},
+    ["@Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Bubble Berry Tree Room/Block on Left"]         = {0x571},
+    ["@Flower Fields Hub Room/Yellow Flower Room (Past Gate)/Lily Room/Tree"]                               = {0x567},
+    ["@Flower Fields Hub Room/Red Flower Room/Panel Star Piece"]                                            = {0x57F},
+    ["@Flower Fields Hub Room/Blue Flower Room/Hidden Block by Spring"]                                     = {0x580},
+    ["@Flower Fields Hub Room/Blue Flower Room/Hidden Block Above Brick Block"]                             = {0x581},
+    ["@Flower Fields Hub Room/Blue Flower Room/Hedge Maze/Multicoin Block"]                                 = {0x568},
+    ["@Flower Fields Hub Room/Bubble Plant Room/Item on Ledge"]                                             = {0x56B},
+    ["@Flower Fields Hub Room/Bubble Plant Room/Laki Fight Room/Item on Ground"]                            = {0x56A},
+    ["@Flower Fields Hub Room/Bubble Plant Room/Laki Fight Room/Item in Crevace"]                           = {0x569},
+    ["@Flower Fields Hub Room/Cloudy Climb/Item in Cloud"]                                                  = {0x56F},
 }
 
 LOCATION_TO_MOD_FLAGS_MAPPING = {
