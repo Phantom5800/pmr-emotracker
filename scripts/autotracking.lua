@@ -459,6 +459,8 @@ function updateBaseGameCheckAcquisition(segment)
                         count = count - isFlagMarked(segment, OFFSET_BASE_GAME_FLAGS, flag)
                     end
                     loc.AvailableChestCount = count
+                else
+                    print("Cannot find \""..k.."\"")
                 end
             end
         end
@@ -523,6 +525,8 @@ function updateModCheckAcquisition(segment)
                         count = count - isFlagMarked(segment, OFFSET_MOD_FLAGS, flag)
                     end
                     loc.AvailableChestCount = count
+                else
+                    print("Cannot find \""..k.."\"")
                 end
             end
         end
@@ -538,5 +542,5 @@ ScriptHost:AddMemoryWatch("Star Beam", 0x8010f522, 0x01, updateStarBeam, 250)
 
 
 -- watching smaller regions of memory to more closely represent the data being looked at
-ScriptHost:AddMemoryWatch("Base Game Checks", OFFSET_BASE_GAME_FLAGS, 0xA0, updateBaseGameCheckAcquisition, 250)
+ScriptHost:AddMemoryWatch("Base Game Checks", OFFSET_BASE_GAME_FLAGS, 0x160, updateBaseGameCheckAcquisition, 250)
 ScriptHost:AddMemoryWatch("Mod Checks", OFFSET_MOD_FLAGS, 0x220, updateModCheckAcquisition, 250)
