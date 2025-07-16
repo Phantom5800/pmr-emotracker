@@ -426,6 +426,37 @@ LOCATION_TO_GAME_FLAGS_MAPPING = {
     ["@Flower Fields Hub Room/Bubble Plant Room/Laki Fight Room/Item on Ground"]                            = {0x56A},
     ["@Flower Fields Hub Room/Bubble Plant Room/Laki Fight Room/Item in Crevace"]                           = {0x569},
     ["@Flower Fields Hub Room/Cloudy Climb/Item in Cloud"]                                                  = {0x56F},
+
+    -- Shiver Region
+    ["@Shiver City (Middle)/Snowman's Gift"]                                                                                        = {0x5A0, 0x5A1, 0x5A2, 0x5A3, 0x5A4},
+    ["@Shiver City (Middle)/Shiver City (Left)/Middle House Chest"]                                                                 = {0x59B},
+    ["@Shiver City (Middle)/Shiver City (Left)/Panel Star Piece"]                                                                   = {0x59C},
+    ["@Shiver City (Middle)/Shiver City (Right)/Lake Item"]                                                                         = {0x5BA},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Panel Star Piece"]                                                             = {0x5A5},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Item Behind Right Tree"]                                                       = {0x5A7},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Left Tree"]                                                                    = {0x5A6},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Outside Starborne Valley/Item Behind Ice"]                                     = {0x5A9},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Outside Starborne Valley/Hidden Block"]                                        = {0x5AA},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Hidden Block Above Brick Block"]                          = {0x5B0},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Upgrade Block"]                         = {0x5B1},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pedestals/Ice Staircase/Item on Ledge"] = {0x5B8},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pedestals/Ice Staircase/Item Block"]    = {0x5B7},
+    ["@Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pedestals/Ice Staircase/Frozen Item"]   = {0x599},
+
+    -- Crystal Palace
+    ["@Crystal Palace Entrance/Blue Key Chest/Chest"]                                                       = {0x5D5},
+    ["@Crystal Palace Entrance/Opposite Side of Mirror/P-Down D-Up Chest/Red Key Chest/Chest"]              = {0x5D4},
+    ["@Crystal Palace Entrance/Opposite Side of Mirror/Wood Panel Room/Item Block"]                         = {0x5DA},
+    ["@Crystal Palace Entrance/Opposite Side of Mirror/Shooting Star Room/Item on Pedestal"]                = {0x5DB},
+    ["@Crystal Palace Entrance/Opposite Side of Mirror/P-Down D-Up Chest/Chest"]                            = {0x5DD},
+    ["@Crystal Palace Entrance/Blue Key Blocks/Multicoin Blocks"]                                           = {0x5E0, 0x5E1},
+    ["@Crystal Palace Entrance/Triple Dip Chest/Chest"]                                                     = {0x5ED},
+    ["@Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Big Statue Room/Tall Block"]             = {0x5E5},
+    ["@Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Big Statue Room/Panel Star Piece"]       = {0x5E6},
+    ["@Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Palace Key Chest/Chest"]                 = {0x5E9},
+    ["@Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Small Statue Room/Tall Hidden Block"]    = {0x5E7},
+    ["@Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Small Statue Room/Panel Star Piece"]     = {0x5E8},
+    ["@Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/P-Up D-Down Chest/Chest"]                = {0x5EA},
 }
 
 LOCATION_TO_MOD_FLAGS_MAPPING = {
