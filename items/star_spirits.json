@@ -61,5 +61,61 @@
         "img": "images/star_spirits/StarBeam.png",
         "codes": "starbeam",
         "loop": true
+    },
+    {
+        "name": "Chapter 1 Clear",
+        "type": "toggle",
+        "img": "images/letters/KoopaTroopaPM.png",
+        "codes": "ch1_clear,chapter_clear",
+        "loop": true
+    },
+    {
+        "name": "Chapter 2 Clear",
+        "type": "toggle",
+        "img": "images/letters/Little_Mouser_Paper_Mario.png",
+        "codes": "ch2_clear,chapter_clear",
+        "loop": true
+    },
+    {
+        "name": "Chapter 3 Clear",
+        "type": "toggle",
+        "img": "images/letters/PM_Boo_Sprite.png",
+        "codes": "ch3_clear,chapter_clear",
+        "loop": true
+    },
+    {
+        "name": "Chapter 4 Clear",
+        "type": "toggle",
+        "img": "images/ch4/ShyGuy.png",
+        "codes": "ch4_clear,chapter_clear",
+        "loop": true
+    },
+    {
+        "name": "Chapter 5 Clear",
+        "type": "toggle",
+        "img": "images/ch5/green_yoshi_kid.png",
+        "codes": "ch5_clear,chapter_clear",
+        "loop": true
+    },
+    {
+        "name": "Chapter 6 Clear",
+        "type": "toggle",
+        "img": "images/ch6/Bubulb.png",
+        "codes": "ch6_clear,chapter_clear",
+        "loop": true
+    },
+    {
+        "name": "Chapter 7 Clear",
+        "type": "toggle",
+        "img": "images/settings/ShiverCity.png",
+        "codes": "ch7_clear,chapter_clear",
+        "loop": true
+    },
+    {
+        "name": "Chapter 8 Clear",
+        "type": "toggle",
+        "img": "images/star_spirits/PM_Starrod.png",
+        "codes": "ch8_clear",
+        "loop": true
     }
 ]

@@ -33,7 +33,7 @@ end
 
 -- Koopa Koot Favor 3
 function CanStartKoopaKoot2()
-    return hasItem("sleepy_sheep") and itemCount("star_spirit") >= 1
+    return hasItem("sleepy_sheep") and itemCount("chapter_clear") >= 1
 end
 
 function CanCompleteKoopaKoot2()
@@ -42,7 +42,7 @@ end
 
 -- Koopa Koot Favor 4
 function CanStartKoopaKoot3()
-    return hasItem("tape") and itemCount("star_spirit") >= 1
+    return hasItem("tape") and itemCount("chapter_clear") >= 1
 end
 
 function CanCompleteKoopaKoot3()
@@ -51,7 +51,7 @@ end
 
 -- Koopa Koot Favor 5
 function CanStartKoopaKoot4()
-    return hasItem("koopa_tea") and itemCount("star_spirit") >= 1, OneItemCooking()
+    return hasItem("koopa_tea") and itemCount("chapter_clear") >= 1, OneItemCooking()
 end
 
 function CanCompleteKoopaKoot4()
@@ -60,7 +60,7 @@ end
 
 -- Koopa Koot Favor 6
 function CanStartKoopaKoot5()
-    return hasItem("luigi_autograph") and itemCount("star_spirit") >= 2, OneItemCooking()
+    return hasItem("luigi_autograph") and itemCount("chapter_clear") >= 2, OneItemCooking()
 end
 
 function CanCompleteKoopaKoot5()
@@ -69,7 +69,7 @@ end
 
 -- Koopa Koot Favor 7
 function CanStartKoopaKoot6()
-    return hasItem("wallet") and itemCount("star_spirit") >= 2, OneItemCooking()
+    return hasItem("wallet") and itemCount("chapter_clear") >= 2, OneItemCooking()
 end
 
 function CanCompleteKoopaKoot6()
@@ -78,7 +78,7 @@ end
 
 -- Koopa Koot Favor 8
 function CanStartKoopaKoot7()
-    return hasItem("tasty_tonic") and itemCount("star_spirit") >= 2, OneItemCooking()
+    return hasItem("tasty_tonic") and itemCount("chapter_clear") >= 2, OneItemCooking()
 end
 
 function CanCompleteKoopaKoot7()
@@ -87,7 +87,7 @@ end
 
 -- Koopa Koot Favor 9
 function CanStartKoopaKoot8()
-    return hasItem("merluvlee_autograph") and itemCount("star_spirit") >= 3, OneItemCooking()
+    return hasItem("merluvlee_autograph") and itemCount("chapter_clear") >= 3, OneItemCooking()
 end
 
 function CanCompleteKoopaKoot8() -- news sign
@@ -96,7 +96,7 @@ end
 
 -- Koopa Koot Favor 10
 function CanStartKoopaKoot9()
-    return itemCount("star_spirit") >= 3 and CanCompleteKoopaKoot8(), OneItemCooking()
+    return itemCount("chapter_clear") >= 3 and CanCompleteKoopaKoot8(), OneItemCooking()
 end
 
 function CanCompleteKoopaKoot9()
@@ -105,7 +105,7 @@ end
 
 -- Koopa Koot Favor 11
 function CanStartKoopaKoot10()
-    return hasItem("life_shroom") and itemCount("star_spirit") >= 3, TwoItemCooking()
+    return hasItem("life_shroom") and itemCount("chapter_clear") >= 3, TwoItemCooking()
 end
 
 function CanCompleteKoopaKoot10()
@@ -114,16 +114,16 @@ end
 
 -- Koopa Koot Favor 12
 function CanStartKoopaKoot11() -- neighbors
-    return hasItem("nutty_cake") and itemCount("star_spirit") >= 4, TwoItemCooking()
+    return hasItem("nutty_cake") and itemCount("chapter_clear") >= 4, TwoItemCooking()
 end
 
 function CanCompleteKoopaKoot11()
-    return hasItem("eldstar") and bombette() and CanStartKoopaKoot11(), TwoItemCooking()
+    return hasItem("ch1_clear") and bombette() and CanStartKoopaKoot11(), TwoItemCooking()
 end
 
 -- Koopa Koot Favor 13
 function CanStartKoopaKoot12()
-    return itemCount("star_spirit") >= 4 and CanCompleteKoopaKoot11(), TwoItemCooking()
+    return itemCount("chapter_clear") >= 4 and CanCompleteKoopaKoot11(), TwoItemCooking()
 end
 
 function CanCompleteKoopaKoot12()
@@ -132,7 +132,7 @@ end
 
 -- Koopa Koot Favor 14
 function CanStartKoopaKoot13()
-    return hasItem("old_photo") and itemCount("star_spirit") >= 4, TwoItemCooking()
+    return hasItem("old_photo") and itemCount("chapter_clear") >= 4, TwoItemCooking()
 end
 
 function CanCompleteKoopaKoot13()
@@ -141,7 +141,7 @@ end
 
 -- Koopa Koot Favor 15
 function CanStartKoopaKoot14()
-    return hasItem("koopasta") and itemCount("star_spirit") >= 5, TwoItemCooking()
+    return hasItem("koopasta") and itemCount("chapter_clear") >= 5, TwoItemCooking()
 end
 
 function CanCompleteKoopaKoot14()
@@ -150,7 +150,7 @@ end
 
 -- Koopa Koot Favor 16
 function CanStartKoopaKoot15()
-    return hasItem("glasses") and itemCount("star_spirit") >= 5, TwoItemCooking()
+    return hasItem("glasses") and itemCount("chapter_clear") >= 5, TwoItemCooking()
 end
 
 function CanCompleteKoopaKoot15()
@@ -159,7 +159,7 @@ end
 
 -- Koopa Koot Favor 17
 function CanStartKoopaKoot16()
-    return hasItem("lime") and itemCount("star_spirit") >= 5, TwoItemCooking()
+    return hasItem("lime") and itemCount("chapter_clear") >= 5, TwoItemCooking()
 end
 
 function CanCompleteKoopaKoot16()
@@ -168,7 +168,7 @@ end
 
 -- Koopa Koot Favor 18
 function CanStartKoopaKoot17()
-    return hasItem("kooky_cookie") and itemCount("star_spirit") >= 6, TwoItemCooking()
+    return hasItem("kooky_cookie") and itemCount("chapter_clear") >= 6, TwoItemCooking()
 end
 
 function CanCompleteKoopaKoot17()
@@ -177,7 +177,7 @@ end
 
 -- Koopa Koot Favor 19
 function CanStartKoopaKoot18()
-    return hasItem("package") and itemCount("star_spirit") >= 6, TwoItemCooking()
+    return hasItem("package") and itemCount("chapter_clear") >= 6, TwoItemCooking()
 end
 
 function CanCompleteKoopaKoot18()
@@ -186,7 +186,7 @@ end
 
 -- Koopa Koot Favor 20
 function CanStartKoopaKoot19()
-    return hasItem("coconut") and itemCount("star_spirit") >= 6, TwoItemCooking()
+    return hasItem("coconut") and itemCount("chapter_clear") >= 6, TwoItemCooking()
 end
 
 function CanCompleteKoopaKoot19()

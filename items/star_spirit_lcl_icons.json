@@ -1,8 +1,8 @@
 [
     {
-        "name": "Eldstar",
+        "name": "Chapter 1 Icon",
         "type": "static",
-        "img": "images/star_spirits/Eldstar_PM.png",
+        "img": "images/letters/KoopaTroopaPM.png",
         "codes": "ch1_ss"
     },
     {
@@ -26,9 +26,9 @@
         "loop": true
     },
     {
-        "name": "Mamar",
+        "name": "Chapter 2 Icon",
         "type": "static",
-        "img": "images/star_spirits/Mamar_PM.png",
+        "img": "images/letters/Little_Mouser_Paper_Mario.png",
         "codes": "ch2_ss"
     },
     {
@@ -42,9 +42,9 @@
         "loop": true
     },
     {
-        "name": "Skolar",
+        "name": "Chapter 3 Icon",
         "type": "static",
-        "img": "images/star_spirits/Skolar_PM.png",
+        "img": "images/letters/PM_Boo_Sprite.png",
         "codes": "ch3_ss"
     },
     {
@@ -58,9 +58,9 @@
         "loop": true
     },
     {
-        "name": "Muskular",
+        "name": "Chapter 4 Icon",
         "type": "static",
-        "img": "images/star_spirits/Muskular_PM.png",
+        "img": "images/ch4/ShyGuy.png",
         "codes": "ch4_ss"
     },
     {
@@ -74,9 +74,9 @@
         "loop": true
     },
     {
-        "name": "Misstar",
+        "name": "Chapter 5 Icon",
         "type": "static",
-        "img": "images/star_spirits/Misstar_PM.png",
+        "img": "images/ch5/green_yoshi_kid.png",
         "codes": "ch5_ss"
     },
     {
@@ -90,9 +90,9 @@
         "loop": true
     },
     {
-        "name": "Klevar",
+        "name": "Chapter 6 Icon",
         "type": "static",
-        "img": "images/star_spirits/Klevar_PM.png",
+        "img": "images/ch6/Bubulb.png",
         "codes": "ch6_ss"
     },
     {
@@ -106,9 +106,9 @@
         "loop": true
     },
     {
-        "name": "Kalmar",
+        "name": "Chapter 7 Icon",
         "type": "static",
-        "img": "images/star_spirits/Kalmar_PM.png",
+        "img": "images/settings/ShiverCity.png",
         "codes": "ch7_ss"
     },
     {

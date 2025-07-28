@@ -2,7 +2,6 @@
     "tracker_broadcast": {
 		"type": "array",
 		"dropshadow": false,
-		//"background": "#5f417b",
 		"background": "#363648",
 		"scale": 2,
 		"content": [
@@ -11,6 +10,16 @@
 				"h_alignment": "left",
 				"item_margin": "3,3",
 				"rows": [
+					[
+						"ch1_clear",
+						"ch2_clear",
+						"ch3_clear",
+						"ch4_clear",
+						"ch5_clear",
+						"ch6_clear",
+						"ch7_clear",
+						"ch8_clear"
+					],
 					[
 						"eldstar",
 						"mamar",
@@ -161,7 +170,7 @@
 				"h_alignment": "left",
 				"item_margin": "22,22",
 				"scale": "0.5",
-				"margin": "-3,-361,-40,-40",
+				"margin": "-3,-338,-40,-40",
 				"dropshadow": true,
 				"rows": [
 					[
@@ -188,100 +197,106 @@
 						"",
 						"",
 						"",
+						"",
+						"",
+						"",
+						"",
+						""
+					],
+					[
+						"",
+						"",
+						"",
 						"ch1_lcl",
 						"ch2_lcl",
 						"ch2_lcl",
 						"ch2_lcl",
-						"ch2_lcl"
+						"ch2_lcl",
+						"ch2_lcl",
+						"ch3_lcl"
 					],
 					[
-						"ch2_lcl",
-						"ch3_lcl",
 						"ch3_lcl",
 						"ch4_lcl",
 						"ch5_lcl",
 						"ch6_lcl",
 						"ch6_lcl",
+						"ch6_lcl",
+						"ch6_lcl",
+						"ch6_lcl",
+						"ch6_lcl",
 						"ch6_lcl"
 					],
 					[
-						"ch6_lcl",
-						"ch6_lcl",
-						"ch6_lcl",
-						"ch6_lcl",
 						"ch7_lcl",
 						"ch7_lcl",
 						"ch7_lcl",
-						"ch7_lcl"
-					],
-					[
+						"ch7_lcl",
 						"ch7_lcl",
 						"ch7_lcl",
 						"",
 						"ch1_lcl",
 						"ch2_lcl",
-						"artifact_lcl",
+						"artifact_lcl"
+					],
+					[
 						"ch3_lcl",
+						"ch3_lcl",
+						"ch3_lcl",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"",
+						"ch5_lcl"
+					],
+					[
+						"ch6_lcl",
+						"ch6_lcl",
+						"ch6_lcl",
+						"ch6_lcl",
+						"ch6_lcl",
+						"ch6_lcl",
+						"",
+						"ch7_lcl",
+						"ch2_lcl",
+						""
+					],
+					[
+						"",
+						"",
+						"ch1_lcl",
+						"ch2_lcl",
+						"",
+						"",
+						"ch3_lcl",
+						"",
+						"",
+						"ch7_lcl"
+					],
+					[
+						"",
+						"",
+						"",
+						"ch1_lcl",
+						"",
+						"ch1_lcl",
+						"ch2_lcl",
+						"",
+						"ch2_lcl",
 						"ch3_lcl"
 					],
 					[
-						"ch3_lcl",
-						"",
-						"",
-						"",
-						"",
-						"",
-						"ch5_lcl",
-						"ch6_lcl"
-					],
-					[
-						"ch6_lcl",
-						"ch6_lcl",
-						"ch6_lcl",
-						"ch6_lcl",
-						"",
-						"ch7_lcl",
-						"ch2_lcl",
-						""
-					],
-					[
-						"",
-						"",
-						"ch1_lcl",
-						"ch2_lcl",
-						"",
-						"",
-						"ch3_lcl",
-						""
-					],
-					[
-						"",
-						"ch7_lcl",
-						"",
-						"",
-						"",
-						"ch1_lcl",
-						"",
-						"ch1_lcl"
-					],
-					[
-						"ch2_lcl",
-						"",
-						"ch2_lcl",
-						"ch3_lcl",
 						"",
 						"ch5_lcl",
 						"",
-						"ch7_lcl"
-					],
-					[
+						"ch7_lcl",
 						"",
 						"ch1_lcl",
 						"ch1_lcl",
 						"ch1_lcl",
 						"ch1_lcl",
-						"ch1_lcl",
-						"ch1_lcl",
 						"ch1_lcl"
 					],
 					[
@@ -292,9 +307,14 @@
 						"ch1_lcl",
 						"ch1_lcl",
 						"ch1_lcl",
+						"ch1_lcl",
+						"ch1_lcl",
 						"ch1_lcl"
 					],
 					[
+						"ch1_lcl",
+						"ch1_lcl",
+						"ch1_lcl",
 						"ch1_lcl",
 						"ch1_lcl",
 						"ch1_lcl",
@@ -311,7 +331,7 @@
 				"h_alignment": "left",
 				"scale": "0.5",
 				"item_margin": "22,0",
-				"margin": "22,-293,-40,-40",
+				"margin": "35,-318,-40,-40",
 				"dropshadow": true,
 				"rows": [
 					[
@@ -331,7 +351,7 @@
 				"h_alignment": "left",
 				"scale": "0.6",
 				"item_margin": "16,0",
-				"margin": "9,-277,-40,-40",
+				"margin": "20,-301,-40,-40",
 				"dropshadow": true,
 				"rows": [
 					[

@@ -5,6 +5,16 @@
     "item_margin": "1,2",
     "rows": [
       [
+        "ch1_clear",
+        "ch2_clear",
+        "ch3_clear",
+        "ch4_clear",
+        "ch5_clear",
+        "ch6_clear",
+        "ch7_clear",
+        "ch8_clear"
+      ],
+      [
         "eldstar",
         "mamar",
         "skolar",

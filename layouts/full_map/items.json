@@ -71,8 +71,8 @@
 		"style": "wrap",
 		"content": [
 			{
-        "type": "array",
-        "orientation": "vertical",
+				"type": "array",
+				"orientation": "vertical",
 				"content": [
 					{
 						"type": "group",
@@ -110,41 +110,41 @@
 				]
 			},
 			{
-        "type": "array",
-        "orientation": "vertical",
-        "content": [
-          {
-            "type": "layout",
-            "key": "turnin_items"
-          },
-          {
-            "type": "layout",
-            "key": "logic_items"
-          },
-          {
-            "type": "layout",
-            "key": "event_toad"
-          }
-        ]
-      },
-      {
-        "type": "array",
-        "orientation": "vertical",
-        "content": [
-          {
-            "type": "layout",
-            "key": "standard_letters"
-          },
-          {
-            "type": "layout",
-            "key": "letter_chain"
-          },
+				"type": "array",
+				"orientation": "vertical",
+				"content": [
 					{
-            "type": "layout",
-            "key": "koopa_koot_items"
-          }
-        ]
-      }
+					"type": "layout",
+					"key": "turnin_items"
+					},
+					{
+					"type": "layout",
+					"key": "logic_items"
+					},
+					{
+					"type": "layout",
+					"key": "event_toad"
+					}
+        		]
+			},
+			{
+				"type": "array",
+				"orientation": "vertical",
+				"content": [
+				{
+					"type": "layout",
+					"key": "standard_letters"
+				},
+				{
+					"type": "layout",
+					"key": "letter_chain"
+				},
+				{
+					"type": "layout",
+					"key": "koopa_koot_items"
+				}
+				]
+			}
 		]
 	},
 	"seed_settings": {
