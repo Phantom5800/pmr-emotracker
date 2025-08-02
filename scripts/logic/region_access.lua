@@ -52,6 +52,32 @@ function DungeonAccessible(dungeon)
     return entranceAccessibleFn[dungeon]()
 end
 
+function GL_DungeonAccessible(dungeon)
+    local entranceAccessibleFn = {
+        GL_KoopaBrosFortressEntranceAccess,
+        GL_DryDryRuinsEntranceAccess,
+        GL_TubbaCastleEntranceAccess,
+        GL_ToyBoxEntranceAccess,
+        GL_VolcanoEntranceAccess,
+        GL_FlowerFieldsGateAccess,
+        GL_CrystalPalaceEntranceAccess,
+        GL_BowsersCastleEntranceAccess
+    }
+
+    if hasItem("dungeon_setting") then
+        for i=1,8,1 do
+            local dungeon_entrance = "ch"..i.."_dungeon_0"
+            if itemStage(dungeon_entrance) == dungeon then
+                return entranceAccessibleFn[i]()
+            end
+        end
+
+        return false
+    end
+
+    return entranceAccessibleFn[dungeon]()
+end
+
 function SewersShortcutPipesAccess()
     local boots = hasItem("boots")
     local hammer2 = hasItem("hammer2")
@@ -189,8 +215,24 @@ function KoopaBrosFortressEntranceAccess()
     return KoopaVillageAccess() and kooper()
 end
 
+function GL_KoopaBrosFortressEntranceAccess()
+    if KoopaBrosFortressEntranceAccess() then
+        return true
+    end
+
+    if KoopaVillageAccess() and canDoLakiClips() then -- laki clip into invisible bridge
+        return true
+    end
+
+    return false
+end
+
 function KoopaBrosFortressAccess()
     return DungeonAccessible(1)
+end
+
+function GL_KoopaBrosFortressAccess()
+    return GL_DungeonAccessible(1)
 end
 
 --[[----------------------------------------------------------
@@ -209,6 +251,20 @@ function DryDryDesertAccess()
 
         -- can traverse mt rugged to get to the desert
         return (hasItem("open_mt_rugged") or bombette()) and boots and parakarry()
+    end
+
+    return false
+end
+
+function GL_DryDryDesertAccess()
+    if DryDryDesertAccess() then
+        return true
+    end
+    if ToadTownAccess() then
+        if hasItem("boots3") then -- sewers access with ultra boots
+            return true
+        end
+        -- TODO: Jumpless Mt Rugged
     end
 
     return false
@@ -254,8 +310,24 @@ function DryDryRuinsEntranceAccess()
     return DryDryDesertAccess() and hasItem("pulse_stone")
 end
 
+function GL_DryDryRuinsEntranceAccess()
+    if DryDryRuinsEntranceAccess() then
+        return true
+    end
+
+    if GL_DryDryDesertAccess() then
+        return canDoLakiJumps() or hasItem("boots3")
+    end
+
+    return false
+end
+
 function DryDryRuinsAccess()
     return DungeonAccessible(2)
+end
+
+function GL_DryDryRuinsAccess()
+    return GL_DungeonAccessible(2)
 end
 
 --[[----------------------------------------------------------
@@ -375,23 +447,22 @@ function GL_GustyGulchAccess()
 end
 
 function TubbaCastleEntranceAccess()
-    if parakarry() then
-        return GustyGulchAccess()
-    end
-    return false
+    return parakarry() and GustyGulchAccess()
 end
 
 function GL_TubbaCastleEntranceAccess()
-    if parakarry() then
-        return GustyGulchAccess() or GL_GustyGulchAccess()
-    elseif hasItem("boots") or canDoClippy() then
-        return GustyGulchAccess(), AccessibilityLevel.SequenceBreak
+    if TubbaCastleEntranceAccess() then
+        return true
     end
-    return false
+    return (canClimbShortLedges() or canDoClippy()) and GL_GustyGulchAccess()
 end
 
 function TubbaCastleAccess()
     return DungeonAccessible(3)
+end
+
+function GL_TubbaCastleAccess()
+    return GL_DungeonAccessible(3)
 end
 
 --[[----------------------------------------------------------
@@ -402,8 +473,18 @@ function ToyBoxEntranceAccess()
         local front_door = bow() or hasItem("open_toy_box")
         if front_door then
             return canClimbShortLedges()
-        elseif canDoToadLureHammerClip() then
-            return canClimbShortLedges(), AccessibilityLevel.SequenceBreak
+        end
+    end
+    return false
+end
+
+function GL_ToyBoxEntranceAccess()
+    if ToyBoxEntranceAccess() then
+        return true
+    end
+    if ToadTownAccess() then
+        if canDoToadLureHammerClip() then
+            return canClimbShortLedges()
         end
     end
     return false
@@ -413,21 +494,38 @@ function ToyBoxAccess()
     return DungeonAccessible(4)
 end
 
+function GL_ToyBoxAccess()
+    return GL_DungeonAccessible(4)
+end
+
 function ToyBoxPinkAccess()
-    local can_place_train,level = ToyBoxEntranceAccess()
-    if ToyBoxAccess() then
-        return hasItem("boots") and hasItem("toy_train_base"), level
+    local can_place_train = ToyBoxEntranceAccess()
+    if ToyBoxAccess() and can_place_train then
+        return hasItem("boots") and hasItem("toy_train_base")
     end
     return false
 end
 
+function GL_ToyBoxPinkAccess()
+    return ToyBoxPinkAccess()
+end
+
 function ToyBoxGreenAccess()
-    local can_take_train,level = ToyBoxPinkAccess()
-    if can_take_train then
+    if ToyBoxPinkAccess() then
         if cookingAvailable() and hasItem("cakemix") and hasItem("cake") then
-            return true, level
-        elseif hasItem("cake") then
-            return true, AccessibilityLevel.SequenceBreak -- out of logic
+            return true
+        end
+    end
+    return false
+end
+
+function GL_ToyBoxGreenAccess()
+    if ToyBoxGreenAccess() then
+        return true
+    end
+    if GL_ToyBoxPinkAccess() then
+        if hasItem("cake") then
+            return true -- out of logic with just cake item
         end
     end
     return false
@@ -435,14 +533,21 @@ end
 
 function ToyBoxRedAccess()
     if hasItem("hammer") then
-        local green,access = ToyBoxGreenAccess()
-        if green then
-            if  access == nil and hasItem("mystery_note_base") and hasItem("dictionary_base") then
+        if ToyBoxGreenAccess() then
+            if hasItem("mystery_note_base") and hasItem("dictionary_base") then
                 return true
-            else
-                return true, AccessibilityLevel.SequenceBreak -- out of logic
             end
         end
+    end
+    return false
+end
+
+function GL_ToyBoxRedAccess()
+    if ToyBoxRedAccess() then
+        return true
+    end
+    if hasItem("hammer") then
+        return GL_ToyBoxGreenAccess()
     end
     return false
 end
@@ -455,14 +560,14 @@ function YoshisIslandAccess()
     local boots2 = hasItem("boots2")
     local hammer = hasItem("hammer")
     local bombette = bombette()
-    local blue_house_access,level = BlueHousePipeAccess()
+    local blue_house_access = BlueHousePipeAccess()
 
     -- Whale
     if hasItem("open_whale") or ((boots2 or hammer or bombette) and watt()) then
         return true
     -- shortcut pipe through blue house
     elseif blue_house_access and bombette then
-        return true, level
+        return true
     -- shortcut pipe through main sewer entrance
     elseif boots2 and sushie() then
         return true
@@ -470,13 +575,26 @@ function YoshisIslandAccess()
     return false
 end
 
+function GL_YoshisIslandAccess()
+    return YoshisIslandAccess() or (GL_BlueHousePipeAccess() and bombette())
+end
+
 function VolcanoEntranceAccess()
-    local ch5_access,level = YoshisIslandAccess()
-    if ch5_access then
+    if YoshisIslandAccess() then
         if sushie() and hasItem("jade_raven_base") and hasItem("boots") and hasItem("hammer") then
-            return true, level
-        elseif parakarry() or canClimbWeirdGeometry() or canDoLakiTeleports() then
-            return true, AccessibilityLevel.SequenceBreak
+            return true
+        end
+    end
+    return false
+end
+
+function GL_VolcanoEntranceAccess()
+    if VolcanoEntranceAccess() then
+        return true
+    end
+    if GL_YoshisIslandAccess() then
+        if parakarry() or canClimbWeirdGeometry() or canDoLakiTeleports() then
+            return true
         end
     end
     return false
@@ -486,6 +604,10 @@ function VolcanoAccess()
     return DungeonAccessible(5)
 end
 
+function GL_VolcanoAccess()
+    return GL_DungeonAccessible(5)
+end
+
 --[[----------------------------------------------------------
     Chapter 6 Region Access
 ------------------------------------------------------------]]
@@ -493,8 +615,16 @@ function FlowerFieldsGateAccess()
     return ToadTownAccess() and hasItem("seed1") and hasItem("seed2") and hasItem("seed3") and hasItem("seed4")
 end
 
+function GL_FlowerFieldsGateAccess()
+    return FlowerFieldsGateAccess()
+end
+
 function FlowerFieldsAccess()
     return DungeonAccessible(6)
+end
+
+function GL_FlowerFieldsAccess()
+    return GL_DungeonAccessible(6)
 end
 
 --[[----------------------------------------------------------
@@ -502,17 +632,37 @@ end
 ------------------------------------------------------------]]
 function ShiverCityAccess()
     if ToadTownAccess() then
-        local blue_house_access,level = BlueHousePipeAccess()
+        local blue_house_access = BlueHousePipeAccess()
         -- bridge room access
         if (blue_house_access and bombette()) or (hasItem("boots2") and sushie()) then
             -- cross already open bridge
             if hasItem("open_ch7_bridge") then
-                return canClimbShortLedges(), level
+                return canClimbShortLedges()
             -- activate bridge
             elseif hasItem("boots3") then
-                return hiddenBlocks(), level
+                return hiddenBlocks()
+            end
+        end
+    end
+    return false
+end
+
+function GL_ShiverCityAccess()
+    if ShiverCityAccess() then
+        return true
+    end
+    if ToadTownAccess() then
+        local blue_house_access = GL_BlueHousePipeAccess()
+        -- bridge room access
+        if (blue_house_access and bombette()) or (hasItem("boots2") and sushie()) then
+            -- cross already open bridge
+            if hasItem("open_ch7_bridge") then
+                return canClimbShortLedges()
+            -- activate bridge
+            elseif hasItem("boots3") then
+                return hiddenBlocks()
             elseif hasItem("boots2") then
-                return true, AccessibilityLevel.SequenceBreak
+                return true
             end
         end
     end
@@ -520,22 +670,51 @@ function ShiverCityAccess()
 end
 
 function ShiverMountainAccess()
-    local a,b = ShiverCityAccess()
-    return a and hasItem("warehouse_key") and hasItem("scarf") and hasItem("bucket"), b
+    local a = ShiverCityAccess()
+    return a and hasItem("warehouse_key") and hasItem("scarf") and hasItem("bucket")
+end
+
+function GL_ShiverMountainAccess()
+    if ShiverMountainAccess() then
+        return true
+    end
+    if GL_ShiverCityAccess() then
+        if hasItem("warehouse_key") or canDoLakiClips() then
+            if hasItem("scarf") and hasItem("bucket") then
+                return true
+            elseif canDoSushieGlitch() then
+                return true
+            end
+        end
+    end
+    return false
 end
 
 function ShiverMountainPart2Access()
-    local a,b = ShiverMountainAccess()
-    return a and kooper(), b
+    return ShiverMountainAccess() and kooper()
+end
+
+function GL_ShiverMountainPart2Access()
+    if ShiverMountainPart2Access() then
+        return true
+    end
+    return GL_ShiverMountainAccess() and (kooper() or canDoSushieGlitch())
 end
 
 function CrystalPalaceEntranceAccess()
-    local a,b = ShiverMountainPart2Access()
-    return a and hasItem("star_stone"), b
+    return ShiverMountainPart2Access() and hasItem("star_stone")
+end
+
+function GL_CrystalPalaceEntranceAccess()
+    return GL_ShiverMountainPart2Access() and hasItem("star_stone")
 end
 
 function CrystalPalaceAccess()
     return DungeonAccessible(7)
+end
+
+function GL_CrystalPalaceAccess()
+    return GL_DungeonAccessible(7)
 end
 
 --[[----------------------------------------------------------
@@ -546,6 +725,14 @@ function BowsersCastleEntranceAccess()
     return true
 end
 
+function GL_BowsersCastleEntranceAccess()
+    return BowsersCastleEntranceAccess()
+end
+
 function BowsersCastleAccess()
     return DungeonAccessible(8)
+end
+
+function GL_BowsersCastleAccess()
+    return GL_DungeonAccessible(8)
 end

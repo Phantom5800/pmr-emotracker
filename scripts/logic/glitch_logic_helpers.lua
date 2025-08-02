@@ -10,6 +10,10 @@ function canDoLakiClips()
     return lakilester()
 end
 
+function canDoLakiJumps()
+    return lakilester()
+end
+
 function canDoBHS()
     return hasItem("boots")
 end
