@@ -3,7 +3,7 @@
 		"name": "Goomba Village",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$GoombaVillageAccess"],
+		"access_rules": ["[$GoombaVillageAccess], $GL_GoombaVillageAccess"],
 		"sections": [
 			{
 				"name": "Goombario",
@@ -96,7 +96,7 @@
 		"name": "Landing Site",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$GoombaVillageAccess"],
+		"access_rules": ["[$GoombaVillageAccess], $GL_GoombaVillageAccess"],
 		"sections":[
 			{
 				"name": "Panel Star Piece",
@@ -119,7 +119,7 @@
 		"name": "Goomba Road 1",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$GoombaRoadAccess"],
+		"access_rules": ["[$GoombaRoadAccess], $GL_GoombaRoadAccess"],
 		"sections":[
 			{
 				"name": "Coin Blocks",
@@ -142,7 +142,7 @@
 		"name": "Goomba Road 2",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$GoombaRoadAccess"],
+		"access_rules": ["[$GoombaRoadAccess], $GL_GoombaRoadAccess"],
 		"sections":[
 			{
 				"name": "Item Block",
@@ -171,7 +171,7 @@
 		"name": "Goomba King Castle (Left Side)",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$GoombaRoadAccess"],
+		"access_rules": ["[$GoombaRoadAccess], $GL_GoombaRoadAccess"],
 		"sections":[
 			{
 				"name": "Tree",
@@ -259,7 +259,7 @@
 		"name": "Outside Goomba Village",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$GoombaVillageAccess"],
+		"access_rules": ["[$GoombaVillageAccess], $GL_GoombaVillageAccess"],
 		"sections":[
 			{
 				"name": "Ledge Star Piece",
@@ -289,7 +289,7 @@
 		"name": "Outside Playground",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$GoombaVillageAccess"],
+		"access_rules": ["[$GoombaVillageAccess], $GL_GoombaVillageAccess"],
 		"sections":[
 			{
 				"name": "Spring Item",
@@ -346,7 +346,7 @@
 		"name": "Playground",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$GoombaVillageAccess, $GoombaPlaygroundAccess"],
+		"access_rules": ["[$GoombaPlaygroundAccess], $GL_GoombaPlaygroundAccess"],
 		"sections":[
 			{
 				"name": "Right Tree",

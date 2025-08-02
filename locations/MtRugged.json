@@ -3,7 +3,7 @@
 		"name": "Train Station",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$MtRuggedAccess"],
+		"access_rules": ["[$MtRuggedAccess], $GL_MtRuggedAccess"],
 		"sections": [
 			{
 				"name": "Parakarry",
@@ -228,7 +228,10 @@
 		"name": "Train Station Bushes",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$ToadTownAccess, $bombette", "$ToadTownAccess, open_mt_rugged", "$MtRuggedAccess"],
+		"access_rules": [
+			"$ToadTownAccess, $bombette", "$ToadTownAccess, open_mt_rugged", 
+			"[$MtRuggedAccess], $GL_MtRuggedAccess"
+		],
 		"sections": [
 			{
 				"name": "Top Bush",

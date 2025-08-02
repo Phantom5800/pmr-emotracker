@@ -229,7 +229,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"$canClimbShortLedges, $BlueHousePipeAccess",
+			"[$BlueHousePipeAccess], $GL_BlueHousePipeAccess",
 			"boots2, $sushie, $bombette"
 		],
 		"sections": [
@@ -254,7 +254,7 @@
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
 		"access_rules": [
-			"$BlueHousePipeAccess, $bombette",
+			"[$BlueHousePipeAccess], $GL_BlueHousePipeAccess, $bombette",
 			"boots2, sushie"
 		],
 		"sections": [
@@ -291,7 +291,7 @@
 			{
 				"name": "Tall Block",
 				"access_rules": [
-					"boots3, $BlueHousePipeAccess, $bombette",
+					"boots3, [$BlueHousePipeAccess], $GL_BlueHousePipeAccess, $bombette",
 					"boots3, $sushie"
 				],
 				"visibility_rules": [],
