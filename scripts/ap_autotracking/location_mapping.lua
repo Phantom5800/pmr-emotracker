@@ -3,6 +3,7 @@
 -- to reference an item use it's code
 -- here are the SM locations as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/location_mapping.lua
 AP_LOCATION_MAPPING = {
+    -- Prologue
     [8112000000] = {"@Landing Site/Panel Star Piece"},
     [8112000001] = {"@Goomba Village/Goompa Tape"},
     [8112000002] = {"@Goomba Village/Goompa"},
@@ -46,6 +47,8 @@ AP_LOCATION_MAPPING = {
     [8112000040] = {"@Goomba King Castle (Left Side)/Tree"},
     [8112000041] = {"@Goomba King Castle (Right Side)/Coin Tree"},
     [8112000042] = {"@Goomba King Castle (Right Side)/Panel Star Piece"},
+
+    -- Toad Town
     [8112000043] = {"@Mario's House/Luigi"},
     [8112000044] = {"@Main Gate/Star Piece"},
     [8112000045] = {"@Main Gate/Russ T.", "dictionary", "mystery_note"},
@@ -64,6 +67,7 @@ AP_LOCATION_MAPPING = {
     [8112000058] = {"@Main Gate/Shop"},
     [8112000059] = {"@Main Gate/Shop"},
     [8112000060] = {"@Main Gate/Star Piece Panel"},
+    [8112000709] = {"@Main Gate/Castle Ruins/Muss T. Letter", "muss_t"},
     [8112000061] = {"@Main Gate/Central Plaza/Merlon's House Ground Pound x3"},
     [8112000062] = {"@Main Gate/Central Plaza/Rowf"},
     [8112000063] = {"@Main Gate/Central Plaza/Post Office", "mailbag"},
@@ -111,6 +115,8 @@ AP_LOCATION_MAPPING = {
     [8112000105] = {"@Main Gate/Port/Trading Event Toad"},
     [8112000106] = {"@Main Gate/Port/Multicoin Block"},
     [8112000107] = {"@Main Gate/Port/Star Piece Panel"},
+
+    -- Toad Town Tunnels
     [8112000108] = {"@Blooper Chest/Chest"},
     [8112000109] = {"@Elevator Room/Middle Block"},
     [8112000110] = {"@Elevator Room/Coin Blocks"},
@@ -152,10 +158,14 @@ AP_LOCATION_MAPPING = {
     [8112000146] = {"@Tall Blocks Room/Coin Blocks"},
     [8112000147] = {"@Tall Blocks Room/Coin Blocks"},
     [8112000148] = {"@Ultra Boots Chest/Chest"},
+
+    -- Peach's Castle
     [8112000149] = {"@Library (2F) Upper Level"},
     [8112000150] = {"@Library (2F) Between Bookshelves"},
     [8112000151] = {"@Storeroom (2F) On The Ground"},
     [8112000152] = {"@Guest Room (1F) In Chest"},
+
+    -- Shooting Star Summit
     [8112000153] = {"@Main Gate/Star Region/Star Piece Panel"},
     [8112000154] = {"@Main Gate/Shooting Star Summit/Star Piece"},
     [8112000155] = {"@Main Gate/Shooting Star Summit/Star Piece Panel"},
@@ -190,6 +200,8 @@ AP_LOCATION_MAPPING = {
     [8112000184] = {"@Main Gate/Merluvlee's House/Merlow Rewards"},
     [8112000185] = {"@Main Gate/Merluvlee's House/Merlow Rewards"},
     [8112000186] = {"@Main Gate/Merluvlee's House/Star Piece Panel"},
+
+    -- Chapter 1
     [8112000187] = {"@West Koopa Village/Far Left Bush"},
     [8112000188] = {"@West Koopa Village/Bottom Bush"},
     [8112000189] = {"@West Koopa Village/Bush Right of Tree"},
@@ -266,6 +278,8 @@ AP_LOCATION_MAPPING = {
     [8112000260] = {"@Fortress Entrance/Bomb Jail/Bombette"},
     [8112000261] = {"@Fortress Entrance/Pit/Pedestal Item"},
     [8112000262] = {"@Fortress Entrance/Cannon Bridge/Block"},
+
+    -- Chapter 2
     [8112000263] = {"@Train Station/Whacka Screen/Slide Coins"},
     [8112000264] = {"@Train Station/Whacka Screen/Slide Coins"},
     [8112000265] = {"@Train Station/Whacka Screen/Slide Coins"},
@@ -381,6 +395,8 @@ AP_LOCATION_MAPPING = {
     [8112000375] = {"@Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Third Sand Room/Item on Ledge"},
     [8112000376] = {"@Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Third Sand Room/Lunar Stone Room/Item On Pedestal"},
     [8112000377] = {"@Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Ruins Upgrade Block/Diamond Stone Room/Item On Pedestal"},
+
+    -- Chapter 3
     [8112000378] = {"@Forever Forest/Bub-ulb"},
     [8112000379] = {"@Forever Forest/HP Plus/Block"},
     [8112000380] = {"@Forever Forest/FP Plus/Block"},
@@ -436,6 +452,8 @@ AP_LOCATION_MAPPING = {
     [8112000430] = {"@Tubba's Castle Entrance/Upstairs/Mega Rush Room/Coins on Bed"},
     [8112000431] = {"@Tubba's Castle Entrance/Upstairs/Tubba West Upper Stairwell/Block"},
     [8112000432] = {"@Tubba's Castle Entrance/Upstairs/Tubba West Upper Stairwell/Clubba Room/Item on Pedestal"},
+
+    -- Chapter 4
     [8112000433] = {"@Blue Station/Shy Guy Room/Shy Guy Items"},
     [8112000434] = {"@Blue Station/Shy Guy Room/Shy Guy Items"},
     [8112000435] = {"@Blue Station/Shy Guy Room/Shy Guy Items"},
@@ -513,6 +531,8 @@ AP_LOCATION_MAPPING = {
     [8112000507] = {"@Pink Station/Divided Track Room/Groove Guy Coin Blocks"},
     [8112000508] = {"@Pink Station/Divided Track Room/Groove Guy Coin Blocks"},
     [8112000509] = {"@Pink Station/Divided Track Room/Multicoin Block"},
+
+    -- Chapter 5
     [8112000510] = {"@Whale/Coins Above Spinny Flower"},
     [8112000511] = {"@Whale/Coins Above Spinny Flower"},
     [8112000512] = {"@Whale/Behind Bush"},
@@ -595,6 +615,8 @@ AP_LOCATION_MAPPING = {
     [8112000589] = {"@Mt. Lavalava Entrance/Volcano Hub/Zipline/Save Room/Panel Star Piece"},
     [8112000590] = {"@Mt. Lavalava Entrance/Volcano Hub/Zipline/Save Room/Lava Piranha Room/Item Blocks"},
     [8112000591] = {"@Mt. Lavalava Entrance/Volcano Hub/Zipline/Save Room/Lava Piranha Room/Item Blocks"},
+
+    -- Chapter 6
     [8112000592] = {"@Flower Fields Hub Room/Three Trees/Petunia Room/Petunia"},
     [8112000593] = {"@Flower Fields Hub Room/Three Trees/Petunia Room/Tree"},
     [8112000594] = {"@Flower Fields Hub Room/Three Trees/Petunia Room/Tree"},
@@ -635,6 +657,8 @@ AP_LOCATION_MAPPING = {
     [8112000629] = {"@Flower Fields Hub Room/Red Flower Room/Tree"},
     [8112000630] = {"@Flower Fields Hub Room/Red Flower Room/Tree"},
     [8112000631] = {"@Flower Fields Hub Room/Red Flower Room/Panel Star Piece"},
+
+    -- Chapter 7
     [8112000632] = {"@Shiver City (Middle)/Shiver City (Left)/Mayor Penguin (Bucket)"},
     [8112000633] = {"@Shiver City (Middle)/Shiver City (Left)/Mayor Penguin (Letter)", "mayor_penguin"},
     [8112000634] = {"@Shiver City (Middle)/Shiver City (Left)/Middle House Chest"},
@@ -683,6 +707,8 @@ AP_LOCATION_MAPPING = {
     [8112000677] = {"@Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Palace Key Chest/Chest"},
     [8112000678] = {"@Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/P-Up D-Down Chest/Chest"},
     [8112000679] = {"@Crystal Palace Entrance/Triple Dip Chest/Chest"},
+
+    -- Chapter 8
     [8112000680] = {"@Dark Cave 1 Yellow Block"},
     [8112000681] = {"@Dark Cave 2 Yellow Block"},
     [8112000682] = {"@Outside Lower Jail Yellow Block"},
@@ -712,6 +738,5 @@ AP_LOCATION_MAPPING = {
     [8112000706] = {"@Hidden Key Room On The Ground"},
     [8112000707] = {"@Left Water Puzzle Top Left Ledge"},
     [8112000708] = {"@Right Water Puzzle Hidden Block"},
-    [8112000709] = {"@Main Gate/Castle Ruins/Muss T. Letter", "muss_t"},
     [8112000710] = {"@Hijacked Castle Entrance Hidden Block"}
 }
