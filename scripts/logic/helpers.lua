@@ -10,26 +10,6 @@ function itemStage(item)
     return Tracker:FindObjectForCode(item).CurrentStage
 end
 
-function returnNormalAccess()
-    if PopVersion then -- poptracker
-        return AccessibilityLevel.Normal
-    else -- emotracker
-        return true
-    end
-end
-
-function returnNoAccess()
-    return false
-end
-
-function returnSequenceBreak()
-    if PopVersion then -- poptracker
-        return AccessibilityLevel.SequenceBreak
-    else -- emotracker
-        return true, AccessibilityLevel.SequenceBreak
-    end
-end
-
 function canBreakYellowBlocks()
     return bombette() or hasItem("hammer")
 end

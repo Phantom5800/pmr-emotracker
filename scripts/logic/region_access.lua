@@ -59,11 +59,11 @@ function SewersShortcutPipesAccess()
 
     if ToadTownAccess() then
         if boots and hammer2 then
-            return returnNormalAccess()
+            return true
         elseif boots3 then
-            return returnSequenceBreak()
+            return true, AccessibilityLevel.SequenceBreak
         elseif parakarry() and hammer2 and KoopaVillageAccess() then
-            return returnSequenceBreak()
+            return true, AccessibilityLevel.SequenceBreak
         end
     end
     return false
@@ -77,12 +77,12 @@ function GoombaVillageAccess()
         -- glitchless path
         local open_prologue = hasItem("open_prologue")
         if open_prologue and canClimbShortLedges() and canBreakYellowBlocks() then
-            return returnNormalAccess()
+            return true
         end
 
         -- clip through yellow block from the right
         if open_prologue and canClimbShortLedges() then
-            return returnSequenceBreak()
+            return true, AccessibilityLevel.SequenceBreak
         end
     end
     return SewersShortcutPipesAccess()
@@ -95,7 +95,7 @@ function GoombaRoadAccess()
         local hammer2 = hasItem("hammer2")
 
         if open_prologue and (canClimbShortLedges()) then
-            return returnNormalAccess()
+            return true
         end
     end
     local shortcut_access,level = SewersShortcutPipesAccess()
@@ -105,9 +105,9 @@ end
 -- assume goomba village access
 function GoombaPlaygroundAccess()
     if canBreakYellowBlocks() then
-        return returnNormalAccess()
+        return true
     elseif canDoLakiTeleports() then
-        return returnSequenceBreak()
+        return true, AccessibilityLevel.SequenceBreak
     end
     return false
 end
@@ -115,9 +115,9 @@ end
 function BlueHousePipeAccess()
     if ToadTownAccess() and canClimbShortLedges() then
         if hasItem("oddkey_base") or hasItem("open_blue_house") then
-            return returnNormalAccess()
+            return true
         elseif canDoBHS() or canDoLakiClips() or canDoToadLureHammerClip() then
-            return returnSequenceBreak()
+            return true, AccessibilityLevel.SequenceBreak
         end
     end
 
@@ -129,7 +129,7 @@ function ToadTownAccess()
     -- start == DryDryOutpost and (parakarry or boots)
     -- start == GoombaVillage and (bombette or hammer)
 
-    return returnNormalAccess()
+    return true
 end
 
 --[[----------------------------------------------------------
@@ -141,9 +141,9 @@ end
 
 function KoloradoAccess()
     if DryDryDesertAccess() or (hasItem("mamar") and KoopaVillageAccess()) then
-        return returnNormalAccess()
+        return true
     end
-    return returnNoAccess()
+    return false
 end
 
 function KoopaBrosFortressEntranceAccess()
@@ -165,16 +165,14 @@ function DryDryDesertAccess()
 
         -- can access the desert through the sewers
         if boots and hasItem("hammer2") then
-            return returnNormalAccess()
+            return true
         end
 
         -- can traverse mt rugged to get to the desert
-        if (hasItem("open_mt_rugged") or bombette()) and boots and parakarry() then
-            return returnNormalAccess()
-        end
+        return (hasItem("open_mt_rugged") or bombette()) and boots and parakarry()
     end
 
-    return returnNoAccess()
+    return false
 end
 
 function MtRuggedAccess()
@@ -206,14 +204,14 @@ function MtRuggedAccess()
         
         if can_access then
             if logical then
-                return returnNormalAccess()
+                return true
             else
-                return returnSequenceBreak()
+                return true, AccessibilityLevel.SequenceBreak
             end
         end
     end
 
-    return returnNoAccess()
+    return false
 end
 
 function DryDryRuinsEntranceAccess()
