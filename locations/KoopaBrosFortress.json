@@ -141,9 +141,9 @@
 				"access_rules": ["ch1_key:4, $kooper, $canClimbShortLedges", "ch1_key:4, $parakarry"],
 				"sections": [
 					{
-						"name": "Koopa Bros.",
+						"name": "Boss Reward",
 						"visibility_rules": ["$ch1Required"],
-						"hosted_item": "eldstar"
+						"item_count": 1
 					}
 				],
 				"map_locations": [

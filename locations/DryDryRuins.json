@@ -236,9 +236,9 @@
 												"access_rules": ["pyramid_stone, diamond_stone, lunar_stone, [ch2_key:4]"],
 												"sections": [
 													{
-														"name": "Tutankoopa",
+														"name": "Boss Reward",
 														"visibility_rules": ["$ch2Required"],
-														"hosted_item": "mamar"
+														"item_count": 1
 													}
 												],
 												"map_locations": [

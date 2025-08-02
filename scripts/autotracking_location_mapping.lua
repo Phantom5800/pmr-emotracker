@@ -524,7 +524,8 @@ LOCATION_TO_MOD_FLAGS_MAPPING = {
     ["@Koopa Koot/Life Shroom"]  = {0x1041, 0x1041}, 
 
     -- Koopa Bros Fortress
-    ["@Fortress Entrance/Bomb Jail/Bombette"] = {0x1045},
+    ["@Fortress Entrance/Bomb Jail/Bombette"]       = {0x1045},
+    ["@Fortress Entrance/Koopa Bros./Boss Reward"]  = {0x10AF},
 
     -- Mt Rugged
     ["@Train Station/Top Bush"]                 = {0x1047},
@@ -543,6 +544,9 @@ LOCATION_TO_MOD_FLAGS_MAPPING = {
     ["@Dry Dry Outpost (West)/Dry Dry Outpost (East)/Moustafa"]     = {0x1052},
     ["@Dry Dry Outpost (West)/Dry Dry Outpost (East)/Mr. E Letter"] = {0x1053},
 
+    -- Dry Dry Ruins
+    ["@Dry Dry Ruins Entrance/Pokey Room/Ruins Hub Room/Pokey Fight Room/Ruins Hub Room 2/Tutankoopa Room/Boss Reward"] = {0x10B0},
+
     -- Boo's Mansion
     ["@Outside Boo's Mansion/Far Right Bush"]                                                   = {0x1058},
     ["@Outside Boo's Mansion/Boo's Mansion Foyer/Franky Letter"]                                = {0x1059},
@@ -552,9 +556,13 @@ LOCATION_TO_MOD_FLAGS_MAPPING = {
     ["@Outside Boo's Mansion/Boo's Mansion Foyer/8bit Mario Room/Crates"]                       = {0x1061, 0x1062},
     ["@Outside Boo's Mansion/Boo's Mansion Foyer/Bow's Bedroom/Bow"]                            = {0x1063},
 
+    -- Gusty Gulch
+    ["@Gusty Gulch Entrance/Windmill/Boss Reward"] = {0x10B1},
+
     -- Shy Guy's Toybox
-    ["@Blue Station/Shy Guy Room/Shy Guy Items"]    = {0x1064, 0x1064, 0x1065, 0x1066, 0x1067, 0x1068}, -- calculator shy guy has 2 items, one is a game flag
-    ["@Red Station/Lantern Ghost/Watt"]             = {0x1069},
+    ["@Blue Station/Shy Guy Room/Shy Guy Items"]                = {0x1064, 0x1064, 0x1065, 0x1066, 0x1067, 0x1068}, -- calculator shy guy has 2 items, one is a game flag
+    ["@Red Station/Lantern Ghost/Watt"]                         = {0x1069},
+    ["@Red Station/Block Barricade/General Guy/Boss Reward"]    = {0x10B2},
 
     -- Jade Jungle
     ["@Whale/Coconut Tree"]                             = {0x106A},
@@ -567,6 +575,9 @@ LOCATION_TO_MOD_FLAGS_MAPPING = {
     ["@Whale/Yoshi Village Hub/Coconut Tree"]           = {0x107C},
     ["@Whale/Outside Volcano/Raphael"]                  = {0x107E},
     ["@Whale/Sushie Room/Sushie Tree"]                  = {0x107D},
+
+    -- Mt Lavalava
+    ["@Mt. Lavalava Entrance/Volcano Hub/Zipline/Save Room/Lava Piranha Room/Boss Reward"]  = {0x10B3},
 
     -- Flower Fields
     ["@Flower Fields Hub Room/Elevator Room (left side)/Second Vine"]                                   = {0x108B},
@@ -583,6 +594,7 @@ LOCATION_TO_MOD_FLAGS_MAPPING = {
     ["@Flower Fields Hub Room/Blue Flower Room/Hedge Maze/Rosie Room/Rosie"]                            = {0x1088},
     ["@Flower Fields Hub Room/Bubble Plant Room/Vine Item"]                                             = {0x108A},
     ["@Flower Fields Hub Room/Bubble Plant Room/Laki Fight Room/Lakilester"]                            = {0x1089},
+    ["@Flower Fields Hub Room/Cloudy Climb/Huff Room/Boss Reward"]                                      = {0x10B4},
 
     -- Shiver Region
     ["@Shiver City (Middle)/Sleep at Inn"]                                                                              = {0x1093},
@@ -593,4 +605,7 @@ LOCATION_TO_MOD_FLAGS_MAPPING = {
     ["@Shiver City (Middle)/Shiver Mountain Entrance/Starborne Valley/Frost T. Letter"]                                 = {0x109B},
     ["@Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pebble"]                    = {0x109C},
     ["@Shiver City (Middle)/Shiver Mountain Entrance/Shiver Mountain Path/Duplighost Switch/Pedestals/Pedestal Items"]  = {0x109D, 0x109E, 0x109F},
+
+    -- Crystal Palace
+    ["@Crystal Palace Entrance/Triple Dip Chest/Past Kooper Puzzle/Crystal King/Boss Reward"] = {0x10B5},
 }

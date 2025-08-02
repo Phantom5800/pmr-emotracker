@@ -398,9 +398,9 @@
 						"name": "Huff Room",
 						"sections": [
 							{
-								"name": "Huff n Puff",
+								"name": "Boss Reward",
 								"visibility_rules": ["$ch6Required"],
-								"hosted_item": "klevar"
+								"item_count": 1
 							}
 						],
 						"map_locations": [

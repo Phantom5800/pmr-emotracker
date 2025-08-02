@@ -27,9 +27,9 @@
 				"access_rules": ["boots2, mystical_key_base"],
 				"sections": [
 					{
-						"name": "Tubba Blubba",
+						"name": "Boss Reward",
 						"visibility_rules": ["$ch3Required"],
-						"hosted_item": "skolar"
+						"item_count": 1
 					}
 				],
 				"map_locations": [

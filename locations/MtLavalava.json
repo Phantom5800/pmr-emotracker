@@ -173,9 +173,9 @@
 												"item_count": 2
 											},
 											{
-												"name": "Lava Piranha",
+												"name": "Boss Reward",
 												"visibility_rules": ["$ch5Required"],
-												"hosted_item": "misstar"
+												"item_count": 1
 											}
 										],
 										"map_locations": [

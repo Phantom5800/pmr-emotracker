@@ -249,13 +249,13 @@
 								]
 							},
 							{
-								"name": "Crystal King Fight",
+								"name": "Crystal King",
 								"sections": [
 									{
-										"name": "Crystal King",
+										"name": "Boss Reward",
 										"visibility_rules": ["$ch7Required"],
 										"access_rules": ["palace_key"],
-										"hosted_item": "kalmar"
+										"item_count": 1
 									}
 								],
 								"map_locations": [

@@ -1,14 +1,14 @@
 function Toad_Town_Tunnels_Ch7_Bridge_Blocks()
     if hasItem("boots2") then
         if hasItem("open_ch7_bridge") then
-            return true
+            return returnNormalAccess()
         else
-            return true, AccessibilityLevel.SequenceBreak
+            return returnSequenceBreak()
         end
     elseif hasItem("boots3") then
         return hiddenBlocks()
     end
-    return false
+    return returnNoAccess()
 end
 
 function Toad_Town_Tunnels_Winding_Path()
@@ -19,23 +19,23 @@ function Toad_Town_Tunnels_Winding_Path()
             return BlueHousePipeAccess()
         end
     end
-    return false
+    return returnNoAccess()
 end
 
 function Toad_Town_Tunnels_Before_Ultra_Boots()
     if hasItem("hammer2") then
-        return true
+        return returnNormalAccess()
     elseif canDoClippy() then
-        return true, AccessibilityLevel.SequenceBreak
+        return returnSequenceBreak()
     end
-    return false
+    return returnNoAccess()
 end
 
 function Toad_Town_Tunnels_Ultra_Boots()
     if hasItem("hammer3") then
-        return true
+        return returnNormalAccess()
     elseif canDoClippy() then
-        return true, AccessibilityLevel.SequenceBreak
+        return returnSequenceBreak()
     end
-    return false
+    return returnNoAccess()
 end

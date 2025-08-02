@@ -516,6 +516,15 @@ function updateModCheckAcquisition(segment)
             updateToggleFromFlag(segment, "master2", OFFSET_MOD_FLAGS, 0x100E)
             updateToggleFromFlag(segment, "master3", OFFSET_MOD_FLAGS, 0x100F)
 
+            -- chapter clears
+            updateToggleFromFlag(segment, "ch1_clear", OFFSET_MOD_FLAGS, 0x10AF)
+            updateToggleFromFlag(segment, "ch2_clear", OFFSET_MOD_FLAGS, 0x10B0)
+            updateToggleFromFlag(segment, "ch3_clear", OFFSET_MOD_FLAGS, 0x10B1)
+            updateToggleFromFlag(segment, "ch4_clear", OFFSET_MOD_FLAGS, 0x10B2)
+            updateToggleFromFlag(segment, "ch5_clear", OFFSET_MOD_FLAGS, 0x10B3)
+            updateToggleFromFlag(segment, "ch6_clear", OFFSET_MOD_FLAGS, 0x10B4)
+            updateToggleFromFlag(segment, "ch7_clear", OFFSET_MOD_FLAGS, 0x10B5)
+
             -- map locations in mod flags
             for k,v in pairs(LOCATION_TO_MOD_FLAGS_MAPPING) do
                 local loc = Tracker:FindObjectForCode(k)

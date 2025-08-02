@@ -530,9 +530,9 @@
 						"access_rules": ["$watt"],
 						"sections": [
 							{
-								"name": "Muskular",
+								"name": "Boss Reward",
 								"visibility_rules": ["$ch4Required"],
-								"hosted_item": "muskular"
+								"item_count": 1
 							}
 						],
 						"map_locations": [
