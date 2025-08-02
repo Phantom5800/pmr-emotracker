@@ -39,6 +39,7 @@
 							{
 								"name": "Tree",
 								"visibility_rules": ["$ch6Required"],
+								"access_rules": ["$canHitTrees"],
 								"item_count": 2
 							},
 							{

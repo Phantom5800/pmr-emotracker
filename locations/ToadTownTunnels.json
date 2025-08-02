@@ -341,7 +341,7 @@
 				"name": "Tall Blocks Room",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
-				"access_rules": ["[$Toad_Town_Tunnels_Before_Ultra_Boots], $Toad_Town_Tunnels_Before_Ultra_Boots"],
+				"access_rules": ["[$Toad_Town_Tunnels_Before_Ultra_Boots], $GL_Toad_Town_Tunnels_Before_Ultra_Boots"],
 				"sections": [
 					{
 						"name": "Hidden Block",

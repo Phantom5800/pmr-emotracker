@@ -366,11 +366,7 @@ function BoosMansionAccess()
     if ToadTownAccess() then
         local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
         -- logically need boots to enter mansion
-        if forest_pass and hasItem("boots") then
-            return true
-        else
-            return BoosMansionPipeRoomAccess()
-        end
+        return (forest_pass and hasItem("boots")) or BoosMansionPipeRoomAccess()
     end
     return false
 end
@@ -381,37 +377,21 @@ function GL_BoosMansionAccess()
     end
     if ToadTownAccess() then
         local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
-        -- logically need boots to enter mansion
-        if forest_pass and parakarry() then
-            return true
-        else
-            return GL_BoosMansionPipeRoomAccess()
-        end
+        return (forest_pass and canClimbShortLedges()) or GL_BoosMansionPipeRoomAccess()
     end
     return false
 end
 
 function ForeverForestAccess()
     if ToadTownAccess() then
-        local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
-
-        if forest_pass then
-            return true
-        end
+        return hasItem("forest_pass_base") or hasItem("open_forest")
     end
     return false
 end
 
 function GL_ForeverForestAccess()
     if ToadTownAccess() then
-        local forest_pass = hasItem("forest_pass_base") or hasItem("open_forest")
-
-        if forest_pass then
-            return true
-        else
-            -- this can return a sequence break flag on it's own, but forest access is always out of logic from sewers
-            return GL_BoosMansionPipeRoomAccess()
-        end
+        return hasItem("forest_pass_base") or hasItem("open_forest") or GL_BoosMansionPipeRoomAccess()
     end
     return false
 end
@@ -470,8 +450,7 @@ end
 ------------------------------------------------------------]]
 function ToyBoxEntranceAccess()
     if ToadTownAccess() then
-        local front_door = bow() or hasItem("open_toy_box")
-        if front_door then
+        if bow() or hasItem("open_toy_box") then
             return canClimbShortLedges()
         end
     end
@@ -483,9 +462,7 @@ function GL_ToyBoxEntranceAccess()
         return true
     end
     if ToadTownAccess() then
-        if canDoToadLureHammerClip() then
-            return canClimbShortLedges()
-        end
+        return canDoToadLureHammerClip() and canClimbShortLedges()
     end
     return false
 end
