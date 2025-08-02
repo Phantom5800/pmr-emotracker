@@ -35,7 +35,7 @@ end
 
 function GL_Goomba_Region_Repel_Gel()
     if hasItem("hammer2") and canHitBlocks() then
-        return hiddenBlocks()
+        return true
     elseif hasItem("boots") and (kooper() or bombette() or parakarry() or lakilester()) then
         return true
     elseif parakarry() and lakilester() and (kooper() or bombette()) then

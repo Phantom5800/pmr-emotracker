@@ -659,9 +659,7 @@ function GL_ShiverCityAccess()
             if hasItem("open_ch7_bridge") then
                 return canClimbShortLedges()
             -- activate bridge
-            elseif hasItem("boots3") then
-                return hiddenBlocks()
-            elseif hasItem("boots2") then
+            elseif hasItem("boots2") or hasItem("boots3") then
                 return true
             end
         end

@@ -42,7 +42,12 @@ function hiddenBlocks()
     if watt() or hasItem("hidden_blocks_visible") then
         return true
     else
-        return true, AccessibilityLevel.SequenceBreak
+        -- this function is used everywhere, special case the poptracker difference here
+        if PopVersion then
+            return AccessibilityLevel.SequenceBreak
+        else
+            return true, AccessibilityLevel.SequenceBreak
+        end
     end
 end
 
