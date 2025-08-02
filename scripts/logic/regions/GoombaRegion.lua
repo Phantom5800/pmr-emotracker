@@ -29,10 +29,17 @@ end
 function Goomba_Region_Repel_Gel()
     if hasItem("hammer2") and canHitBlocks() then
         return hiddenBlocks()
+    end
+    return false
+end
+
+function GL_Goomba_Region_Repel_Gel()
+    if hasItem("hammer2") and canHitBlocks() then
+        return hiddenBlocks()
     elseif hasItem("boots") and (kooper() or bombette() or parakarry() or lakilester()) then
-        return true,AccessibilityLevel.SequenceBreak
+        return true
     elseif parakarry() and lakilester() and (kooper() or bombette()) then
-        return true,AccessibilityLevel.SequenceBreak
+        return true
     end
     return false
 end

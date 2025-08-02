@@ -307,7 +307,7 @@
 			},
 			{
 				"name": "Hidden Block Above Stone Block",
-				"access_rules": ["$Goomba_Region_Repel_Gel"],
+				"access_rules": ["[$Goomba_Region_Repel_Gel], $GL_Goomba_Region_Repel_Gel"],
 				"visibility_rules": [],
 				"item_count": 1
 			},

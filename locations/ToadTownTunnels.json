@@ -268,7 +268,7 @@
 			},
 			{
 				"name": "Hidden Blocks",
-				"access_rules": ["$Toad_Town_Tunnels_Ch7_Bridge_Blocks"],
+				"access_rules": ["[$Toad_Town_Tunnels_Ch7_Bridge_Blocks], $GL_Toad_Town_Tunnels_Ch7_Bridge_Blocks"],
 				"visibility_rules": ["coin_block_setting"],
 				"chest_unopened_img": "images/chests/coin.png",
 				"chest_opened_img": "images/chests/coin_checked.png",
@@ -311,7 +311,7 @@
 		"name": "Winding Path",
 		"chest_unopened_img": "images/chests/generic.png",
 		"chest_opened_img": "images/chests/generic_checked.png",
-		"access_rules": ["$Toad_Town_Tunnels_Winding_Path"],
+		"access_rules": ["[$Toad_Town_Tunnels_Winding_Path], $GL_Toad_Town_Tunnels_Winding_Path"],
 		"sections": [
 			{
 				"name": "Hidden Blocks",
@@ -341,7 +341,7 @@
 				"name": "Tall Blocks Room",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
-				"access_rules": ["$Toad_Town_Tunnels_Before_Ultra_Boots"],
+				"access_rules": ["[$Toad_Town_Tunnels_Before_Ultra_Boots], $Toad_Town_Tunnels_Before_Ultra_Boots"],
 				"sections": [
 					{
 						"name": "Hidden Block",
@@ -377,7 +377,7 @@
 				"name": "Ultra Boots Chest",
 				"chest_unopened_img": "images/chests/generic.png",
 				"chest_opened_img": "images/chests/generic_checked.png",
-				"access_rules": ["$Toad_Town_Tunnels_Ultra_Boots"],
+				"access_rules": ["[$Toad_Town_Tunnels_Ultra_Boots], $GL_Toad_Town_Tunnels_Ultra_Boots"],
 				"sections": [
 					{
 						"name": "Chest",
