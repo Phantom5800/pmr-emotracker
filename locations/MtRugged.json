@@ -15,7 +15,7 @@
 			},
 			{
 				"name": "Upgrade Block",
-				"access_rules": ["$Mt_Rugged_Upgrade_Block"],
+				"access_rules": ["[$Mt_Rugged_Upgrade_Block], $GL_Mt_Rugged_Upgrade_Block"],
 				"visibility_rules": ["upgrades_setting, $ch2Required"],
 				"item_count": 1
 			}
@@ -70,14 +70,14 @@
 				"sections": [
 					{
 						"name": "Right Item",
-						"access_rules": ["$Mt_Rugged_Letter_By_Quake_Hammer"],
+						"access_rules": ["[$Mt_Rugged_Letter_By_Quake_Hammer], $GL_Mt_Rugged_Letter_By_Quake_Hammer"],
 						"visibility_rules": ["$ch2Required"],
 						"capture_item": true,
 						"item_count": 1
 					},
 					{
 						"name": "Left Item",
-						"access_rules": ["$Mt_Rugged_Quake_Hammer"],
+						"access_rules": ["[$Mt_Rugged_Quake_Hammer], $GL_Mt_Rugged_Quake_Hammer"],
 						"visibility_rules": ["$ch2Required"],
 						"capture_item": true,
 						"item_count": 1
@@ -107,7 +107,7 @@
 				"sections": [
 					{
 						"name": "Bub-ulb",
-						"access_rules": ["$Mt_Rugged_Seed"],
+						"access_rules": ["[$Mt_Rugged_Seed], $GL_Mt_Rugged_Seed"],
 						"visibility_rules": ["$ch2Required"],
 						"item_count": 1
 					},
@@ -170,7 +170,7 @@
 					},
 					{
 						"name": "Item in the Middle of Coins",
-						"access_rules": ["$Mt_Rugged_StarPiece_Coins"],
+						"access_rules": ["[$Mt_Rugged_StarPiece_Coins], $GL_Mt_Rugged_StarPiece_Coins"],
 						"visibility_rules": ["$ch2Required"],
 						"capture_item": true,
 						"item_count": 1
@@ -179,7 +179,7 @@
 						"name": "Star Piece Coins",
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
-						"access_rules": ["$Mt_Rugged_StarPiece_Coins"],
+						"access_rules": ["[$Mt_Rugged_StarPiece_Coins], $GL_Mt_Rugged_StarPiece_Coins"],
 						"visibility_rules": ["coins_setting, $ch2Required"],
 						"capture_item": true,
 						"item_count": 5
@@ -188,7 +188,7 @@
 						"name": "Far Right Star Piece Coin",
 						"chest_unopened_img": "images/chests/coin.png",
 						"chest_opened_img": "images/chests/coin_checked.png",
-						"access_rules": ["$Mt_Rugged_StarPiece_Coins", "$kooper"],
+						"access_rules": ["[$Mt_Rugged_StarPiece_Coins], $GL_Mt_Rugged_StarPiece_Coins", "$kooper"],
 						"visibility_rules": ["coins_setting, $ch2Required"],
 						"capture_item": true,
 						"item_count": 1
