@@ -40,7 +40,7 @@ function onClear(slot_data)
         end
     end
     -- reset items
-    for _, v in pairs(ITEM_MAPPING) do
+    for _, v in pairs(AP_ITEM_MAPPING) do
         if v[1] and v[2] then
             if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
                 print(string.format("onClear: clearing item %s of type %s", v[1], v[2]))
@@ -290,7 +290,7 @@ function onItem(index, item_id, item_name, player_number)
     end
     local is_local = player_number == Archipelago.PlayerNumber
     CUR_INDEX = index;
-    local v = ITEM_MAPPING[item_name]
+    local v = AP_ITEM_MAPPING[item_name]
     if not v then
         if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onItem: could not find item mapping for id %s", item_name))
