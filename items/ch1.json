@@ -20,20 +20,5 @@
         "base_item": "kooper_shell_base",
         "img": "images/common/check.png",
         "codes": "kooper_shell"
-    },
-    {
-        "name": "Kolorado",
-        "type": "toggle",
-        "img": "images/letters/PM_Kolorado.png",
-        "codes": "kolorado_artifact_turnin"
-    },
-    {
-        "name": "Kolorado",
-        "type": "toggle",
-        "disabled_img": "images/settings/PM_Letter_Sprite.png",
-        "disabled_img_mods": "@enabled",
-        "img": "images/settings/PM_Letter_Sprite.png",
-        "img_mods": "overlay|images/settings/no120.png",
-        "codes": "kolorado_letter_turnin"
     }
 ]

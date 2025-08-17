@@ -383,13 +383,15 @@
 				"name": "Kolorado (Artifact)",
 				"access_rules": ["artifact_base"],
 				"visibility_rules": ["$ch1Required, $ch2Required"],
-				"hosted_item": "kolorado_artifact_turnin"
+				"item_count": 1
 			},
 			{
 				"name": "Kolorado (Letter)",
 				"access_rules": ["kolorado_base, $parakarry"],
 				"visibility_rules": ["letters_setting, $ch1Required, $ch2Required"],
-				"hosted_item": "kolorado_letter_turnin"
+				"chest_unopened_img": "images/chests/letter.png",
+				"chest_opened_img": "images/chests/letter_checked.png",
+				"item_count": 1
 			}
 		],
 		"map_locations": [
