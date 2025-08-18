@@ -243,7 +243,7 @@
 					},
 					{
 						"name": "Inside Blue House",
-						"access_rules": ["oddkey_base", "open_blue_house"],
+						"access_rules": ["oddkey_base", "open_blue_house", "boots2, $sushie, $bombette"],
 						"visibility_rules": [],
 						"clear_as_group": false,
 						"item_count": 1
